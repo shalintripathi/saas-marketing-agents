@@ -1,0 +1,61 @@
+name: Lint Agents
+
+on:
+  pull_request:
+    paths:
+      - 'content-marketing/**'
+      - 'seo-organic-growth/**'
+      - 'paid-media/**'
+      - 'social-media/**'
+      - 'email/**'
+      - 'design/**'
+      - 'sales-enablement/**'
+      - 'product-marketing/**'
+      - 'analytics/**'
+      - 'project-management/**'
+      - 'client-ops/**'
+      - 'strategy/**'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Lint Agent Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up linting environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y yamllint
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v40
+        with:
+          files: |
+            content-marketing/**/*.md
+            seo-organic-growth/**/*.md
+            paid-media/**/*.md
+            social-media/**/*.md
+            email/**/*.md
+            design/**/*.md
+            sales-enablement/**/*.md
+            product-marketing/**/*.md
+            analytics/**/*.md
+            project-management/**/*.md
+            client-ops/**/*.md
+            strategy/**/*.md
+
+      - name: Run linting on changed files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Linting: $file"
+            ./lint-agents.sh "$file" || exit 1
+          done
+
+      - name: Linting complete
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: echo "All agent files passed linting checks ✓"
