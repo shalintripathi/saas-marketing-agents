@@ -185,4 +185,4 @@ Pick any agent that fits your needs and start building. With 59 specialized pers
 
 ---
 
-**Created by Shalin Tripathi** | [GitHub](https://github.com/shalintripathi)
+**Created by Shivaa Tripathi** | [GitHub](https://github.com/shalintripathi)
