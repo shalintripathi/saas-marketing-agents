@@ -3,7 +3,7 @@
 ###############################################################################
 # SaaS Marketing Agents - Installation Script
 # Deploys agents to local AI coding tools
-# Supports: Claude Code, Cursor, GitHub Copilot, Aider, Windsurf
+# Supports: Claude Cowork, Claude Code, Cursor, GitHub Copilot, Aider, Windsurf
 ###############################################################################
 
 # Colors for output
@@ -58,6 +58,13 @@ print_section() {
 # Tool Detection Functions
 ###############################################################################
 
+detect_cowork() {
+    if [ -d "$HOME/.claude/skills" ]; then
+        return 0
+    fi
+    return 1
+}
+
 detect_claude_code() {
     if [ -d "$HOME/.claude" ]; then
         return 0
@@ -98,6 +105,11 @@ detect_all_tools() {
     echo ""
 
     DETECTED_TOOLS=()
+
+    if detect_cowork; then
+        DETECTED_TOOLS+=("cowork")
+        print_success "Claude Cowork detected at $HOME/.claude/skills"
+    fi
 
     if detect_claude_code; then
         DETECTED_TOOLS+=("claude")
@@ -162,6 +174,40 @@ select_tool_interactive() {
 ###############################################################################
 # Installation Functions
 ###############################################################################
+
+install_to_cowork() {
+    local cowork_dir="cowork"
+    local target_dir="$HOME/.claude/skills"
+
+    if [ ! -d "$cowork_dir" ]; then
+        print_error "Cowork skills directory not found. Run from repo root."
+        ((FAILED_COUNT++))
+        return 1
+    fi
+
+    mkdir -p "$target_dir"
+
+    # Copy each skill directory (with SKILL.md and agents/)
+    for skill_dir in "$cowork_dir"/*/; do
+        local skill_name=$(basename "$skill_dir")
+        local dest="$target_dir/$skill_name"
+
+        if [ -f "$skill_dir/SKILL.md" ]; then
+            mkdir -p "$dest/agents"
+            cp "$skill_dir/SKILL.md" "$dest/SKILL.md"
+
+            # Copy agent files if they exist
+            if [ -d "$skill_dir/agents" ] && [ "$(ls -A "$skill_dir/agents/" 2>/dev/null)" ]; then
+                cp "$skill_dir/agents/"*.md "$dest/agents/" 2>/dev/null
+            fi
+
+            print_success "Installed Cowork skill: $skill_name"
+            ((INSTALLED_COUNT++))
+        fi
+    done
+
+    return 0
+}
 
 install_to_claude_code() {
     local agent_file=$1
@@ -291,6 +337,9 @@ install_agents() {
     echo ""
 
     case $tool in
+        cowork)
+            install_to_cowork
+            ;;
         claude)
             for file in "${agent_files[@]}"; do
                 install_to_claude_code "$file"
@@ -313,6 +362,7 @@ install_agents() {
             install_to_windsurf "${agent_files[@]}"
             ;;
         all)
+            install_to_cowork
             for file in "${agent_files[@]}"; do
                 install_to_claude_code "$file"
                 install_to_cursor "$file"
@@ -342,6 +392,7 @@ Installation script for deploying SaaS Marketing Agents to AI coding tools.
 
 OPTIONS:
     --tool TOOL         Install to specific tool only:
+                        - cowork    Claude Cowork (~/.claude/skills/)
                         - claude    Claude Code (~/.claude/agents/)
                         - cursor    Cursor (~/.cursor/rules/)
                         - copilot   GitHub Copilot (~/.github/agents/)
@@ -486,6 +537,11 @@ main() {
         echo ""
         print_info "Your agents are now available in:"
         case $SELECTED_TOOL in
+            cowork)
+                echo "  Location: $HOME/.claude/skills/"
+                echo "  Skills installed: 13 (12 categories + CATALYST orchestrator)"
+                echo "  Restart Cowork to see the new skills."
+                ;;
             claude)
                 echo "  Location: $HOME/.claude/agents/"
                 ;;

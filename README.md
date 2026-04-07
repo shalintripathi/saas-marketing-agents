@@ -2,7 +2,39 @@
 
 **Your complete B2B SaaS marketing agency, powered by AI agents.**
 
-A collection of 59 specialized AI agent personas for B2B SaaS marketing agencies. Each agent combines deep domain expertise with distinctive personality, ready to integrate with your favorite AI coding tools.
+A collection of 59 specialized AI agent personas for B2B SaaS marketing agencies. Each agent combines deep domain expertise with distinctive personality, ready to use as **clickable skills in Claude Cowork** or integrate with your favorite AI coding tools.
+
+---
+
+## ⚡ Claude Cowork (Recommended)
+
+The fastest way to use these agents — install as clickable skills in Claude Cowork:
+
+```bash
+git clone https://github.com/shalintripathi/saas-marketing-agents.git
+cd saas-marketing-agents
+./scripts/install.sh --tool cowork
+```
+
+This installs **13 interactive skills** into your `~/.claude/skills/` directory:
+
+| Skill | Agents | Triggers On |
+|-------|--------|-------------|
+| **SaaS Marketing Suite** | Router | "help with marketing", "what can you do" |
+| **CATALYST Orchestrator** | 59 | "GTM launch", "campaign plan", "marketing strategy" |
+| **Content Marketing** | 7 | "blog", "case study", "whitepaper", "newsletter" |
+| **SEO Growth** | 6 | "SEO audit", "keyword research", "link building" |
+| **Paid Media Ops** | 6 | "Google Ads", "LinkedIn Ads", "ROAS", "attribution" |
+| **Social Media Ops** | 6 | "LinkedIn strategy", "YouTube", "community" |
+| **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability" |
+| **Design Ops** | 5 | "landing page", "brand identity", "ad creative" |
+| **Sales Enablement** | 6 | "outbound", "battle card", "proposal", "MEDDPICC" |
+| **Product Marketing Ops** | 5 | "positioning", "product launch", "competitive intel" |
+| **Marketing Analytics** | 5 | "CRO", "A/B testing", "dashboards", "attribution" |
+| **Marketing Project Mgmt** | 4 | "sprint planning", "resource allocation", "QBR" |
+| **Client Operations** | 4 | "client reporting", "QA", "compliance", "budget" |
+
+After installation, restart Cowork. Skills appear automatically and respond to natural language requests.
 
 ---
 
@@ -39,6 +71,7 @@ cd saas-marketing-agents
 ### 2. Choose Your Integration Tool
 
 The agents work seamlessly with:
+- **Claude Cowork** – Clickable skills with auto-routing (recommended)
 - **Claude Code** – Native support for agent personas and workflows
 - **Cursor** – IntelliSense and seamless integration
 - **GitHub Copilot** – Direct code and agent context
@@ -71,6 +104,7 @@ claude content-marketing/content-blog-writer.md
 
 | Tool | Support | Setup |
 |------|---------|-------|
+| **Claude Cowork** | Full | `./scripts/install.sh --tool cowork` — clickable skills |
 | **Claude Code** | Full | Install Claude Code CLI and reference agent files |
 | **Cursor** | Full | Open `.md` files; use `@` mentions for agent context |
 | **GitHub Copilot** | Full | Reference agent files in comments; use Copilot Chat |
