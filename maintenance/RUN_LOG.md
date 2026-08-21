@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-21 — Maintenance: **the Technical SEO Auditor states its own shelf life — an audit is a dated snapshot that names what voids it** (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (all clean, no P0).** Broken internal `.md` links: **0** across a whole-repo crawl (478 internal `.md` links, Python resolver; re-run after edits, still 0). Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Freshness: AEO/GEO playbook `Last reviewed 2026-08-13` (8 days), `integrations/README.md` `2026-07-23` (29 days) — both inside 90 days. Counts reconcile end to end and unchanged: **71** specialist agents (72 category `.md` with `name:` frontmatter − 1 non-agent `integrations/README.md`) = README badges + tagline = `AGENTS_INDEX.md` = `llms.txt` = `CITATION.cff` = both manifests = the **live GitHub About** (`gh repo view` = "71 specialist marketing agents and 19 installable Claude Code skills"). No P0.
+
+**Shipped (backlog line 71, the `seo-technical-auditor` half).** Pulled the top unblocked item — a read-and-decide on `references/audit-findings-discipline.md` from [sidchaudhary/gtm-skills](https://github.com/sidchaudhary/gtm-skills) (MIT), which proposed three audit disciplines for `ops-quality-assurance` and `seo-technical-auditor`. Grep-decided per agent: `ops-quality-assurance` already carries a **staleness trigger** (its reference-data decay rule) and a **severity model with a resolution process**, so adopting there would gild; `seo-technical-auditor` had **none** of it — grep-verified `re-audit`/`reaudit`/audit-expiry = **0** on that agent — so the genuine, single gap was there. Added to both dual-located copies of [`seo/seo-technical-auditor.md`](../seo/seo-technical-auditor.md): a new **"An Audit Is a Dated Snapshot—Name What Voids It"** section (the *proactive* half of the existing reactive "The Whole Site Dropped" section — an audit is **voided by an event, not elapsed time**, with the void-trigger list drawn from the file's own migration/deploy sections; crawl date + reproducible scope + void triggers carried at the top of the report), a clause on the **Technical Audit Report** deliverable, and an **audit-shelf-life** process-check success metric (target 100%). Ideas-only, MIT-credited; the source's **severity × effort grid deliberately not adopted** (this agent routes by disposition/owner; a generic grid over that is a maintainer's call). No count/name/capability-in-index change → no discoverability sweep owed (frontmatter description unchanged and still accurate; matches the `link-building`/`performance-analyst` precedent).
+
+**Verify.** Lint **2/2** on both copies (`bash scripts/lint-agents.sh`); copies **diff-identical**; **0 broken links** across 478 internal links after the edits; `AGENTS_INDEX.md` entry re-read and still accurate; roster counts re-checked, unchanged at 71/19 everywhere including the live GitHub About.
+
+**Deferred.** The `ops-quality-assurance` residual (a QA-pass reproducible-scope line and a severity×effort *effort axis*) and the severity×effort grid generally — both low-value, mostly-covered, and maintainer's calls rather than scout's; backlog line 71 marked resolved with that reasoning recorded.
+
+---
+
 ### 2026-08-21 — Maintenance: **the Performance Analyst checks the export is intact before it trusts the series** (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
