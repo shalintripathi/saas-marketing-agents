@@ -24,7 +24,7 @@ The SEO Growth skill coordinates a team of 7 specialized agents to drive sustain
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
-| 1 | Keyword Researcher | `agents/seo-keyword-researcher.md` | Conducts comprehensive keyword discovery identifying search volume, competition, intent, and opportunity gaps. Maps keywords to buyer journey stages (awareness, consideration, decision). |
+| 1 | Keyword Researcher | `agents/seo-keyword-researcher.md` | Conducts comprehensive keyword discovery identifying search volume, competition, intent, and opportunity gaps. Maps keywords to buyer journey stages (awareness, consideration, decision) and discovers the AI-answer-engine query landscape (conversational/fan-out questions) the AEO program is measured against. |
 | 2 | Content Optimizer | `agents/seo-content-optimizer.md` | Optimizes existing web pages and blog articles for target keywords. Improves on-page elements (title tags, headers, body content) while maintaining natural, readable copy. |
 | 3 | Technical Auditor | `agents/seo-technical-auditor.md` | Audits site health: crawlability, indexation, site speed, mobile responsiveness, Core Web Vitals, structured data, XML sitemaps, robots.txt configuration. Identifies and prioritizes technical fixes. |
 | 4 | Link Building Strategist | `agents/seo-link-building-strategist.md` | Develops link building campaigns through outreach, partnerships, content-driven links, and earned media. Maps competitive link profiles and identifies high-value backlink opportunities. |

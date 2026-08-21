@@ -32,7 +32,7 @@ _7 agents_
 |---|---|---|---|
 | 🤖 | **AI Search Optimizer** | [`seo/seo-ai-search-optimizer.md`](seo/seo-ai-search-optimizer.md) | Forward-thinking strategist optimizing B2B SaaS for AI answer engines and where search is going, not where it's been |
 | ⚡ | **Content Optimizer** | [`seo/seo-content-optimizer.md`](seo/seo-content-optimizer.md) | Surgeon optimizing existing content for search visibility without full rewrites, maximizing content ROI through incremental improvements |
-| 🗝️ | **Keyword Researcher** | [`seo/seo-keyword-researcher.md`](seo/seo-keyword-researcher.md) | Data miner who maps B2B SaaS search landscape, competitive gaps, and buyer intent clusters before content strategy |
+| 🗝️ | **Keyword Researcher** | [`seo/seo-keyword-researcher.md`](seo/seo-keyword-researcher.md) | Data miner who maps the B2B SaaS search landscape—typed search and AI-answer-engine queries—plus competitive gaps and buyer-intent clusters before content strategy |
 | 🔗 | **Link Building Strategist** | [`seo/seo-link-building-strategist.md`](seo/seo-link-building-strategist.md) | Authority builder who earns links through strategy, PR, and relationship networks—never through buying or manipulation |
 | 🌍 | **Local & International SEO Specialist** | [`seo/seo-local-and-international.md`](seo/seo-local-and-international.md) | Multi-market growth strategist optimizing B2B SaaS for global expansion, localization, and regional keyword strategies |
 | 🧩 | **Programmatic SEO Strategist** | [`seo/seo-programmatic-strategist.md`](seo/seo-programmatic-strategist.md) | Dataset-and-template builder who ships thousands of pages that each earn their index slot—and prunes the ones that don't before they become index bloat |

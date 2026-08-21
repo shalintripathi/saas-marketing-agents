@@ -4,6 +4,30 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-21 — Maintenance: **the Keyword Researcher learns to discover the AI-answer query landscape** — the set the AEO program is measured against (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (all clean, no P0).** Broken internal `.md` links: **0** across a whole-repo crawl. Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Freshness: AEO/GEO playbook `Last reviewed 2026-08-13` (8 days), `integrations/README.md` `2026-07-23` (29 days) — both inside 90 days. Counts reconcile and unchanged: **71** specialist agents (across 17 discipline dirs) = README badges + tagline = `AGENTS_INDEX.md` = `llms.txt` = `CITATION.cff` = both manifests = the **live GitHub About** ("71 specialist marketing agents and 19 installable Claude Code skills"). No P0.
+
+**Backlog state.** P0: none open. P1 high-leverage: done or blocked (native subagents [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1) blocked on two in-thread decisions). All four distribution items traction/process-gated (5 stars, re-verified 2026-08-18). Open P2 items are maintainer *scope questions* (grade-the-function persona; enforcement-register ownership; synthetic-voice disclosure), borderline-source scout re-reads (survived-contact-gated), or fabrication-gated (podcast Rule 9). So — as on 2026-08-19 — pulled a self-directed, grep-verified *instrument-absent* gap on the repo's thinnest, most foundational SEO agent.
+
+**Shipped:** both dual-located copies of [`seo/seo-keyword-researcher.md`](../seo/seo-keyword-researcher.md) (56 → 72 lines; **first enhancement this agent has ever received**) gain **Critical Rule 9**, a **"The AI-Answer Query Landscape: Discover What Classic Volume Can't See"** section, an **AI-Answer Query Landscape Map** deliverable, and an **AI-query landscape coverage** success metric.
+
+**The gap, grep-verified before writing.** The Keyword Researcher is the designated owner of "the entire addressable search landscape," yet it mapped only the classic typed-search landscape — **zero** mentions of AI search, AEO, prompts, conversational queries, query fan-out, or entity sets. Two of the repo's signature patterns at once: (1) *control named, instrument absent* — `seo-ai-search-optimizer` scores citability/recognition **against a query set it assumes already exists** (the share-of-voice heatmap's tracked-query rows, the brand-question set, the "5–10 core topics" are all consumed, never discovered); (2) a *dead-ending handoff* — `seo-programmatic-strategist` Rule 10 already declares "Keyword Researcher hands you the *pattern* and the entity set," a reference the Keyword Researcher's file never acknowledged.
+
+**The correction, and the seam.** The agent gets the *discovery* half: reframe head/commercial terms into the natural-language questions people ask assistants; build the **follow-up tree** (the buyer's next question is the valuable unit); account for Google's **query fan-out** (one prompt explodes into many sub-queries, each answered from a different passage — per the AEO/GEO Playbook, already cited to Google); mine real phrasing (PAA, community threads, sales-call transcripts, support tickets) over invention; and cluster by *the answer an engine would synthesize*, not by lexical overlap. The load-bearing rule is **zero volume is not zero demand** — a conversational query classic tools score at zero may be the exact question a high-intent account asks the week before it shortlists, so it is flagged *unmeasured — no volume denominator*, never *low-priority* (Rule 1's value-over-volume at its limit; *unknown never rounds to zero*). The seam is drawn explicitly so nothing duplicates the AEO optimizer: **discovery here; citability scoring, the recognition test, the heatmap, and citation claims stay with `seo-ai-search-optimizer`; the template-able question-shape-plus-entity-set goes to `seo-programmatic-strategist`** (closing that dead-ending handoff from the receiving side too).
+
+**Sourcing.** Self-directed gap, no external source (same class as the 2026-08-19 link-building and 2026-07-31 QA ships); the query-fan-out mechanism references the repo's own AEO/GEO Playbook. **No search-volume, traffic, or demand figure asserted** — the new metric reports questions-observed-in-a-real-source vs. questions-inferred, never a percentage. The agent's pre-existing aspirational success-metric ranges (e.g. "40-60% traffic increase") were **left untouched this run** to keep scope to one change; noted as a future anti-fabrication cleanup candidate.
+
+**Discoverability (no count change — naming surfaces only, matching the 2026-08-18 precedent).** A capability genuinely expanded, so the agent's frontmatter `description:` now names it ("typed search and AI-answer-engine queries"), with the matching `AGENTS_INDEX.md` row and the `seo-growth` skill's agent-table row updated to the same. No badge/manifest/`CITATION.cff`/About sweep owed (roster unchanged). Old description string grep-confirmed gone from all three surfaces.
+
+**Verified:** lint **2/2** (both copies); the two copies are **diff-identical**; both new agent-slug references (`seo-ai-search-optimizer`, `seo-programmatic-strategist`) resolve to real files; broken internal `.md` links **0**; counts still **71 / 19** everywhere including the live GitHub About. `CHANGELOG` `## [Unreleased] → ### Changed` bullet added (user-facing).
+
+**Deferred:** the pre-existing fabricated-precision success metrics on this agent (scope discipline — a separate anti-fabrication pass); all P1 (blocked) and P2 (scope-question / survived-contact-gated / fabrication-gated) items.
+
+---
+
 ### 2026-08-19 — Maintenance: **Link Building Strategist gains its defensive half** — the inbound audit and disavow-as-last-resort (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
