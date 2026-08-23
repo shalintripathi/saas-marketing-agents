@@ -19,7 +19,7 @@ You need these systems in place (or committed to setup during Phase 2):
 ### 2. Human Resources
 Minimum viable team by operating mode:
 
-**CATALYST-Full** (71 agents):
+**CATALYST-Full** (72 agents):
 - Option A: Full 15-25 person in-house marketing team
 - Option B: 5-8 person core team + agency partners filling specialist roles
 - Option C: Network of freelance specialists coordinated by 2-3 project managers
@@ -106,7 +106,7 @@ Executive Sponsor (CMO/VP Marketing)
 ├── Phase 4 Lead (Launch)
 ├── Phase 5 Lead (Optimize)
 ├── CATALYST Coordinator (Manages overall flow)
-└── Agent Pool (40-71 specialists)
+└── Agent Pool (40-72 specialists)
     ├── Discovery Team (8)
     ├── Strategy Team (7)
     ├── Operations Team (6)
@@ -382,7 +382,7 @@ At the end of each phase, you hit a quality gate. This is a 60-minute review mee
 - Run all 6 phases
 - Use CATALYST-Full to establish positioning, systems, and initial campaigns
 - Typical timeline: 12-16 weeks
-- Team: 40-71 agents across all specialties
+- Team: 40-72 agents across all specialties
 
 ### Workflow 4: "We Run Quarterly Campaigns"
 → Use **CATALYST-Sprint repeating**

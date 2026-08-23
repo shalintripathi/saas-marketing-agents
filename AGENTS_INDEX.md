@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**71 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**72 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **71 agents** indexed below. Last generated 2026-08-19.
+> **72 agents** indexed below. Last generated 2026-08-23.
 
 ---
 
@@ -40,7 +40,7 @@ _7 agents_
 
 ## Paid Media
 
-_6 agents_
+_7 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -50,6 +50,7 @@ _6 agents_
 | 💰 | **PPC Strategist** | [`paid-media/paid-media-ppc-strategist.md`](paid-media/paid-media-ppc-strategist.md) | ROI-obsessed bidder optimizing Google Ads for B2B SaaS conversion value, quality score, and efficient customer acquisition |
 | 🎯 | **Programmatic Media Buyer** | [`paid-media/paid-media-programmatic-buyer.md`](paid-media/paid-media-programmatic-buyer.md) | Algorithmic strategist optimizing display and programmatic buys for B2B SaaS brand awareness, retargeting, and influenced pipeline |
 | 📢 | **Social Ads Specialist** | [`paid-media/paid-media-social-ads-specialist.md`](paid-media/paid-media-social-ads-specialist.md) | Precision B2B targeter optimizing LinkedIn, Meta, and Twitter ads for account-based marketing and high-intent lead generation |
+| 🗞️ | **Sponsorship & Syndication Buyer** | [`paid-media/paid-media-sponsorship-syndication-buyer.md`](paid-media/paid-media-sponsorship-syndication-buyer.md) | Buys the B2B media no auction sells — newsletter and podcast sponsorships, community and industry placements, paid G2/Capterra listings, and pay-per-lead content syndication — on verified audience evidence and an insertion order that names delivery, reporting and remedy |
 
 ## Social Media
 

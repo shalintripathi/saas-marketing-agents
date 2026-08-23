@@ -18,7 +18,7 @@ description: "Complete B2B SaaS marketing agency powered by 70 AI agents across 
 
 ## What This Is
 
-The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 71 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
+The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 72 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
 
 Think of it as your full-service marketing department:
 - **Need content?** Route to Content Marketing
@@ -41,7 +41,7 @@ Think of it as your full-service marketing department:
 
 The skill includes a routing decision matrix to identify which team(s) you need based on your request.
 
-## The Complete Team: 71 Specialist Agents Across 17 Disciplines
+## The Complete Team: 72 Specialist Agents Across 17 Disciplines
 
 ### Core Marketing Disciplines
 
@@ -49,7 +49,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 |----------|----------|-------------|
 | **Content Marketing** | 7 | Blog content, whitepapers, case studies, guides, email content, infographics, content optimization |
 | **SEO & Growth** | 7 | Technical SEO, keyword research, on-page optimization, link building, AI/AEO optimization, international, programmatic SEO |
-| **Paid Media Operations** | 6 | PPC campaigns, LinkedIn ads, Facebook/Instagram ads, audience targeting, creative testing, bid optimization |
+| **Paid Media Operations** | 7 | PPC campaigns, LinkedIn ads, Facebook/Instagram ads, audience targeting, creative testing, bid optimization, newsletter/podcast sponsorships, paid G2/Capterra listings, content syndication |
 | **Social Media Operations** | 7 | LinkedIn strategy, Twitter/X content, YouTube, Reddit, community management, influencer partnerships, B2B podcast strategy and guest booking |
 | **Email Marketing Operations** | 5 | Email campaigns, nurture sequences, segmentation, automation, deliverability, personalization |
 | **Design Operations** | 5 | Visual design, brand identity, design systems, creative direction, design templates |
@@ -65,7 +65,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Events & Field Marketing** | 1 | Conference and sponsorship selection, booths, owned events and roadshows, the webinar engine, event-sourced pipeline |
 | **Developer Marketing** | 1 | Docs as a marketing surface, quickstarts and time-to-first-call, SDKs, open source, DevRel |
 
-**Total: 71 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
+**Total: 72 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
 
 ---
 
@@ -412,7 +412,7 @@ START: What is your primary need?
 
 **Request**: "Plan and execute our full GTM launch"
 - **Route**: CATALYST Orchestrator (CATALYST-Full mode)
-- **Scope**: All 71 agents across all 17 disciplines
+- **Scope**: All 72 agents across all 17 disciplines
 - **Timeline**: 12+ weeks end-to-end
 
 **Request**: "Create our annual marketing strategy and plan"
@@ -438,8 +438,8 @@ START: What is your primary need?
 |----------|--------|
 | Content Marketing | 7 |
 | SEO & Growth | 7 |
-| Paid Media Operations | 6 |
-| Social Media Operations | 6 |
+| Paid Media Operations | 7 |
+| Social Media Operations | 7 |
 | Email Marketing Operations | 5 |
 | Design Operations | 5 |
 | Sales Enablement | 6 |
@@ -453,7 +453,7 @@ START: What is your primary need?
 | Partnerships | 1 |
 | Events & Field Marketing | 1 |
 | Developer Marketing | 1 |
-| **TOTAL** | **70** |
+| **TOTAL** | **72** |
 
 ---
 

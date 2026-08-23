@@ -1,6 +1,6 @@
 ---
 name: paid-media-ops
-description: "Full-funnel paid advertising operations for B2B SaaS. Use this skill for PPC strategy, Google Ads optimization, LinkedIn Ads, social media advertising, programmatic buying, creative strategy, attribution modeling, budget allocation, ROAS improvement, and media spend optimization. Also triggers on: PPC, Google Ads, LinkedIn Ads, social ads, programmatic, ad creative, attribution, media budget, paid campaigns, ROAS, CPA, ad spend."
+description: "Full-funnel paid advertising operations for B2B SaaS. Use this skill for PPC strategy, Google Ads optimization, LinkedIn Ads, social media advertising, programmatic buying, creative strategy, attribution modeling, budget allocation, ROAS improvement, media spend optimization, and the media no auction sells — newsletter and podcast sponsorships, community and industry-publication placements, paid review-site listings on G2 and Capterra, and pay-per-lead content syndication. Also triggers on: PPC, Google Ads, LinkedIn Ads, social ads, programmatic, ad creative, attribution, media budget, paid campaigns, ROAS, CPA, ad spend, newsletter sponsorship, podcast sponsorship, community sponsorship, sponsor a newsletter, content syndication, pay-per-lead, cost per lead vendor, media kit, rate card, insertion order, direct buy, publisher partnership, make-good, G2 paid listing, Capterra ads, review site advertising, sponsorship ROI."
 ---
 
 # Paid Media Operations Skill
@@ -18,9 +18,9 @@ description: "Full-funnel paid advertising operations for B2B SaaS. Use this ski
 
 ## What This Is
 
-The Paid Media Operations skill brings together 6 specialized agents to manage end-to-end paid advertising for B2B SaaS companies. From strategic budget allocation and campaign setup to daily optimization, creative strategy, and attribution analysis, this team handles Google Ads, LinkedIn Ads, social advertising, and programmatic buying. This skill enables you to achieve predictable cost-per-acquisition, maximize return on ad spend (ROAS), and scale acquisition channels with confidence.
+The Paid Media Operations skill brings together 7 specialized agents to manage end-to-end paid advertising for B2B SaaS companies. From strategic budget allocation and campaign setup to daily optimization, creative strategy, and attribution analysis, this team handles Google Ads, LinkedIn Ads, social advertising, programmatic buying, and the media bought directly from publishers — newsletter, podcast and community sponsorships, paid review-site listings, and pay-per-lead content syndication. This skill enables you to achieve predictable cost-per-acquisition, maximize return on ad spend (ROAS), and scale acquisition channels with confidence.
 
-## The Team: 6 Specialist Agents
+## The Team: 7 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -30,6 +30,7 @@ The Paid Media Operations skill brings together 6 specialized agents to manage e
 | 4 | Social Ads Specialist | `agents/paid-media-social-ads-specialist.md` | Manages Facebook, Instagram, LinkedIn, and Twitter advertising. Develops audience targeting strategies, lookalike and custom audiences, and social-specific creative optimization. |
 | 5 | Programmatic Buyer | `agents/paid-media-programmatic-buyer.md` | Manages programmatic display, audio, and video campaigns across exchanges and DMPs. Handles audience segmentation, bid strategies, and brand safety controls. |
 | 6 | Attribution Analyst | `agents/paid-media-attribution-analyst.md` | Models multi-touch attribution, analyzes conversion paths, tracks CPA by channel and campaign, and reports true ROAS. Identifies attribution data gaps and improves measurement. |
+| 7 | Sponsorship & Syndication Buyer | `agents/paid-media-sponsorship-syndication-buyer.md` | Buys the media no auction sells: newsletter, podcast and community sponsorships, industry-publication placements, paid review-site listings (G2, Capterra, TrustRadius, Software Advice), and pay-per-lead content syndication. Qualifies the outlet before the price, writes the insertion order that names delivery, reporting and remedy, and reconciles what ran against what was sold. |
 
 ## How to Use
 
@@ -54,6 +55,13 @@ The Paid Media Operations skill brings together 6 specialized agents to manage e
 - "Target industry professionals with audio/display ads" → Programmatic Buyer
 - "Set up brand safety controls for programmatic" → Programmatic Buyer
 - "Run retargeting campaigns across display network" → Programmatic Buyer
+
+**Sponsorships, Syndication & Review Listings**
+- "Should we sponsor [newsletter/podcast/community]—and what is it actually worth?" → Sponsorship & Syndication Buyer
+- "They sent a media kit and a rate card—review it before we sign" → Sponsorship & Syndication Buyer
+- "Set up a content syndication program / our syndicated leads are junk" → Sponsorship & Syndication Buyer + Attribution Analyst
+- "Should we buy a paid G2 or Capterra category placement?" → Sponsorship & Syndication Buyer
+- "Our newsletter sponsorship didn't work—did we even measure it?" → Sponsorship & Syndication Buyer + Attribution Analyst
 
 **Creative Strategy & Testing**
 - "Develop creative strategy for [campaign/product]" → Creative Strategist

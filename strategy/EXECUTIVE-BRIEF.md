@@ -2,7 +2,7 @@
 
 ## What is CATALYST?
 
-CATALYST is a comprehensive, multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 71 specialized marketing agents working across 12 functional categories to execute data-driven marketing campaigns with measurable results.
+CATALYST is a comprehensive, multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 72 specialized marketing agents working across 12 functional categories to execute data-driven marketing campaigns with measurable results.
 
 Think of it as conducting an orchestra: Rather than hiring one musician to play all instruments sequentially, CATALYST brings together specialists in positioning, content creation, paid advertising, analytics, email, social, demand generation, and more—each working in their domain while coordinating seamlessly with others.
 
@@ -28,7 +28,7 @@ B2B SaaS marketing teams face a contradiction: Modern marketing success requires
 
 3. **Built-In Learning**: Every phase produces data that improves the next campaign; you get smarter with each cycle
 
-4. **Flexible Scaling**: Same framework works for 5-agent micro-projects (1-5 days) or 71-agent full-year strategies (12+ weeks)
+4. **Flexible Scaling**: Same framework works for 5-agent micro-projects (1-5 days) or 72-agent full-year strategies (12+ weeks)
 
 5. **Measurable Results**: Quality gates, phase reviews, and continuous metrics ensure accountability and ROI visibility
 
@@ -37,7 +37,7 @@ B2B SaaS marketing teams face a contradiction: Modern marketing success requires
 ## By The Numbers
 
 ### The CATALYST Framework
-- **71 Specialized Agents** across 17 disciplines
+- **72 Specialized Agents** across 17 disciplines
 - **6 Sequential Phases** (Discovery → Strategy → Foundation → Build → Launch → Optimize)
 - **3 Operating Modes** (Full Annual, Sprint Campaigns, Micro-Deliverables)
 - **4 Quality Gates** between phases ensuring readiness to advance
@@ -99,7 +99,7 @@ What do you want to achieve? Examples:
 - "Improve email open rate from 18% to 25%"
 
 ### Step 3: Assemble Your Agents (2 min)
-You don't need all 71 agents. Different modes use different subsets:
+You don't need all 72 agents. Different modes use different subsets:
 - **Full Strategy**: 40-50 agents working across 12+ weeks
 - **Campaign Sprint**: 15-25 agents working across 2-6 weeks
 - **Micro-Project**: 5-10 agents working across 1-5 days
@@ -183,7 +183,7 @@ CATALYST balances structure with flexibility:
 - **Flexible enough** to scale from 1-day micro-projects to multi-month strategies
 - **Simple enough** that any marketing team can adopt it in days, not months
 
-The 71 agents and 6 phases provide the structure. The three operating modes and quality gate system provide the flexibility. The result: B2B SaaS marketing that compounds in effectiveness with each campaign cycle.
+The 72 agents and 6 phases provide the structure. The three operating modes and quality gate system provide the flexibility. The result: B2B SaaS marketing that compounds in effectiveness with each campaign cycle.
 
 ---
 

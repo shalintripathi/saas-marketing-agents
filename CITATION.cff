@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use these agents in your work, a citation or a star is appreciated."
 title: "SaaS Marketing Agents"
 abstract: >-
-  An open-source collection of 71 specialist B2B SaaS marketing AI agent
+  An open-source collection of 72 specialist B2B SaaS marketing AI agent
   personas, packaged as 19 installable Claude Code skills and coordinated by
   the CATALYST multi-agent orchestrator, with worked marketing workflows and a
   continuously updated AEO/GEO playbook.

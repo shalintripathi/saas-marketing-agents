@@ -1,13 +1,13 @@
 # SaaS Marketing Agents
 
-> An open-source (MIT) collection of 71 specialist B2B SaaS marketing AI agent personas, packaged as 19 installable Claude Code skills and coordinated by the CATALYST multi-agent orchestrator. It ships worked marketing workflows (ABM, product launch, demand generation, content engine) and a continuously updated AEO/GEO playbook for the AI-search era.
+> An open-source (MIT) collection of 72 specialist B2B SaaS marketing AI agent personas, packaged as 19 installable Claude Code skills and coordinated by the CATALYST multi-agent orchestrator. It ships worked marketing workflows (ABM, product launch, demand generation, content engine) and a continuously updated AEO/GEO playbook for the AI-search era.
 
 Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents`. The agents are plain Markdown, so they also work by copying them into any AI coding tool (Cursor, Claude Code, Copilot, Aider, Windsurf).
 
 ## Start here
 
 - [README](README.md): what the project is, quick start, and the full agent index
-- [Agent index](AGENTS_INDEX.md): all 71 agents with roles and when to use each
+- [Agent index](AGENTS_INDEX.md): all 72 agents with roles and when to use each
 - [Workflow guide](WORKFLOW_GUIDE.md): how to chain agents into campaigns
 - [Contributing](CONTRIBUTING.md): how to add or improve an agent
 - [Roadmap](ROADMAP.md): what is planned next
@@ -18,7 +18,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [SaaS Marketing Suite](plugins/saas-marketing/skills/saas-marketing-suite/SKILL.md): router — points a plain-language request to the right skill
 - [Content Marketing](plugins/saas-marketing/skills/content-marketing/SKILL.md): blog, case study, whitepaper, newsletter, copywriting
 - [SEO Growth](plugins/saas-marketing/skills/seo-growth/SKILL.md): keyword research, technical SEO, link building, AI/AEO optimization
-- [Paid Media Ops](plugins/saas-marketing/skills/paid-media-ops/SKILL.md): PPC, budget optimization, attribution, programmatic
+- [Paid Media Ops](plugins/saas-marketing/skills/paid-media-ops/SKILL.md): PPC, budget optimization, attribution, programmatic, newsletter and podcast sponsorships, paid G2/Capterra listings, pay-per-lead content syndication
 - [Social Media Ops](plugins/saas-marketing/skills/social-media-ops/SKILL.md): LinkedIn, YouTube, Reddit, community, influencer partnerships, and B2B podcast strategy — whether to run a show at all, guest booking, the guest tour on other people's shows, show notes and transcripts
 - [Email Marketing Ops](plugins/saas-marketing/skills/email-marketing-ops/SKILL.md): lifecycle, deliverability, automation
 - [Design Ops](plugins/saas-marketing/skills/design-ops/SKILL.md): landing pages, brand identity, ad creative
@@ -33,7 +33,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [Partnerships Ops](plugins/saas-marketing/skills/partnerships-ops/SKILL.md): co-marketing, channel, cloud-marketplace GTM
 - [Events Ops](plugins/saas-marketing/skills/events-ops/SKILL.md): conferences, owned events, field marketing, webinars
 - [Developer Marketing Ops](plugins/saas-marketing/skills/developer-marketing-ops/SKILL.md): docs, quickstarts, SDKs, DevRel
-- [CATALYST Orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md): coordinates all 71 agents for large initiatives
+- [CATALYST Orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md): coordinates all 72 agents for large initiatives
 
 ## Playbooks & guides
 
