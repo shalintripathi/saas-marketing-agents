@@ -2,7 +2,7 @@
 
 **How to get your content cited by AI answer engines — ChatGPT, Perplexity, Google AI Overviews & AI Mode, and Microsoft Copilot.**
 
-> _Last reviewed: 2026-08-13. This is a living document — AI search changes fast, and this repo commits to keeping it current. Effect sizes below come from named studies; treat them as directional, not guarantees. Contested points are flagged._
+> _Last reviewed: 2026-08-23. This is a living document — AI search changes fast, and this repo commits to keeping it current. Effect sizes below come from named studies; treat them as directional, not guarantees. Contested points are flagged._
 
 Search is splitting into three overlapping jobs. This playbook covers all three and tells you where they diverge.
 
@@ -42,6 +42,8 @@ From the peer-reviewed **GEO: Generative Engine Optimization** study (Aggarwal e
 | **Keyword stuffing** | **negative (~ −9%)** | Classic keyword density is *counterproductive* for GEO |
 
 Two strategic implications: effectiveness is **topic-dependent** (statistics win in analytical domains; quotations in narrative ones), and **the underdog advantage is real** — GEO tactics help lower-ranked pages disproportionately, so a page-2 result can leapfrog into the citation set.
+
+> **Reality check (independent 2026 survey).** A critical survey of GEO covering 45 studies from 2023–2026 (Martinez, arXiv 2026) puts a sober bound on the table above: *"no reviewed technique shows a stable, longitudinal, cross-platform causal effect on organic discoverability,"* and the one effect that does replicate is narrow — only **already-retrieved content can causally alter its own citation or use**. Read plainly: these levers reliably improve how a page the engine *already pulled* gets quoted (the AEO half), but none is proven to make an engine *retrieve* you in the first place — that discovery half is what the correlational signals below speak to, not causally. The survey also found commercial GEO tools show *"low source overlap, substantial run-to-run variability, and persistent fidelity gaps."* So treat these percentages as directional levers **within** an answer, never as a discovery guarantee.
 
 **Independent correlational research points off-page.** An Ahrefs study of ~75K brands found AI visibility correlates most with **branded web mentions (0.66–0.71)** and **YouTube mentions (~0.74)** — while raw organic traffic correlates weakly (~0.27). Brand ubiquity beats pure ranking. For B2B SaaS specifically, **Reddit drives roughly 6× more AI citations than G2**, and presence on **G2 / Capterra / TrustRadius is table stakes** (absence quietly rules you out of comparison answers).
 
@@ -112,7 +114,7 @@ Two strategic implications: effectiveness is **topic-dependent** (statistics win
 - Google — [AI features & your website](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) · [Creating helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) · [Spam policies](https://developers.google.com/search/blog/2024/03/core-update-spam-policies) · [FAQ structured data (rich-result deprecation)](https://developers.google.com/search/docs/appearance/structured-data/faqpage) · [How AI Mode and AI Overviews help you explore the web (inline citations + creator/handle/community attribution, May 6 2026)](https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/)
 - Google — [Search Generative AI performance report (impressions-only; AI Overviews/AI Mode)](https://support.google.com/webmasters/answer/16984139) · [Introducing the report (Search Central, June 2026)](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports)
 - Bing/Microsoft — [AI Performance in Bing Webmaster Tools](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview) · [New AI visibility insights: Intents, Topics, Citation Share, Compare (preview, June 16 2026)](https://blogs.bing.com/search/June-2026/New-AI-Visibility-Insights-in-Bing-Webmaster-Tools-Intents-Topics-Citation-Share-Compare) · [Copilot guidance for public websites](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-ai-public-websites)
-- GEO research — [GEO: Generative Engine Optimization (Aggarwal et al., KDD 2024)](https://arxiv.org/abs/2311.09735)
+- GEO research — [GEO: Generative Engine Optimization (Aggarwal et al., KDD 2024)](https://arxiv.org/abs/2311.09735) · [Optimizing Visibility in Generative Engines: A Critical Survey of GEO 2023–2026 (Martinez, arXiv, July 2026 — 45 studies; no stable cross-platform causal effect on organic discoverability, causal gains bounded to already-retrieved content)](https://arxiv.org/abs/2607.14035)
 - Correlational data — [Ahrefs: AI brand-visibility correlations](https://ahrefs.com/blog/ai-brand-visibility-correlations/) · [Ahrefs: AI Overview citations & top 10](https://ahrefs.com/blog/ai-overview-citations-top-10/) · [Profound: AI platform citation patterns](https://www.tryprofound.com/blog/ai-platform-citation-patterns)
 - llms.txt — [llmstxt.org](https://llmstxt.org/) · [Ahrefs: what is llms.txt](https://ahrefs.com/blog/what-is-llms-txt/)
 

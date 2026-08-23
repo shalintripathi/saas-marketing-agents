@@ -212,7 +212,7 @@ _Entity recognition as an off-site, cross-source discipline — entity home, `sa
 
 ## Measuring Citability: Score, Regress, Map
 
-"Optimize for AI citations" only becomes a program when it is measurable. These three instruments turn the Field Guide's levers into a repeatable audit → monitor → benchmark loop. Treat every number below as **directional**: the per-lever effect sizes come from the GEO study (Aggarwal et al., KDD 2024), but the composite weightings are our editorial judgement, not an empirically validated model — tune them against what actually gets cited for your domain.
+"Optimize for AI citations" only becomes a program when it is measurable. These three instruments turn the Field Guide's levers into a repeatable audit → monitor → benchmark loop. Treat every number below as **directional**: the per-lever effect sizes come from the GEO study (Aggarwal et al., KDD 2024), but the composite weightings are our editorial judgement, not an empirically validated model — tune them against what actually gets cited for your domain. A 2026 critical survey of 45 GEO studies (Martinez, arXiv 2026) sharpens the caveat: the causal gains these levers show are bounded to **content the engine already retrieved** — "no reviewed technique shows a stable, longitudinal, cross-platform causal effect on organic discoverability." So this rubric scores whether a *retrieved* passage earns the citation; it does not promise retrieval, and a score that climbs while your actual citation share doesn't is the run-to-run variability the survey documents, not a win to defend.
 
 ### 1. Passage-Citability Score (0–100)
 
