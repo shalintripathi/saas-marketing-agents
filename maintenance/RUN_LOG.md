@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-23 — Maintenance: **named the reciprocal sponsorship-buy seam on the events and influencer agents (backlog line 104)** (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (all clean, no P0).** Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Broken internal `.md` links: **0** across a whole-repo crawl (Python resolver; re-run after edits, still 0). Freshness: AEO/GEO playbook `Last reviewed 2026-08-23` (0 days), `integrations/README.md` `2026-07-23` (31 days) — both inside 90 (the `2026-04-03` CATALYST stamps are version stamps, not freshness markers). **Counts reconcile end to end at 72/19:** README badge + tagline + section headers, `AGENTS_INDEX.md` (header line + **72** table rows), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "72 specialist agents and 19 Claude Code skills"). Roster derivation confirmed two ways: 79 files under `skills/*/agents/` − 7 CATALYST = **72** personas, and **72** category-dir files with `name:` frontmatter; all 72 dual-located pairs diff-identical. No P0.
+
+**Shipped (backlog line 104 — one-sided seam closed both ways).** The 2026-08-23 sponsorship-buyer add cedes conference sponsorship to `events-field-marketing-strategist` and any in-voice host endorsement to `social-influencer-partnerships`, but neither named the buyer back — the same one-sided-seam pattern the 08-16 enforcement-register item raised and the 08-22 QA run closed. Fixed both directions, one line each:
+- **`events/events-field-marketing-strategist.md` Rule 10** — the "hold the seam" list gains the Sponsorship & Syndication Buyer as the owner of the *mirror image of a conference*: a bought newsletter/podcast/community/content-syndication **placement** is a media slot, not a room, so a "sponsor this newsletter/podcast" ask routes to `paid-media-sponsorship-syndication-buyer` rather than being priced as an event tier.
+- **`social/social-influencer-partnerships.md` Rule 3** — gains the reciprocal boundary the buyer's Rule 4 states from its end: the moment a deal is a *bought slot* (a straight newsletter ad, a scripted host-read, a content-syndication unit) rather than the creator speaking in their own voice, it is media inventory, not a creator partnership, and belongs to the buyer.
+
+Self-directed seam clarification, no external source; no new claims or figures asserted. Both edits mirrored to the dual-located plugin copies (`events-ops` and `social-media-ops` skills). **Verify:** lint **4/4** on the four touched files; both dual pairs diff-identical; the `paid-media-sponsorship-syndication-buyer` slug resolves; broken links **0** post-edit; counts unchanged at 72/19 (no discoverability surfaces touched). CHANGELOG `[Unreleased] › Changed` bullet added; backlog line 104 marked done.
+
+---
+
 ### 2026-08-23 — Maintenance: **P0 — corrected six stale roster counts the 72nd-agent add left in the live maintenance docs** (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
