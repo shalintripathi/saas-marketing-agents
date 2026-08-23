@@ -4,6 +4,25 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-23 — Maintenance: **P0 — corrected six stale roster counts the 72nd-agent add left in the live maintenance docs** (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check.** Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Broken internal `.md` links: **0** across a whole-repo crawl (Python resolver). AEO/GEO playbook `Last reviewed 2026-08-23` (0 days) — inside 90. **Public counts all correct at 72/19:** README badge + tagline + section headers, `AGENTS_INDEX.md` (header, `> 72 agents` line, **72** table rows), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "72 specialist agents and 19 Claude Code skills") all reconcile. Roster derivation confirmed: 79 files under `skills/*/agents/` − 7 CATALYST orchestrator files = **72** personas.
+
+**P0 found and fixed.** The 2026-08-23 sponsorship-buyer add (roster `71 → 72`) updated every public surface but left **six stale roster counts in the two *live* maintenance docs** — including one actively harmful instruction. Fixed:
+- `backlog.md` Notes: *"Keep the README badge counts (agents: **71** → **72**, skills: 19)"* — this note instructs future runs to hold the badge at a number the badge no longer shows; left uncorrected it would have caused a run to *regress* the correct 72 badge back to 71.
+- `backlog.md` P2 GitHub-Pages-catalog item: `71 → 72` agents.
+- `backlog.md` three present-tense roster references: `59 → 72` (the native-subagents P1 item, with a `(2026-07-23, when the roster was 59)` note preserving the original scope date; and two "grade the marketing function" scope-question lines).
+- `SKILL_SCOUT.md` inventory step: `71 → 72` agents.
+- `backlog.md` P0 line updated to record this fix (was dated 2026-08-19).
+
+**Scope boundary.** `RUN_LOG.md` and `scout-ledger.md` also contain `59`/`71` counts, but those are **append-only dated records** that were true when written (e.g. a done item's "no count change (71 / 19)" describing a ship before the 72nd agent existed) — left untouched by design. Only live, present-tense current-roster references were corrected.
+
+**Verified after edit:** re-grep of the two live docs shows no present-tense roster count other than 72 remaining; all public surfaces re-confirmed at 72/19; live GitHub About re-read and correct. Not user-facing → no `CHANGELOG` entry. Small, single-purpose commit.
+
+---
+
 ### 2026-08-23 — Skill Scout: **ADD** — the media no auction sells finally has a buyer (automated)
 
 **Scope:** scout survey, focus discipline **paid media / social** by rotation — last the focus on 2026-08-16, the oldest of the four (PMM/sales/GTM 08-17, content/SEO 08-18, organic social 08-19, email/analytics/ops 08-21). 12 sources evaluated — **1 adopted-new (+3 co-credit, +1 primary standards citation)**, 1 watch, 6 dismissed (1 of those declined on licensing). Full rows in [scout-ledger.md](scout-ledger.md).

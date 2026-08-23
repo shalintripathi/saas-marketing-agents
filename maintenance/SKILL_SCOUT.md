@@ -17,7 +17,7 @@ manufacture a change to look busy.
 ## Each run, in order
 
 1. **Sync & inventory.** `git checkout main && git pull --ff-only`. Read [AGENTS_INDEX.md](../AGENTS_INDEX.md)
-   (our 71 agents) and list `plugins/saas-marketing/skills/` (our 19 skills) so you know what we have.
+   (our 72 agents) and list `plugins/saas-marketing/skills/` (our 19 skills) so you know what we have.
    Read [scout-ledger.md](scout-ledger.md) so you don't re-evaluate the same sources every run.
 2. **Scout.** Search GitHub + the web for top/trending open-source marketing skills, agents, and
    prompt collections. Rotate the focus discipline each run (content/SEO · paid/social ·
