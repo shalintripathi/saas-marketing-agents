@@ -48,7 +48,7 @@ All three modes flow through six phase gates ensuring strategic clarity before b
 | **Growth** | 2 agents | PLG activation (signup → first invoice, PQLs, in-product upgrade moments), customer marketing (expansion, churn-save, NRR) |
 | **Marketing Analytics** | 5 agents | Performance analysis, attribution modeling, CRO, customer insights, marketing ops architecture |
 | **Communications** | 2 agents | PR and earned media, announcements, crisis comms; analyst relations (Magic Quadrant, Wave, MarketScape) |
-| **Partnerships** | 1 agent | Co-marketing with alliances and channel, integration launches, cloud-marketplace GTM |
+| **Partnerships** | 1 agent | Co-marketing with alliances and channel, integration launches, cloud-marketplace GTM, affiliate and partner-referral programs |
 | **Events & Field Marketing** | 1 agent | Conference and sponsorship selection, booths, owned events, roadshows, the webinar engine |
 | **Developer Marketing** | 1 agent | Docs as a marketing surface, quickstarts, SDKs, open source, DevRel |
 | **Marketing Project Management** | 4 agents | Campaign coordination, timeline management, resource allocation, stakeholder communication |
