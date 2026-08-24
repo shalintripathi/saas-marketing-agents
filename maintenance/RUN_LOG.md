@@ -4,6 +4,28 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-24 — Correctness: four invented benchmarks retired from `pmm-competitive-intelligence`'s success metrics (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — all clean.** No broken internal `.md` links (whole-repo resolver). Both manifests parse and keep required fields (`jq`). Every skill has a `SKILL.md` with `name` + `description` (19/19). No guide past the 90-day staleness line — `aeo-geo-playbook.md` reviewed 2026-08-23, `integrations/README.md` 2026-07-23. Counts reconcile at **72 agents / 19 skills / 17 disciplines** across the discipline directories, `AGENTS_INDEX.md` (72 agent links, discipline subtotals sum to 72), README badge + tagline + tables, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About**. No P0 open.
+
+**Shipped:** [`product-marketing/pmm-competitive-intelligence.md`](../product-marketing/pmm-competitive-intelligence.md) and its dual-located copy — backlog line 110. The four invented, unsourced round-number benchmarks that pre-date the repo's anti-fabrication posture, converted to the definition / coverage / baseline pattern the three 2026-08-24 metrics already follow, plus one internal inconsistency fixed. No agent violated its own hard guardrail after this run.
+
+- **Win/Loss Insights Adoption** — was *"40%+ of competitive wins credit battle cards…"* → the share of interviewed wins crediting intel, tracked as a **trend against your own first cycles**, not a fixed target; a near-zero share read as "the intel isn't reaching live deals," not "it doesn't help."
+- **Win Rate by Competitor** — was *"Target 60%+ … 70%+ against secondary"* → win rate **from the closed-deal census (never the interview sample** — kept consistent with the Evidence Provenance metric's no-statistic-from-interviews rule), read as a trend with the deal count printed and a small-N rate flagged directional.
+- **Customer Perception Shift** — was *"30%+ improvement…"* → direction and durability of a repeatable study's pre-post move against your own prior wave, reported **with the study's sample size**, a move the sample can't carry marked *not readable* rather than reported as a result.
+- **Competitive Win Rate Improvement** — was *"10-15% … first year"* → the overall win-rate trend against a **baseline captured before the program**, attributed to specific work (which battle cards, which deals), reported with deal counts — attribution as an evidenced claim, not assumed from the program existing.
+- **Competitive Research Depth** inconsistency fixed: *15-20* → **15-25** win/loss interviews per quarter, aligned to Rule 5's program volume.
+
+**No fabricated metrics.** Not one benchmark, rate, or percentage is asserted in the rewritten material — every metric is now a definition, a coverage measure, or a compare-against-your-own-baseline instruction. This *removes* fabricated figures rather than adding any.
+
+**Verified:** lint **2/2** on both copies; the two copies **diff-identical** (`cp` after edit + `diff`); the four old strings grep to **zero** in both copies; no other file carried the same figures except `pmm-positioning-strategist` line 78 (*"Target 60%+ win rate"*), which is a **different agent** and out of scope this run — filed as a new backlog item rather than absorbed. No count, name, or capability changed, so no discoverability surface was owed; 72/19 re-confirmed across all surfaces including the live About.
+
+**Deferred / filed.** `pmm-positioning-strategist`'s matching *"60%+ win rate"* benchmark queued as its own backlog item (same fix, next PMM/ops run). Backlog line 111 (ICC/ESOMAR 5th-edition re-verify) and line 112 (`feedback-collector`) untouched.
+
+---
+
 ### 2026-08-24 — Skill Scout: **ENHANCE** — the win/loss program named in eight agents finally has an instrument (automated)
 
 **Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The 2026-08-23 scout run added (`paid-media-sponsorship-syndication-buyer`), so the alternation rule put an enhancement first this run; the discipline rotation put **PMM / sales / GTM** in focus, last the focus on 2026-08-17 and the oldest of the four. **25 sources evaluated across 13 ledger rows** — 4 enhanced-ours (1 primary, 3 co-credit) + 1 primary standards citation, 2 watch (both unchanged), 8 dismissed. Full rows in [scout-ledger.md](scout-ledger.md).
