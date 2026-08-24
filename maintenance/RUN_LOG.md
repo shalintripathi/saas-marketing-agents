@@ -4,6 +4,24 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-24 — Maintenance: **the affiliate seam is now named on both sides — the influencer agent points the *program* to its owner instead of appearing to own the whole channel** (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (all clean, no P0).** Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Broken internal `.md` links: **0** across a whole-repo crawl (Python resolver; re-run after edits, still 0). Agent lint: **72/72** category agents pass `scripts/lint-agents.sh`. Freshness: AEO/GEO playbook `Last reviewed 2026-08-23` (1 day) — inside 90. **Counts reconcile end to end at 72/19/17:** README badge + tagline + section headers, `AGENTS_INDEX.md` (header line + **72** table rows summing 7+7+7+7+5+5+6+7+1+2+5+2+1+1+1+4+4), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "72 specialist agents and 19 Claude Code skills"). GitHub topics at the 20 cap. No P0.
+
+**Backlog state.** P1 high-leverage blocked on maintainer decisions (native subagents [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1)); P1 distribution entirely traction-gated (5★, its own header says none is an unblocked pull); the legal-validation PROPOSAL needs a human; the large P2 items (golden examples, GitHub Pages catalog, MCP recipes, eval harness, source de-dup) each exceed one-small-change and belong in their own scoped runs. Freshness targets (playbook + `seo-ai-search-optimizer`) were reviewed *yesterday*, so re-running them would have been padding. The genuinely-unblocked, non-maintainer, non-fresh-source, correctness-shaped item this run was a **one-sided seam left half-done by the 2026-08-23 affiliate ship** — the exact pattern line 104 fixed for the sponsorship buyer.
+
+**Shipped (reciprocal affiliate seam).** The affiliate/partner-referral *program* landed on `partner-ecosystem-marketer` on 2026-08-23, whose Rule 1 and Rule 11 hand an *individual* creator-as-affiliate to `social-influencer-partnerships`. Grep-verified the reciprocal was genuinely absent: `partner-ecosystem` = **0** in both dual copies of the influencer agent, which nonetheless lists "affiliate programs" in its Core Mission and carries a full *Affiliate Partnerships* playbook — so a marketer reading it alone would take it to own the whole channel. Added a reciprocal-boundary sentence to the influencer agent's **Rule 4** (Partnership Terms Transparency, the rule that already enumerates "affiliate commission"), both dual copies: signing an individual creator *as* an affiliate is the influencer manager's (the counterparty is a person), but the affiliate/partner-referral *program* as an acquisition channel — commission model, attribution window, anti-fraud controls, PRM tooling, recruitment of complementary companies — is `partner-ecosystem-marketer`'s, mirroring the counterparty test that hands the individual creator back. Wording mirrors `partner-ecosystem-marketer` Rule 11 so the two agents cannot contradict on who owns what.
+
+**Discoverability.** No count/name/capability change (still 72/19/17; the affiliate capability was already named in the 08-23 sweep) — so no discoverability sweep owed, same as the line 104 sponsorship-seam fix.
+
+**Sourcing.** Self-directed seam clarification; no external source, no new claims or figures asserted.
+
+**Verify:** lint **2/2** on the two touched copies; the two copies diff-identical (`diff`); the referenced slug `partner-ecosystem-marketer` resolves to a real agent; broken internal `.md` links **0** post-edit; counts unchanged at 72/19 including the live GitHub About. `CHANGELOG [Unreleased] › Added` bullet added; the reciprocal-seam backlog item filed and marked done in the affiliate cluster.
+
+---
+
 ### 2026-08-23 — Maintenance: **the affiliate / partner-referral program gets an owner — the growth motion that grazed five agents and was run by none (backlog line 105)** (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
