@@ -124,7 +124,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 | **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability" |
 | **Design Ops** | 5 | "landing page", "brand identity", "ad creative" |
 | **Sales Enablement** | 6 | "outbound", "battle card", "proposal", "MEDDPICC" |
-| **Product Marketing Ops** | 7 | "positioning", "product launch", "competitive intel", "pricing", "packaging", "agent readiness" |
+| **Product Marketing Ops** | 7 | "positioning", "product launch", "competitive intel", "win/loss interviews", "why we lose deals", "pricing", "packaging", "agent readiness" |
 | **Marketing Analytics** | 5 | "CRO", "A/B testing", "sample size", "not enough traffic to test", "dashboards", "attribution", "tracking plan", "GA4 audit" |
 | **Marketing Project Mgmt** | 4 | "sprint planning", "resource allocation", "QBR" |
 | **Client Operations** | 4 | "client reporting", "QA", "compliance", "budget" |

@@ -23,7 +23,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [Email Marketing Ops](plugins/saas-marketing/skills/email-marketing-ops/SKILL.md): lifecycle, deliverability, automation
 - [Design Ops](plugins/saas-marketing/skills/design-ops/SKILL.md): landing pages, brand identity, ad creative
 - [Sales Enablement](plugins/saas-marketing/skills/sales-enablement/SKILL.md): outbound, battle cards, proposals
-- [Product Marketing Ops](plugins/saas-marketing/skills/product-marketing-ops/SKILL.md): positioning, launches, competitive intel
+- [Product Marketing Ops](plugins/saas-marketing/skills/product-marketing-ops/SKILL.md): positioning, launches, competitive intel, win/loss interview programs
 - [Marketing Analytics](plugins/saas-marketing/skills/marketing-analytics/SKILL.md): CRO, A/B testing, experiment feasibility (sample size, test duration, what to do when the funnel can't power a test), dashboards, attribution, tracking plan / event taxonomy, GA4 + consent instrumentation audit
 - [Marketing Project Mgmt](plugins/saas-marketing/skills/marketing-project-mgmt/SKILL.md): sprint planning, resource allocation, QBRs
 - [Client Operations](plugins/saas-marketing/skills/client-operations/SKILL.md): reporting, QA, compliance, budgets

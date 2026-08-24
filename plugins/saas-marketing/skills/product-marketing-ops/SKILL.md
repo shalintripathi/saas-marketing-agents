@@ -1,6 +1,6 @@
 ---
 name: product-marketing-ops
-description: "Product marketing and go-to-market strategy for B2B SaaS launches and positioning. Use this skill when planning a product launch, developing positioning and messaging, analyzing competitive landscape, building customer advocacy programs, conducting win/loss analysis, designing GTM strategy, creating category positioning, or planning analyst briefings. Also triggers on: positioning, product launch, competitive intelligence, messaging, customer advocacy, win/loss analysis, GTM, category design, analyst briefing, G2 review."
+description: "Product marketing and go-to-market strategy for B2B SaaS launches and positioning. Use this skill when planning a product launch, developing positioning and messaging, analyzing competitive landscape, building customer advocacy programs, designing a win/loss interview program, working out why we lose deals, designing GTM strategy, creating category positioning, or planning analyst briefings. Also triggers on: positioning, product launch, competitive intelligence, messaging, customer advocacy, win/loss analysis, win/loss interviews, why we lose deals, closed-lost analysis, loss reason, close-reason field, GTM, category design, analyst briefing, G2 review."
 ---
 
 # Product Marketing Operations
@@ -59,6 +59,8 @@ Product Marketing Operations brings together positioning strategists, launch man
 - "Develop win/loss analysis from customer conversations and sales feedback"
 - "Create competitive battle cards and win strategies for sales team"
 - "Monitor competitor positioning changes and recommend strategic response"
+- "Design a win/loss interview program — who conducts it, whom we sample, and what the sample can support"
+- "Our CRM says we lose on price — work out what that actually means and who owns each cause"
 
 **Customer Proof & Advocacy** → Customer Advocacy Lead
 - "Build customer advocacy program including case studies and testimonials"
