@@ -4,6 +4,38 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-25 — Correctness: eight invented benchmarks retired from `content-copywriter`'s scorecard — the anti-fabrication sweep reaches the content discipline (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top genuinely-useful correctness item.
+
+**Health check — all clean, no P0.** Broken internal `.md` links: **0** across a whole-repo crawl (Python resolver over every `*.md`; re-run after edits, still 0). Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Freshness: `guides/aeo-geo-playbook.md` `Last reviewed 2026-08-23` (2 days), `integrations/README.md` `2026-07-23` (33 days) — both inside 90. Counts reconcile end to end at **72 agents / 19 skills / 17 disciplines**: README badge + tagline + section headers, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "72 specialist agents and 19 Claude Code skills"). No P0.
+
+**Why this, not a backlog item.** The P1 backlog is quiet — every open item is blocked (native-subagents #14 on two in-thread decisions; distribution lines 22-25 traction-gated at 5★; legal-compliance line 42 a maintainer/legal call). Rather than force a blocked item or a redundant freshness pass (the AEO/GEO playbook was reviewed two days ago), the run swept for the live anti-fabrication defect the last three runs have been retiring one agent at a time (`pmm-competitive-intelligence` 08-24, `pmm-positioning-strategist` 08-25). The sweep found the same defect dense in the **content** agents, untouched. Grep confirmed `content-copywriter` was the worst: its entire Success Metrics section was invented figures.
+
+**Shipped:** both dual-located copies of [`content/content-copywriter.md`](../content/content-copywriter.md) — the Success Metrics section (8 bullets) plus three supporting figures, all unsourced round numbers pre-dating the repo's no-fabricated-metrics posture, converted to the definition / coverage / baseline-from-your-own-page pattern the 08-24/08-25 metrics already follow. No count, name, or capability changed, so no discoverability sweep was owed.
+
+- **Landing page conversion rate** — was *"8-15% conversion target (organic 8-12%, paid 10-18%, email 12-25%), benchmark improvement of 2-5 percentage points"* → rate tracked by traffic source, read as a **trend against the page's own pre-optimization baseline**, reported with its conversion count. No target.
+- **Email CTR** — was *"3-5% baseline, targeting 20-30% lift"* → click-to-delivered on the variant vs. the control it replaced, a within-test delta on your own list.
+- **A/B test win rate** — was *"60%+ of copy tests generate a statistically significant winner"* → an **A/B test *verdict* rate** (powered, one-variable, resolving to a real winner *or* a real null). This figure was doubly wrong: fabricated, *and* the same "60-70% of tests win" quota the repo retired from `analytics-conversion-rate-optimizer` on 2026-08-10 because forcing a winner invites peeking.
+- **CTA performance** — was *"Primary CTA generates 30-50% of all page actions"* → primary-vs-secondary share read as a **clarity signal on your own page**, no target share.
+- **Headline / benefit statement** — was *"outperform feature-focused by 15-30%"* → whether the benefit-led variant beats the control **in your own test**; direction is the hypothesis, magnitude is whatever the test measures.
+- **Social proof** — was *"increase conversion rate 20-35%"* → the effect measured **against a control on your own page**, reported with the sample.
+- **Buyer-stage relevance** — was *"BOFU generates 50%+ higher conversion than TOFU"* → a within-test comparison on the same traffic, not a fixed multiple.
+- **Copy consistency** — was *"drives 10-15% cross-channel conversion improvement"* → a coverage/coherence check against the cross-surface defects `pmm-messaging-architect` audits, not a claimed lift.
+- Plus two figures outside the scorecard: Identity's *"a single word change can lift conversion by 3-5%"* and the A/B roadmap's *"headline typically 10-20% lift potential, CTA 3-7%, benefit statements 5-12%"* — both removed.
+
+**Deliberately left intact:** the explicitly-illustrative example copy — the Rule 2 PAS demo (*"40% of rep time… $1.2M… 90%"*, quoted sample copy), the Rule 3 example headline (*"e.g., 'Reduce Sales Cycle by 18%'"*), the pre-registered-hypothesis example (L54), the webinar template (L70), and the worked *"if CTA increases from 8% to 11%"* hypothetical (L91). These demonstrate technique and are framed as examples/placeholders, not asserted benchmarks — the same distinction the 08-24 run drew when it left `sales-discovery-coach`'s operational target out of scope.
+
+**No fabricated metrics.** The change *removes* invented figures; nothing numeric is asserted in the replacement. Three cross-references added (`analytics-conversion-rate-optimizer` for experiment trust, `email-copywriter` for subject-line validity, `pmm-messaging-architect` for cross-surface coherence) — all three agent files verified to exist this run.
+
+**Verified:** lint **2/2** on both copies; the two copies **diff-identical** after `cp` + `diff`; all eight old benchmark strings grep to **zero** repo-wide (outside append-only history); no new internal links introduced, link state unchanged.
+
+**Filed for future runs:** the same defect remains in other content agents — [`content-newsletter-curator`](../content/content-newsletter-curator.md) (partly cleaned on 2026-08-14, open-rate/CTR/conversion benchmarks remain), [`content-video-script-writer`](../content/content-video-script-writer.md) (completion-rate / hook / registration-lift figures), [`content-case-study-producer`](../content/content-case-study-producer.md) (sales-cycle-reduction and conversion-lift figures), and lighter traces in `content-whitepaper-architect` and `content-blog-strategist`. Filed as a tracked backlog item to continue one agent per run.
+
+**Deferred.** Distribution items (lines 22-25) remain traction-gated at 5★; the native-subagents item (line 14) and the legal-validation proposal (line 42) remain maintainer calls.
+
+---
+
 ### 2026-08-25 — Maintenance: **citation freshness** — the win/loss research-ethics grounding re-based to the ICC/Esomar Code's 2025 fifth edition (automated)
 
 **Scope:** health check + one backlog item (line 112). Not a scout run — the daily content/SEO scout already shipped earlier today (the Link Building Strategist enhancement + the two PMM benchmark cleanups), so this run took the highest-priority *unblocked, completable* correctness item instead.
