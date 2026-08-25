@@ -1,6 +1,6 @@
 ---
 name: seo-growth
-description: "End-to-end SEO operations for B2B SaaS organic visibility. Use this skill when you need keyword research, technical SEO audits, content optimization, link building strategy, international expansion, AI/AEO optimization, schema markup, Core Web Vitals improvements, and organic traffic growth planning. Also triggers on: SEO, keyword research, technical SEO, link building, content optimization, international SEO, AI search, AEO, GEO, Core Web Vitals, schema markup, organic traffic."
+description: "End-to-end SEO operations for B2B SaaS organic visibility. Use this skill when you need keyword research, technical SEO audits, content optimization, link building strategy, international expansion, AI/AEO optimization, schema markup, Core Web Vitals improvements, and organic traffic growth planning. Also triggers on: SEO, keyword research, technical SEO, link building, content optimization, international SEO, AI search, AEO, GEO, Core Web Vitals, schema markup, organic traffic, G2 listing, Capterra, TrustRadius, review-platform category page, best software roundup, listicle placement, directory submissions."
 ---
 
 # SEO Growth Skill
@@ -27,7 +27,7 @@ The SEO Growth skill coordinates a team of 7 specialized agents to drive sustain
 | 1 | Keyword Researcher | `agents/seo-keyword-researcher.md` | Conducts comprehensive keyword discovery identifying search volume, competition, intent, and opportunity gaps. Maps keywords to buyer journey stages (awareness, consideration, decision) and discovers the AI-answer-engine query landscape (conversational/fan-out questions) the AEO program is measured against. |
 | 2 | Content Optimizer | `agents/seo-content-optimizer.md` | Optimizes existing web pages and blog articles for target keywords. Improves on-page elements (title tags, headers, body content) while maintaining natural, readable copy. |
 | 3 | Technical Auditor | `agents/seo-technical-auditor.md` | Audits site health: crawlability, indexation, site speed, mobile responsiveness, Core Web Vitals, structured data, XML sitemaps, robots.txt configuration. Identifies and prioritizes technical fixes. |
-| 4 | Link Building Strategist | `agents/seo-link-building-strategist.md` | Develops link building campaigns through outreach, partnerships, content-driven links, and earned media. Maps competitive link profiles and identifies high-value backlink opportunities. |
+| 4 | Link Building Strategist | `agents/seo-link-building-strategist.md` | Develops link building campaigns through outreach, partnerships, content-driven links, and earned media. Maps competitive link profiles and identifies high-value backlink opportunities. Also owns your presence on the third-party pages that hold your shortlist queries — "best [category] software" roundups, software directories, and review-platform category pages (G2, Capterra, TrustRadius) — including stale-entry corrections and keeping paid inclusions qualified rather than counted as earned links. |
 | 5 | AI Search Optimizer | `agents/seo-ai-search-optimizer.md` | Optimizes content for AI search engines (ChatGPT, Claude search, Perplexity) and Answer Engine Optimization (AEO). Improves visibility in AI-generated summaries and snippets. |
 | 6 | Local & International SEO | `agents/seo-local-and-international.md` | Expands SEO strategy to international markets and local search. Handles hreflang implementation, multi-language content, country-specific keyword research, and localized link strategies. |
 | 7 | Programmatic SEO Strategist | `agents/seo-programmatic-strategist.md` | Builds SEO from datasets and templates rather than drafts: integration, comparison, /vs and /alternatives and glossary pages at scale, with index-bloat and thin-content guardrails and internal linking across the set. |
@@ -59,6 +59,8 @@ The SEO Growth skill coordinates a team of 7 specialized agents to drive sustain
 - "Analyze our link profile vs. competitors" → Link Building Strategist
 - "Launch a campaign to get featured in [industry publication]" → Link Building Strategist
 - "Find high-value link opportunities in [niche]" → Link Building Strategist
+- "We don't rank for 'best [category] software' — the roundups do. What do we do?" → Link Building Strategist
+- "Audit our G2 / Capterra / directory listings for stale or missing entries" → Link Building Strategist
 
 **AI & Answer Engine Optimization**
 - "Optimize our content for AI search visibility" → AI Search Optimizer

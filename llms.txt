@@ -17,7 +17,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 
 - [SaaS Marketing Suite](plugins/saas-marketing/skills/saas-marketing-suite/SKILL.md): router — points a plain-language request to the right skill
 - [Content Marketing](plugins/saas-marketing/skills/content-marketing/SKILL.md): blog, case study, whitepaper, newsletter, copywriting
-- [SEO Growth](plugins/saas-marketing/skills/seo-growth/SKILL.md): keyword research, technical SEO, link building, AI/AEO optimization
+- [SEO Growth](plugins/saas-marketing/skills/seo-growth/SKILL.md): keyword research, technical SEO, link building, AI/AEO optimization, third-party shortlist presence (review-platform category pages, "best [category] software" roundups, software directories)
 - [Paid Media Ops](plugins/saas-marketing/skills/paid-media-ops/SKILL.md): PPC, budget optimization, attribution, programmatic, newsletter and podcast sponsorships, paid G2/Capterra listings, pay-per-lead content syndication
 - [Social Media Ops](plugins/saas-marketing/skills/social-media-ops/SKILL.md): LinkedIn, YouTube, Reddit, community, influencer partnerships, and B2B podcast strategy — whether to run a show at all, guest booking, the guest tour on other people's shows, show notes and transcripts
 - [Email Marketing Ops](plugins/saas-marketing/skills/email-marketing-ops/SKILL.md): lifecycle, deliverability, automation

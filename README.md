@@ -118,7 +118,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 | **CATALYST Orchestrator** | all 72 | "GTM launch", "campaign plan", "marketing strategy" |
 | **SaaS Marketing Suite** (router) | — | "help with marketing", "what can you do" |
 | **Content Marketing** | 7 | "blog", "case study", "whitepaper", "newsletter" |
-| **SEO Growth** | 7 | "SEO audit", "keyword research", "AEO", "link building", "programmatic SEO" |
+| **SEO Growth** | 7 | "SEO audit", "keyword research", "AEO", "link building", "programmatic SEO", "G2 / Capterra listing", "get into a 'best software' roundup", "directory submissions" |
 | **Paid Media Ops** | 7 | "Google Ads", "LinkedIn Ads", "ROAS", "attribution", "newsletter sponsorship", "content syndication" |
 | **Social Media Ops** | 7 | "LinkedIn strategy", "YouTube", "community", "podcast", "show notes", "podcast guesting" |
 | **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability" |
