@@ -4,6 +4,24 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-25 — Correctness: the last invented win-rate benchmark retired from `pmm-positioning-strategist` (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — all clean, no P0.** Broken internal `.md` links: **0** across a whole-repo crawl (207 markdown files, 519 internal links, Python resolver; re-run after edits, still 0). Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Freshness: `guides/aeo-geo-playbook.md` `Last reviewed 2026-08-23` (2 days), `integrations/README.md` `2026-07-23` (33 days) — both inside 90. Counts reconcile end to end at **72 agents / 19 skills / 17 disciplines**: README badge + tagline + section headers, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "72 specialist agents and 19 Claude Code skills"). Roster derivation confirmed: 79 files under `skills/*/agents/` − 7 CATALYST orchestrator = **72**; all 73 dual-located category↔plugin pairs diff-identical except the one legitimate context-relative link in `catalyst-strategy.md` (each copy correctly points at its own local `templates/brand-context.md`). No P0.
+
+**Shipped:** [`product-marketing/pmm-positioning-strategist.md`](../product-marketing/pmm-positioning-strategist.md) and its dual-located copy — backlog line 111, the item the 2026-08-24 run explicitly filed as deferred under one-change-per-run. The **Competitive Win Rate** success metric read *"Target 60%+ win rate in primary competitive scenarios"* — an unsourced round-number benchmark pre-dating the repo's anti-fabrication posture, the exact sibling of the *"60%+ … 70%+"* figure removed from `pmm-competitive-intelligence` on 2026-08-24.
+
+- **Competitive Win Rate** — was *"Target 60%+ win rate in primary competitive scenarios"* → win rate against each **named** competitor, computed **from the closed-deal census (never a survey sample)**, read as a **trend against your own prior cycles after the positioning shipped** rather than a fixed threshold, each rate **reported with its deal count** and a small-N rate flagged directional. Carries an explicit *"consistent with the census-based Win Rate by Competitor metric on `pmm-competitive-intelligence`"* cross-reference so the two PMM agents state the same discipline.
+
+**No fabricated metrics.** The change *removes* an invented figure; nothing numeric is asserted in the replacement.
+
+**Verified:** lint **2/2** on both copies; the two copies **diff-identical** after the edit (`diff`); the old string greps to **zero** repo-wide (outside append-only history). The only other surviving `Target 60%+` is `sales-discovery-coach`'s *"60%+ of qualified calls with quantified impact"* — a **different agent's operational coverage target**, not a market-outcome benchmark — left out of scope. No count, name, or capability changed, so no discoverability surface was owed; **72/19** re-confirmed including the live About.
+
+**Deferred.** Backlog line 112 (ICC/ESOMAR 5th-edition re-verify) and line 113 (`feedback-collector`) untouched. Distribution items (lines 22-25) remain traction-gated at 5★; the native-subagents item (line 14) and the legal-validation proposal (line 42) remain maintainer calls.
+
+---
+
 ### 2026-08-24 — Correctness: four invented benchmarks retired from `pmm-competitive-intelligence`'s success metrics (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
