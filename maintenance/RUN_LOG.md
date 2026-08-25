@@ -4,6 +4,31 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-25 — Maintenance: **citation freshness** — the win/loss research-ethics grounding re-based to the ICC/Esomar Code's 2025 fifth edition (automated)
+
+**Scope:** health check + one backlog item (line 112). Not a scout run — the daily content/SEO scout already shipped earlier today (the Link Building Strategist enhancement + the two PMM benchmark cleanups), so this run took the highest-priority *unblocked, completable* correctness item instead.
+
+**Health check — clean, no P0.** Counts consistent at **72 agents / 19 skills** across README badge + tagline + team table, `AGENTS_INDEX.md` (all 72 slugs present), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (verified via `gh repo view`). Manifests parse (`marketplace.json` + `plugin.json`, required fields intact). Every skill has a `SKILL.md` with `name` + `description`. **0 broken internal `.md` links** repo-wide. No guide/playbook "Last reviewed" date older than 90 days (`aeo-geo-playbook.md` 2026-08-23; `integrations/README.md` 2026-07-23; `AGENTS_INDEX.md` generated 2026-08-23).
+
+**Shipped:** both dual-located copies of [`product-marketing/pmm-competitive-intelligence.md`](../product-marketing/pmm-competitive-intelligence.md) — the *Three Records, Three Questions* section's ICC/ESOMAR citation re-based from the **2016 edition** to the **2025 fifth edition**, and the in-line "not read" caveat dropped.
+
+**Why it mattered.** The section grounds "the rep who lost the deal must not conduct the win/loss interview" in the profession's own research-ethics standard. The 2026-08-24 run quoted the 2016 edition and left a note that a fifth edition (revised 2025-09-29) existed but was gated behind a language-selection form on ICC's page and had not been read — a citation knowingly pointing at a possibly-superseded edition.
+
+**What the re-verification found.** The fifth edition was located as a clean, readable primary PDF on **ESOMAR's own standards host** (the gate was on ICC's page, not this one): [standards.esomar.org/assets/documents/icc-esomar-code-2025.pdf](https://standards.esomar.org/assets/documents/icc-esomar-code-2025.pdf), © ICC/Esomar 2025, "Updated as of July 2025," HTTP 200, read in full 2026-08-25. **Every cited article had renumbered or moved** — the citation was silently stale:
+- 2016 **Art. 1(c)** ("remain diligent in maintaining the distinction…") → 2025 **Art. 1(d)**, now grounded explicitly in public confidence: "researchers must diligently maintain a clear distinction between research and non-research activities."
+- 2016 **Art. 1(d)** ("clearly distinguish and separate…") → 2025 **Art. 1(e)**: inform "before data collection begins," "[s]eparate consent … for non-research purposes," "clearly distinguished from the research activities."
+- 2016 **Art. 4(a)** → 2025 **Art. 4(a)** reworded (identify promptly; participation "voluntary and based on clear and accurate information about the general purpose and nature of the research"), with the refusal right moved to **Art. 1(a)** ("right to decline participation").
+- 2016 **Art. 6(a)** (non-research-purpose disclosure) **folded into Art. 1(e)**; 2025 Art. 6(a) is now a different provision (client data transfer).
+- The footnote's parallel obligation on non-researchers moved from **"Article 9 of the consolidated ICC marketing code" → "Article 7 of the ICC Advertising and Marketing Communications Code,"** wording expanded to name consumer reviews and social-media postings.
+
+**Discipline.** All quotes verbatim from the 2025 primary source; the URL and edition descriptor updated; the caveat note removed; no new claim or figure asserted; the standard still cited as a published professional standard, not as law. No count/name/capability changed → **no discoverability sweep owed** (verified: 72/19 unchanged everywhere including live About).
+
+**Verified:** lint 2/2; both copies diff-identical; the new source URL returns HTTP 200; the old 2016 URL and "2016 edition" descriptor are gone from all shipped docs; 0 broken links.
+
+**Deferred:** everything else on the backlog — P1 items blocked (native-subagents decision #1; distribution items gated on stars/traction), and the remaining scout `watch` items are for their rotation runs, not this maintenance slot.
+
+---
+
 ### 2026-08-25 — Skill Scout: **ENHANCE** — the other half of the shortlist SERP, on pages we will never own (automated)
 
 **Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED, after an ADD was sought first and could not be proved.** Focus discipline **content / SEO / AEO-GEO** by rotation — last a *scout* focus on 2026-08-14, the oldest of the four (email/analytics/ops 08-21, paid/social 08-23, PMM/sales/GTM 08-24). **13 sources evaluated across 8 ledger rows** — 4 enhanced-ours (1 primary, 3 co-credit), 2 primary standards citations, 6 dismissed, 1 declined on licensing. Two watch items worked: backlog line 93 (`Agentic-SEO-Skill`) **closed as read**, line 109 (`DigitalMarketingPro`) **narrowed**.
