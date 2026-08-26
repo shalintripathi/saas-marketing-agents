@@ -4,6 +4,36 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-26 — Correctness: thirteen invented benchmarks retired from `content-video-script-writer` — the anti-fabrication sweep's second content agent (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — all clean, no P0.** Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Freshness: `guides/aeo-geo-playbook.md` `Last reviewed 2026-08-23` (3 days) — inside 90. Counts reconcile end to end at **72 agents / 19 skills**: 72 agent files carry `name:` frontmatter across the category dirs, 19 skill dirs, and the **live GitHub About** (`gh repo view` — "72 specialist agents and 19 Claude Code skills"). No P0.
+
+**Why this.** The top unblocked P1 item is the ongoing content-agent anti-fabrication sweep (backlog line 114), "one agent per run, pick the densest." `content-copywriter` was done 2026-08-25; the named densest remaining was `content-video-script-writer`, whose entire Success Metrics section was invented round-number targets. All prior open items above it are blocked (native-subagents #1 on two in-thread decisions; distribution lines 22-25 traction-gated at 5★; legal/maintainer calls).
+
+**Shipped:** both dual-located copies of [`content/content-video-script-writer.md`](../content/content-video-script-writer.md) — the Success Metrics section (reworked to a baseline-reading callout + 10 bullets) plus three supporting figures, all unsourced round numbers pre-dating the repo's no-fabricated-metrics posture, converted to the definition / baseline-from-your-own-history pattern the 08-24/08-25 metrics already follow. No count, name, or capability changed, so no discoverability sweep was owed.
+
+- **Video completion rate** — was *"50-65% for 5-min, 30-45% for 8-min, 70-80% for 2-3 min"* → average watch-through tracked **separately by length and format**, read as a trend against the same series' own prior episodes, reported with its view count. No target.
+- **Hook effectiveness** — was *"first 3 seconds must hold 80%+ … if 40%+ drop by 5 seconds"* → early-vs-one-minute drop-off as a **within-video signal on your own audience**; no universal hold-rate asserted.
+- **CTA click-through** — was *"demo 8-12%, explainer 4-6%, testimonial 10-15%"* → clicks-to-views against the same video's/format's **own baseline**, segmented by viewer stage, reported with the click count.
+- **Product demo lead contribution** — was *"sourced for 15-25% of demo bookings"* → a funnel-positioning signal on **your own attribution**, only as trustworthy as the attribution behind it.
+- **Testimonial credibility impact** — was *"increase buyer confidence by 25-35%"* → whether adding a testimonial moves confidence **against a control**, reported with the sample.
+- **Social engagement** — was *"LinkedIn video 2-4x higher than blog links"* → engagement per impression against **your own prior posts**, not a fixed multiple.
+- **Mobile watch-through** — was *"outperform by 15-25%"* → completion vs. your own un-optimized baseline, a within-account A/B.
+- **Speed-watching** — was *"maintain 60%+ completion at 1.5-2x"* → a tight-pacing signal on your own playback-rate data; no fixed hold-rate.
+- **Sales-tool adoption** — was *"used in outreach 40%+ of the time"* → a perceived-usefulness signal on your own team, not a target.
+- **Webinar registration lift** — was *"20-30% higher vs. email-only"* → measured **against a control on your own list**, reported with the sample.
+- Plus three outside the scorecard: Rule 5's *"outperform corporate-speak by 30-40%"* → a hypothesis to test, no fixed lift; Rule 8's *"85% watch without sound"* → "a large share… often a majority, exact figure varies by platform/study"; and the dashboard template's *"benchmark 50-60% completion for 5+ minute videos"* → read against the video's own history and platform norms.
+
+**Deliberately left intact:** the explicitly-illustrative example-script copy — Rule 1's example hooks (*"waste 20 hours per month"*, *"90 days to 62 days"*), Rule 2's *"48 hours earlier"*, the demo/testimonial worked examples (*"6 weeks to 2 weeks"*) — plus the Identity's *"2x speed"* viewer-behavior narrative and the *"15-20% of screen real estate"* caption-layout spec. These demonstrate technique or specify layout; none is an asserted performance benchmark, the same distinction the 08-25 `content-copywriter` run drew.
+
+**No fabricated metrics.** The change *removes* invented figures; nothing numeric is asserted in the replacement. One cross-reference added (`analytics-conversion-rate-optimizer` for experiment-trust rules), verified to exist this run. Both copies lint green and are byte-identical; old benchmark strings grep to zero.
+
+**Deferred:** the sweep's remaining agents — `content-case-study-producer` (now the densest), `content-newsletter-curator`, and lighter traces in `content-whitepaper-architect` / `content-blog-strategist` — one per future run.
+
+---
+
 ### 2026-08-25 — Correctness: eight invented benchmarks retired from `content-copywriter`'s scorecard — the anti-fabrication sweep reaches the content discipline (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top genuinely-useful correctness item.
