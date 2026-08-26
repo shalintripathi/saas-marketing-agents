@@ -4,6 +4,32 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-26 — Correctness: nine invented benchmarks retired from `content-case-study-producer` — the anti-fabrication sweep's third content agent (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — all clean, no P0.** Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Broken internal `.md` links: **0** across the repo. Freshness: `integrations/README.md` `Last reviewed 2026-07-23` (34 days) and `guides/aeo-geo-playbook.md` `Last reviewed 2026-08-23` (3 days) — both inside 90. Counts reconcile end to end at **73 agents / 19 skills**: README badge + tagline, `AGENTS_INDEX.md` ("73 agents … Last generated 2026-08-26"), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "73 specialist agents and 19 Claude Code skills") all agree; the only residual `72` is CHANGELOG history describing the 72→73 MarTech Stack Strategist add. No P0.
+
+**Why this.** The top unblocked P1 item is the ongoing content-agent anti-fabrication sweep (backlog line 114), "one agent per run, pick the densest." `content-copywriter` was done 2026-08-25, `content-video-script-writer` 2026-08-26; the named densest remaining was `content-case-study-producer`. All prior open items above it are blocked (native-subagents [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1) on two in-thread decisions; distribution lines 22-25 traction-gated at 5★; the legal/maintainer/scope-question calls await a human).
+
+**Shipped:** both dual-located copies of [`content/content-case-study-producer.md`](../content/content-case-study-producer.md) — the Success Metrics section (reworked to a measure-against-your-own-funnel callout + 9 bullets) plus Rule 7's production-yield figure, all unsourced round numbers pre-dating the repo's no-fabricated-metrics posture, converted to the definition / coverage / baseline-from-your-own-history pattern the 08-24/08-25/08-26 metrics already follow. No count, name, or capability changed, so no discoverability sweep was owed.
+
+- **Case study as sales accelerator** — was *"reduce sales cycle by 5-10 days … 15-20% faster than control"* → whether touched deals close faster, measured **against a control or matched cohort on your own pipeline**, reported with the deal count; explicit caution that exposure correlates with engagement.
+- **Gated lead volume** — was *"40-60 MQLs/month at $200-400 per lead"* → MQLs and effective CPL read against **your own prior gated assets**, segmented by market size and gating depth, reported with the raw count.
+- **Deal-stage conversion** — was *"25-30% higher win rate"* → win-rate delta **against a control on your own won/lost record**, the causal claim gated on that control.
+- **Persona-specific performance** — was *"30+ leads from ICP within 90 days"* → a targeting signal against that persona's own prior studies, not a fixed target.
+- **Video testimonial engagement** — was *"increase conversion 15-25% vs. text-only"* → lift **against a control (A/B or before/after)** on your own traffic, reported with the sample.
+- **Content yield** — was *"8-12 derivative pieces"* (in both Rule 7 and the scorecard) → a repurposing-efficiency signal tracked against your own studies, no fixed count.
+- **Portfolio coverage** — was *"80%+ of ICP represented"* → a coverage metric against your own ICP map, target set to the sales motion's own need, with a flag for stale stories.
+- **Customer participation rate** — was *"70%+ of outreach converts"* → a selection-and-relationship signal against your own prior outreach, a low rate read as weak selection not a broken process.
+- **Shareability** — kept (no number asserted), lightly reworded.
+
+**Deliberately left intact:** the explicitly-illustrative example copy — Rule 1's sample headlines (*"45 days to 18 days"*, *"decreased … by 34% and freed $2.1M"*), the ACV segment definitions (*"$500K ACV" / "$5M+ ACV"*), and format specs (*"3,000-5,000 words"*, clip lengths). These demonstrate technique or specify a deliverable; none is an asserted performance benchmark — the same distinction the 08-25/08-26 runs drew. Experiment-trust rules cross-referenced to `analytics-conversion-rate-optimizer`.
+
+**Verified:** lint 2/2 on both copies; copies diff-identical (`cp` sync); all nine old benchmark strings grep to **zero**; no residual asserted `%`/figure in the Success Metrics section; illustrative examples confirmed present. CHANGELOG `### Changed` bullet added; backlog line 114 sweep progress advanced (`content-case-study-producer` struck from the "remains in" list; `content-newsletter-curator`, `content-whitepaper-architect`, `content-blog-strategist` remain).
+
+**Deferred:** the three remaining content agents in the sweep (newsletter-curator is next-densest but partly touched 2026-08-14 — re-base surviving benchmarks consistently with its existing Rule 9); the 2026-08-26 enhancement leads (`ops-financial-tracker` renewal leverage, `email-automation-engineer` seed-send method, `pmm-competitive-intelligence` competitor martech teardown); all traction-gated distribution items.
+
 ### 2026-08-26 — Correctness: thirteen invented benchmarks retired from `content-video-script-writer` — the anti-fabrication sweep's second content agent (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
