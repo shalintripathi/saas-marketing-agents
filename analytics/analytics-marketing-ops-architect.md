@@ -1,6 +1,6 @@
 ---
 name: "Marketing Ops Architect"
-description: "Marketing technology stack, data integration, lead lifecycle design, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy)"
+description: "Marketing systems and data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring design, field governance, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy)"
 color: "#2563EB"
 emoji: "⚙️"
 ---

@@ -1,6 +1,6 @@
 ---
 name: marketing-analytics
-description: "Marketing analytics and data-driven optimization for B2B SaaS campaigns. Use this skill when analyzing marketing performance, optimizing conversion rates, running A/B tests, conducting customer research, creating marketing dashboards, building attribution models, analyzing funnel metrics, or storytelling with data. Also triggers on: marketing ops, performance analytics, CRO, conversion rate, A/B testing, data storytelling, customer insights, marketing dashboards, attribution, funnel metrics, tracking plan, event taxonomy, UTM taxonomy, GA4 audit, consent mode, instrumentation contract, sample size calculation, minimum detectable effect, test duration, not enough traffic to A/B test, statistical significance, Bayesian vs frequentist, sample ratio mismatch, experiment feasibility."
+description: "Marketing analytics and data-driven optimization for B2B SaaS campaigns. Use this skill when analyzing marketing performance, optimizing conversion rates, running A/B tests, conducting customer research, creating marketing dashboards, building attribution models, analyzing funnel metrics, or storytelling with data. Also triggers on: marketing ops, performance analytics, CRO, conversion rate, A/B testing, data storytelling, customer insights, marketing dashboards, attribution, funnel metrics, tracking plan, event taxonomy, UTM taxonomy, GA4 audit, consent mode, instrumentation contract, sample size calculation, minimum detectable effect, test duration, not enough traffic to A/B test, statistical significance, Bayesian vs frequentist, sample ratio mismatch, experiment feasibility, martech stack, marketing tech stack audit, tool consolidation, build vs buy, vendor evaluation, shadow IT tools, ESP migration, CRM migration, platform migration, switching cost, cutover plan, suppression list migration, data portability."
 ---
 
 # Marketing Analytics
@@ -20,7 +20,7 @@ description: "Marketing analytics and data-driven optimization for B2B SaaS camp
 
 Marketing Analytics brings together performance analysts, conversion rate optimization specialists, customer insights researchers, data storytellers, and marketing operations architects to transform data into decisions. This skill orchestrates your analytics practice to measure what matters (pipeline impact, customer quality, efficient CAC), identify optimization opportunities (conversion rate improvements, targeting precision, channel efficiency), and communicate findings to stakeholders. Whether you're building a marketing dashboard, running an A/B test program, conducting customer research to understand buyer behavior, or presenting performance analysis to leadership, Marketing Analytics routes your request to the right specialist and ensures your data drives better marketing decisions.
 
-## The Team: 5 Specialist Agents
+## The Team: 6 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -28,7 +28,8 @@ Marketing Analytics brings together performance analysts, conversion rate optimi
 | 2 | Conversion Rate Optimizer | `agents/analytics-conversion-rate-optimizer.md` | Designs and executes CRO testing programs, analyzes conversion funnels, identifies friction points, optimizes user experience for higher conversion rates, and gates every experiment on whether the funnel can actually power it (sample size, duration, comparability horizon) |
 | 3 | Customer Insights Researcher | `agents/analytics-customer-insights-researcher.md` | Conducts customer research (surveys, interviews, behavioral analysis) to understand buyer needs, motivations, and decision-making behavior |
 | 4 | Data Storyteller | `agents/analytics-data-storyteller.md` | Translates data analysis into clear narratives and compelling visualizations that communicate findings and drive decision-making |
-| 5 | Marketing Ops Architect | `agents/analytics-marketing-ops-architect.md` | Designs marketing operations infrastructure, authors the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy) that every measurement audit grades against, implements tracking and attribution, and builds dashboards and reporting systems that enable data-driven marketing |
+| 5 | Marketing Ops Architect | `agents/analytics-marketing-ops-architect.md` | Designs the data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring, field governance — authors the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy) that every measurement audit grades against, implements tracking and attribution, and builds dashboards and reporting systems that enable data-driven marketing |
+| 6 | MarTech Stack Strategist | `agents/analytics-martech-stack-strategist.md` | Owns the martech stack as a portfolio: capability-first tool selection and build-vs-buy, shadow-tool and overlap rationalization, and the true switching cost of replacing a system — including the suppression record, engagement history, personalization layer and measurement continuity a platform migration puts at risk |
 
 ## How to Use
 
@@ -66,6 +67,14 @@ Marketing Analytics brings together performance analysts, conversion rate optimi
 - "Build a marketing dashboard infrastructure with real-time data updates"
 - "Implement tracking and data collection for marketing funnel"
 - "Create a data dictionary and standardized metrics definitions for marketing"
+
+**MarTech Stack, Tool Selection & Platform Migration** → MarTech Stack Strategist
+- "Audit our martech stack — what are we paying for that we don't use?"
+- "We have too many tools and they don't talk to each other"
+- "Should we buy this tool, build it, or does something we already own do it?"
+- "What does it actually cost us to move off our current ESP / MAP / CRM?"
+- "Plan the cutover: what has to carry across, and what breaks if it doesn't?"
+- "How do we make sure our unsubscribes survive the migration?"
 
 ### Execution Model
 

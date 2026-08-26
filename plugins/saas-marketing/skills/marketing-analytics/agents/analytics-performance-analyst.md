@@ -119,6 +119,7 @@ What makes this tractable rather than paranoid is that in a B2B SaaS stack the i
 | Lead-scoring threshold or model version | MQL volume, MQL→SQL rate, every downstream funnel rate | `analytics-marketing-ops-architect` (two-axis scoring) |
 | Field deprecation, renamed picklist value, CRM dedup or hierarchy rule | Segment membership, and therefore every segmented rate | `analytics-marketing-ops-architect` (field layer) |
 | Attribution model or lookback window | Channel credit, CPL, ROI by channel | `paid-media-attribution-analyst` |
+| MAP, ESP, CRM, analytics-property or CMP **replacement** — the whole instrument swapped, not reconfigured | Every metric produced by that system, with no error and no gap in the chart | `analytics-martech-stack-strategist` (platform-change continuity register, filed before cutover) |
 | Audience Expansion, network placements, platform auto-targeting toggles | Who received the budget, and so lead quality and CPL | `paid-media-social-ads-specialist` |
 | Sending-domain, authentication, or suppression-list change | Deliverability, open and click rates, engagement scores | `email-deliverability-specialist` |
 | Site migration, redirect, canonical, or template change | Sessions and conversions by landing page | `seo-technical-auditor` |
