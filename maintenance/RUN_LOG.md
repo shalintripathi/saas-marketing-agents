@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-27 — Correctness: the densest fabricated-metric cluster retired from `content-newsletter-curator` — the anti-fabrication sweep's fourth content agent (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — all clean, no P0.** Manifests: `.claude-plugin/marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` both parse with required fields (`jq`). All **19** skills carry a `SKILL.md` with `name` + `description`. Broken internal `.md` links: **0** across the repo (Python resolver over every relative Markdown link). Freshness: `guides/aeo-geo-playbook.md` `Last reviewed 2026-08-23` (4 days) — inside 90. Counts reconcile end to end at **73 agents / 19 skills**: summing the 17 agent-category counts in `AGENTS_INDEX.md` = 73 (strategy/loops/integrations dirs are not agents); README badge + tagline, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view` — "73 specialist agents and 19 Claude Code skills") all agree. No stale `72`/`71` in any public surface. No P0.
+
+**Shipped (top unblocked item — backlog anti-fabrication sweep, line 114).** Most P1 items are blocked (native subagents #1 on two open decisions; distribution items on the ≥100-star / real-adoption gates; the `ops-legal-compliance` proposal needs legal validation and would grow the roster). The top unblocked item is the recurring content-agent anti-fabrication sweep; the stated next target was `content-newsletter-curator`, the densest remaining. Reworked its **Success Metrics** section (both dual-located copies) from asserted round-number benchmarks to the definition / baseline-from-your-own-history pattern the sweep's three prior agents follow — no fixed figure asserted. Figures de-numbered: list growth 5-10%, open 25-35% (+25-30%/35-45% sub-ranges), CTR 4-8%, unsubscribe 0.1-0.3%/0.5%, conversion 1-3% (+2-5%/1-2%), lead-share 15-25%, lifetime/expansion 5-10%/10-15%, re-engagement 15-25%, revenue 8-12%, segmentation 20-30%/25-35%, content-mix 3-5x/2-3x. The 2026-08-14 open-rate contamination discipline (name the instrument, filtered-vs-unfiltered, directional-only, `email-deliverability-specialist` Rule 9) is preserved; only the "25-35%" assertion under it is dropped. The duplicated unsubscribe benchmark in **Critical Rule 8** was re-based to your own per-send baseline in the same pass so the figure greps to zero. Segmentation and customer-engagement claims now demand a control/matched cohort; revenue influence framed as an attribution artifact, not a benchmark. Explicitly-illustrative example copy (send-time A/B examples, "200-400 words" length guide, cadence heuristics) left intact.
+
+**Verify.** `cp`-synced the two copies → `diff` identical. `bash scripts/lint-agents.sh` on both → **2/2 pass**. Grepped all 17 removed strings (25-35%, 4-8%, 0.1-0.3%, 0.5%, 1-3%, 15-25%, 8-12%, 5-10%, 20-30%, 10-15%, 3-5x, 2-3x, 2-5%, 1-2%, 15-30%, 25-30%, 35-45%) across both copies → **0 hits**. Re-ran broken-link scan → still 0. Counts unchanged (73/19), so no discoverability surface touched.
+
+**Deferred.** `content-whitepaper-architect` and `content-blog-strategist` still carry lighter fabricated-benchmark traces — next in the sweep, one per run. All P1 items remain blocked as above.
+
+---
+
 ### 2026-08-26 — Correctness: nine invented benchmarks retired from `content-case-study-producer` — the anti-fabrication sweep's third content agent (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
