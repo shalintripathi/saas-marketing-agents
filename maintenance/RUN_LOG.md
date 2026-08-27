@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-27 — Maintenance: content-agent anti-fabrication sweep completed at the Blog Strategist (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — clean, no P0.** `marketplace.json` and the one `plugin.json` parse with required fields intact; all 19 skills carry a `SKILL.md` with `name`+`description`; **zero broken internal `.md` links** (209 Markdown files scanned); counts consistent at **73 agents / 19 skills** across README (badge + tagline + nav), `AGENTS_INDEX.md` (73 rows, "Last generated 2026-08-26"), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run — 73/19); the two freshness-tracked docs are current (`guides/aeo-geo-playbook.md` `Last reviewed: 2026-08-23`, `integrations/README.md` `2026-07-23`) — both well inside the 90-day window. No P0 present, so pulled the top unblocked backlog item.
+
+**Shipped:** the **final** agent in the content-agent anti-fabrication sweep — [`content/content-blog-strategist.md`](../content/content-blog-strategist.md), dual-located to [`plugins/saas-marketing/skills/content-marketing/agents/`](../plugins/saas-marketing/skills/content-marketing/agents/content-blog-strategist.md). The Success Metrics section asserted eight unsourced round-number benchmarks as fact — organic traffic *+30% YoY*, blog MQL share *20%+* (*"benchmark … is 15-25%"*), per-pillar *50+ leads in 6 mo* / *top 10 in 90 days*, cluster *15+ MQLs/mo at $50-100 CAC*, elasticity *2x* conversion, time-to-conversion *30 days* / *5-10 days faster than paid*, pipeline *15-20% of ACV-weighted*, payback *ROI in 6-9 mo / break-even month 4-5*. This is the seventh and last content persona (after copywriter, video-script-writer, case-study-producer, newsletter-curator, whitepaper-architect), closing the sweep.
+
+**What changed.** All eight bullets rewritten to the sweep's established definition / coverage / baseline-from-your-own-history pattern with **no fixed figure asserted**: traffic, MQL share and organic CAC read against the blog's own prior periods and channel mix and reported with the count behind them; the *content-elasticity* (2x) and *faster-than-paid* (5-10 days) claims now demand a **within-your-own-data control** (comparable intent and stage), not an asserted multiple/day-count; per-pillar yield and ranking timelines framed against your own past pillars, since ranking depends on domain authority and competition no persona controls. Ownership seams drawn to three existing, verified agents — attribution-model definition + pipeline measurement to `analytics-performance-analyst`, deal-stage velocity to `sales-pipeline-analyst`, post-publication decay/consolidation to `seo-content-optimizer`. Left intact per the pattern: the `Publish / Hold / Cut` value-not-volume gate (a process check, target 100%) and the architectural pillar-cluster sizing in the Rules, which the file already frames as a *ceiling, not a quota*.
+
+**Verified:** both copies **diff-identical**; the nine old fabricated strings **grep to zero** across both; `bash scripts/lint-agents.sh` **2/2 pass** (2116 words each). No count change (73/19), so no discoverability count edits were needed — re-confirmed the live About still reads 73/19.
+
+**Deferred:** the content sweep is now **complete** — every content persona's scorecard is de-fabricated. The parallel **social**-discipline sweep is the live one-per-run track (`social-influencer-partnerships`'s remaining Success Metrics + fee bands, then `social-linkedin-strategist`, `social-twitter-strategist`, `social-youtube-producer`). All P1 items remain blocked (awesome-list submissions on star thresholds; native-subagent conversion scoped in #1; the legal-compliance proposal needs human validation; the Anthropic-marketplace form is interactive).
+
+---
+
 ### 2026-08-27 — Maintenance: anti-fabrication sweep reaches the Whitepaper Architect's scorecard (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
