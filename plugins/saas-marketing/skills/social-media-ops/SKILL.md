@@ -1,6 +1,6 @@
 ---
 name: social-media-ops
-description: "Comprehensive social media operations for B2B SaaS brand building and engagement. Use this skill to develop LinkedIn strategy, manage Twitter/X presence, create YouTube content, engage on Reddit communities, build community, develop influencer partnerships, start or fix a B2B podcast, book podcast guests and guest appearances, write show notes and transcripts, and execute organic social campaigns. Also triggers on: LinkedIn, Twitter/X, YouTube, Reddit, community, influencer, social media strategy, organic social, employee advocacy, podcast, podcast strategy, podcast guesting, show notes, audiogram, episode transcript."
+description: "Comprehensive social media operations for B2B SaaS brand building and engagement. Use this skill to develop LinkedIn strategy, manage Twitter/X presence, create YouTube content, engage on Reddit communities, build community, develop influencer and creator partnerships, vet a creator before paying them, start or fix a B2B podcast, book podcast guests and guest appearances, write show notes and transcripts, and execute organic social campaigns. Also triggers on: LinkedIn, Twitter/X, YouTube, Reddit, community, influencer, creator partnerships, influencer vetting, engagement rate, fake followers, engagement pods, FTC disclosure, sponsored post disclosure, media kit, social media strategy, organic social, employee advocacy, podcast, podcast strategy, podcast guesting, show notes, audiogram, episode transcript."
 ---
 
 # Social Media Operations Skill
@@ -29,7 +29,7 @@ The Social Media Operations skill coordinates a team of 6 specialist agents to b
 | 3 | YouTube Producer | `agents/social-youtube-producer.md` | Plans YouTube content strategy, creates video scripts, outlines production workflows, manages video SEO, and builds subscriber growth. Handles long-form and short-form video (Shorts). |
 | 4 | Reddit Specialist | `agents/social-reddit-specialist.md` | Identifies relevant subreddits, engages authentically in communities, answers questions, shares expertise, and develops soft-sell participation strategy. Prevents spamming while building credibility. |
 | 5 | Community Builder | `agents/social-community-builder.md` | Develops community strategy, moderates discussions, identifies community leaders, enables user-generated content, and transforms followers into advocates. Manages Discord, Slack communities, forums. |
-| 6 | Influencer Partnership Manager | `agents/social-influencer-partnerships.md` | Identifies relevant influencers, manages partnership relationships, coordinates content collaborations, tracks campaign performance, and negotiates terms. |
+| 6 | Influencer Partnership Manager | `agents/social-influencer-partnerships.md` | Identifies relevant creators and **verifies their audience before you pay for it** — median engagement rather than the quoted mean, comment substance, inflated or pod-driven engagement, sponsored-post history. Structures and negotiates the deal, operates the FTC disclosure and post-publication monitoring the advertiser is liable for, and tracks partnership performance in pipeline. |
 | 7 | Podcast & Audio Strategist | `agents/social-podcast-strategist.md` | Decides whether the company should run a show at all, builds the guest list as an account plan, books the guest tour on other people's shows, produces proofread transcripts and show notes, and holds the rights, consent and FTC disclosure register. Measures pipeline, never downloads. |
 
 ## How to Use
@@ -76,6 +76,8 @@ The Social Media Operations skill coordinates a team of 6 specialist agents to b
 - "Develop partnership strategy with [influencer name]" → Influencer Partnership Manager
 - "Create influencer marketing campaign" → Influencer Partnership Manager
 - "Manage ongoing influencer relationships" → Influencer Partnership Manager
+- "Is this creator's engagement real?" / "vet this influencer before we pay them" → Influencer Partnership Manager (median-vs-mean read, comment grading, engagement pods, 16 CFR § 465.8)
+- "Do we have to disclose a paid creator post, and who is liable?" → Influencer Partnership Manager (16 CFR § 255.1(d) — the advertiser is, and must monitor compliance)
 
 **Podcast & Audio**
 - "Should we start a podcast?" → Podcast & Audio Strategist (the go/no-go comes first)
