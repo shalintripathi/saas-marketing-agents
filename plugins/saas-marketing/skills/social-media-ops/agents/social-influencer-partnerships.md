@@ -81,15 +81,15 @@ Nobody audits a creator. A follower count is a platform's count of *accounts*, n
 - Creator support system: providing product access/trial, technical support during content creation, usage data they might want to feature, and customer contact info if doing customer features
 
 **Partnership Types & Deal Structures** (10+ pages)
-- **Affiliate Partnerships**: Commission-based (typically 10-20% of MRR for closed deals, 5% for MQLs). Best for creators with sales-driving audiences who want upside. Clear tracking, transparent reporting, monthly payouts. Creator incentive: unlimited earning potential.
+- **Affiliate Partnerships**: Commission-based — the creator earns a share of revenue, or a bounty per qualified lead, on what they refer. Set the rate against your own unit economics (what a referred customer is worth and your target payback), not a market percentage; there is no universal commission. Best for creators with sales-driving audiences who want upside. Clear tracking, transparent reporting, an agreed payout cadence. Creator incentive: earnings scale with the results they drive.
 
-- **Sponsored Content**: Fixed fee ($500-$5,000+ depending on creator size) for specific content deliverable. Best for building awareness through thoughtful reviews or case studies. Clear ROI harder to measure but predictable budget. Creator incentive: guaranteed income, no sales risk.
+- **Sponsored Content**: Fixed fee for a specific content deliverable. Price it against the creator's *verified sponsored*-post reach and engagement — the median of the post type you are actually buying — and your budget, not a follower-count tier; a creator's real rate is what their evidenced audience supports. Best for building awareness through thoughtful reviews or case studies. Clear ROI harder to measure but predictable budget. Creator incentive: guaranteed income, no sales risk.
 
-- **Brand Ambassador**: Recurring retainer ($1,000-$10,000+ monthly) for ongoing mentions, quarterly content, and spokesperson role. Best for creators genuinely using/loving your product. Creates consistency and brand association. Creator incentive: stable income, deeper relationship.
+- **Brand Ambassador**: Recurring retainer for ongoing mentions, regular content, and a spokesperson role. Size the retainer to the deliverable cadence and the creator's verified rate rather than a fixed monthly band. Best for creators genuinely using/loving your product. Creates consistency and brand association. Creator incentive: stable income, deeper relationship.
 
 - **Product Seeding + Affiliate**: Free product + commission on referred sales. Best for creators who will naturally integrate your product into content. Lowest cost entry. Creator incentive: risk-free product trial, commission opportunity.
 
-- **Exclusive Partnership**: High retainer ($10,000-$50,000+ monthly) for creator to not mention competitors, priority content collaboration, and category position. Best for category leaders you want sole voice. Significant budget investment. Creator incentive: premium income, exclusive positioning.
+- **Exclusive Partnership**: A premium retainer for the creator not to mention competitors, plus priority content collaboration and category position. Exclusivity carries a real opportunity cost for the creator, so the premium is negotiated against the sponsorships they are foregoing, not a headline figure. Best for category leaders you want as a sole voice. Significant budget investment. Creator incentive: premium income, exclusive positioning.
 
 - **Revenue Share**: Creator receives X% of attributed revenue/MRR from referred customers. Best for creators comfortable with variable income, long-term focus. Aligns incentives fully. Creator incentive: unlimited potential, partnership feeling.
 
@@ -115,7 +115,7 @@ Nobody audits a creator. A follower count is a platform's count of *accounts*, n
   - Pipeline: SQL count, pipeline value attributed, win rate of attributed deals, average deal size
   - Content: view count, engagement rate, click-through rate to product/landing page
   - Cost: partnership fee, cost per lead, cost per SQL, cost per dollar of pipeline
-  - ROI: pipeline value / partnership cost (target: 5:1 minimum, 10:1 excellent)
+  - ROI: pipeline value / partnership cost, read against this account's own channel history rather than a fixed ratio — the signal is whether a creator's return is trending up and how it compares to your other channels, not whether it clears an asserted multiple
 
 - Competitive creator performance analysis: comparing ROI across creators, content types, and platforms to inform future investment decisions
 - Monthly partnership review dashboard: showing all active partnerships, their status, performance, upcoming milestones, and action items
@@ -136,18 +136,20 @@ Nobody audits a creator. A follower count is a platform's count of *accounts*, n
 
 ## Success Metrics
 
-- **Creator Identification Velocity**: Within 6 months, develop database of 50-100 qualified creators across platforms, with monthly addition rate of 15-20 new creators evaluated
-- **Partnership Success Rate**: 60%+ of outreach attempts converting to partnership agreements; high-quality outreach increasing response rate to 40-60%
-- **Average Partnership ROI**: Target 5:1 minimum ROI (pipeline value / partnership cost), with top quartile partnerships achieving 10:1+ ROI; avoid partnerships below 3:1
-- **Cost Per Lead**: Creator-sourced leads costing 30-50% less per lead than paid advertising, with 20-40% higher conversion rates (quality advantage)
-- **Pipeline Contribution**: Creator partnerships sourcing 10-20% of monthly organic pipeline by month 12, establishing creators as reliable pipeline source
-- **Creator Retention**: 60-80% of high-performing creators re-engaging in subsequent partnerships, indicating sustainable relationship model
-- **Content Performance**: Creator-produced content achieving 2-3x engagement rate of company-produced content, indicating audience trust and authentic voice
-- **Brand Awareness Metrics**: Creator content reaching 100K-500K total impressions monthly by month 6-12 (varies with partnership scope), expanding brand awareness among target buyers
-- **Creator Community Health**: Active creator community with 30-50% participation in monthly activities, indicating loyalty and investment in mutual success
-- **Affiliate Revenue Growth**: If using affiliate models, affiliate partnerships contributing 5-15% of total new MRR by month 12
-- **Marketing Efficiency**: Creator partnerships generating 15-25% lower CAC than paid acquisition channels while maintaining similar lead quality
-- **Time to Revenue**: Creator partnerships showing 20-30% shorter sales cycle than cold outreach, indicating warm inbound traffic quality
+> Read each metric against **this program's own history and your own channel mix**, not a published benchmark. Response rates, ROI multiples, cost-per-lead, retention, engagement lift, impressions, and pipeline share vary too much by category, creator, ACV, and audience for a universal figure to be honest — so state no fixed target, report every rate with the count behind it, and flag a small-sample rate as directional. Any claim that a creator partnership *caused* a downstream outcome (cheaper leads, a shorter cycle, more pipeline) needs a like-for-like control, not a correlation.
+
+- **Creator Identification Velocity**: the database grows at a steady, sustainable evaluation cadence set against **your own review capacity** rather than a fixed monthly quota — depth of vetting per creator matters more than a raw count, and a database padded with un-vetted names is a miss, not progress.
+- **Partnership Success Rate**: the share of qualified outreach that becomes a partnership, tracked **against your own prior outreach** and read with the number of attempts behind it — a high rate on a handful of attempts is noise. The lever is outreach quality (specificity, fit, a real value proposition); the rate diagnoses that, it is not a target to hit.
+- **Average Partnership ROI**: pipeline (or revenue) attributed per dollar of partnership cost, read **against your own other channels and this program's own history** rather than a fixed multiple, and reported with the attribution model used — the model changes the number. Attribution-model definition and pipeline measurement are owned by `analytics-performance-analyst`.
+- **Cost Per Lead**: the cost of a creator-sourced lead and its downstream conversion, compared **within your own data** against your other channels — a genuine cost or quality advantage is a claim your funnel has to demonstrate on comparable-intent leads, not an assumed discount. Any "cheaper than paid" statement needs a like-for-like control.
+- **Pipeline Contribution**: creator-sourced pipeline as a share of the total, tracked **against your own channel mix over time** and printed with the pipeline figure behind it — the signal is whether the contribution is growing relative to your other sources, not a benchmark share. Pipeline measurement is owned by `sales-pipeline-analyst`.
+- **Creator Retention**: the share of high-performing creators who re-engage, read **against your own history** — a rising re-engagement rate signals a sustainable model; state it with the count and treat a small roster's rate as directional.
+- **Content Performance**: whether creator-produced content out-engages your company-produced content — a **within-your-own-data comparison** stated as a hypothesis your channels can test, not an asserted multiple. A raw engagement gap that ignores audience and format differences is a correlation, not proof the creator's voice did the work.
+- **Brand Awareness Metrics**: creator-content reach and its trend, read **against your own baseline** rather than an absolute impression target — reach varies with partnership scope and platform, and a raw number says nothing about whether it reached your buyers. Pair reach with an audience-overlap read from the vetting record.
+- **Creator Community Health**: participation in creator-community activities, tracked **against your own program's history** — the signal is engaged, returning participation, not a fixed rate; report it with the roster size behind it.
+- **Affiliate Revenue Growth**: if using affiliate models, the affiliate channel's contribution to new revenue, tracked **against your own history** and reported with the revenue figure — a growing contribution is the signal, not a benchmark share.
+- **Marketing Efficiency**: creator-channel CAC compared **within your own data** against your paid channels at matched lead quality — a lower CAC is a result to demonstrate on comparable leads, not an assumed advantage. CAC definition is owned by `analytics-performance-analyst`.
+- **Time to Revenue**: the time from creator touch to revenue, read **as a distribution against your own history** — any "shorter cycle than cold outreach" claim needs a like-for-like control (comparable stage and intent), not a headline day-saving.
 - **Vetting Coverage**: share of active partnerships holding a dated vetting record — the median and the posts it came from, the comment read, the sponsored-post history, the disclosure plan — targeted at 100%, since "knew or should have known" is answered with a file rather than a recollection
 - **Disclosure Completeness**: share of published partner content carrying a clear disclosure in the surface a reader actually sees, verified on the live post after publication rather than assumed from the agreement, targeted at 100% with any miss treated as a correction to obtain rather than a number to average away
 - **Pricing Basis Honesty**: share of fee negotiations priced against the creator's *sponsored*-post median where one exists, rather than against the organic median a disclosed ad will not reach

@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-27 — Maintenance: anti-fabrication sweep reaches social — Influencer Partnerships de-fabricated (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — clean, no P0.** `marketplace.json` and the one `plugin.json` parse with required fields intact; all 19 skills carry a `SKILL.md` with `name`+`description`; **zero broken internal `.md` links** (repo-wide scan); counts consistent at **73 agents / 19 skills** across README (badge + tagline + nav), `AGENTS_INDEX.md` (73 rows, "Last generated 2026-08-26"), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run — 73/19); the two freshness-tracked docs are current (`guides/aeo-geo-playbook.md` `Last reviewed: 2026-08-23`, `integrations/README.md` `2026-07-23`) — both well inside the 90-day window. No P0 present, so pulled the top unblocked backlog item.
+
+**Shipped:** the first agent of the **social**-discipline anti-fabrication sweep — [`social/social-influencer-partnerships.md`](../social/social-influencer-partnerships.md), dual-located to [`plugins/saas-marketing/skills/social-media-ops/agents/`](../plugins/saas-marketing/skills/social-media-ops/agents/social-influencer-partnerships.md). A 2026-08-27 scout ENHANCE had removed three fabricated benchmarks from its Rules/Identity but left the rest under the one-change rule; this run finishes the agent. Retired from the **Success Metrics** scorecard: outreach conversion *60%+* / response *40-60%*, ROI *5:1 / 10:1 / 3:1*, creator-lead cost *30-50%* cheaper with *20-40%* higher conversion, pipeline *10-20%*, retention *60-80%*, engagement *2-3x* vs company content, awareness *100K-500K* impressions/mo, community *30-50%* participation, affiliate *5-15%* of new MRR, CAC *15-25%* lower, cycle *20-30%* shorter, plus the *50-100 / 15-20* database-velocity quota. Also retired the **Partnership Types** fee bands asserted as market fact (*10-20%/5%* commissions, *$500-$5,000*, *$1,000-$10,000*, *$10,000-$50,000*) and the *5:1 / 10:1* ROI target inside the analytics-dashboard deliverable.
+
+**What changed.** Success Metrics gained the sweep's lead-in — read every metric against *this program's own history and channel mix*, print each rate with its count, flag small-sample rates as directional, and require a **like-for-like control** for any causal claim (cheaper leads, shorter cycle, engagement lift). Each bullet rewritten to that pattern with **no fixed figure asserted**. Ownership seams drawn to existing verified agents: attribution-model definition + CAC to `analytics-performance-analyst`, pipeline measurement to `sales-pipeline-analyst`. The four fee bands became a *price-against-the-creator's-verified-sponsored-rate-and-your-own-unit-economics* discipline — consistent with the agent's existing **Pricing Basis Honesty** metric and its audience-verification section. Left intact per the pattern: the three honest process metrics (Vetting Coverage, Disclosure Completeness, Pricing Basis Honesty, each target 100%), the illustrative *10K-vs-100K* fairness contrast in Rule 8, and the deal-structure descriptions themselves.
+
+**Verified:** both copies **diff-identical**; every retired fabricated string **greps to zero** across the file; a numeric-token scan leaves only the illustrative Rule-8 example and the two 100% process targets; `bash scripts/lint-agents.sh` **2/2 pass** (4801 words each). No count change (73/19), so no discoverability count edits were needed — re-confirmed the live About still reads 73/19.
+
+**Deferred:** the social sweep continues one-per-run at the neighbouring agents flagged in [`backlog.md`](backlog.md) — `social-linkedin-strategist` (*2-4% / 4-8%* engagement, *8-10 competitors*), `social-twitter-strategist` (*2-5% / 4-8% / 15-30%*), `social-youtube-producer` (*2-5% / 1%* floor). All P1 items remain blocked (awesome-list submissions on star thresholds; native-subagent conversion scoped in #1; the legal-compliance proposal needs human validation; the Anthropic-marketplace form is interactive).
+
+---
+
 ### 2026-08-27 — Maintenance: content-agent anti-fabrication sweep completed at the Blog Strategist (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
