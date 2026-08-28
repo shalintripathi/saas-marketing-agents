@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-28 — Maintenance: Discovery Coach gains a per-call coaching instrument (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — clean, no P0.** `.claude-plugin/marketplace.json` and the one `plugins/*/plugin.json` parse with required fields intact; all **19** skills carry a `SKILL.md` with `name`+`description`; **zero broken internal links** (repo-wide `.md`/`llms.txt` scan). Agent count reconciled: the 17 discipline dirs hold exactly **74** agent files (7+7+7+7+5+5+7+7+1+2+6+2+1+1+1+4+4), matching README (badge + tagline + nav), `AGENTS_INDEX.md` ("Last generated 2026-08-28"), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run — 74/19). Freshness-tracked docs current: `guides/aeo-geo-playbook.md` `Last reviewed: 2026-08-23` (5 days), `integrations/README.md` `2026-07-23` (~36 days) — both inside 90 days. No stale count anywhere (grepped agent/skill/discipline numbers; non-74/19 hits were historical CHANGELOG entries, external awesome-list sizes in `backlog.md`/`scout-ledger.md`, and per-section subtotals that sum to 74). No P0, so pulled the top unblocked backlog item.
+
+**Shipped:** the `sales-discovery-coach` enhancement lead (backlog, surfaced 2026-08-28) — [`sales/sales-discovery-coach.md`](../sales/sales-discovery-coach.md), dual-located to [`plugins/saas-marketing/skills/sales-enablement/agents/`](../plugins/saas-marketing/skills/sales-enablement/agents/sales-discovery-coach.md). The agent named a "Discovery Coaching and Training Program" and a `Discovery Call Review Process` whose only instruction was *"Manager reviews: Quality of discovery"* — a control with no instrument. Its existing **Qualification Scorecard** grades the *opportunity*; nothing graded the *rep's execution on a single call*.
+
+**What changed.** Added a **Single-Call Discovery Scorecard** under the coaching program: select the framework the call should have run on (via the existing Discovery Methodology Taxonomy — that idea was already present, so it was reused, not duplicated); grade each element **Covered / Partial / Missing** with an attributed verbatim quote (`Rep:` / `Buyer:`), no quote → not Covered; **coach the rep, judge the call** (buyer words are evidence, not the grade); **lower confidence rather than invent** on partial/ambiguous recordings; **return one focus for the next call, not a teardown**. Added **Critical Rule 9 "Coach the Rep, Not the Buyer"** stating the governing principle, and pointed the `Discovery Call Review Process` at the new scorecard. Method surfaced via open-source [matteotitta/genesys-skills](https://github.com/matteotitta/genesys-skills) `sales-enablement/call-coaching` (MIT) — described in our own words, ideas only; the evidence-verdict discipline is the repo's own four-state practice applied to a transcript.
+
+**Verified:** both copies **diff-identical**; `bash scripts/lint-agents.sh` **2/2 pass** (4098 words each); no broken links in the changed file; **no count/name/capability change** (74/19), so no discoverability count edits were owed — re-confirmed live About reads 74/19. Grep-checked the backlog's grep claim before acting: `call coaching` = 0 in `sales/`, but `role play`/`certification` were non-zero — all in unrelated agents (product security certs; role-play only in this file's own Core Mission + deliverable), which confirmed the instrument-absent diagnosis rather than contradicting it.
+
+**Deferred:** the remaining `sales-enablement` SCOPE QUESTION (a sales-enablement *program* persona — backlog, rejected pending two permissively-licensed arrivals) stays a maintainer call. All P1 items remain blocked (awesome-list submissions on star/usage thresholds; native-subagent conversion scoped in #1; the `ops-legal-compliance` proposal needs human legal validation; the Anthropic-marketplace form is interactive). Other open enhancement leads (`email-automation-engineer` seed-send matrix; `pmm-competitive-intelligence` martech teardown; `social-linkedin-strategist` Taplio collection; various `revops` reads) left for future themed runs under the one-change rule.
+
+---
+
 ### 2026-08-28 — Maintenance: social anti-fabrication sweep CLOSED — YouTube Producer de-fabricated + a wrong platform fact corrected (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
