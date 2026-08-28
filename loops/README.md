@@ -8,7 +8,7 @@ Each loop template below specifies:
 
 - **Cadence** — how often it runs
 - **Trigger** — what kicks it off (a calendar, a threshold, a manual command)
-- **Agents** — which of the [73 agents](../AGENTS_INDEX.md) participate, in order
+- **Agents** — which of the [74 agents](../AGENTS_INDEX.md) participate, in order
 - **Inputs / Outputs** — what goes in, what comes out
 - **Handoffs** — how each agent's output becomes the next agent's input
 - **How to run it** — manually in Claude Code, or on a schedule

@@ -1,6 +1,6 @@
 ---
 name: sales-enablement
-description: "Sales enablement and deal acceleration for B2B SaaS revenue teams. Use this skill when planning outbound campaigns, running discovery calls, building deal strategy, creating battle cards, writing proposals, responding to RFPs, executing sales sequences, or coaching qualification. Also triggers on: outbound, cold outreach, deal strategy, pipeline, battle card, proposal, RFP, discovery call, MEDDPICC, sales sequence, qualification."
+description: "Sales enablement, technical presales and deal acceleration for B2B SaaS revenue teams. Use this skill when planning outbound campaigns, running discovery calls, building deal strategy, creating battle cards, writing proposals, responding to RFPs, preparing a product demo, scoping a proof of concept or pilot, answering a security questionnaire, executing sales sequences, or coaching qualification. Also triggers on: outbound, cold outreach, deal strategy, pipeline, battle card, proposal, RFP, discovery call, MEDDPICC, sales sequence, qualification, sales engineer, solutions engineer, presales, demo plan, demo script, POC, proof of concept, pilot success criteria, technical evaluation, technical win, security questionnaire, vendor security review, SOC 2 questionnaire, technical objection."
 ---
 
 # Sales Enablement
@@ -18,9 +18,9 @@ description: "Sales enablement and deal acceleration for B2B SaaS revenue teams.
 
 ## What This Is
 
-Sales Enablement brings together sales strategists, discovery coaches, outbound specialists, pipeline analysts, proposal architects, and enablement content creators to accelerate deal velocity and maximize win rates. This skill orchestrates your revenue team to execute high-impact outbound campaigns, run disciplined discovery conversations, build data-driven deal strategies, and create compelling proposals that win competitive deals. Whether you're prospecting net-new accounts, accelerating stalled deals, building sales battle cards, or executing sales sequences, Sales Enablement routes your request to the right specialist and ensures consistent pipeline progression.
+Sales Enablement brings together sales strategists, discovery coaches, outbound specialists, pipeline analysts, proposal architects, solutions engineers, and enablement content creators to accelerate deal velocity and maximize win rates. This skill orchestrates your revenue team to execute high-impact outbound campaigns, run disciplined discovery conversations, build data-driven deal strategies, and create compelling proposals that win competitive deals. Whether you're prospecting net-new accounts, accelerating stalled deals, gating a demo, running a proof of concept, answering a vendor security review, building sales battle cards, or executing sales sequences, Sales Enablement routes your request to the right specialist and ensures consistent pipeline progression.
 
-## The Team: 6 Specialist Agents
+## The Team: 7 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -30,6 +30,7 @@ Sales Enablement brings together sales strategists, discovery coaches, outbound 
 | 4 | Pipeline Analyst | `agents/sales-pipeline-analyst.md` | Analyzes pipeline health, forecasts revenue with weighted probabilities, prioritizes deals by risk/opportunity, and identifies stalled opportunities requiring intervention |
 | 5 | Proposal Architect | `agents/sales-proposal-architect.md` | Designs customer-centric proposals that map solution to buyer requirements, quantify ROI, reduce decision friction, and beat competitive alternatives |
 | 6 | Sales Enablement Content Creator | `agents/sales-enablement-content-creator.md` | Develops sales battle cards, competitive intel documents, customer success stories, objection handlers, and pitch scripts that arm sales teams with proof and confidence |
+| 7 | Solutions Engineer | `agents/sales-solutions-engineer.md` | Wins the technical evaluation: gates and designs discovery-led demos, runs proofs of concept and pilots against signed success criteria, answers security and compliance questionnaires from an evidence library, handles technical objections, and records the technical win |
 
 ## How to Use
 
@@ -64,6 +65,13 @@ Sales Enablement brings together sales strategists, discovery coaches, outbound 
 - "Create an ROI calculation model that quantifies customer value and ROI"
 - "Build a competitive positioning statement to differentiate against key competitors in proposals"
 - "Design a proposal structure (problem → solution → ROI → implementation → next steps)"
+
+**Technical Evaluation, Demos & Proofs of Concept** → Solutions Engineer
+- "Plan a demo for a VP Engineering and a security lead — what do we show and in what order?"
+- "Scope a proof of concept with success criteria the buyer's evaluator will sign"
+- "Answer this vendor security questionnaire from what we can actually evidence"
+- "The buyer says we can't meet their data-residency requirement — how do we answer honestly?"
+- "Why do we keep winning the POC and losing the deal?"
 
 **Sales Enablement Content** → Sales Enablement Content Creator
 - "Build battle cards for our top 3 competitive threats (strengths/weaknesses, win strategies)"

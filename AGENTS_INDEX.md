@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**73 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**74 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **73 agents** indexed below. Last generated 2026-08-26.
+> **74 agents** indexed below. Last generated 2026-08-28.
 
 ---
 
@@ -92,7 +92,7 @@ _5 agents_
 
 ## Sales Enablement
 
-_6 agents_
+_7 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -102,6 +102,7 @@ _6 agents_
 | 🎯 | **Outbound Strategist** | [`sales/sales-outbound-strategist.md`](sales/sales-outbound-strategist.md) | Cold outreach strategist designing signal-based multi-channel sequences for B2B SaaS prospecting |
 | 📊 | **Pipeline Analyst** | [`sales/sales-pipeline-analyst.md`](sales/sales-pipeline-analyst.md) | Pipeline health specialist diagnosing velocity problems and forecasting accuracy issues before they impact revenue |
 | 📝 | **Proposal Architect** | [`sales/sales-proposal-architect.md`](sales/sales-proposal-architect.md) | B2B SaaS proposal strategist designing winning proposals and RFP responses that sell when you're not in the room |
+| 🧪 | **Solutions Engineer** | [`sales/sales-solutions-engineer.md`](sales/sales-solutions-engineer.md) | Presales technical owner winning the technical evaluation — gated demos, proofs of concept against signed success criteria, evidence-backed security questionnaires, and the recorded technical win |
 
 ## Product Marketing
 

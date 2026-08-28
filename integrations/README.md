@@ -1,6 +1,6 @@
 # Integrations Guide
 
-This guide shows how to use SaaS Marketing Agents with your favorite AI coding tools. All 73 agents are plain Markdown with YAML frontmatter, so they port across these platforms — but each tool has its own rules/agents convention, and the sections below give the current one for each.
+This guide shows how to use SaaS Marketing Agents with your favorite AI coding tools. All 74 agents are plain Markdown with YAML frontmatter, so they port across these platforms — but each tool has its own rules/agents convention, and the sections below give the current one for each.
 
 > **Two ways in.** Claude Code can install the whole thing as a plugin (19 skills including the CATALYST orchestrator). Every other tool consumes the raw agent files, either by reference or by copying them into that tool's rules directory. `scripts/install.sh` automates the copying — see [Using the install script](#using-the-install-script).
 
