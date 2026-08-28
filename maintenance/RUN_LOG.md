@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-28 — Maintenance: social anti-fabrication sweep — Twitter/X Strategist de-fabricated (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — clean, no P0.** `marketplace.json` and the one `plugin.json` parse with required fields intact; all 19 skills carry a `SKILL.md` with `name`+`description`; **zero broken internal `.md` links** (repo-wide scan of 213 files); agent count reconciled — `find` over the category dirs returns 84 `.md`, of which **74 carry `name:` frontmatter** (the 10 non-agent files are `strategy/` playbooks/briefs), matching the public **74 agents / 19 skills** across README (badge + tagline + nav), `AGENTS_INDEX.md` ("Last generated 2026-08-28"), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run — 74/19). The two freshness-tracked docs are current (`guides/aeo-geo-playbook.md` `Last reviewed: 2026-08-23`, `integrations/README.md` `2026-07-23`) — both inside the 90-day window. No P0 present, so pulled the top unblocked backlog item.
+
+**Shipped:** the **third** agent of the social-discipline anti-fabrication sweep — [`social/social-twitter-strategist.md`](../social/social-twitter-strategist.md), dual-located to [`plugins/saas-marketing/skills/social-media-ops/agents/`](../plugins/saas-marketing/skills/social-media-ops/agents/social-twitter-strategist.md). Its **Success Metrics** scorecard asserted unsourced round numbers as fact: follower growth *3-8% monthly / 50-150% YoY / >10%/month*, engagement *2-5%* with top content *8-15%+*, tweet consistency *20-30% generate 3x+*, thread *4-8%* with hooks *15-30%* of thread impressions, real-time *60% of opportunities → 2x+*, CTR *0.5-1.5%*, community *20-50+ engaged followers*, pipeline *5-15% of organic SQLs*, and visibility *15-30% quote-tweet share* within *6-12 months*.
+
+**What changed.** Success Metrics gained the sweep's lead-in — read every metric against *this account's own history and your own funnel*, print each rate with its count, flag small-sample rates as directional, and require a **control** for any causal claim (with the platform's opaque, non-uniform algorithm named as the reason, tying back to Rule 9). Each bullet rewritten to that pattern with **no fixed figure asserted**; the Inbound-Pipeline bullet in particular now flags *"sourced from X"* as an attribution question (first-touch vs. self-report distinguished) and demands a like-for-like comparison for any *"converts better"* claim. Ownership seam drawn to the existing verified `analytics-marketing-ops-architect` (attribution-model + lead scoring). Also retired a false-precision *8-10* deliverable competitor count and a *2-4x daily for optimal reach* efficacy claim (kept as a hedged, calibrate-to-your-audience cadence). Left intact per the pattern: the two already-correct fidelity checks (Test Discipline, Crisis Response Discipline), Rule 3's existing 60-minute responsiveness window, and every effort/cadence commitment (reply volume, test count, planning lead time).
+
+**Verified:** both copies **diff-identical**; every retired fabricated string **greps to zero** across both files; `bash scripts/lint-agents.sh` **2/2 pass** (3497 words each). No count/name/capability change (74/19), so no discoverability count edits were owed — re-confirmed the live About still reads 74/19.
+
+**Deferred:** the social sweep now has **one** flagged agent left in [`backlog.md`](backlog.md) — `social-youtube-producer` (*2-5% / 1%* floor) — to take on a future social run. All P1 items remain blocked (awesome-list submissions on star thresholds; native-subagent conversion scoped in #1; the legal-compliance proposal needs human validation; the Anthropic-marketplace form is interactive).
+
+---
+
 ### 2026-08-28 — Maintenance: social anti-fabrication sweep — LinkedIn Organic Strategist de-fabricated (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
