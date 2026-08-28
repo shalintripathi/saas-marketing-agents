@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-28 — Maintenance: social anti-fabrication sweep — LinkedIn Organic Strategist de-fabricated (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
+
+**Health check — clean, no P0.** `marketplace.json` and the one `plugin.json` parse with required fields intact; all 19 skills carry a `SKILL.md` with `name`+`description`; **zero broken internal `.md` links** (repo-wide scan); counts consistent at **73 agents / 19 skills** across README (badge + tagline + nav), `AGENTS_INDEX.md` (73 rows, "Last generated 2026-08-26"), `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run — 73/19); the two freshness-tracked docs are current (`guides/aeo-geo-playbook.md` `Last reviewed: 2026-08-23`, `integrations/README.md` `2026-07-23`) — both well inside the 90-day window. No P0 present, so pulled the top unblocked backlog item.
+
+**Shipped:** the **second** agent of the social-discipline anti-fabrication sweep — [`social/social-linkedin-strategist.md`](../social/social-linkedin-strategist.md), dual-located to [`plugins/saas-marketing/skills/social-media-ops/agents/`](../plugins/saas-marketing/skills/social-media-ops/agents/social-linkedin-strategist.md). Its **Success Metrics** scorecard asserted unsourced round numbers as fact: follower growth *15-30% YoY* (with modelled *5K→7.5K* / *25K→40K+* targets), engagement *2-4%* called *top-quartile*, click-through *1.5-3%*, MQL conversion *2-5x* better than cold with *15-30%* of organic MQLs, advocacy reach *5-15x* generating *40-60%* of impressions, thought-leadership *4-8%* vs. product *1-2%*, a **causal** *20-35% shorter sales cycle / 15-25% higher win rates*, and executive *10K-50K* monthly impressions.
+
+**What changed.** Success Metrics gained the sweep's lead-in — read every metric against *this page's own history and your own funnel*, print each rate with its count, flag small-sample rates as directional, and require a **control** for any causal claim. Each bullet rewritten to that pattern with **no fixed figure asserted**; the Sales-Cycle-Impact bullet in particular now demands a matched-segment control and names **self-selection** (engaged prospects may already be warmer) as the trap. Ownership seams drawn to existing verified agents: attribution-model + lead scoring to `analytics-marketing-ops-architect`, pipeline velocity + win-rate to `sales-pipeline-analyst`. Also retired a fabricated *10-50x* amplification multiplier in the Core Mission and two false-precision competitor counts (*8-10 relevant competitors*, *5 key competitors*). Left intact per the pattern: the two already-correct metrics shipped 2026-08-07 (First-Hour Signal, Employee-Notification Restraint), the hedged posting-cadence guidance, and the cited Notify-Employees platform facts.
+
+**Verified:** both copies **diff-identical**; every retired fabricated string **greps to zero** across both files; `bash scripts/lint-agents.sh` **2/2 pass** (2376 words each). No count/name/capability change (73/19), so no discoverability count edits were owed — re-confirmed the live About still reads 73/19.
+
+**Deferred:** the social sweep continues one-per-run at the two remaining flagged agents in [`backlog.md`](backlog.md) — `social-twitter-strategist` (*2-5% / 4-8% / 15-30%*) and `social-youtube-producer` (*2-5% / 1%* floor). All P1 items remain blocked (awesome-list submissions on star thresholds; native-subagent conversion scoped in #1; the legal-compliance proposal needs human validation; the Anthropic-marketplace form is interactive).
+
+---
+
 ### 2026-08-27 — Maintenance: anti-fabrication sweep reaches social — Influencer Partnerships de-fabricated (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check first, then the top unblocked backlog item.
