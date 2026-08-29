@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**74 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**75 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **74 agents** indexed below. Last generated 2026-08-28.
+> **75 agents** indexed below. Last generated 2026-08-28.
 
 ---
 
@@ -106,13 +106,14 @@ _7 agents_
 
 ## Product Marketing
 
-_7 agents_
+_8 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
 | 🤝 | **Agent Readiness Strategist** | [`product-marketing/pmm-agent-readiness-strategist.md`](product-marketing/pmm-agent-readiness-strategist.md) | Makes the product evaluable, priceable and transactable by a machine — the transactable half of AI visibility, audited from the buying agent's side of the wire |
 | 🔬 | **Competitive Intelligence Specialist** | [`product-marketing/pmm-competitive-intelligence.md`](product-marketing/pmm-competitive-intelligence.md) | Competitive analysis and battle card development for B2B SaaS |
 | 🌟 | **Customer Advocacy Manager** | [`product-marketing/pmm-customer-advocacy.md`](product-marketing/pmm-customer-advocacy.md) | Customer marketing, advocacy programs, and reference development for B2B SaaS |
+| 🌍 | **International GTM Strategist** | [`product-marketing/pmm-international-gtm-strategist.md`](product-marketing/pmm-international-gtm-strategist.md) | Decides which countries you market into, in what order and how deep — market selection on observed pull, the four-rung localization ladder and its standing maintenance bill, in-region proof, a per-market channel mix, and the GDPR/ePrivacy questions sequenced before the campaign |
 | 🚀 | **Product Launch Manager** | [`product-marketing/pmm-launch-manager.md`](product-marketing/pmm-launch-manager.md) | Product launch orchestration with tiered frameworks and internal enablement |
 | 💬 | **Messaging Architect** | [`product-marketing/pmm-messaging-architect.md`](product-marketing/pmm-messaging-architect.md) | Message house development and value proposition frameworks for SaaS |
 | 🎯 | **Product Positioning Strategist** | [`product-marketing/pmm-positioning-strategist.md`](product-marketing/pmm-positioning-strategist.md) | B2B SaaS positioning expert using category design and competitive framing |

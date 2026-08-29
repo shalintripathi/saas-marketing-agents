@@ -1,13 +1,13 @@
 # SaaS Marketing Agents
 
-> An open-source (MIT) collection of 74 specialist B2B SaaS marketing AI agent personas, packaged as 19 installable Claude Code skills and coordinated by the CATALYST multi-agent orchestrator. It ships worked marketing workflows (ABM, product launch, demand generation, content engine) and a continuously updated AEO/GEO playbook for the AI-search era.
+> An open-source (MIT) collection of 75 specialist B2B SaaS marketing AI agent personas, packaged as 19 installable Claude Code skills and coordinated by the CATALYST multi-agent orchestrator. It ships worked marketing workflows (ABM, product launch, demand generation, content engine) and a continuously updated AEO/GEO playbook for the AI-search era.
 
 Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents`. The agents are plain Markdown, so they also work by copying them into any AI coding tool (Cursor, Claude Code, Copilot, Aider, Windsurf).
 
 ## Start here
 
 - [README](README.md): what the project is, quick start, and the full agent index
-- [Agent index](AGENTS_INDEX.md): all 74 agents with roles and when to use each
+- [Agent index](AGENTS_INDEX.md): all 75 agents with roles and when to use each
 - [Workflow guide](WORKFLOW_GUIDE.md): how to chain agents into campaigns
 - [Contributing](CONTRIBUTING.md): how to add or improve an agent
 - [Roadmap](ROADMAP.md): what is planned next
@@ -23,7 +23,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [Email Marketing Ops](plugins/saas-marketing/skills/email-marketing-ops/SKILL.md): lifecycle, deliverability, automation
 - [Design Ops](plugins/saas-marketing/skills/design-ops/SKILL.md): landing pages, brand identity, ad creative
 - [Sales Enablement](plugins/saas-marketing/skills/sales-enablement/SKILL.md): outbound, discovery coaching, deal strategy, battle cards, proposals and RFP responses, and technical presales — gating and designing product demos, scoping a proof of concept or pilot against signed success criteria, answering vendor security and compliance questionnaires from evidence, and recording the technical win
-- [Product Marketing Ops](plugins/saas-marketing/skills/product-marketing-ops/SKILL.md): positioning, launches, competitive intel, win/loss interview programs
+- [Product Marketing Ops](plugins/saas-marketing/skills/product-marketing-ops/SKILL.md): positioning, launches, competitive intel, win/loss interview programs, pricing and packaging, agent readiness, international market entry and localization (International GTM Strategist)
 - [Marketing Analytics](plugins/saas-marketing/skills/marketing-analytics/SKILL.md): CRO, A/B testing, experiment feasibility (sample size, test duration, what to do when the funnel can't power a test), dashboards, attribution, tracking plan / event taxonomy, GA4 + consent instrumentation audit, and the martech stack itself — tool selection and build-vs-buy, shadow-tool and overlap rationalization, and the switching cost of an ESP/MAP/CRM migration (suppression record, engagement history, measurement continuity)
 - [Marketing Project Mgmt](plugins/saas-marketing/skills/marketing-project-mgmt/SKILL.md): sprint planning, resource allocation, QBRs
 - [Client Operations](plugins/saas-marketing/skills/client-operations/SKILL.md): reporting, QA, compliance, budgets
@@ -33,7 +33,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [Partnerships Ops](plugins/saas-marketing/skills/partnerships-ops/SKILL.md): co-marketing, channel, cloud-marketplace GTM
 - [Events Ops](plugins/saas-marketing/skills/events-ops/SKILL.md): conferences, owned events, field marketing, webinars
 - [Developer Marketing Ops](plugins/saas-marketing/skills/developer-marketing-ops/SKILL.md): docs, quickstarts, SDKs, DevRel
-- [CATALYST Orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md): coordinates all 74 agents for large initiatives
+- [CATALYST Orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md): coordinates all 75 agents for large initiatives
 
 ## Playbooks & guides
 
