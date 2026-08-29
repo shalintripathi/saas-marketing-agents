@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-29 — Maintenance: **ENHANCE** — Financial Tracker gets a named renewal-negotiation method (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check — all green, no P0.** Both manifests parse with required fields (`jq`); all 19 skills have a `SKILL.md` with `name` + `description`; **0 broken internal `.md` links** (608 targets checked repo-wide); `aeo-geo-playbook.md` last reviewed 2026-08-23 and `integrations/README.md` 2026-07-23 (both < 90 days). Roster count consistent everywhere at **75 agents / 19 skills / 17 disciplines** — README badges, the 17-discipline breakdown (7+7+7+7+5+5+7+8+1+2+6+2+1+1+1+4+4 = 75), `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** all agree; the only numeric grep anomalies were false positives (badge hex `D97757`; "16 CFR 255/465"). **All 75 dual-located agents byte-identical** between their `<category>/` and `plugins/saas-marketing/skills/.../agents/` copies (0 drift). No P0 → pulled the top unblocked backlog item.
+
+**Backlog state:** P1 native-subagents blocked (issue [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1), architecture decision); all P1-distribution items blocked on the stars/traction gates; the one open P1-curation item needs legal validation. Took the strongest unblocked concrete item — the `ops-financial-tracker` renewal-leverage enhancement lead (backlog line 117).
+
+**Shipped:** a **"Conducting the Renewal: Leverage Before the Ask"** section on both dual-located copies of `client-ops/ops-financial-tracker.md`. Gap verified first: the agent owned renewal dates, the scorecard and "negotiate better terms" but named **no method** for the renewal itself. The seam made it a real defect, not a nicety — `analytics-martech-stack-strategist` (Rules 4 & 10) explicitly hands *"the negotiation itself"* to this agent and deliberately left that half unwritten, so the hand-off pointed at an empty method. Section adds six leverage angles (usage vs. contracted capacity; the vendor's fiscal-quarter clock as timing not a quotable figure; a credible *named* alternative with switching cost subtracted; tradeable commitment without locking into shelfware; bundle/package seams; the tenure penalty) plus two disciplines: honesty-is-the-leverage and carry-no-borrowed-thresholds. Source [modest-curator478/claude-skills](https://github.com/modest-curator478/claude-skills) `revops/martech-contract-auditor` (MIT, read 2026-08-26) — ideas only, its unsourced benchmark numbers deliberately not carried, matching the stack strategist's stance.
+
+**Verified:** both copies diff-identical; `scripts/lint-agents.sh` 2/2 pass; 0 internal broken links in the changed file; roster counts re-checked unchanged at 75/19 (no new persona → no discoverability count surfaces touched, GitHub About untouched).
+
+**Deferred:** the remaining P2 "watch"/maintainer-call curation items (external-repo scouts, ownership decisions); the freshness pass (playbook reviewed 6 days ago). No large changes attempted (one-change rule).
+
 ### 2026-08-29 — Maintenance: **FIX (P0 health)** — CI lint now covers all 75 agents, not 67 (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
