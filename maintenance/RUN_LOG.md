@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-29 — Maintenance: **FIX (P0 health)** — CI lint now covers all 75 agents, not 67 (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check — found a real P0 in the health tooling itself.** Both manifests parse with required fields (`jq`); all 19 skills have a `SKILL.md` with `name` + `description`; 0 broken internal `.md` links (598 link targets checked repo-wide); `aeo-geo-playbook.md` last reviewed 2026-08-23 (< 90 days). Public roster count consistent everywhere at **75 agents / 19 skills / 17 disciplines** — README badges (`agents-75`, `Claude%20skills-19`), the 17 per-discipline breakdown (7+7+7+7+5+5+7+8+1+2+6+2+1+1+1+4+4 = 75), `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** all agree. All 75 agent files pass `scripts/lint-agents.sh`.
+
+**Defect:** `.github/workflows/lint-agents.yml` only listed **11** of the 17 agent-category directories in its `dirs` variable, so `find` swept just **67** agents — the 8 personas in `abm`, `comms`, `developer-marketing`, `events`, `growth`, and `partnerships` were **never linted by CI** despite the job's "Lint all agent persona files" name. Its comment was also stale ("The 59 canonical agent personas … 11 category directories"). A malformed frontmatter or missing required section in any of those 6 disciplines would have merged green.
+
+**Fix:** Expanded `dirs` to all 17 agent-category directories (added `abm growth comms partnerships events developer-marketing`) and corrected the comment to "The 75 canonical agent personas live in these 17 category directories." Verified by replaying the exact CI job locally under `bash`: **Linted 75 agent files; 0 failed → CI green.** (`strategy/` still excluded — it holds framework docs, not agents.) No public count/name/capability changed, so no discoverability surface needed updating.
+
+**Deferred:** P1 items remain blocked (native subagents [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1) on two design decisions; distribution on the ≥100-star / real-usage gates; the legal-compliance proposal needs legal validation).
+
+---
+
 ### 2026-08-29 — Maintenance: **ENHANCE** — the Automation Engineer's seed-send control gets a method (branch coverage) (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
