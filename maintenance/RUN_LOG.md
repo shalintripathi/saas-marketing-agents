@@ -4,6 +4,24 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-29 — Maintenance: **ENHANCE** — the Automation Engineer's seed-send control gets a method (branch coverage) (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (all clean, no P0):** both manifests parse with required fields (`jq`); all 19 skills have a `SKILL.md` with `name` + `description`; the public roster count is consistent everywhere at **75 specialists + CATALYST / 19 skills / 17 disciplines** — verified the raw file count (75 specialist `.md` + `strategy/catalyst-strategy.md` orchestrator), the 17 per-category counts in `AGENTS_INDEX.md` (7,7,7,7,5,5,7,8,1,2,6,2,1,1,1,4,4 = 75), and the **live GitHub About** (75 specialist agents + 19 skills). No broken internal `.md` links (checked every markdown link target repo-wide). No stale review dates (`aeo-geo-playbook.md` 2026-08-23, `integrations/README.md` 2026-07-23, `seo-ai-search-optimizer` facts 2026-07-30/08-06 — all < 90 days).
+
+**Backlog:** P1 items all blocked (native subagents #1 on two design decisions; distribution on the ≥100-star / real-usage gates; the legal-compliance proposal needs legal validation). Pulled the top unblocked, source-backed P2 enhancement lead: the `email-automation-engineer` seed-send row (filed 2026-08-26).
+
+**Shipped:** a new **"The Email You Seed Is One Render of Many"** section in both dual-located copies of [`email/email-automation-engineer.md`](../email/email-automation-engineer.md). Item 7's one-line control (*"seed send reviewed…"*) had no instrument — the repo's recurring *control named, instrument absent* shape. Grep first confirmed the split the backlog note predicted: the **accessibility/severity half** (WCAG, alt-text, contrast, cross-client render, dark-mode variants) is already owned by `client-ops/ops-quality-assurance` and `design-content-visual-designer`, so it was **not** duplicated. The unowned ground is automation-specific — this is the one agent that *builds* branched, personalized email, and `liquid-branch-coverage`'s idea (a personalized email has a full state space; the untested arms are where it breaks) has no counterpart here. The method: enumerate the conditional/merge-field state space and proof-render **every arm + fallback**, not just the path the seed profile draws; record a **count**, not a vibe. Added a send-blocking **Gmail clip-line check** (~102 KB HTML source hides the CTA + unsubscribe/legal block; framed honestly as ESP-documented, not Google-published) and an explicit **seam** back to the two QA/accessibility owners. Item 7 amended to reference the method.
+
+**Verified:** lint 2/2 on both copies; the two copies `diff`-identical; no counts changed (no new agent/skill) so no badge/index/`llms.txt`/`CITATION.cff`/manifest/About edits were needed; new external links are `https://` (orbit-for-claude, Litmus, Mailchimp) — not internal, and the internal-link check stayed at zero broken.
+
+**Sourcing:** ideas-only from the open-source [justinwilliames/orbit-for-claude](https://github.com/justinwilliames/orbit-for-claude) (MIT, license verified) skills `liquid-branch-coverage` / `email-render-qa` / `email-production-qa`, written from scratch in our own words. Gmail's ~102 KB clip threshold cited to ESP guidance (Litmus, Mailchimp) with the not-published-by-Google caveat, verified 2026-08-29.
+
+**Deferred:** the remaining P2 enhancement leads and maintainer-call scope questions (renewal-leverage discipline on `ops-financial-tracker`, the localization-ladder rung-1 instrument, the several ownership/scope decisions) — each is a separate one-change run or a human call.
+
+---
+
 ### 2026-08-29 — Skill Scout: **ADD** — nobody owned the question "which country next, and how deep?" (automated)
 
 **Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.** The 2026-08-27 scout run ENHANCED (influencer vetting), so the alternation rule put an add first this run; the discipline rotation put **PMM / sales / GTM** in focus, last the focus on 2026-08-24 and the oldest of the four (paid/social 08-27, email/analytics/ops 08-26, content/SEO 08-25). **~20 sources evaluated across 7 ledger rows** — 1 adopted as the ADD's primary source, 2 EU primary-law citations, 4 dismissed (one of which corroborates the gap across six known collections), plus a backlog item narrowed.
