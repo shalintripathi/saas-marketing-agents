@@ -1,6 +1,6 @@
 ---
 name: seo-growth
-description: "End-to-end SEO operations for B2B SaaS organic visibility. Use this skill when you need keyword research, technical SEO audits, content optimization, link building strategy, international expansion, AI/AEO optimization, schema markup, Core Web Vitals improvements, and organic traffic growth planning. Also triggers on: SEO, keyword research, technical SEO, link building, content optimization, international SEO, AI search, AEO, GEO, Core Web Vitals, schema markup, organic traffic, G2 listing, Capterra, TrustRadius, review-platform category page, best software roundup, listicle placement, directory submissions."
+description: "End-to-end SEO operations for B2B SaaS organic visibility. Use this skill when you need keyword research, technical SEO audits, content optimization, link building strategy, international expansion, AI/AEO optimization, schema markup, Core Web Vitals improvements, and organic traffic growth planning. Also triggers on: SEO, keyword research, technical SEO, link building, content optimization, international SEO, hreflang, x-default, multilingual site, translated pages not ranking, our German site gets no traffic, language switcher, auto-redirect by country, machine translation SEO, content parity, ccTLD vs subfolder, AI search, AEO, GEO, Core Web Vitals, schema markup, organic traffic, G2 listing, Capterra, TrustRadius, review-platform category page, best software roundup, listicle placement, directory submissions."
 ---
 
 # SEO Growth Skill
@@ -29,7 +29,7 @@ The SEO Growth skill coordinates a team of 7 specialized agents to drive sustain
 | 3 | Technical Auditor | `agents/seo-technical-auditor.md` | Audits site health: crawlability, indexation, site speed, mobile responsiveness, Core Web Vitals, structured data, XML sitemaps, robots.txt configuration. Identifies and prioritizes technical fixes. |
 | 4 | Link Building Strategist | `agents/seo-link-building-strategist.md` | Develops link building campaigns through outreach, partnerships, content-driven links, and earned media. Maps competitive link profiles and identifies high-value backlink opportunities. Also owns your presence on the third-party pages that hold your shortlist queries — "best [category] software" roundups, software directories, and review-platform category pages (G2, Capterra, TrustRadius) — including stale-entry corrections and keeping paid inclusions qualified rather than counted as earned links. |
 | 5 | AI Search Optimizer | `agents/seo-ai-search-optimizer.md` | Optimizes content for AI search engines (ChatGPT, Claude search, Perplexity) and Answer Engine Optimization (AEO). Improves visibility in AI-generated summaries and snippets. |
-| 6 | Local & International SEO | `agents/seo-local-and-international.md` | Expands SEO strategy to international markets and local search. Handles hreflang implementation, multi-language content, country-specific keyword research, and localized link strategies. |
+| 6 | Local & International SEO | `agents/seo-local-and-international.md` | Expands SEO strategy to international markets and local search. Validates hreflang as a reciprocal set (self-reference, return tags, `x-default`, per-locale canonicals), diagnoses the silent failures — IP auto-redirect hiding locales from Googlebot, stale translations, cross-locale canonicals — sets machine-translation review policy against Google's scaled-content-abuse rule, and runs country-segmented Search Console reads for in-language demand. |
 | 7 | Programmatic SEO Strategist | `agents/seo-programmatic-strategist.md` | Builds SEO from datasets and templates rather than drafts: integration, comparison, /vs and /alternatives and glossary pages at scale, with index-bloat and thin-content guardrails and internal linking across the set. |
 
 ## How to Use
@@ -73,6 +73,9 @@ The SEO Growth skill coordinates a team of 7 specialized agents to drive sustain
 - "Set up multi-language content strategy" → Local & International SEO
 - "Target local customers in [geographic area]" → Local & International SEO
 - "Implement hreflang and multi-regional configuration" → Local & International SEO + Technical Auditor
+- "Our translated pages get no traffic" / "the German site was never indexed" → Local & International SEO (start with the auto-redirect and hreflang-set checks)
+- "Is machine translation safe for SEO?" / "do we need native translators?" → Local & International SEO
+- "Which country should we localize for next?" → Local & International SEO (the in-language demand read) → PMM International GTM Strategist (the decision)
 
 ### Execution Model
 
@@ -172,7 +175,7 @@ The SEO Growth skill coordinates a team of 7 specialized agents to drive sustain
 
 **International Expansion**
 1. Keyword Researcher: Multi-language keyword research, local market demand signals
-2. Local & International SEO: hreflang setup, country targeting, regional link strategies
+2. Local & International SEO: hreflang setup, locale signals (Search Console country targeting is deprecated), regional link strategies
 3. Content Optimizer: Localization and cultural relevance review
 4. Technical Auditor: Multi-region site architecture (subdomains, subfolders, country domains)
 5. Link Building Strategist: Local authority building in target regions
