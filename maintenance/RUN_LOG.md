@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-30 — Maintenance: **ENHANCE** — the ABM Strategist owns corporate gifting & direct mail as a sequenced touch (automated)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check — all green, no P0.** Both manifests parse with required fields (`jq`); all 19 skills have a `SKILL.md` with `name` + `description`; **0 broken internal `.md` links** (601 targets checked repo-wide via a resolver script); doc review dates fresh — `aeo-geo-playbook.md` 2026-08-23 (7 days) and `integrations/README.md` 2026-07-23 (38 days), both < 90. Roster count consistent everywhere at **75 agents / 19 skills / 17 disciplines** — the 17-discipline breakdown (7+7+7+7+5+5+7+8+1+2+6+2+1+1+1+4+4 = 75) matches the raw per-category file counts exactly, and README badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** all agree (`strategy/` holds framework docs, not agents; `loops/` + `integrations/README.md` are non-agent — the extra `.md` files, correctly excluded). No P0 → pulled a backlog item.
+
+**Backlog state:** P1 native-subagents blocked (issue [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1)); all P1-distribution items blocked on the stars/traction gates; the one open P1-curation item needs legal validation. The two freshest single-agent leads (podcast Rule 9, line 104; intl-GTM rung-1, line 129) both carry an explicit *"only act if a source offers something better than an invented rubric"* guard — parked for a run with real external research, not fabricable here. Took the genuinely-unblocked item the backlog had **already decided** (line 127): corporate gifting / direct mail is *a section, not a persona* — only the ownership question was left open.
+
+**Shipped:** a new **Rule 11** on both dual-located copies of `abm/abm-account-based-strategist.md` (Account-Based Marketing Strategist). Gap verified first — `direct mail` and `cold call` grep to **zero** in agent content repo-wide (only in maintenance docs). Settled the open ownership question in favour of **ABM**: a gift/mailer to a named stakeholder is a physical touch *inside an account play*, so the strategist owns its **placement in the orchestration contract** and nothing else. The rule draws three seams to owners that already exist rather than re-deriving them: the consent/suppression query already in **Rule 8** binds the send (Rule 8 already names "the direct-mail send"); the anti-bribery gift **ceiling** is the one `events-field-marketing-strategist` Rule 7 draws (5 CFR Part 2635, Sunshine Act/Open Payments, FCPA, UK Bribery Act) with the recipient's-own-policy constraint `pmm-customer-advocacy` draws, both routed to `ops-legal-compliance` before the send; and the **incentive bright line** — a gift buys attention, never a conditioned action ("$500 card if you take the call" is an inducement, not an ABM play). Surfaced by [TheCraigHewitt/sales-skills](https://github.com/TheCraigHewitt/sales-skills) `direct-mail` (MIT), ideas-only, credited in the footer.
+
+**Verified:** both copies diff-identical; `scripts/lint-agents.sh` 2/2 pass; roster counts re-checked unchanged at 75/19 (no new persona → no discoverability count surface touched, GitHub About untouched). Backlog line 127 marked done.
+
+**Deferred:** the two guarded single-agent leads (104, 129) await a real source; the remaining P2 "watch"/scope-question curation items; the freshness pass (playbook reviewed 7 days ago). One-change rule respected.
+
 ### 2026-08-29 — Maintenance: **ENHANCE** — Financial Tracker gets a named renewal-negotiation method (automated)
 
 **Job:** [ROUTINE.md](ROUTINE.md), one iteration.
