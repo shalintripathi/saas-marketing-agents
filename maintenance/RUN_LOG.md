@@ -4,6 +4,18 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-31 (third run) — Analytics anti-fabrication sweep: `analytics-customer-insights-researcher` cleaned; plugin-description char-limit question resolved (automated)
+
+**Health check (all clean, 0 P0):** both manifests parse (`marketplace.json` + `plugin.json`); **75 agents / 19 skills** verified against reality and matching the live GitHub About; all 19 skills carry `SKILL.md` with `name` + `description`; both `Last reviewed` dates fresh (`aeo-geo-playbook.md` 2026-08-23, `integrations/README.md` 2026-07-23); **0 broken internal links** across 614 checked `.md` links.
+
+**Shipped (one persona, following the content/social/SEO sweep pattern):** removed the four remaining fabricated round-number success metrics from `analytics-customer-insights-researcher` — `80%+` of findings "directly influence" decisions, `85%+` team agreement on personas, `70%+` of recommendations implemented, and insights "within 3-4 weeks". Each was rewritten into a tracked, measured discipline rather than an invented benchmark: utilization recorded as the named decision a study informed (and studies that changed nothing reported plainly); persona accuracy checked by logging where sales/product disagree; recommendation adoption carried as per-item status incl. explicit declines and silent disappearances; velocity reported as a trend, not a calendar SLA. Consistent with the agent's already-rewritten Rules 3/5 and its "Research Scope"/"Claim Discipline" metrics. Both dual-located copies (`analytics/` + `plugins/saas-marketing/skills/marketing-analytics/agents/`) updated and diff-identical; lint 2/2.
+
+**Also resolved (open question, verified this run):** the "does the plugin validator enforce a hard 1,024-char limit on skill `description:`?" backlog item. `claude plugin validate` still 404s on its pinned model, so the rule was read from the installed CLI's own validator (`@anthropic-ai/claude-code` 1.0.72): the only length check is a **soft warning at over 5,000 characters**; `.max(1024)` appears **zero** times. `marketing-analytics` at 1,148 chars (the longest of 19) is well within bounds — no trim needed, and future runs should stop guessing at a phantom cap.
+
+**Deferred:** analytics sweep continues on siblings (`analytics-data-storyteller`, `analytics-conversion-rate-optimizer`, `ops-reporting-specialist`) one per run; SEO sweep still open; distribution items still blocked (stars/community-usage/in-app-form). No public counts changed, so no discoverability surfaces touched.
+
+---
+
 ### 2026-08-31 (second run) — Skill Scout: **ENHANCE** — the rule against anecdotes was itself instructing a fabricated statistic (automated)
 
 **Scope:** scout survey, focus discipline **email / analytics / marketing-ops** by rotation — last the focus 2026-08-26, the oldest of the four (paid/social 08-27, PMM/sales/GTM 08-28 and 08-29, content/SEO 08-30). 14 sources evaluated across 8 rows — **4 enhanced-ours (1 primary, 3 co-credit)**, 2 watch, 2 dismissed. Full rows in [scout-ledger.md](scout-ledger.md).
