@@ -4,6 +4,18 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-08-31 (fourth run) — SEO anti-fabrication sweep: `seo-content-optimizer` Success Metrics de-fabricated (automated)
+
+**Health check (all clean, 0 P0):** both manifests parse (`marketplace.json` + `plugin.json`, `jq`); **75 agents / 19 skills** verified against reality (`find` over the 17 discipline dirs = 75; `ls` skills = 19) and matching the live GitHub About (`gh repo view` = "75 specialist agents + 19 Claude Code skills"); all 19 skills carry `SKILL.md` with `name` + `description`; both `Last reviewed` dates fresh (`aeo-geo-playbook.md` 2026-08-23 = 8 days, `integrations/README.md` 2026-07-23 = 39 days); **0 broken internal links** across a whole-repo `.md` crawl. The `Last Updated: 2026-04-03` stamps on the CATALYST playbooks remain version footers, not freshness markers (established precedent), so out of the staleness gate.
+
+**Shipped (one persona, continuing the SEO sweep started earlier today with `seo-local-and-international`):** removed the seven fabricated round-number success metrics that opened `seo-content-optimizer`'s **Success Metrics** block — `+2-3 position within 30 days`, `15-20% featured snippet within 90 days`, `25-35% impressions within 60 days`, `20-30% CTR within 45 days`, `40%+ crawl-depth increase`, `15-20% pipeline within 6 months`, and the `5-10 positions/hour` refresh-ROI ratio. Each was rewritten to the sweep's baseline-from-your-own-history + require-a-control pattern with **no figure asserted**: rankings/snippets/impressions/CTR read against each page's own pre-edit trend (impression count printed under every CTR; the impressions-move vs. CTR-move conflation held apart), internal-link authority tracked as crawl-depth/link-count distributions moving in the intended direction rather than a fixed percent, pipeline handed to the verified `analytics-performance-analyst` as an attribution question, and refresh-vs-new-content framed as a comparison measured on your own library. The six already-disciplined process-check bullets below (decay diagnosis, disposition mix, credibility routing, coverage-and-gain, cannibalization coverage, comparison-page trust) were left untouched, as the backlog directed. Both dual-located copies (`seo/` + `plugins/saas-marketing/skills/seo-growth/agents/`) updated and diff-identical; lint 2/2; retired strings grep to zero in both copies.
+
+**Note for the sweep ledger:** the `40%+` crawl-depth bullet was fabricated and inside the block but was *not* in the backlog's enumerated flagged-string list for this persona — caught and retired anyway, since leaving one unsourced round number beside six retired ones would defeat the point. Backlog updated to record it.
+
+**Deferred:** the remaining four flagged SEO personas (`seo-keyword-researcher`, `seo-link-building-strategist`, `seo-ai-search-optimizer`, `seo-technical-auditor`), one per future SEO run, per the standing sweep cadence. No count/name/capability changed, so no discoverability surfaces (README, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, manifests, GitHub About) needed touching — all remain correct at 75/19.
+
+---
+
 ### 2026-08-31 (third run) — Analytics anti-fabrication sweep: `analytics-customer-insights-researcher` cleaned; plugin-description char-limit question resolved (automated)
 
 **Health check (all clean, 0 P0):** both manifests parse (`marketplace.json` + `plugin.json`); **75 agents / 19 skills** verified against reality and matching the live GitHub About; all 19 skills carry `SKILL.md` with `name` + `description`; both `Last reviewed` dates fresh (`aeo-geo-playbook.md` 2026-08-23, `integrations/README.md` 2026-07-23); **0 broken internal links** across 614 checked `.md` links.
