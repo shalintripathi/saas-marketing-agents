@@ -125,7 +125,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 | **Design Ops** | 5 | "landing page", "brand identity", "ad creative" |
 | **Sales Enablement** | 7 | "outbound", "battle card", "proposal", "MEDDPICC", "demo plan", "proof of concept", "security questionnaire" |
 | **Product Marketing Ops** | 8 | "positioning", "product launch", "competitive intel", "win/loss interviews", "why we lose deals", "pricing", "packaging", "agent readiness", "expand into Europe", "market entry", "which country next", "localization" |
-| **Marketing Analytics** | 6 | "CRO", "A/B testing", "sample size", "not enough traffic to test", "dashboards", "attribution", "tracking plan", "GA4 audit", "martech stack audit", "too many tools", "build vs buy", "ESP/CRM migration", "switching cost" |
+| **Marketing Analytics** | 6 | "CRO", "A/B testing", "sample size", "not enough traffic to test", "dashboards", "attribution", "tracking plan", "GA4 audit", "martech stack audit", "too many tools", "build vs buy", "ESP/CRM migration", "switching cost", "customer interviews", "survey design", "how many people should I interview", "voice of customer", "jobs-to-be-done", "is this finding real" |
 | **Marketing Project Mgmt** | 4 | "sprint planning", "resource allocation", "QBR" |
 | **Client Operations** | 4 | "client reporting", "QA", "compliance", "budget" |
 | **Growth Ops** | 2 | "PLG", "activation", "PQL", "free trial", "expansion", "churn", "NRR" |

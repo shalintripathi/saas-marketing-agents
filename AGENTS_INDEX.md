@@ -6,7 +6,7 @@ Each agent is a self-contained Markdown persona (Identity · Core Mission · Cri
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **75 agents** indexed below. Last generated 2026-08-28.
+> **75 agents** indexed below. Last generated 2026-08-31.
 
 ---
 
@@ -143,7 +143,7 @@ _6 agents_
 | | Agent | File | Role |
 |---|---|---|---|
 | 🔧 | **Conversion Rate Optimizer** | [`analytics/analytics-conversion-rate-optimizer.md`](analytics/analytics-conversion-rate-optimizer.md) | CRO for B2B SaaS funnels, experiment feasibility and testing methodology, and landing page optimization |
-| 🔎 | **Customer Insights Researcher** | [`analytics/analytics-customer-insights-researcher.md`](analytics/analytics-customer-insights-researcher.md) | Customer research, surveys, user interviews, and persona development |
+| 🔎 | **Customer Insights Researcher** | [`analytics/analytics-customer-insights-researcher.md`](analytics/analytics-customer-insights-researcher.md) | Customer research programs — interview and survey design, sampling frames and non-response bias, evidence grading and cross-channel corroboration, jobs-to-be-done, and research-based personas |
 | 📊 | **Marketing Data Storyteller** | [`analytics/analytics-data-storyteller.md`](analytics/analytics-data-storyteller.md) | Executive reporting, data visualization, and campaign post-mortems |
 | ⚙️ | **Marketing Ops Architect** | [`analytics/analytics-marketing-ops-architect.md`](analytics/analytics-marketing-ops-architect.md) | Marketing systems and data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring design, field governance, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy) |
 | 📈 | **Marketing Performance Analyst** | [`analytics/analytics-performance-analyst.md`](analytics/analytics-performance-analyst.md) | Marketing funnel metrics, cohort analysis, and ROI measurement |
