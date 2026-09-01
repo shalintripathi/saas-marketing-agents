@@ -2,19 +2,19 @@
 
 # 🚀 SaaS Marketing Agents
 
-**An open-source AI marketing team for B2B SaaS — 75 specialist agents, one orchestrator, real playbooks.**
+**An open-source AI marketing team for B2B SaaS — 76 specialist agents, one orchestrator, real playbooks.**
 
-Install a full B2B SaaS marketing org into Claude Code: 75 role-based agent personas, packaged as **19 skills**, coordinated by the **CATALYST** multi-agent orchestrator — with worked ABM, launch & demand-gen workflows and an actively-maintained **AEO/GEO** playbook for the AI-search era.
+Install a full B2B SaaS marketing org into Claude Code: 76 role-based agent personas, packaged as **19 skills**, coordinated by the **CATALYST** multi-agent orchestrator — with worked ABM, launch & demand-gen workflows and an actively-maintained **AEO/GEO** playbook for the AI-search era.
 
 [![Stars](https://img.shields.io/github/stars/shalintripathi/saas-marketing-agents?style=social)](https://github.com/shalintripathi/saas-marketing-agents/stargazers)
 [![License: MIT](https://img.shields.io/github/license/shalintripathi/saas-marketing-agents)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/shalintripathi/saas-marketing-agents)](https://github.com/shalintripathi/saas-marketing-agents/commits)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
-[![Agents](https://img.shields.io/badge/agents-75-blue)](AGENTS_INDEX.md)
+[![Agents](https://img.shields.io/badge/agents-76-blue)](AGENTS_INDEX.md)
 [![Skills](https://img.shields.io/badge/Claude%20skills-19-8A2BE2)](plugins/saas-marketing)
 [![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-D97757)](https://claude.com/claude-code)
 
-[Quick start](#-quick-start) · [The 75 agents](#-the-team-75-specialist-agents) · [Skills](#-skills) · [CATALYST](#️-catalyst-orchestrator) · [Loops](#-marketing-loops) · [AEO/GEO](#-built-for-ai-search-aeogeo) · [Contributing](#-contributing)
+[Quick start](#-quick-start) · [The 76 agents](#-the-team-76-specialist-agents) · [Skills](#-skills) · [CATALYST](#️-catalyst-orchestrator) · [Loops](#-marketing-loops) · [AEO/GEO](#-built-for-ai-search-aeogeo) · [Contributing](#-contributing)
 
 <img src="assets/catalyst-demo.svg" alt="The CATALYST orchestrator takes one product-launch brief, loads brand-context.md, selects CATALYST-Sprint mode, and routes the work to named specialist agents across product marketing, content, SEO/AEO, design, paid media, social, email, sales enablement, and analytics." width="880">
 
@@ -28,9 +28,9 @@ Install a full B2B SaaS marketing org into Claude Code: 75 role-based agent pers
 
 Most "marketing prompt" collections are a flat grab-bag: you get 50 clever prompts, but **you're still the manager** — deciding which to run, in what order, and how the outputs fit together.
 
-This is the opposite. It's a marketing team shaped like a real **B2B SaaS marketing org** — 75 specialist agents with defined roles and hand-offs, plus an orchestrator that turns one brief into assigned sub-tasks. You brief the team; it routes the work.
+This is the opposite. It's a marketing team shaped like a real **B2B SaaS marketing org** — 76 specialist agents with defined roles and hand-offs, plus an orchestrator that turns one brief into assigned sub-tasks. You brief the team; it routes the work.
 
-- 🧑‍💼 **75 role-based agents** across 17 disciplines — content, SEO/AEO, paid media, social, email, design, sales enablement, product marketing, account-based marketing (ABM), growth/PLG, analytics, comms & analyst relations, partnerships, events & field, developer marketing, project management, and client ops — coordinated by the CATALYST orchestrator.
+- 🧑‍💼 **76 role-based agents** across 17 disciplines — content, SEO/AEO, paid media, social, email, design, sales enablement, product marketing, account-based marketing (ABM), growth/PLG, analytics, comms & analyst relations, partnerships, events & field, developer marketing, project management, and client ops — coordinated by the CATALYST orchestrator.
 - 🎛️ **CATALYST orchestrator** — coordinates the specialists for large, multi-channel initiatives.
 - 🔁 **Worked workflows & loops** — ABM, product launch, demand gen, and a weekly content engine you can actually run.
 - 🤖 **AI-search native** — a sourced [AEO/GEO playbook](guides/aeo-geo-playbook.md) we maintain, so your content gets *cited* by ChatGPT, Perplexity, Google AI Overviews, and Copilot.
@@ -79,7 +79,7 @@ See the [Integrations Guide](integrations/README.md) for tool-by-tool setup.
 
 ---
 
-## 📋 The team (75 specialist agents)
+## 📋 The team (76 specialist agents)
 
 Every agent is a named role with its own remit, critical rules, and deliverables — click any one to read it.
 
@@ -92,7 +92,7 @@ Every agent is a named role with its own remit, critical rules, and deliverables
 | **Email Marketing** (5) | [Marketing Automation Engineer](email/email-automation-engineer.md) · [Email Copywriter & Conversion Specialist](email/email-copywriter.md) · [Email Deliverability Specialist](email/email-deliverability-specialist.md) · [Email Lifecycle Architect](email/email-lifecycle-architect.md) · [Newsletter Growth & Monetization Strategist](email/email-newsletter-growth-strategist.md) |
 | **Design** (5) | [Ad Creative Producer](design/design-ad-creative-producer.md) · [Brand Identity Strategist](design/design-brand-identity-strategist.md) · [Content Visual Designer](design/design-content-visual-designer.md) · [Presentation Designer](design/design-presentation-designer.md) · [UI Landing Page Specialist](design/design-ui-landing-page-specialist.md) |
 | **Sales Enablement** (7) | [Deal Strategist](sales/sales-deal-strategist.md) · [Discovery Coach](sales/sales-discovery-coach.md) · [Enablement Content Creator](sales/sales-enablement-content-creator.md) · [Outbound Strategist](sales/sales-outbound-strategist.md) · [Pipeline Analyst](sales/sales-pipeline-analyst.md) · [Proposal Architect](sales/sales-proposal-architect.md) · [Solutions Engineer](sales/sales-solutions-engineer.md) |
-| **Product Marketing** (8) | [Agent Readiness Strategist](product-marketing/pmm-agent-readiness-strategist.md) · [Competitive Intelligence Specialist](product-marketing/pmm-competitive-intelligence.md) · [Customer Advocacy Manager](product-marketing/pmm-customer-advocacy.md) · [International GTM Strategist](product-marketing/pmm-international-gtm-strategist.md) · [Product Launch Manager](product-marketing/pmm-launch-manager.md) · [Messaging Architect](product-marketing/pmm-messaging-architect.md) · [Product Positioning Strategist](product-marketing/pmm-positioning-strategist.md) · [Pricing & Packaging Strategist](product-marketing/pmm-pricing-packaging-strategist.md) |
+| **Product Marketing** (9) | [Agent Readiness Strategist](product-marketing/pmm-agent-readiness-strategist.md) · [Brand & Demand Strategist](product-marketing/pmm-brand-demand-strategist.md) · [Competitive Intelligence Specialist](product-marketing/pmm-competitive-intelligence.md) · [Customer Advocacy Manager](product-marketing/pmm-customer-advocacy.md) · [International GTM Strategist](product-marketing/pmm-international-gtm-strategist.md) · [Product Launch Manager](product-marketing/pmm-launch-manager.md) · [Messaging Architect](product-marketing/pmm-messaging-architect.md) · [Product Positioning Strategist](product-marketing/pmm-positioning-strategist.md) · [Pricing & Packaging Strategist](product-marketing/pmm-pricing-packaging-strategist.md) |
 | **Account-Based Marketing** (1) | [Account-Based Marketing Strategist](abm/abm-account-based-strategist.md) |
 | **Growth** (2) | [Customer Marketing Lead](growth/growth-customer-marketing-lead.md) · [PLG Activation Strategist](growth/growth-plg-activation-strategist.md) |
 | **Analytics** (6) | [Conversion Rate Optimizer](analytics/analytics-conversion-rate-optimizer.md) · [Customer Insights Researcher](analytics/analytics-customer-insights-researcher.md) · [Marketing Data Storyteller](analytics/analytics-data-storyteller.md) · [Marketing Ops Architect](analytics/analytics-marketing-ops-architect.md) · [Marketing Performance Analyst](analytics/analytics-performance-analyst.md) · [MarTech Stack Strategist](analytics/analytics-martech-stack-strategist.md) |
@@ -103,7 +103,7 @@ Every agent is a named role with its own remit, critical rules, and deliverables
 | **Project Management** (4) | [Campaign Coordinator](project-management/pm-campaign-coordinator.md) · [Client Success Manager](project-management/pm-client-success-manager.md) · [Marketing Agile Facilitator](project-management/pm-marketing-ops-scrum-master.md) · [Resource Allocator](project-management/pm-resource-allocator.md) |
 | **Client Operations** (4) | [Financial Tracker](client-ops/ops-financial-tracker.md) · [Legal Compliance Officer](client-ops/ops-legal-compliance.md) · [Quality Assurance Manager](client-ops/ops-quality-assurance.md) · [Reporting Specialist](client-ops/ops-reporting-specialist.md) |
 
-_These 17 disciplines hold all 75 specialist agents. On top sits the **[CATALYST orchestrator](#️-catalyst-orchestrator)**, which coordinates them._
+_These 17 disciplines hold all 76 specialist agents. On top sits the **[CATALYST orchestrator](#️-catalyst-orchestrator)**, which coordinates them._
 
 **→ Full [Agent Index](AGENTS_INDEX.md)** — every agent with a one-line description of what it does and when to reach for it.
 
@@ -115,7 +115,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 
 | Skill | Agents | Triggers on |
 |-------|--------|-------------|
-| **CATALYST Orchestrator** | all 75 | "GTM launch", "campaign plan", "marketing strategy" |
+| **CATALYST Orchestrator** | all 76 | "GTM launch", "campaign plan", "marketing strategy" |
 | **SaaS Marketing Suite** (router) | — | "help with marketing", "what can you do" |
 | **Content Marketing** | 7 | "blog", "case study", "whitepaper", "newsletter" |
 | **SEO Growth** | 7 | "SEO audit", "keyword research", "AEO", "link building", "programmatic SEO", "hreflang", "our translated pages get no traffic", "G2 / Capterra listing", "get into a 'best software' roundup", "directory submissions" |
@@ -124,7 +124,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 | **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability" |
 | **Design Ops** | 5 | "landing page", "brand identity", "ad creative" |
 | **Sales Enablement** | 7 | "outbound", "battle card", "proposal", "MEDDPICC", "demo plan", "proof of concept", "security questionnaire" |
-| **Product Marketing Ops** | 8 | "positioning", "product launch", "competitive intel", "win/loss interviews", "why we lose deals", "pricing", "packaging", "agent readiness", "expand into Europe", "market entry", "which country next", "localization" |
+| **Product Marketing Ops** | 9 | "positioning", "product launch", "competitive intel", "win/loss interviews", "why we lose deals", "pricing", "packaging", "agent readiness", "expand into Europe", "market entry", "which country next", "localization", "brand awareness", "brand vs performance", "how do we measure brand", "share of search", "category entry points", "demand creation" |
 | **Marketing Analytics** | 6 | "CRO", "A/B testing", "sample size", "not enough traffic to test", "dashboards", "attribution", "tracking plan", "GA4 audit", "martech stack audit", "too many tools", "build vs buy", "ESP/CRM migration", "switching cost", "customer interviews", "survey design", "how many people should I interview", "voice of customer", "jobs-to-be-done", "is this finding real" |
 | **Marketing Project Mgmt** | 4 | "sprint planning", "resource allocation", "QBR" |
 | **Client Operations** | 4 | "client reporting", "QA", "compliance", "budget" |

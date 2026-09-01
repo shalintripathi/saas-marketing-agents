@@ -1,6 +1,6 @@
 ---
 name: product-marketing-ops
-description: "Product marketing and go-to-market strategy for B2B SaaS launches and positioning. Use this skill when planning a product launch, developing positioning and messaging, analyzing competitive landscape, building customer advocacy programs, designing a win/loss interview program, working out why we lose deals, designing GTM strategy, creating category positioning, planning analyst briefings, or deciding which country to expand into and how far to localize. Also triggers on: positioning, product launch, competitive intelligence, messaging, customer advocacy, win/loss analysis, win/loss interviews, why we lose deals, closed-lost analysis, loss reason, close-reason field, GTM, category design, analyst briefing, G2 review, international expansion, market entry, expand into Europe, which country should we launch in next, localization, translate our site, in-country go-to-market, regional GTM, is cold email legal in Germany."
+description: "Product marketing and go-to-market strategy for B2B SaaS launches and positioning. Use this skill when planning a product launch, developing positioning and messaging, analyzing competitive landscape, building customer advocacy programs, designing a win/loss interview program, working out why we lose deals, designing GTM strategy, creating category positioning, planning analyst briefings, or deciding which country to expand into and how far to localize. Also use it for brand marketing and demand creation — how much to spend on brand versus performance, what to measure when a brand campaign produces no conversion event, and how to answer "we cannot attribute it". Also triggers on: positioning, product launch, competitive intelligence, messaging, customer advocacy, win/loss analysis, win/loss interviews, why we lose deals, closed-lost analysis, loss reason, close-reason field, GTM, category design, analyst briefing, G2 review, international expansion, market entry, expand into Europe, which country should we launch in next, localization, translate our site, in-country go-to-market, regional GTM, is cold email legal in Germany, brand marketing, brand awareness, brand vs performance, brand versus demand gen, demand creation, demand capture, 95-5 rule, out of market buyers, category entry points, distinctive brand assets, mental availability, brand tracking, brand health, brand lift, share of search, how do we measure brand, justify brand spend, brand budget."
 ---
 
 # Product Marketing Operations
@@ -20,7 +20,7 @@ description: "Product marketing and go-to-market strategy for B2B SaaS launches 
 
 Product Marketing Operations brings together positioning strategists, launch managers, messaging architects, competitive intelligence specialists, and customer advocacy leaders to build market-winning strategies for product launches and ongoing positioning. This skill orchestrates your go-to-market strategy to establish clear market positioning, build competitive differentiation, launch new products and features with impact, and develop the customer proof that drives sales pipeline. Whether you're launching a new product category, repositioning your solution in response to competitive threats, building customer advocacy for analyst briefings, or conducting win/loss analysis to understand market dynamics, Product Marketing Operations routes your request to the right specialist and ensures your GTM strategy aligns positioning, messaging, and customer proof.
 
-## The Team: 8 Specialist Agents
+## The Team: 9 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -32,6 +32,7 @@ Product Marketing Operations brings together positioning strategists, launch man
 | 6 | Pricing & Packaging Strategist | `agents/pmm-pricing-packaging-strategist.md` | Sets the price architecture positioning converts into revenue: value metric, tier and packaging design, willingness-to-pay research, discount floors and the deal-desk matrix, price-change and migration comms, and AI-feature monetization |
 | 7 | Agent Readiness Strategist | `agents/pmm-agent-readiness-strategist.md` | Makes the product evaluable, priceable and transactable by an AI agent: machine-readable pricing and catalog data, agent traversal of the buying path, API/docs/MCP as distribution, agent identity posture, and the autonomy and approval-gate design |
 | 8 | International GTM Strategist | `agents/pmm-international-gtm-strategist.md` | Decides which countries you market into, in what order and how deep: market selection on observed pull rather than TAM, the four-rung localization ladder with its standing maintenance bill, in-region proof before in-region spend, a channel mix rebuilt per market, and the GDPR/ePrivacy questions sequenced before the campaign |
+| 9 | Brand & Demand Strategist | `agents/pmm-brand-demand-strategist.md` | Owns the buyers who are not in the market yet: your own out-of-market share computed from your own replacement cycle, the demand-creation versus demand-capture split as an evidenced decision, category entry points and the distinctive-asset register, and a brand-measurement plan — baseline before spend, share of search with its B2B-volume limits, tracker, holdout — that survives the quarter someone asks you to justify it |
 
 ## How to Use
 
@@ -69,6 +70,14 @@ Product Marketing Operations brings together positioning strategists, launch man
 - "Is our outbound sequence even legal in this market, and who decides?"
 - "We translated the site and nothing happened — what did we skip?"
 - "Define the exit criteria for a market before we enter it"
+
+**Brand Investment & Demand Creation** → Brand & Demand Strategist
+- "How much should we spend on brand versus performance, and how do we decide?"
+- "What share of our buyers are actually in the market right now — for our category, not a study's?"
+- "Finance is asking what our brand spend returned and we cannot attribute it — what do we say?"
+- "Name the category entry points we need to be remembered in"
+- "Set up brand measurement: baseline, share of search, a tracker, and a holdout test"
+- "Should we rebrand? What does changing our distinctive assets cost us?"
 
 **Customer Proof & Advocacy** → Customer Advocacy Lead
 - "Build customer advocacy program including case studies and testimonials"

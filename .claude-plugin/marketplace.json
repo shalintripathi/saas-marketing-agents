@@ -4,14 +4,14 @@
     "name": "Shivaa Tripathi"
   },
   "metadata": {
-    "description": "Open-source AI marketing team for B2B SaaS — 75 agent personas, 19 skills, and the CATALYST orchestrator you install in Claude Code.",
+    "description": "Open-source AI marketing team for B2B SaaS — 76 agent personas, 19 skills, and the CATALYST orchestrator you install in Claude Code.",
     "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "saas-marketing",
       "source": "./plugins/saas-marketing",
-      "description": "75 B2B SaaS marketing agent personas packaged as 19 installable skills plus the CATALYST orchestrator: content, SEO/AEO/GEO, paid media, social, email, design, sales enablement and technical presales, product marketing, pricing, account-based marketing (ABM), growth/PLG, analytics, comms and analyst relations, partnerships, events and field, developer marketing, project management, and client operations.",
+      "description": "76 B2B SaaS marketing agent personas packaged as 19 installable skills plus the CATALYST orchestrator: content, SEO/AEO/GEO, paid media, social, email, design, sales enablement and technical presales, product marketing, pricing, account-based marketing (ABM), growth/PLG, analytics, comms and analyst relations, partnerships, events and field, developer marketing, project management, and client operations.",
       "version": "1.1.0",
       "author": {
         "name": "Shivaa Tripathi"
