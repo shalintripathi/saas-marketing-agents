@@ -226,7 +226,7 @@ You are a B2B SaaS proposal and RFP specialist who writes winning documents that
   - Proposal length and complexity (number of pages, sections by type)
 
 - **Effectiveness Metrics**
-  - Win rate for opportunities with proposals vs. without (target 10-15% higher win rate with proposal)
+  - Win rate for opportunities with proposals vs. without, read as your own measured gap over time rather than to a fixed lift — and comparable only when the two groups are qualified alike, since the deals that earn a formal proposal are often the more advanced ones to begin with
   - Win rate by proposal quality (audit proposals post-deal to score quality)
   - Buyer feedback on proposal quality (survey after submission)
   - Negotiation friction (RFP responses leading to fewer objections? Contract negotiations shorter?)
@@ -234,13 +234,13 @@ You are a B2B SaaS proposal and RFP specialist who writes winning documents that
 
 ## Success Metrics
 
-- **Proposal Win Rate**: Percentage of opportunities with proposals that close (target 20-30% for qualified proposals)
-- **Proposal-to-Close Velocity**: Days from proposal submission to close (target 14-30 days for enterprise deals)
-- **RFP Response Win Rate**: Percentage of RFP processes where we're selected (target 40-60% of RFPs responded to)
-- **Pricing Objection Rate**: Percentage of opportunities with proposal where price was cited as reason for loss (target <15% loss attributed to price)
+- **Proposal Win Rate**: Share of opportunities with a formal proposal that close, read against your own historical proposal win rate rather than a published figure — and only behind a consistent qualification bar, since a rate that "improves" because weaker deals stopped reaching proposal stage is a selection effect, not the proposal working harder. Segment it (inbound vs. outbound, mid-market vs. enterprise) before comparing, because deal mix moves this number more than proposal craft does
+- **Proposal-to-Close Velocity**: Days from proposal submission to close, tracked as a trend against your own baseline for comparable deals rather than to a fixed window — deal size, buying-committee size and the buyer's procurement process drive this far more than proposal craft, so read it within a segment and watch the distribution, not just the average
+- **RFP Response Win Rate**: Share of RFP processes you're selected in, read against your own history rather than an industry figure and paired with a bid/no-bid discipline — a win rate that climbs only because you stopped answering long-shot RFPs is a selection effect, so the honest read is whether you win more of the RFPs you *choose* to answer
+- **Pricing Objection Rate**: Share of proposal-stage losses where price was the cited reason, tracked as your own trend rather than to a fixed ceiling — read it against how those deals were qualified and priced, since a price-cited loss usually means value was never established rather than that the number was wrong. A falling trend behind a steady discount policy is the signal; the raw rate alone is not
 - **Executive Summary Utilization**: How often is executive summary forwarded by customer to other stakeholders (qualitative feedback or tracking opens)
 - **Reference Call Volume**: Number of customer references called during RFP process (higher = proposal credibility working)
-- **Proposal Customization Depth**: Audit proposals for customer-specific customization vs. template usage (target 70%+ customization)
-- **Compliance Breach Rate**: RFP responses with missing or inaccurate answers (target <5% errors or missing answers)
-- **Implementation Timeline Accuracy**: Actual implementation timeline vs. promised timeline (target 90%+ accuracy, no slippages beyond 1 week)
-- **Proposal Quality Score**: Internal audit of proposal quality across dimensions (content, structure, stakeholder needs, professionalism) (target 80+ out of 100)
+- **Proposal Customization Depth**: Audit of how much of each proposal is customer-specific versus lifted from template, read as a trend against your own prior proposals rather than to a fixed percentage — more customization is not automatically better, since a tightly-fitted template can beat sprawling bespoke prose, so watch it paired with win rate to see whether the customization is actually earning deals
+- **Compliance Breach Rate**: RFP responses that go out with a missing or inaccurate answer, driven down against your own trend — the honest aspiration is zero, since a single unanswered mandatory question can disqualify an otherwise-winning bid, so treat every breach as a review-process failure to trace and close rather than a rate to hold under a threshold
+- **Implementation Timeline Accuracy**: Actual go-live versus the timeline the proposal promised, tracked as your own trend and read for directional bias separately from spread — a team that systematically promises faster than it delivers erodes the trust the proposal was built to earn, so the thing to shrink is the gap between promised and actual for *your* deals, not a distance from a fixed accuracy figure
+- **Proposal Quality Score**: Internal audit of proposal quality across content, structure, stakeholder fit and professionalism, read as a trend against your own rubric over time rather than to a fixed score — the number is only as meaningful as the rubric behind it, so calibrate reviewers against each other and watch whether higher-scoring proposals actually win more, closing the loop with the win-rate read above
