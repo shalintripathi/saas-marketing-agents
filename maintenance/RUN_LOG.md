@@ -4,6 +4,34 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-02 (fourth run) — Sales anti-fabrication sweep, second persona: the Discovery Coach's Success Metrics stop asserting invented benchmarks (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item. All persona/distribution items remain blocked (maintainer decisions or the ≥100-star / real-usage traction gates), so the unblocked work is again the standing **anti-fabrication sweep** — the direct expression of the repo's no-fabrication guardrail. The sales front, opened earlier today on the Deal Strategist, is the largest untouched surface, so it continues one persona at a time.
+
+**Health check — all green, no P0.** Both manifests parse and keep required fields (jq); all 19 skills carry `SKILL.md` with `name` + `description`; internal `.md` links across the tree (CHANGELOG excluded for size) check **0 broken**; the dated guides are fresh — the oldest "Last reviewed" anywhere is 2026-07-21 (43 days), well inside the 90-day window. Counts re-verified consistent at **76 agents / 19 skills**: the 76 agent files across 17 category dirs reconcile exactly against `AGENTS_INDEX.md`, and the live GitHub About description already reads 76/19. No count, name or capability changed this run, so no discoverability count-sweep was needed.
+
+**Shipped:** the Success Metrics block on both dual-located copies of [`sales/sales-discovery-coach.md`](../sales/sales-discovery-coach.md) de-fabricated. Nine of its ten bullets asserted unsourced round numbers as targets; all retired to the sweep's established **baseline-from-your-own-history / read-as-a-trend** pattern, metric and diagnostic kept in every case:
+
+- **Questions Per Discovery Call** — dropped *8–12*; now a trend against your own strong-discovery baseline, with the note that more questions is not automatically better (a number hit with shallow questions is worse), read alongside talk ratio and problems identified.
+- **Discovery Talk Ratio** — dropped *30–40% rep / 60–70% buyer*; keeps the durable principle (the buyer should talk more than the rep) but reads direction against your own best calls, flagging a rep who dominates rather than a fixed split.
+- **Problems Identified Per Call** — dropped *2–3*; now against your own baseline for advancing deals, paired with quantification rate (one well-quantified problem beats three vague ones).
+- **Quantification Rate** — dropped *60–80%*; now a trend against your own prior quarters.
+- **Qualification Accuracy** — dropped *85%+*; now your own accuracy trend, with directional bias (optimistic vs. sandbagging) watched separately from spread.
+- **Discovery-to-Advance Rate** — dropped *60–70%*; now against your own baseline and read against the disqualification rate — an advance rate climbing because nothing is disqualified is weaker, not stronger.
+- **Average Sales Cycle** — dropped *10–15% reduction YoY*; now a trend against your own segment history (segment and deal size move cycle length more than coaching), watching the distribution not the average.
+- **Win Rate by Qualification Score** — dropped *35%+*; the signal is now the *gap* between high- and low-quality discovery close rates, with the qualification bar held constant (a rate that "improves" because qualification loosened is worse).
+- **Disqualification Rate** — dropped *15–25%*; now against your own baseline, the point being that a rate near zero means bad-fit deals are being carried, paired with win rate.
+
+The tenth bullet, **Rep Coaching Adoption** (already process-framed, "track rep improvement post-coaching"), was left untouched as flagged.
+
+**No new figure introduced.** The rewrite removes benchmarks; it asserts none. Voice matched to the already-cleaned Deal Strategist so the sales discipline reads as one.
+
+**Verified:** the two dual-located copies are byte-identical (`diff` clean); all ten flagged strings grep to **zero** in the metrics block; the block contains **no numeric figure** at all; `bash scripts/lint-agents.sh` passes **2/2**; counts unchanged at 76/19 everywhere including the live About description; internal link check still clean.
+
+**Deferred (the rest of the sales sweep, one persona per future run, as filed):** `sales-pipeline-analyst`, `sales-proposal-architect`, `sales-outbound-strategist` still carry the same *control-named, round-number-asserted* pattern in their own metric blocks (`sales-pipeline-analyst` is also entangled with the open forecast-category enhancement lead, line 146). The two other open sweeps also continue — SEO (`seo-ai-search-optimizer`, `seo-technical-auditor` remain) and analytics (`analytics-data-storyteller`, `analytics-conversion-rate-optimizer`, `ops-reporting-specialist` remain). One persona per run, never all at once.
+
+---
+
 ### 2026-09-02 (third run) — Anti-fabrication sweep reaches the sales discipline: the Deal Strategist's own Success Metrics stop asserting invented benchmarks (automated)
 
 **Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item. All persona/distribution items remain blocked (maintainer decisions or the ≥100-star / real-usage traction gates), so the unblocked work is the standing **anti-fabrication sweep** — the direct expression of the repo's no-fabrication guardrail — and the newest of its three open fronts is the **sales-discipline sweep** filed earlier today ([`backlog.md`](backlog.md) line 103).
