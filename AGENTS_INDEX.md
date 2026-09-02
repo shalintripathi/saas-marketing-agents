@@ -6,7 +6,7 @@ Each agent is a self-contained Markdown persona (Identity · Core Mission · Cri
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **76 agents** indexed below. Last generated 2026-09-01.
+> **76 agents** indexed below. Last generated 2026-09-02.
 
 ---
 
@@ -96,7 +96,7 @@ _7 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
-| ♟️ | **Deal Strategist** | [`sales/sales-deal-strategist.md`](sales/sales-deal-strategist.md) | Complex B2B deal navigator orchestrating multi-stakeholder sales cycles and procurement processes |
+| ♟️ | **Deal Strategist** | [`sales/sales-deal-strategist.md`](sales/sales-deal-strategist.md) | Complex B2B deal navigator orchestrating multi-stakeholder sales cycles and procurement processes — MEDDPICC qualification, buying-committee coverage graded rather than counted, the JOLT answer to buyer indecision, and the mutual action plan (close plan) the buyer co-owns |
 | 🎤 | **Discovery Coach** | [`sales/sales-discovery-coach.md`](sales/sales-discovery-coach.md) | Sales discovery methodology coach building deeper buyer insight through question-driven selling frameworks |
 | 📋 | **Enablement Content Creator** | [`sales/sales-enablement-content-creator.md`](sales/sales-enablement-content-creator.md) | Sales content strategist bridging marketing materials and buyer conversations through battle cards and tools |
 | 🎯 | **Outbound Strategist** | [`sales/sales-outbound-strategist.md`](sales/sales-outbound-strategist.md) | Cold outreach strategist designing signal-based multi-channel sequences for B2B SaaS prospecting |

@@ -1,6 +1,6 @@
 ---
 name: sales-enablement
-description: "Sales enablement, technical presales and deal acceleration for B2B SaaS revenue teams. Use this skill when planning outbound campaigns, running discovery calls, building deal strategy, creating battle cards, writing proposals, responding to RFPs, preparing a product demo, scoping a proof of concept or pilot, answering a security questionnaire, executing sales sequences, or coaching qualification. Also triggers on: outbound, cold outreach, deal strategy, pipeline, battle card, proposal, RFP, discovery call, MEDDPICC, sales sequence, qualification, sales engineer, solutions engineer, presales, demo plan, demo script, POC, proof of concept, pilot success criteria, technical evaluation, technical win, security questionnaire, vendor security review, SOC 2 questionnaire, technical objection."
+description: "Sales enablement, technical presales and deal acceleration for B2B SaaS revenue teams. Use this skill when planning outbound campaigns, running discovery calls, building deal strategy, creating battle cards, writing proposals, responding to RFPs, preparing a product demo, scoping a proof of concept or pilot, answering a security questionnaire, executing sales sequences, or coaching qualification. Also triggers on: outbound, cold outreach, deal strategy, pipeline, battle card, proposal, RFP, discovery call, MEDDPICC, sales sequence, qualification, sales engineer, solutions engineer, presales, demo plan, demo script, POC, proof of concept, pilot success criteria, technical evaluation, technical win, security questionnaire, vendor security review, SOC 2 questionnaire, technical objection, mutual action plan, MAP, close plan, mutual close plan, buyer enablement, the deal is stalled, deal stalled after the demo, how do I get this deal to close, close date keeps slipping, JOLT, buyer indecision, no-decision loss."
 ---
 
 # Sales Enablement
@@ -26,7 +26,7 @@ Sales Enablement brings together sales strategists, discovery coaches, outbound 
 |---|-------|------|-------------|
 | 1 | Outbound Strategist | `agents/sales-outbound-strategist.md` | Plans and executes multi-touch prospecting campaigns with personalized outreach sequences, account selection, and lead scoring to fill early-stage pipeline |
 | 2 | Discovery Coach | `agents/sales-discovery-coach.md` | Coaches sales teams on discovery call frameworks (MEDDPICC, situational questioning) to uncover buyer needs, budget, and decision process early |
-| 3 | Deal Strategist | `agents/sales-deal-strategist.md` | Develops deal strategy frameworks that map stakeholders, address objections, structure win-loss scenarios, and accelerate movement through sales stages |
+| 3 | Deal Strategist | `agents/sales-deal-strategist.md` | Develops deal strategy frameworks that map stakeholders, address objections, structure win-loss scenarios, and accelerate movement through sales stages — including the mutual action plan (close plan) the buyer co-owns and the JOLT diagnosis for deals stalling on indecision |
 | 4 | Pipeline Analyst | `agents/sales-pipeline-analyst.md` | Analyzes pipeline health, forecasts revenue with weighted probabilities, prioritizes deals by risk/opportunity, and identifies stalled opportunities requiring intervention |
 | 5 | Proposal Architect | `agents/sales-proposal-architect.md` | Designs customer-centric proposals that map solution to buyer requirements, quantify ROI, reduce decision friction, and beat competitive alternatives |
 | 6 | Sales Enablement Content Creator | `agents/sales-enablement-content-creator.md` | Develops sales battle cards, competitive intel documents, customer success stories, objection handlers, and pitch scripts that arm sales teams with proof and confidence |
@@ -53,6 +53,9 @@ Sales Enablement brings together sales strategists, discovery coaches, outbound 
 - "Create a win-loss scenario analysis for a competitive deal we're behind in"
 - "Develop a stakeholder alignment strategy for a multi-buyer procurement"
 - "Build an executive sponsor engagement plan to unblock a stalled deal"
+- "Write a mutual action plan for this deal, planned backward from the customer's go-live date"
+- "Grade our close plan — is it Shared, Co-owned and Current, or just sitting in the CRM?"
+- "This deal has a champion and keeps slipping — diagnose whether it is status quo or indecision"
 
 **Pipeline Management** → Pipeline Analyst
 - "Run a pipeline health analysis and identify deals at risk of slipping"
