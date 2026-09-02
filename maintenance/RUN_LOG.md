@@ -4,6 +4,29 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-02 (third run) — Anti-fabrication sweep reaches the sales discipline: the Deal Strategist's own Success Metrics stop asserting invented benchmarks (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item. All persona/distribution items remain blocked (maintainer decisions or the ≥100-star / real-usage traction gates), so the unblocked work is the standing **anti-fabrication sweep** — the direct expression of the repo's no-fabrication guardrail — and the newest of its three open fronts is the **sales-discipline sweep** filed earlier today ([`backlog.md`](backlog.md) line 103).
+
+**Health check — all green, no P0.** Both manifests parse and keep required fields (jq); all 19 skills carry `SKILL.md` with `name` + `description`; **627 internal `.md` links checked, 0 broken**; the only dated guide (`guides/aeo-geo-playbook.md`, Last reviewed 2026-08-23) is 10 days old, well inside the 90-day window. Counts re-verified consistent at **76 agents / 19 skills**: the 76 agent files across 18 category dirs reconcile exactly against `AGENTS_INDEX.md` (strategy's three top-level files are framework docs — CATALYST strategy/quickstart/brief — correctly excluded, as are the seven `strategy/playbooks` + `coordination` docs), and the live GitHub About description already reads 76/19. GitHub topics full at 20. No count, name or capability changed this run, so no discoverability count-sweep was needed.
+
+**Shipped:** the pre-existing Success Metrics block on both dual-located copies of [`sales/sales-deal-strategist.md`](../sales/sales-deal-strategist.md) de-fabricated. The prior run added a benchmark-free mutual-action-plan section but, under the one-change rule, left the block below it asserting six unsourced round numbers as fact. All six retired to the sweep's established **baseline-from-your-own-history / read-as-a-trend** pattern, metric and diagnostic kept in every case:
+
+- **Sales Cycle Length** — dropped *60–90 days mid-market / 120–180 enterprise*; now read against the team's own segment history with the distribution watched for a few stalled deals dragging the median.
+- **Win Rate** — dropped *25–40% for qualified pipeline*; now a trend against your own prior quarters, comparable only behind a consistent qualification bar (a rate that "improves" because qualification loosened is worse), segmented by source and competitive-vs-uncontested.
+- **Forecast Accuracy** — dropped *80%+ within a 2-week window*; now your own accuracy trend, error shrinking and unbiased, with directional bias (early vs. sandbagged) watched separately from spread.
+- **Stakeholder Engagement Score** — dropped *3–5 mid-market / 5–7 enterprise*; now a trend against your own won-deal history, with the note that a fixed target invites the headcount-padding the metric exists to catch (the *proxy only* caveat kept).
+- **Champion Identification Rate** — dropped *80%+*; now measured as *validated, not merely nominated* over the honest denominator of deals still open at Stage 3.
+- **No-Decision Loss Mix** — dropped the *~10%* unclassified-loss ceiling (the *target 100% classified* aspiration kept, as an honest directional 100% like the repo's other kept ones); the unclassified share now driven down against its own trend rather than a fixed cutoff.
+
+**No new figure introduced.** The rewrite removes benchmarks; it asserts none. Voice matched to the already-cleaned sweep personas (`analytics-customer-insights-researcher`, the five SEO personas) so the block reads as one discipline.
+
+**Verified:** the two dual-located copies are byte-identical (`diff` clean); all six flagged strings grep to **zero** in both; `bash scripts/lint-agents.sh` passes **2/2**; counts re-checked and unchanged at 76/19 everywhere including the live About description; internal link check still clean.
+
+**Deferred (the rest of the sales sweep, one persona per future run, as filed):** `sales-discovery-coach`, `sales-pipeline-analyst`, `sales-proposal-architect`, `sales-outbound-strategist` still carry the same *control-named, round-number-asserted* pattern in their own metric blocks. The two other open sweeps also continue — SEO (`seo-ai-search-optimizer`, `seo-technical-auditor` remain) and analytics (`analytics-data-storyteller`, `analytics-conversion-rate-optimizer`, `ops-reporting-specialist` remain). One persona per run, never all at once.
+
+---
+
 ### 2026-09-02 (second run) — Skill Scout: **ENHANCE** — every document in the deal belonged to the seller, and the one the buyer signs was missing (automated)
 
 **Scope:** scout survey, focus discipline **PMM / sales / GTM** by rotation — last the focus 2026-08-29, the oldest of the four (content/SEO 08-30, email/analytics/ops 08-31, paid media/social 09-01). 11 sources evaluated across 8 rows — **2 adopted (ideas-only, co-credit) + 1 primary attribution**, 2 watch, the rest dismissed or recorded as re-checks. Full rows in [scout-ledger.md](scout-ledger.md).
