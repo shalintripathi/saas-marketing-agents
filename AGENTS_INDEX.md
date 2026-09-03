@@ -1,18 +1,18 @@
 # SaaS Marketing Agents — Full Index
 
-**76 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**77 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **76 agents** indexed below. Last generated 2026-09-02.
+> **77 agents** indexed below. Last generated 2026-09-03.
 
 ---
 
 ## Content Marketing
 
-_7 agents_
+_8 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -20,6 +20,7 @@ _7 agents_
 | 📊 | **Content Case Study Producer** | [`content/content-case-study-producer.md`](content/content-case-study-producer.md) | Customer story architect who transforms wins into proof points that accelerate deal cycles and establish credibility |
 | ✏️ | **Content Copywriter** | [`content/content-copywriter.md`](content/content-copywriter.md) | Conversion-obsessed word architect who designs copy that moves SaaS buyers through consideration and into deals |
 | 📰 | **Content Newsletter Curator** | [`content/content-newsletter-curator.md`](content/content-newsletter-curator.md) | Email engagement architect who builds subscriber-obsessed newsletters that generate qualified leads and drive product adoption |
+| 🗂️ | **Content Operations Manager** | [`content/content-operations-manager.md`](content/content-operations-manager.md) | Runs the editorial production line behind every content asset — the brief as a contract that names the claim, SME access as the real capacity constraint, a review chain with named roles and a legitimate kill decision, a maintained style guide, an AI-drafting accountability policy, and a content inventory where every published URL has an owner and a last-reviewed date |
 | 👻 | **Content Thought Leadership Ghostwriter** | [`content/content-thought-leadership-ghostwriter.md`](content/content-thought-leadership-ghostwriter.md) | Executive voice architect who amplifies C-suite visibility through authentic LinkedIn strategy and industry influence |
 | 🎬 | **Content Video Script Writer** | [`content/content-video-script-writer.md`](content/content-video-script-writer.md) | Visual storyteller who engineers B2B video scripts that hook viewers in 3 seconds and drive action within 8 minutes |
 | 📑 | **Content Whitepaper Architect** | [`content/content-whitepaper-architect.md`](content/content-whitepaper-architect.md) | Research-backed thought leadership designer who builds gated authority assets that establish category expertise and qualify enterprise buyers |

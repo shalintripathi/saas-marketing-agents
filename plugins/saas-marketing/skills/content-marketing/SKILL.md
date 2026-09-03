@@ -1,6 +1,6 @@
 ---
 name: content-marketing
-description: "Master orchestrator for B2B SaaS content creation. Use this skill when you need to produce blog articles, whitepapers, case studies, video scripts, newsletters, ghostwritten thought leadership pieces, or develop comprehensive content strategies. Also triggers on: blog, article, case study, whitepaper, newsletter, video script, ghostwriting, content calendar, editorial, thought leadership, content strategy."
+description: "Master orchestrator for B2B SaaS content creation and the editorial production system behind it. Use this skill to produce blog articles, whitepapers, case studies, video scripts, newsletters and ghostwritten thought leadership, to develop content strategy, and to run the publishing line itself — content briefs, editorial calendars and production capacity, review and approval workflow, subject-matter-expert access, the style guide, an AI-drafting policy, and a content inventory with owners. Also triggers on: blog, article, case study, whitepaper, newsletter, video script, ghostwriting, content calendar, editorial, thought leadership, content strategy, content brief, content operations, content ops, editorial workflow, managing editor, who reviews this, our content pipeline is stuck, content is stuck in review, content audit, content inventory, content governance, style guide, house style, SME interview, expert interview, freelance writers, AI content policy, how much content can we actually produce."
 ---
 
 # Content Marketing Skill
@@ -18,9 +18,9 @@ description: "Master orchestrator for B2B SaaS content creation. Use this skill 
 
 ## What This Is
 
-The Content Marketing skill coordinates a team of 7 specialist agents to produce publication-ready content across multiple formats and channels. From long-form whitepapers and case studies to video scripts, newsletters, and executive thought leadership pieces, this skill orchestrates the entire content creation workflow for B2B SaaS companies. Each agent brings specialized expertise in their content format, enabling you to delegate confidently and scale your content operations.
+The Content Marketing skill coordinates a team of 8 specialist agents to produce publication-ready content across multiple formats and channels. From long-form whitepapers and case studies to video scripts, newsletters, and executive thought leadership pieces, this skill orchestrates the entire content creation workflow for B2B SaaS companies. Each agent brings specialized expertise in their content format, enabling you to delegate confidently and scale your content operations.
 
-## The Team: 7 Specialist Agents
+## The Team: 8 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -31,6 +31,7 @@ The Content Marketing skill coordinates a team of 7 specialist agents to produce
 | 5 | Video Script Writer | `agents/content-video-script-writer.md` | Creates scripts for product demos, explainers, customer testimonials, and educational videos optimized for YouTube and social platforms. Includes visual direction and pacing notes. |
 | 6 | Newsletter Curator | `agents/content-newsletter-curator.md` | Develops email newsletter strategies, curates industry insights, writes engaging email copy, and designs nurture sequences that drive engagement and conversions. |
 | 7 | Thought Leadership Ghostwriter | `agents/content-thought-leadership-ghostwriter.md` | Authors executive-level articles, opinion pieces, and bylined content attributed to company leadership. Establishes authority through authentic voice and market insights. |
+| 8 | Content Operations Manager | `agents/content-operations-manager.md` | Runs the production line the other seven work on: the brief standard that names the claim before anything is assigned, capacity planned against the real constraint (SME access and review, not writing), a review chain with named roles and turnarounds, Hold and Kill as real states, the versioned style guide, the AI-drafting accountability policy, and a content inventory where every live URL has an owner and a last-reviewed date. |
 
 ## How to Use
 
@@ -65,6 +66,17 @@ The Content Marketing skill coordinates a team of 7 specialist agents to produce
 - "Develop our monthly newsletter strategy and calendar" → Newsletter Curator
 - "Write a 4-email nurture sequence on [topic]" → Newsletter Curator
 - "Design a re-engagement email campaign" → Newsletter Curator
+
+**Editorial Operations & Content Governance**
+- "Our content pipeline keeps stalling / everything is stuck in review" → Content Operations Manager (measure cycle time by stage, find the real constraint)
+- "Write us a content brief standard / template" → Content Operations Manager
+- "How much content can we actually produce next quarter?" → Content Operations Manager (capacity against the constraint, not writer hours)
+- "Who needs to review this, and how long do they get?" → Content Operations Manager (review charter; `ops-quality-assurance` owns the quality rubric and sign-off)
+- "We need a style guide / our terminology is inconsistent" → Content Operations Manager (house style; product language routes to `pmm-messaging-architect`)
+- "Set our policy for AI-assisted drafting" → Content Operations Manager (disclosure routes to `ops-legal-compliance`)
+- "Which of our published pages are now wrong / who owns this page?" → Content Operations Manager (content inventory; the refresh-or-retire decision routes to `seo-content-optimizer`)
+- "We're bringing on freelance writers" → Content Operations Manager (brief, SME access, rights and originality with `ops-legal-compliance`)
+- "Get our SMEs into the process" → Content Operations Manager (scheduled, recorded interview bank)
 
 **Copywriting & Conversion**
 - "Write homepage copy that explains our value prop" → Copywriter
