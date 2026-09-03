@@ -84,7 +84,7 @@ _The interview-as-method—the four question archetypes and the reusable knowled
 - Publication rhythm: specific publish dates (typically Tuesday-Thursday, LinkedIn optimal)
 - Article types: mix of trend analysis, personal philosophy, industry critique, company perspective
 - Promotion strategy: which articles get cross-promoted on company channels, shared internally, promoted in newsletter
-- Success metrics: engagement targets for each article type (thought leadership articles 500+ engagements typical for known executives)
+- Success metrics: per-article-type engagement read against this executive's own prior posts of the same type (see Success Metrics), reported with the impression count — not a fixed per-article target
 
 **LinkedIn Article Draft (1,500-2,500 words)**
 - Hook/opening (150-200 words): establish perspective or contrarian take, articulate why this topic matters to reader
@@ -154,16 +154,18 @@ _The interview-as-method—the four question archetypes and the reusable knowled
 
 ## Success Metrics
 
-- **LinkedIn engagement:** Thought leadership articles average 500+ engagements (reactions, comments, shares) within 2 weeks, with outlier articles reaching 1,000-5,000+ engagements
-- **Follower growth:** Executive LinkedIn following grows 2-5% per month through consistent article publishing and engagement
-- **Media mentions:** Executive quoted or mentioned in 2-4 industry publications per month (varies by prominence and industry)
-- **Analyst adoption:** Executive perspective cited in 1-2 analyst reports annually, establishes relationship with key analyst firms
-- **Speaking opportunities:** Executive secures 4-8 speaking engagements annually through thought leadership visibility (keynotes, panels, analyst events)
-- **Content virality:** Top-performing articles reach 50,000+ impressions, drive 500+ profile visits, generate direct inbound from readers
-- **Sales acceleration:** Sales team reports that executive's thought leadership builds buyer credibility and accelerates deal cycles by 5-10 days
-- **Employee perception:** Internal surveys show employees feel proud of executive's industry visibility, improves internal morale and recruitment narrative
-- **Earned media value:** Media/speaking/analyst time value (if paid for equivalent advertising) totals $50K-200K annually (varies by visibility and speaking fees)
+> Metrics below define **what to measure**; read each against **this executive's own history and your own funnel**, not a published benchmark. Engagement, follower growth, media and analyst pickup, speaking volume, and any deal-cycle effect vary too much by the executive's starting profile, seniority, industry, category maturity, and posting cadence for a universal target to be honest — so state no fixed figure, report every rate with the count behind it, and flag a small-sample result as directional. Earned-media strategy and measurement are owned by `comms-pr-strategist`, analyst-firm relationships by `comms-analyst-relations-manager`, deal-velocity measurement by `sales-pipeline-analyst`, and whether an observed downstream lift is real (control design, attribution) by `analytics-performance-analyst`.
+
+- **LinkedIn engagement:** engagements (reactions, comments, shares) per post within a defined window, read as a **trend against this executive's own prior posts** and segmented by content type (contrarian takes, philosophy pieces, and company-news posts don't engage alike, so a blended average hides the story) — reported with the impression count behind it, never a fixed per-post target. A single outlier is one data point, not a new baseline.
+- **Follower growth:** net follower change read **against this account's own trend** and reported with the raw count — an audience-reach signal, not a target percentage; a stall may point to topic-fit or cadence rather than content quality.
+- **Media mentions:** publications that quote or mention the executive, counted as **coverage against the outreach actually done** (mentions per pitch, not an absolute monthly quota) — earned-media strategy and measurement owned by `comms-pr-strategist`; this metric tracks whether the executive's *perspective* is what got picked up.
+- **Analyst adoption:** whether the executive's perspective enters analyst reports and inquiry conversations, counted as **citations earned rather than a target number of reports** — the analyst-firm relationship itself is owned by `comms-analyst-relations-manager`.
+- **Speaking opportunities:** speaking slots (keynotes, panels, analyst events) the visibility opened, read as a **coverage count against the proposals actually submitted** — a reach-relative-to-effort signal, not an annual quota.
+- **Content reach:** impressions and profile visits a top piece drives, read **against this executive's own prior pieces** and reported with the counts — a distribution signal, not a virality threshold to hit; reach without downstream inbound is a vanity read, so pair it with whatever inbound it actually produced.
+- **Sales acceleration:** whether deals where the buyer engaged the executive's content progress faster than **comparable deals where they did not** — a within-pipeline comparison stated as a hypothesis your data can test, never an asserted day-count, and read cautiously because content engagement correlates with buyer intent (the causal claim needs a control). Deal-velocity measurement is owned by `sales-pipeline-analyst`.
+- **Employee perception:** internal surveys show employees feel proud of the executive's industry visibility, supporting internal morale and the recruitment narrative — a qualitative signal, no target rate asserted.
+- **Earned media reach:** the media, speaking, and analyst reach the program earned, reported as **coverage counts (placements, audiences reached, citations), not a dollar-equivalent** — Advertising Value Equivalency multiplies coverage by a rate card the executive never paid and is named an invalid measure by Barcelona Principles 4.0 (AMEC, June 2025); `comms-pr-strategist` Rule 9 bans it from every report, so track what actually happened rather than an invented dollar figure.
 - **Voice authenticity:** Reader feedback indicates content sounds authentically like executive (not corporate marketing speak), "feels like I'm hearing directly from leader"
 - **First-hand density:** Share of published pieces carrying at least one element obtainable only from the interview—a proprietary number, a named failure, a stated scope limit—rather than restatable from public sources. A piece that reads exactly as it would have without the interview means the instrument was not actually run; read that as a miss, not a stylistic preference
-- **Topic authority establishment:** Search results for executive name + topic shows executive articles/mentions in top 5 results for key industry topics
+- **Topic authority establishment:** whether the executive's articles and mentions surface for **executive-name + key-topic** searches, read as a **presence-and-trend signal on your own named queries** — reported as which queries return the executive and how that set moves over time, not a fixed rank position to claim.
 - **Board/investor impact:** Executive thought leadership positions company favorably with board and investors, supports fundraising narratives
