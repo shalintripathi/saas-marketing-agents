@@ -1,6 +1,6 @@
 ---
 name: email-marketing-ops
-description: "Email marketing operations and automation for B2B SaaS. Use this skill for newsletter strategy, email automation sequences, lifecycle campaigns, nurture workflows, onboarding sequences, deliverability optimization, email copywriting, lead scoring, and marketing automation platform setup. Also triggers on: email, newsletter, drip campaign, lifecycle, nurture, onboarding sequence, deliverability, email automation, lead scoring, marketing automation."
+description: "Email marketing operations and automation for B2B SaaS. Use this skill for newsletter strategy, email automation sequences, lifecycle campaigns, nurture workflows, onboarding sequences, deliverability optimization, email copywriting, lead scoring, marketing automation platform setup, and cold-email sending infrastructure — secondary sending domains, SPF/DKIM/DMARC, and domain warmup. Also triggers on: email, newsletter, drip campaign, lifecycle, nurture, onboarding sequence, deliverability, email automation, lead scoring, marketing automation, our emails are going to spam, SPF, DKIM, DMARC, sender reputation, sending domain, cold email domains, domain warmup, mailbox setup, blacklist, bounce rate."
 ---
 
 # Email Marketing Operations Skill
@@ -28,7 +28,7 @@ The Email Marketing Operations skill brings together 5 specialist agents to exec
 | 2 | Email Copywriter | `agents/email-copywriter.md` | Writes compelling subject lines, preview text, email body copy, and CTAs. Balances persuasion with authenticity, adapts messaging by segment and lifecycle stage. |
 | 3 | Lifecycle Architect | `agents/email-lifecycle-architect.md` | Designs multi-email sequences: onboarding, nurture, re-engagement, win-back, and upsell campaigns. Maps customer journey touchpoints and automation triggers. |
 | 4 | Automation Engineer | `agents/email-automation-engineer.md` | Implements marketing automation workflows, configures email platforms (HubSpot, Marketo, Klaviyo), builds triggers and segmentation logic, and ensures technical execution. |
-| 5 | Deliverability Specialist | `agents/email-deliverability-specialist.md` | Optimizes email deliverability, manages sender reputation, handles list hygiene, prevents spam folder placement, and maintains compliance with CAN-SPAM and GDPR. |
+| 5 | Deliverability Specialist | `agents/email-deliverability-specialist.md` | Optimizes email deliverability, manages sender reputation and SPF/DKIM/DMARC authentication, handles list hygiene, prevents spam folder placement, architects the cold sending estate of secondary domains kept isolated from the brand domain, and maintains compliance with CAN-SPAM and GDPR. |
 
 ## How to Use
 
@@ -65,6 +65,8 @@ The Email Marketing Operations skill brings together 5 specialist agents to exec
 - "Our emails are going to spam—how do we fix?" → Deliverability Specialist
 - "Audit our sender reputation and email practices" → Deliverability Specialist
 - "Set up SPF, DKIM, and DMARC correctly" → Deliverability Specialist
+- "Set up cold email sending domains without burning our main domain" → Deliverability Specialist (estate architecture, warming, authentication baseline) with Outbound Strategist for sizing
+- "Our SPF/DKIM was fine and now mail is bouncing" → Deliverability Specialist (authentication drift)
 - "Manage list hygiene and bounces" → Deliverability Specialist
 - "Ensure GDPR and CAN-SPAM compliance" → Deliverability Specialist
 

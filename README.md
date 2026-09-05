@@ -121,7 +121,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 | **SEO Growth** | 7 | "SEO audit", "keyword research", "AEO", "link building", "programmatic SEO", "hreflang", "our translated pages get no traffic", "G2 / Capterra listing", "get into a 'best software' roundup", "directory submissions" |
 | **Paid Media Ops** | 7 | "Google Ads", "LinkedIn Ads", "ROAS", "attribution", "newsletter sponsorship", "content syndication" |
 | **Social Media Ops** | 7 | "LinkedIn strategy", "YouTube", "community", "podcast", "show notes", "podcast guesting", "vet this influencer", "is this creator's engagement real", "sponsored post disclosure" |
-| **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability" |
+| **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability", "SPF/DKIM/DMARC", "our emails go to spam", "cold email sending domains", "domain warmup", "set up sending infrastructure" |
 | **Design Ops** | 5 | "landing page", "brand identity", "ad creative" |
 | **Sales Enablement** | 7 | "outbound", "battle card", "proposal", "MEDDPICC", "demo plan", "proof of concept", "security questionnaire", "mutual action plan", "close plan", "the deal is stalled" |
 | **Product Marketing Ops** | 9 | "positioning", "product launch", "competitive intel", "win/loss interviews", "why we lose deals", "pricing", "packaging", "agent readiness", "expand into Europe", "market entry", "which country next", "localization", "brand awareness", "brand vs performance", "how do we measure brand", "share of search", "category entry points", "demand creation" |
