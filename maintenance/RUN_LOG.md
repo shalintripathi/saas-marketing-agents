@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-06 (fifth run) — `sales-outbound-strategist`'s deliverability playbook re-seamed to the deliverability specialist; a fabricated warming ramp retired (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item.
+
+**Health check — all clean.** No broken internal `.md` links (Python-normalized link-checker over every `*.md` — the BSD `realpath -m` used by an earlier ad-hoc pass is unsupported on macOS and gave 100% false positives, so the checker was rerun with `os.path.normpath`; 0 real broken links). `guides/aeo-geo-playbook.md` "Last reviewed" 2026-08-23 is inside 90 days. `marketplace.json` and the plugin `plugin.json` parse via `jq` with required fields intact; all 19 skills have a `SKILL.md` with `name` + `description`. Counts re-confirmed at **77 agents / 19 skills**: 77 agent-frontmatter files across the category dirs, `AGENTS_INDEX.md` lists exactly 77 entries that set-match the filesystem (0 phantom, 0 missing) and its per-category counts sum to 77, all matching the README badge + prose, `llms.txt`, both manifests, and the **live GitHub About** (`gh repo view`). No P0 present.
+
+**Shipped (P1/P2 — both P1 items remain blocked, so the freshest unblocked P2):** the 2026-09-05 seam item on `sales-outbound-strategist`. Its *Compliance and Deliverability Playbook* had two defects, fixed in one edit to both dual-located copies:
+- **Ownership seam.** Two bullets ("Email authentication: SPF, DKIM, DMARC setup for sender domain" and the warming bullet) read as though outbound owned the sending infrastructure. But `email-deliverability-specialist` was extended on 2026-09-05 with a deep, primary-sourced *cold sending estate* section whose "Boundaries" paragraph already assigns estate safety + brand-domain insulation to itself and sizing/cost/volume to `sales-outbound-strategist` — the outbound file was the un-updated mirror. Rewrote the bullets to point authentication and the warming schedule at the specialist as owner of the estate, while explicitly keeping outbound's real half: the *demand* on the estate (mailboxes/domains a pipeline target implies, capacity cost, sustained daily volume). Now reciprocal with the specialist's paragraph.
+- **Fabricated ramp.** The warming bullet asserted *"100 → 500 → 2000 daily over 30 days"* — an unsourced round schedule with no stated basis, the exact defect the repo's anti-fabrication sweep retires. Replaced with the established pattern: start conservative and increase against the estate's own reputation and confirmed-human engagement signals (ties to the specialist's Rule 9 tiering the file already references) rather than a fixed calendar curve, sizing the end state from the volume target and deferring the warming method/seed-segment discipline to the specialist. No figure introduced.
+
+**Verify.** Both copies diff-identical; lint 2/2; `100 → 500 → 2000` greps to zero outside the (now-closed) backlog line; the edit added only backtick agent references (matching the file's existing `email-deliverability-specialist` Rule 9 mentions), no new markdown links, so the link check stays clean. Counts untouched (77/19) — no discoverability surfaces needed updating this run.
+
+**Deferred.** The remaining sales anti-fabrication targets (`sales-pipeline-analyst`, entangled with the forecast-category lead; the meeting-rate/cost-per-meeting/completion/unsubscribe targets still in this same file's Success Metrics block) and every open P2 scout item stay queued — one change per run.
+
+---
+
 ### 2026-09-06 (fourth run) — Paid-media anti-fabrication sweep, persona 2 of 7: the Attribution Analyst stops grading itself with invented numbers (automated)
 
 **Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item.

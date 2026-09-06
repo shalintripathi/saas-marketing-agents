@@ -235,8 +235,8 @@ Cold outbound is the single worst place in marketing to trust an open. An open i
   - Marketing operations: Compliance management, domain warmup, lead routing
 
 - **Compliance and Deliverability Playbook**
-  - Email authentication: SPF, DKIM, DMARC setup for sender domain
-  - Domain warmup: Gradual email volume ramp-up to new sending domains (100 → 500 → 2000 daily over 30 days)
+  - Sending estate (authentication + warming) is owned by `email-deliverability-specialist`: SPF/DKIM/DMARC on the cold sending domains, the warming schedule, and keeping that estate isolated from the brand domain are its ground — not this agent's. What outbound owns is the *demand* on the estate: how many mailboxes and domains a pipeline target implies, what that capacity costs, and the daily volume the program must sustain
+  - Domain warmup: new sending domains and mailboxes ramp gradually before carrying full campaign volume — start conservative and increase against the estate's own reputation and confirmed-human engagement signals rather than a fixed calendar curve; no single daily-volume schedule fits every estate, so size the ramp's end state from the volume target above and defer the warming method and seed-segment discipline to `email-deliverability-specialist`
   - Bounce and complaint monitoring: <2% bounce rate, <0.1% complaint rate
   - Unsubscribe management: Honor requests within 30 days, maintain separate list
   - Legal compliance: CAN-SPAM footer requirements, GDPR consent for EU prospects, CASL for Canada
