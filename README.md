@@ -119,7 +119,7 @@ The agents are grouped into **19 installable skills**, each triggered by natural
 | **SaaS Marketing Suite** (router) | — | "help with marketing", "what can you do" |
 | **Content Marketing** | 8 | "blog", "case study", "whitepaper", "newsletter", "content brief", "editorial calendar", "content ops", "who reviews this", "our content pipeline is stuck", "content audit", "style guide", "AI content policy" |
 | **SEO Growth** | 7 | "SEO audit", "keyword research", "AEO", "link building", "programmatic SEO", "hreflang", "our translated pages get no traffic", "G2 / Capterra listing", "get into a 'best software' roundup", "directory submissions" |
-| **Paid Media Ops** | 7 | "Google Ads", "LinkedIn Ads", "ROAS", "attribution", "newsletter sponsorship", "content syndication" |
+| **Paid Media Ops** | 7 | "Google Ads", "LinkedIn Ads", "ROAS", "attribution", "newsletter sponsorship", "content syndication", "budget pacing", "we underspent our budget", "are our campaigns competing with each other", "audience overlap", "self-competition", "suppression list", "ad frequency across channels" |
 | **Social Media Ops** | 7 | "LinkedIn strategy", "YouTube", "community", "podcast", "show notes", "podcast guesting", "vet this influencer", "is this creator's engagement real", "sponsored post disclosure" |
 | **Email Marketing Ops** | 5 | "email sequence", "nurture", "deliverability", "SPF/DKIM/DMARC", "our emails go to spam", "cold email sending domains", "domain warmup", "set up sending infrastructure" |
 | **Design Ops** | 5 | "landing page", "brand identity", "ad creative" |

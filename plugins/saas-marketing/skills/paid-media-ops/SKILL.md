@@ -1,6 +1,6 @@
 ---
 name: paid-media-ops
-description: "Full-funnel paid advertising operations for B2B SaaS. Use this skill for PPC strategy, Google Ads optimization, LinkedIn Ads, social media advertising, programmatic buying, creative strategy, attribution modeling, budget allocation, ROAS improvement, media spend optimization, and the media no auction sells — newsletter and podcast sponsorships, community and industry-publication placements, paid review-site listings on G2 and Capterra, and pay-per-lead content syndication. Also triggers on: PPC, Google Ads, LinkedIn Ads, social ads, programmatic, ad creative, attribution, media budget, paid campaigns, ROAS, CPA, ad spend, newsletter sponsorship, podcast sponsorship, community sponsorship, sponsor a newsletter, content syndication, pay-per-lead, cost per lead vendor, media kit, rate card, insertion order, direct buy, publisher partnership, make-good, G2 paid listing, Capterra ads, review site advertising, sponsorship ROI."
+description: "Full-funnel paid advertising operations for B2B SaaS. Use this skill for PPC strategy, Google Ads optimization, LinkedIn Ads, social media advertising, programmatic buying, creative strategy, attribution modeling, budget allocation, budget pacing and planned-vs-delivered reconciliation, audience overlap and campaign self-competition audits, suppression lists, ROAS improvement, media spend optimization, and the media no auction sells — newsletter and podcast sponsorships, community and industry-publication placements, paid review-site listings on G2 and Capterra, and pay-per-lead content syndication. Also triggers on: PPC, Google Ads, LinkedIn Ads, social ads, programmatic, ad creative, attribution, media budget, paid campaigns, ROAS, CPA, ad spend, newsletter sponsorship, podcast sponsorship, community sponsorship, sponsor a newsletter, content syndication, pay-per-lead, cost per lead vendor, media kit, rate card, insertion order, direct buy, publisher partnership, make-good, G2 paid listing, Capterra ads, review site advertising, sponsorship ROI, budget pacing, we underspent our budget, are our campaigns competing with each other, audience overlap, self-competition, campaign cannibalization, suppression list, exclusion list, ad frequency across channels, how many ad accounts do we have."
 ---
 
 # Paid Media Operations Skill
@@ -25,7 +25,7 @@ The Paid Media Operations skill brings together 7 specialized agents to manage e
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
 | 1 | PPC Strategist | `agents/paid-media-ppc-strategist.md` | Designs Google Ads account structure, campaign strategy, keyword lists, bidding strategies, and ad copy. Manages account setup, optimization, and ongoing QA. Handles search and Shopping campaigns. |
-| 2 | Budget Optimizer | `agents/paid-media-budget-optimizer.md` | Analyzes spend patterns, identifies underperforming campaigns, reallocates budget to high-ROAS channels, models growth scenarios, and forecasts revenue impact of budget changes. |
+| 2 | Budget Optimizer | `agents/paid-media-budget-optimizer.md` | Analyzes spend patterns, identifies underperforming campaigns, reallocates budget to high-ROAS channels, models growth scenarios, and forecasts revenue impact of budget changes. Reconciles planned against delivered spend before fitting any curve, and maps audience collision across the portfolio — which of your own campaigns are taking each other's audience, the assignment order and exclusions that resolve it, the suppression register, and cross-channel frequency on one buying committee. |
 | 3 | Creative Strategist | `agents/paid-media-creative-strategist.md` | Develops ad creative strategy across visual, copy, and messaging. Creates landing page concepts, A/B test plans, and creative hypotheses. Directs copywriter and designer resources. |
 | 4 | Social Ads Specialist | `agents/paid-media-social-ads-specialist.md` | Manages Facebook, Instagram, LinkedIn, and Twitter advertising. Develops audience targeting strategies, lookalike and custom audiences, and social-specific creative optimization. |
 | 5 | Programmatic Buyer | `agents/paid-media-programmatic-buyer.md` | Manages programmatic display, audio, and video campaigns across exchanges and DMPs. Handles audience segmentation, bid strategies, and brand safety controls. |
@@ -79,6 +79,10 @@ The Paid Media Operations skill brings together 7 specialized agents to manage e
 **Full Funnel Coordination**
 - "Build a complete paid advertising strategy" → PPC Strategist (search) + Social Ads Specialist (mid-funnel) + Creative Strategist (messaging) + Budget Optimizer (allocation) + Attribution Analyst (measurement)
 - "Rebalance budget across all channels" → Budget Optimizer + Attribution Analyst + all channel specialists
+- "Are our campaigns competing with each other / bidding against ourselves?" → Budget Optimizer + Social Ads Specialist (in-platform audiences) + PPC Strategist (keywords)
+- "We underspent the budget — is the audience exhausted or are we colliding with ourselves?" → Budget Optimizer
+- "Build the suppression list — customers, open opps, competitors" → Budget Optimizer + Attribution Analyst
+- "How often is one buying committee seeing us across all channels?" → Budget Optimizer + Programmatic Media Buyer
 - "Launch integrated campaign across Google + LinkedIn + Facebook" → All agents coordinate
 
 ### Execution Model
