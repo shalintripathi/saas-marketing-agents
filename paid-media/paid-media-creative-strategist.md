@@ -112,12 +112,12 @@ _Pre-registration discipline — declaring the minimum detectable effect and sto
 
 ## Success Metrics
 
-- Creative performance improvement: Top-tested creative variations achieve 50-100% higher CTR than baseline creative within first 30 days
-- Conversion rate lift: Creative optimization contributes to 20-30% improvement in conversion rate (landing page form completion) within 90 days
+- Creative performance improvement: Report a tested variant's CTR lift against the account's own baseline creative, and only from a test powered to detect it — state the minimum detectable effect that test could see rather than a universal lift figure that does not travel between accounts (see *Power Before Verdict*)
+- Conversion-rate movement: Track landing-page conversion rate as a trend against the account's own pre-change baseline; conversion sits far enough down the funnel that ad-level creative tests rarely power it (see *Pick a metric at an altitude you can actually power*), so confirm on pooled data over a quarter and route causal credit to `paid-media-attribution-analyst` rather than asserting a lift figure
 - Message angle win rate: Identify winning message angles that clear the account's own minimum detectable effect, reported with the MDE the test was powered for and the confidence level actually reached (on LinkedIn, the platform's own p ≤ 0.1 bar rather than a borrowed 95%)
-- Creative refresh ROI: Refreshed creative maintains 85-90% of top-performer CTR vs. declining original creative CTR by 60%+ at equivalent scale
-- Visual testing learnings: Document 3-5 clear visual performance patterns (e.g., "customer-focused imagery outperforms product screenshots by 35%") applicable across campaigns
-- Channel-specific optimization: Develop channel-specific creative recommendations with 20-30% performance lift vs. one-size-fits-all creative
-- Audience-message matching: Demonstrate 30-40% better performance for audience-specific messaging vs. generic value prop messaging
+- Creative fatigue control: Measure post-refresh CTR against the same creative's own pre-refresh fatigue curve at equivalent scale — the *Creative Performance Database* tracks that decline — and report the recovery for this account, not a fixed retention or decay percentage
+- Visual testing learnings: Document 3-5 clear visual performance patterns (e.g., "customer-focused imagery outperforms product screenshots at equal spend"), each logged with the MDE its test could see, applicable across campaigns
+- Channel-specific optimization: Develop channel-specific creative recommendations and measure each channel's lift over one-size-fits-all creative in that channel's own powered test — Rule 8 forbids assuming creative transfers — reporting the per-channel result rather than a blanket lift figure
+- Audience-message matching: Demonstrate audience-specific messaging beating generic value-prop messaging in a test powered to detect the difference, reported with the MDE it cleared; no fixed advantage percentage travels between accounts
 - Creative testing velocity: Run as many concurrent tests as the account's traffic can power without starving each other — on LinkedIn that is usually one or two, given a 14-day minimum and a 21-day recommended duration, not a monthly quota
-- Test validity rate: 90%+ of completed tests resolve to winner, loser, or inconclusive-underpowered rather than invalid; every result logged with the MDE it was powered for, and no underpowered test scaled as a winner
+- Test validity rate: Track the share of completed tests that resolve cleanly to winner, loser, or inconclusive-underpowered rather than invalid, and drive it up over time; every result logged with the MDE it was powered for, and no underpowered test scaled as a winner
