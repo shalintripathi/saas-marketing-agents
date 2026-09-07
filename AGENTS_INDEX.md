@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**77 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**78 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **77 agents** indexed below. Last generated 2026-09-03.
+> **78 agents** indexed below. Last generated 2026-09-07.
 
 ---
 
@@ -140,12 +140,13 @@ _2 agents_
 
 ## Analytics
 
-_6 agents_
+_7 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
 | 🔧 | **Conversion Rate Optimizer** | [`analytics/analytics-conversion-rate-optimizer.md`](analytics/analytics-conversion-rate-optimizer.md) | CRO for B2B SaaS funnels, experiment feasibility and testing methodology, and landing page optimization |
 | 🔎 | **Customer Insights Researcher** | [`analytics/analytics-customer-insights-researcher.md`](analytics/analytics-customer-insights-researcher.md) | Customer research programs — interview and survey design, sampling frames and non-response bias, evidence grading and cross-channel corroboration, jobs-to-be-done, and research-based personas |
+| 🗃️ | **GTM Data Strategist** | [`analytics/analytics-gtm-data-strategist.md`](analytics/analytics-gtm-data-strategist.md) | Owns externally acquired go-to-market data — provider bake-offs on a held-out sample of your own accounts, enrichment waterfalls ordered by measured cost per usable record, coverage scored separately from accuracy, identity-match corroboration, a decay rate you measure rather than quote, and the provenance and lawful-basis record (GDPR Article 14) behind every purchased list |
 | 📊 | **Marketing Data Storyteller** | [`analytics/analytics-data-storyteller.md`](analytics/analytics-data-storyteller.md) | Executive reporting, data visualization, and campaign post-mortems |
 | ⚙️ | **Marketing Ops Architect** | [`analytics/analytics-marketing-ops-architect.md`](analytics/analytics-marketing-ops-architect.md) | Marketing systems and data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring design, field governance, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy) |
 | 📈 | **Marketing Performance Analyst** | [`analytics/analytics-performance-analyst.md`](analytics/analytics-performance-analyst.md) | Marketing funnel metrics, cohort analysis, and ROI measurement |

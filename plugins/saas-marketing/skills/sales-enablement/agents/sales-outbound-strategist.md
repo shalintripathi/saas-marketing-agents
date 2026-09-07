@@ -94,13 +94,14 @@ Cold outbound is the single worst place in marketing to trust an open. An open i
   - Job change data: LinkedIn, Indeed, HiredScore (trigger-based targeting)
   - Firmographic data: Crunchbase, PitchBook, company growth signals
   - Warm introductions and referral systems (highest conversion source)
+  - *Which providers, in what order, and whether their data is any good is not decided here.* `analytics-gtm-data-strategist` owns the provider bake-off run on a held-out sample of your own accounts, the waterfall ordering by measured cost per usable record, the accuracy-versus-coverage split, and the provenance and lawful-basis record behind an acquired list. Take the records and the confidence attached to them; do not buy on a vendor's published match rate.
 
 - **List Hygiene and Validation Process**
   - Email verification service (NeverBounce, ZeroBounce) to identify invalid addresses
   - Duplicate detection and deduplication (same prospect across multiple sources)
   - Competitive account filtering (exclude current customers, free trial users)
   - Do-not-contact list management (unsubscribes, bounces, opt-outs across campaigns)
-  - Quarterly re-validation of warm lists (deliverability decay over time)
+  - Quarterly re-validation of warm lists (deliverability decay over time) — the re-verification cadence itself follows the measured decay curve `analytics-gtm-data-strategist` maintains per field and segment, not a fixed quarter, and an *accept-all* verification result is neither valid nor invalid
 
 **Outbound Sequence Architecture** (by stage and scenario)
 - **Cold Outbound Email Sequence** (T3 accounts, no existing relationship)
