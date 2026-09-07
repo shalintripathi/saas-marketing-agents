@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-07 (eighth run) — stale-count sweep: the live maintenance docs catch up to the 78-agent roster (automated)
+
+**Scope:** maintenance routine, one change. Health check first; no P0 on the public surfaces, so this run closed the one real defect the health check surfaced — stale present-tense roster counts inside the live maintenance docs.
+
+**Health check — all green, no P0 on public surfaces.** Both manifests parse and keep required fields (`jq`: `.claude-plugin/marketplace.json`, `plugins/saas-marketing/.claude-plugin/plugin.json`); all **19** skills carry a `SKILL.md` with `name` + `description`; **0** broken internal `.md` links (678 internal links checked, whole-repo Python resolver); the two dated guides are fresh (`guides/aeo-geo-playbook.md` 2026-08-23, `integrations/README.md` 2026-07-23 — both < 90 days). Agent-file re-count across the 17 discipline directories = **78** (every file a hyphenated agent slug, no stray index/README files inflating it). All **public** count surfaces already correct at **78/19** — README badge + tagline + team heading, `AGENTS_INDEX.md` (78 indexed entries), `llms.txt`, `CITATION.cff`, both manifests, and the live GitHub About (`gh repo view` → "78 agents + 19 … skills").
+
+**The defect.** The 2026-09-07 seventh-run ADD (GTM Data Strategist, roster `77 → 78`) swept every public surface but, by its own note ("`grep '\b77\b'` returns zero outside `maintenance/` and `CHANGELOG.md`"), deliberately left the `maintenance/` docs behind — leaving **five stale present-tense roster counts** that misinform future runs: `maintenance/SKILL_SCOUT.md` told the daily scout "our **77** agents"; `maintenance/backlog.md` listed the GitHub-Pages catalog as "for all **77** agents", instructed maintainers to keep the badge at "agents: **77**", called the native-subagents item "the **76** personas", and opened a scope question with "our **77** agents". The badge-count instruction was the sharpest — a live directive that would have a future maintainer *set the badge back to 77*.
+
+**Shipped.** `77 → 78` (and `76 → 78` on the subagents item) across those five references; a dated `[x]` record added to the backlog's P0 section in the same style as the 2026-08-23 stale-count fix. Dated append-only history in `CHANGELOG.md` / `RUN_LOG.md` / `scout-ledger.md` (per-change "roster … / unchanged at 76/77 agents" annotations, each accurate for its ship date) was left untouched. No public surface changed — they were already correct — so no README/manifest/About edit, and **no `CHANGELOG.md` entry** (not user-facing).
+
+**Verified after the edit:** `grep` for `76`/`77` adjacent to agent/persona/specialist across all `*.md`/`*.json`/`*.cff`/`*.txt` outside dated history (`RUN_LOG`, `scout-ledger`, `CHANGELOG`) returns **zero**; the five intended lines are the only diff (`SKILL_SCOUT.md` 1 line, `backlog.md` 4 lines + the P0 record); agent-file count re-confirmed **78**; live GitHub About re-read, still correct at 78/19 (not edited).
+
+**Deferred:** the substantive backlog leads (paid-media/sales anti-fabrication sweeps, the native-subagents conversion, distribution submissions gated on stars/usage) — each is a larger change than the one-per-run rule allows, and the discoverability defect took precedence this run.
+
+---
+
 ### 2026-09-07 (seventh run) — Skill Scout: **ADD** — every agent started from a list, and nobody owned where the list came from (automated)
 
 **Scope:** scout survey, focus discipline **PMM / sales / GTM** by rotation — last the focus 2026-09-02, the oldest of the four (content/SEO 09-03, email/analytics/ops 09-05, paid media/social 09-06). Five rows appended to [scout-ledger.md](scout-ledger.md) — **1 adopted-new**, 4 dismissed (2 have, 1 no-coverage-on-thesis, 1 benchmark-quality screen).
