@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-07 (sixth run) — `paid-media-programmatic-buyer` de-fabricated; the paid-media anti-fabrication sweep reaches its third persona (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item.
+
+**Health check — all clean.** No broken internal `.md` links (link-checker over every `*.md`; 0 broken). `guides/aeo-geo-playbook.md` "Last reviewed" 2026-08-23 and `integrations/README.md` 2026-07-23 are both inside 90 days. `marketplace.json` and the plugin `plugin.json` parse via `jq` with required fields intact; all 19 skills have a `SKILL.md` with `name` + `description`. Counts re-confirmed at **77 agents / 19 skills**: 77 agent-frontmatter files across the 17 category dirs (the `strategy/` dir's three files are docs, not agents), matching the README badge + prose, `AGENTS_INDEX.md` header, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view`). No P0 present.
+
+**Shipped (P1 skill curation — the active paid-media sweep; every P1 distribution item stays blocked on stars/usage gates, the native-subagents item on in-thread decisions, and the ABM/legal items are maintainer calls):** de-fabricated `paid-media-programmatic-buyer`, the sweep's third paid persona (after `budget-optimizer` and `attribution-analyst`). Six of its eight Success-Metrics bullets asserted unsourced round numbers as targets — `30-40%` cost-per-influenced-opportunity reduction, `70%+` reach under the frequency cap, `15-25%` aided-brand-awareness lift, `40-50%` intent-qualified-vs-contextual performance, `<15%` creative-rotation variance, and `10-15%` attributed influenced pipeline. Each was re-based on the account's own baseline and read as a trend, or gated behind a control/holdout, with **no figure asserted**, and tied to the file's own machinery: the incrementality precondition its Rule 4 and *What this audit cannot tell you* §4 already own (causal credit routed to `paid-media-attribution-analyst`); the measurable-vs-unknown discipline of the supply audit (reach paired with its unmatched/unknown share, the way unmeasurable spend never rounds to viewable); and Rule 9's guard against tuning a model to hit a fixed contribution goal. The genuine 3–7 weekly frequency band was kept as Rule 2's operating input rather than restated as a claimed outcome. **Out-of-block, same pass:** Rule 3's `wastes 40-50% of budget` claim (programmatic without intent signals) retired to *prove the suppression on your own before/after*, matching the attribution-analyst precedent of catching a fabricated Critical-Rule figure alongside the block. The two already-honest bullets (Impression quality, Supply quality coverage), the section's cited Google/MRC viewability thresholds, and its illustrative examples were left verbatim.
+
+**Verify:** both dual-located copies diff-identical (edited the category copy, `cp`-synced the plugin copy); `bash scripts/lint-agents.sh` → 2/2 pass; all seven retired strings (`30-40% reduction`, `70%+ reach`, `15-25% lift`, `40-50% better performance`, `<15% performance variance`, `Attribute 10-15%`, `wastes 40-50%`) grep to zero across both copies; a numeric scan of the Success-Metrics block leaves only Rule cross-references (Rule 2/4/9), no benchmark figures. No count/name/capability changed, so no discoverability surfaces needed updating (re-confirmed 77/19 including the live About).
+
+**Deferred:** the three remaining fabricating paid siblings (`creative-strategist`, `ppc-strategist`, `social-ads-specialist`), one per future paid run; `sponsorship-syndication-buyer` already benchmark-free. Sales and other sweeps run on their own tracks.
+
+---
+
 ### 2026-09-06 (fifth run) — `sales-outbound-strategist`'s deliverability playbook re-seamed to the deliverability specialist; a fabricated warming ramp retired (automated)
 
 **Scope:** maintenance routine, one change. Health check first, then the highest-priority *unblocked* backlog item.
