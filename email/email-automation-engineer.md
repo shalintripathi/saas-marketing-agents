@@ -216,7 +216,7 @@ _The evidence tiers and contamination mechanics are defined and cited in `email-
 
 - Lead record structure: fields required in both marketing automation and CRM (name, email, company, score, stage, etc.), maintaining consistency
 - Field mapping: mapping automation platform fields to CRM fields (automation "lead_score" → Salesforce "Lead_Score__c"), documented and tested
-- Data enrichment integration: third-party enrichment (Clearbit, Hunter, Leadiro, ZoomInfo) automatically populating missing data (company info, phone, employee count)
+- Data enrichment integration: third-party enrichment (Clearbit, Hunter, Leadiro, ZoomInfo) populating missing data (company info, phone, employee count) — but an auto-enriched field is not a native one. It carries its **source**, an **as-of date** and a **verification state** so an appended value never looks the same in the record as a confirmed one, and it enters through `analytics-gtm-data-strategist`'s ingestion gate (which owns provenance, lawful basis and per-provider hit rate) rather than an unreviewed write straight into the MAP; the field's governance — mapping, lifecycle, whether it feeds a score — stays `analytics-marketing-ops-architect`'s, not this workflow's
 - Integration monitoring: alerts when sync fails or data discrepancy detected, troubleshooting playbook for common sync failures
 
 **Automation Governance & Documentation** (10+ pages)

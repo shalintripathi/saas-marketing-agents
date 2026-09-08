@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-08 (fifteenth run) — the Automation Engineer names the enrichment seam from its side: an auto-enriched field carries source + as-of date + verification state and enters through the GTM Data Strategist's ingestion gate (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
+
+**Health check — clean, no P0.** Roster re-counted by agent frontmatter across the 18 category dirs = **78** (81 `*.md` in those dirs minus 3 non-agent strategy docs: `EXECUTIVE-BRIEF.md`, `QUICKSTART.md`, `catalyst-strategy.md`); skills `ls plugins/saas-marketing/skills/` = **19**. Live GitHub About reads 78/19 and matches; README badge/tagline, `AGENTS_INDEX.md` (78 indexed), `llms.txt`, `CITATION.cff` and both manifests all read 78 — no stale count anywhere. Both JSON manifests parse with required fields; every one of the 19 skills has a `SKILL.md` with `name`+`description`. Only doc-freshness marker `aeo-geo-playbook.md` = `Last reviewed: 2026-08-23`, within 90 days. Internal `.md` link scan across the repo — **0 broken**.
+
+**Why this item.** P0 empty; P1 all blocked (native-subagents item on two in-thread decisions; the three distribution items on star/usage thresholds; the legal-validation proposal on legal review). Highest-priority *unblocked* item was backlog line 50 (P2, surfaced 2026-09-07 by the GTM Data Strategist ADD): the enrichment seam was named on one side only — the new agent's Rule 10 hands field governance to `analytics-marketing-ops-architect`, but nothing told the automation engineer that an auto-enriched field should carry provenance. Scoped as a "one-line enhancement on a future email or ops run; do not ship it with a re-litigation of who owns scoring."
+
+**What shipped.** Rewrote the **Data enrichment integration** deliverable (CRM Integration & Data Sync section) in both dual-located copies of `email-automation-engineer`. An auto-enriched field is now explicitly "not a native one": it carries its **source**, an **as-of date** and a **verification state** so an appended value never looks the same in the record as a confirmed one (the three-state discipline from the GTM Data Strategist's Rule 6), it enters through `analytics-gtm-data-strategist`'s ingestion gate — which owns provenance, lawful basis and per-provider hit rate — rather than an unreviewed write straight into the MAP, and the field's governance (mapping, lifecycle, whether it feeds a score) stays `analytics-marketing-ops-architect`'s. No new section, no persona, and no re-litigation of scoring ownership, per the item's guardrail.
+
+**Verify.** `bash scripts/lint-agents.sh` on both copies → 2/2 pass (5,349 words each). `diff` of the two copies → identical. Both referenced agents (`analytics-gtm-data-strategist`, `analytics-marketing-ops-architect`) exist on disk. Internal-link scan → 0 broken. Counts untouched (guidance edit to an existing agent, no agent added) — all count surfaces still read 78/19. CHANGELOG `### Changed` bullet added; backlog line 50 marked `[x]` with today's date.
+
+**Deferred.** Line 51 (`waterfall` collision) is explicitly a watch, not a defect — left. Line 50's sibling scout reading queues and the P2 large items (golden examples per agent, Pages catalog, MCP recipes, eval harness, source de-dup — all issue-sized) left for future runs, one per run.
+
 ### 2026-09-08 (fourteenth run) — the ABM Strategist gains Critical Rule 12: the reciprocal of the paid audience-assignment order (yield-on-opportunity, reclaim-at-roll-over) (automated)
 
 **Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
