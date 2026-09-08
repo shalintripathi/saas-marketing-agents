@@ -4,6 +4,30 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-08 (thirteenth run) — sales anti-fabrication sweep: the Outbound Strategist's Success-Metrics block stops asserting invented meeting-rate, cost-per-meeting, completion and unsubscribe targets (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
+
+**Health check — clean, no P0.** Roster re-counted from the CI directory set (`find <17 category dirs> -name '*.md' | wc -l` = **78**); skills `ls plugins/saas-marketing/skills/` = **19**. Live GitHub About reads 78/19 and matches; README badge/tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` and both manifests all read 78 — no stale count anywhere. Both JSON manifests parse with required fields; every skill has a `SKILL.md` with `name`+`description`. `Last reviewed` dates all within 90 days (`aeo-geo-playbook.md` 2026-08-23, `integrations/README.md` 2026-07-23). Internal `.md` link scan across the repo — 0 broken.
+
+**Why this item.** The paid-media anti-fabrication sweep closed on the 09-08 eleventh run (all seven personas audited); the sales sweep (backlog line 157) is the next in-flight surface, and the 09-05 cold-estate ship's own CHANGELOG entry explicitly queued *this file's Success-Metrics block (meeting-rate, cost-per-meeting, completion, unsubscribe targets)* "for the sales anti-fabrication sweep, one change per run." `sales-outbound-strategist` was the cleaner of the two remaining sales targets — line 157 flags `sales-pipeline-analyst` as entangled with the forecast-category lead (line 156), needing a seam grep first.
+
+**Shipped:** both dual-located copies of [`sales/sales-outbound-strategist.md`](../sales/sales-outbound-strategist.md) (**Outbound Strategist**). Counts unchanged at **78 agents / 19 skills / 17 disciplines** — no new agent, no structural change.
+
+**The defect.** Four of the eight Success-Metrics bullets closed with unsourced round numbers presented as targets: Meeting Rate *"target 0.5-2% for cold outbound, 2-5% for account-based"*, Cost Per Meeting *"target $150-400 depending on deal size"*, Sequence Completion Rate *"target 70%+"*, Unsubscribe Rate *"target <0.5%"*. None is measured from the account; each is the kind of imported benchmark the sweep exists to retire.
+
+**The fix.** Each retired to the sweep's established **baseline / trend / no-figure** pattern, each tied to the file's own machinery rather than a generic caveat: Meeting Rate named a confirmed-human signal weighted above the open rate (Rule 9 + *Opens Measure the Scanner, Replies Measure the Buyer*), read cold-vs-account-based separately; Cost Per Meeting judged against the account's deal economics and paired with cost per *qualified* meeting; Completion Rate read paired with reply and meeting rates (finishing steps into an unresponsive list is not improvement); Unsubscribe Rate read as a rising-trend signal alongside the file's existing `<2%` bounce / `<0.1%` complaint monitoring, which carries the genuine hard deliverability limits and was left as-is (those are ESP-enforced ceilings, not fabricated performance benchmarks).
+
+**Scope discipline — what was deliberately left.** Open Rate and Response Rate (bullets 1-2) were left **verbatim**: the 09-05 cold-estate ship corrected their denominator logic and consciously kept their target figures, because the response-rate internal-consistency argument (*Opens* §, "a reply-over-opens ratio would fall below the meeting rate, which is impossible") depends on them. The deliverable-body teaching figures — the personalization-tier outcomes and the *Key Metrics by Sequence Type* benchmark table — were also left, matching precedent: the completed discovery-coach and proposal-architect sweeps retired only the self-grading Success-Metrics block and left analogous deliverable figures in place. Grep-verified before touching that this leaves no orphan: the *"0.5-2% meeting rate"* the *Opens* prose references still lives in the Key Metrics table (line 205), so the cross-reference stays anchored.
+
+**No fabricated metrics.** Nothing added asserts a figure; the only numbers now in the touched bullets are the pre-existing, cited-as-hard-limit bounce/complaint ceilings referenced by cross-link.
+
+**Verified:** lint **2/2** on both changed copies; the two copies diff-identical (`cp`-synced then diffed); all four retired target strings (`target 0.5-2%`, `target $150-400`, `target 70%+`, `target <0.5%`) grep to zero in the file; the file's other blocks left untouched (out-of-block scan confirms the tier-outcome and Key-Metrics figures are unchanged, by design).
+
+**Backlog moved.** Line 157 (*Sales-discipline anti-fabrication sweep*) — `sales-outbound-strategist` marked **done 2026-09-08**; `sales-pipeline-analyst` remains as the last flagged persona, one per future sales run, still gated on the forecast-category seam grep (line 156).
+
+---
+
 ### 2026-09-08 (twelfth run) — Skill Scout: **ENHANCE** — the Google Business Profile most B2B SaaS is not eligible for, and what to build in the market instead (automated)
 
 **Scope:** scout survey, focus discipline **content / SEO-AEO-GEO** by rotation — last the focus 2026-09-03, the oldest of the four (email/analytics/ops 09-05, paid/social 09-06, PMM/sales/GTM 09-07). Eight rows appended to [scout-ledger.md](scout-ledger.md) — 3 primary sources adopted, 1 enhanced-ours, 2 dismissed, 1 demand-evidence, 1 watch.
