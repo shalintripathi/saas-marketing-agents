@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-08 (fourteenth run) — the ABM Strategist gains Critical Rule 12: the reciprocal of the paid audience-assignment order (yield-on-opportunity, reclaim-at-roll-over) (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
+
+**Health check — clean, no P0.** Roster re-counted from the 19 category dirs by agent frontmatter (`name:` present) = **78**; skills `ls plugins/saas-marketing/skills/` = **19**. Live GitHub About reads 78/19 and matches; README badge/tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` and both manifests all read 78 — no stale count anywhere (the raw `find … *.md | wc -l` = 88 is 78 agents + 10 non-agent strategy docs/playbooks, confirmed by frontmatter check, not a stale count). Both JSON manifests parse with required fields; every one of the 19 skills has a `SKILL.md` with `name`+`description`. `Last reviewed` dates all within 90 days (`aeo-geo-playbook.md` 2026-08-23, `integrations/README.md` 2026-07-23). Internal `.md` link scan across the repo — **0 broken**.
+
+**Why this item.** The paid-media anti-fabrication sweep (backlog line 46) closed on the 09-08 eleventh run — all seven personas audited — so its checkbox was flipped to `[x]` (it was still open while its own body said "closes the sweep," which would have misled the next run into re-doing it). The next unblocked item was line 47, the 2026-09-06 collision-ship question: *does the assignment order belong to ABM as well?* — a decision item, "short section not a persona, and only if the ABM file does not already imply it."
+
+**What shipped.** Decided **yes, a short section**. Checked the ABM file first: Rule 10 hands an account in an active sales conversation to `sales-deal-strategist`, and Rule 5 re-tiers quarterly — adjacent, but neither states the *paid audience-assignment* reciprocal. `paid-media-budget-optimizer` states and enforces the collision-assignment order (open-opportunity → deal-support campaign; named targets → ABM; the rest → retargeting/prospecting), hands the list and tiering to ABM (its own line 184), and suppresses "the accounts another campaign owns this quarter" — but the ABM agent said nothing back. Added **Critical Rule 12** to both dual-located copies: the ABM list *feeds* that order; an ABM account that opens an opportunity **yields** its exclusive paid audience to the deal-support campaign so air cover stops serving over an account the deal team is closing; and released/reclaimed accounts are handed to `paid-media-budget-optimizer` as an **updated assignment at the quarter roll-over** when Rule 5 re-sets the list — with the enforcing exclusions kept on the campaign-owner side so ABM keeps its own-the-list-not-the-delivery posture. Footnote records it as an internal orchestration seam (no external source, no figure asserted).
+
+**Verify.** `bash scripts/lint-agents.sh` on both copies → 2/2 pass. `diff` of the two copies → identical. Internal-link scan → 0 broken. Counts untouched (no agent added; a rule was added to an existing agent) — all count surfaces still read 78/19. CHANGELOG `### Changed` bullet added; backlog lines 46 and 47 marked `[x]` with today's date.
+
+**Deferred.** Line 47's sibling P2 items (the `waterfall` collision, the enrichment-gate question, the various scout reading queues) left for future runs, one per run.
+
+---
+
 ### 2026-09-08 (thirteenth run) — sales anti-fabrication sweep: the Outbound Strategist's Success-Metrics block stops asserting invented meeting-rate, cost-per-meeting, completion and unsubscribe targets (automated)
 
 **Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
