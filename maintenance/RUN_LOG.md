@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-09 (sixteenth run) — the Pipeline Analyst stops grading a pipeline against invented forecast/coverage/conversion/quality/zombie/recovery targets; closes the sales anti-fabrication sweep (automated)
+
+**Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
+
+**Health check — clean, no P0.** Roster re-counted by `find <17 category dirs> -maxdepth 1 -name '*.md'` = **78** (abm 1, analytics 7, client-ops 4, comms 2, content 8, design 5, developer-marketing 1, email 5, events 1, growth 2, paid-media 7, partnerships 1, product-marketing 9, project-management 4, sales 7, seo 7, social 7); skills `ls plugins/saas-marketing/skills/` = **19**. Live GitHub About reads 78/19 and matches; README badge/tagline, `AGENTS_INDEX.md` (78 indexed, per-category subtotals all match the file counts), `llms.txt`, `CITATION.cff` and both manifests all read 78 — no stale count anywhere. Both JSON manifests parse with required fields; every one of the 19 skills has a `SKILL.md` with `name`+`description`. Doc-freshness markers within 90 days (`aeo-geo-playbook.md` 2026-08-23; `integrations/README.md` 2026-07-23). Internal `.md` link scan across the repo — **0 broken**.
+
+**Why this item.** P0 empty; P1 all blocked (native-subagents item on two in-thread decisions; distribution items on star/usage thresholds; the legal-validation proposal on legal review). Highest-priority *unblocked* item was the last flagged persona of the sales anti-fabrication sweep (backlog line 157): `sales-pipeline-analyst`, whose Success Metrics block asserted nine round-number targets as fact — a direct hit against the repo's no-fabricated-metrics guardrail. The backlog flagged it as entangled with the open forecast-category lead (line 156); **grep-verified the seam clear first** — `forecast category` / `commit forecast` / `weighted pipeline` / `sandbag` return zero in the file, so de-fabricating the Success Metrics block cannot collide with a future forecast-category ENHANCE.
+
+**What shipped.** Both dual-located copies of `sales/sales-pipeline-analyst.md` de-fabricated, following the same pattern as the five sibling sales agents already swept: nine flagged targets — forecast accuracy `90%+ within ±5%`, coverage `3-4x`, stage velocity `±2 days`, conversion `70%+`, win rate `20-30%`, deal-quality `70+`, zombie `<5%`, forecast bias `<±5%`, early-warning `80%+ recovered` — retired to the baseline-from-your-own-history / read-as-a-trend pattern with **no figure asserted**, each metric and diagnostic kept and tied to the file's own machinery (forecast accuracy + bias paired; coverage pointed at the file's own segment-multiplier derivation; conversion read next to velocity; deal-quality gated on calibration + actual win correlation; zombie threshold defined from the stage's own velocity; early-warning re-framed to lead time). The out-of-block restatement of the same `3-4x` on the health dashboard was retired in the same pass. Left **verbatim**: the already-honest Pipeline Inflow Velocity bullet and the worked segment-derivation example (2.0x/3.0x/4.5x by segment — reader-fills-own-specifics method, matching the proposal-architect precedent). **This closes the sales anti-fabrication sweep** — every flagged sales persona is now de-fabricated.
+
+**Verify.** All nine flagged strings grep to **0** across both copies; copies **diff-identical**; **lint 2/2 pass**. No count/name/capability changed → no discoverability edits needed (checked: About, README, index, manifests untouched and still 78/19). CHANGELOG `## [Unreleased] › Changed` bullet added; backlog line 157 remaining-item marked done.
+
+**Deferred.** `sales-pipeline-analyst`'s forecast-category ENHANCE (backlog line 156) — a separate additive change, left for a future sales run now that the anti-fabrication seam is clean. Line 46/79-81 method-illustration figures and lines 98/100 diagnostic descriptors left in place (not self-grading targets; outside the sweep's scope).
+
+---
+
 ### 2026-09-08 (fifteenth run) — the Automation Engineer names the enrichment seam from its side: an auto-enriched field carries source + as-of date + verification state and enters through the GTM Data Strategist's ingestion gate (automated)
 
 **Scope:** maintenance routine, one change. Health check first, then the highest-priority unblocked backlog item.
