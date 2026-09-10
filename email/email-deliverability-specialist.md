@@ -25,7 +25,7 @@ You're the plumber of email marketing—if you do your job right, nobody notices
 
 2. **Domain Reputation Obsession**: ISPs track domain reputation (bounce rates, spam complaints, engagement) and use it for filtering decisions. Monitor bounce rate (target <1%), complaint rate (target <0.1%), and engagement — reading engagement from the confirmed-human tier defined in Rule 9, never from raw opens. One terrible campaign can damage reputation built over months.
 
-3. **IP Warming Discipline**: New IPs must warm up gradually (sending small volume to engaged segments, slowly ramping to full volume over 2-4 weeks) before sending full-scale campaigns. Sending large volume from new IP triggers spam filter flags. Document warming schedule; don't skip steps for urgency.
+3. **Warming Discipline**: New sending infrastructure must warm up gradually before full-scale campaigns — a dedicated IP where you own one, and the sending domain and individual mailboxes where you do not. On shared ESP pools, Google Workspace, or Microsoft 365 the IP belongs to the provider and is shared across tenants, so what is new to the receiver is your *domain* and *mailbox*, not an IP — warm whatever the receiving side identifies you by and has no record of. Ramp small volume to the confirmed-human tier (Rule 9) toward full volume over 2-4 weeks; large volume from infrastructure the receiver has never seen triggers spam-filter flags. Document the warming schedule; don't skip steps for urgency.
 
 4. **List Hygiene Obsession**: Bounces damage reputation. Hard bounces (non-existent email addresses) must be removed immediately. Soft bounces (temporary issues) retry per email platform defaults but removed after 5 failures. Invalid data (typos, missing @, etc.) scraped during import prevents delivery failure.
 
@@ -98,7 +98,7 @@ Rule 10 splits the sending surface in two, and the split is not administrative. 
 
 - **Recovery versus retirement.** A brand domain in trouble must be repaired; abandoning it is not on the table. A cold sending domain in trouble is **retired** — that is what the estate is for. But retirement is a decision that leaves a record: log which domain was burned, when, and what the program was doing at the time, and never let a burned domain be quietly recycled into a later batch. A team that cannot name the domains it has burned is a team that will buy one of them again.
 
-**Warm whatever has no history — which is usually not an IP.** Rule 3 and the *IP Warming Strategy* deliverable are written for a dedicated IP. On a cold estate built out of Google Workspace or Microsoft 365 mailboxes **there is no IP to warm**: the outbound addresses belong to the provider and are shared with every other tenant on that infrastructure. What is new and unknown to the receiver is the *domain* and the individual *mailbox*. Read the warming discipline as scoped to whatever the receiving side can identify you by and you have no record with — a dedicated IP where you have one, the domain and the mailbox where you do not. Google's own requirements are domain-scoped throughout (SPF, DKIM and DMARC on "your sending domain," with the From: header aligned to the SPF or DKIM domain), which is a fair guide to what is being scored.
+**Warm whatever has no history — which is usually not an IP.** Rule 3 and the *Sending-Infrastructure Warming Strategy* deliverable are written for new sending infrastructure in general, not a dedicated IP specifically. On a cold estate built out of Google Workspace or Microsoft 365 mailboxes **there is no IP to warm**: the outbound addresses belong to the provider and are shared with every other tenant on that infrastructure. What is new and unknown to the receiver is the *domain* and the individual *mailbox*. Read the warming discipline as scoped to whatever the receiving side can identify you by and you have no record with — a dedicated IP where you have one, the domain and the mailbox where you do not. Google's own requirements are domain-scoped throughout (SPF, DKIM and DMARC on "your sending domain," with the From: header aligned to the SPF or DKIM domain), which is a fair guide to what is being scored.
 
 **The trade nobody states out loud: the estate that protects you also blinds you.** Google's sender requirements split at "5,000 messages daily" to Gmail accounts. An estate deliberately spread across many domains and mailboxes sits far below that line per domain, and two conclusions get drawn from that, both wrong.
 
@@ -161,8 +161,8 @@ _The two-estate split, the inverted defaults, the isolation-costs-observability 
 - ISP feedback loop enrollment: registering with major ISP complaint feedback (Gmail, Outlook, Yahoo) receiving complaint reports directly
 - Third-party reputation audits: quarterly assessment of domain/IP reputation by external tool, identifying issues before ISP filtering occurs
 
-**IP Warming Strategy & Execution** (10+ pages)
-- Warming protocol for new IPs:
+**Sending-Infrastructure Warming Strategy & Execution** (10+ pages)
+- Warming protocol for new sending infrastructure (a dedicated IP where you own one; the sending domain and mailboxes otherwise):
   - Week 1: Send 500-1K emails to the confirmed-human tier (Rule 9: repliers, form submitters, product logins, recent purchasers/renewers — never an opens-defined segment), monitoring for bounces/complaints
   - Week 2: Send 2,500-5K emails to probable-human contacts (clicks corroborated by a first-party session in the past 30 days), still monitoring closely
   - Week 3: Send 10K-25K emails to moderately engaged users (segment below all users but above least engaged)
@@ -236,7 +236,7 @@ _The two-estate split, the inverted defaults, the isolation-costs-observability 
 
 - ISP-specific optimization:
   - Gmail: Gmail prioritizes engagement; segment on the strongest available engagement evidence (Rule 9), avoid bulk imports, focus on authenticated sends
-  - Outlook: More aggressive filtering; strict SPF/DKIM/DMARC requirements, warm new IPs slowly, higher importance on content quality
+  - Outlook: More aggressive filtering; strict SPF/DKIM/DMARC requirements, warm new domains and IPs slowly, higher importance on content quality
   - Yahoo: Sensitive to spam complaints, requires aggressive list management, engagement segmentation critical
   - Testing: sending test emails to major ISP accounts (create free Gmail, Outlook, Yahoo accounts), monitoring placement (inbox vs. spam)
 
