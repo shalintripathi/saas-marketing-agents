@@ -104,7 +104,7 @@ _The evidence tiers and contamination mechanics are defined and cited in `email-
 
 **Lead Scoring Model & Framework** (15+ pages)
 - Scoring architecture design:
-  - Explicit scoring: actions/attributes assigned point values (demo request = 30 points, email open = 1 point, visits pricing = 5 points, works at company >500 people = 10 points)
+  - Explicit scoring: actions/attributes assigned point values (demo request = 30 points, email open = 0 points (machine-contaminated, per Rule 9), visits pricing = 5 points, works at company >500 people = 10 points)
   - Implicit scoring: behavioral pattern recognition — but only on signals a machine can't fake (per Rule 9: a content download or a returning product session says "evaluating"; "opened 5+ emails in 7 days" can be a proxy alone and must not read as engaged on its own)
   - Decay scoring: points decrease over time (demo request 30 days ago worth less than 7 days ago), keeping recent behavior prioritized
   - Combination: typically explicit (easy to understand/audit) + implicit (captures behavior patterns)
@@ -273,18 +273,18 @@ _The evidence tiers and contamination mechanics are defined and cited in `email-
 
 ## Success Metrics
 
-- **Lead Scoring Accuracy**: Win rate of MQL-qualified leads (score >threshold) at least 15-25% higher than non-qualified leads, demonstrating model accuracy
-- **MQL Velocity**: leads reaching MQL threshold in 14-30 days (average), enabling timely sales follow-up; too long = lead colds, too short = sales not ready
-- **MQL to SQL Conversion**: 20-35% of MQLs converting to SQLs, validating that scoring accurately identifies sales-ready prospects
-- **Sales Efficiency**: with automation, sales can manage 2-3x more leads than manual qualification, maintaining or improving conversion rates
-- **Automation Execution Rate**: 95%+ of automation triggers firing correctly (emails sent when should be, leads scored when should be), indicating reliable system
-- **Email Performance**: automation-sourced emails achieving 20-30% open rate, 3-5% click rate, indicating quality audience delivery — but read against the machine-contamination in both numbers (Rule 9); a rising open rate is not by itself evidence of a better audience
+- **Lead Scoring Accuracy**: higher-scoring leads convert measurably better than lower-scoring ones — validated with the win-rate-by-score and historical-deal analysis above (apply the model to closed deals, compare conversion across score bands), not against an assumed lift. If the top band does not out-convert the bottom, the model is miscalibrated whatever its average score. The point math stays `analytics-marketing-ops-architect`'s.
+- **MQL Velocity**: time from lead creation to MQL read against your own trailing baseline, not a target window — the useful signals are the direction (is it moving?) and the tails: leads crossing in minutes may be scanner-tripped (Rule 9), leads that never cross are sunset candidates. A velocity "target" borrowed from elsewhere just mislabels your own funnel.
+- **MQL→SQL Conversion**: measured against your own baseline and trend; its job is to validate the handoff threshold, not to hit a number — if MQLs convert to SQL no better than unscored leads, the threshold is set wrong (re-test it with the score 40/50/60 A/B above). Keep the acceptance definition constant or the rate moves for reasons the scoring never touched.
+- **Sales Efficiency**: reps handle more qualified leads per head without conversion degradation — measured as leads-per-rep before vs. after automation on your own data, with acceptance quality held constant. The claim is that efficiency rises while quality holds, not a specific multiple.
+- **Automation Execution Rate**: triggers fire when their conditions are met and only then — verified directly in your own system against the intended behavior, with the misfire/missed-fire rate logged and driven toward zero. This is an engineering bar you measure, not an estimate; a miss is a silent defect (a lead that never routed, an alert that never sent).
+- **Email Performance**: delivery, click, and downstream-action rates read against your own baseline, with opens weighted below the machine-survivable signals per Rule 9 — a rising open rate is not evidence of a better audience, and a bare click is not a conversion. Open/click contamination and any mailbox-provider placement read are co-owned with `email-deliverability-specialist`; causal conversion credit routes to `paid-media-attribution-analyst`.
 - **Scoring Signal Integrity**: the share of MQL-threshold crossings backed by at least one Probable-human-or-above event (a resolved click, form, reply, login, or product action) trends toward 100%; a lead that reached the line on opens-and-bare-clicks alone is Unconfirmed and does not count as a real MQL
-- **Lead Cost Reduction**: cost per MQL 30-50% lower with automation vs. manual qualification, demonstrating automation ROI
-- **Customer Acquisition Cost**: customers sourced through automation maintaining similar or lower CAC vs. other channels while improving sales efficiency
-- **Nurture Effectiveness**: nurture leads converting to customer at measurable rate (5-15%), proving nurture value
+- **Lead Cost Reduction**: cost per MQL read against your own pre-automation baseline and its trend — automation should bend the curve as volume scales, but the size of the bend is yours to measure, not a figure to assert, and only fully-loaded cost (tooling + labor) keeps the comparison honest.
+- **Customer Acquisition Cost**: customers sourced through automation maintaining similar or lower CAC vs. other channels while improving sales efficiency — causal CAC credit across touches routes to `paid-media-attribution-analyst`, which owns attribution
+- **Nurture Effectiveness**: measured against a holdout — the control-group discipline under *Lead Scoring Accuracy & Testing* is what separates nurture's causal effect from leads who would have converted anyway; a "converts at a rate" claim with no control proves nothing. Powered-test lift on nurture variants routes to `analytics-conversion-rate-optimizer`.
 - **Lead Velocity**: average days from lead creation to MQL decreasing month-over-month as automation optimizes
-- **Platform Reliability**: 99%+ uptime of automation platform with <1 incident per month affecting lead processing
-- **Data Quality**: <2% duplicate records, <5% invalid email addresses, indicating data governance working
+- **Platform Reliability**: tracked against your platform's contracted SLA and your own incident log, not an assumed uptime figure — what matters operationally is that lead processing is not silently dropping records, which the execution-rate and sync-monitoring checks surface
+- **Data Quality**: duplicate and invalid-address rates read against your own baseline and driven down — the entry-point validation and de-duplication in Rule 3 are the levers; what matters is whether bad data is falling and whether any of it is reaching the scoring model, not an absolute target
 - **Sales Alignment**: quarterly sales feedback consistently indicating lead quality improving, scoring alignment increasing, reducing friction in handoff process
-- **Optimization Velocity**: identifying and implementing 2-4 automation improvements monthly through testing and analysis
+- **Optimization Velocity**: a steady cadence of tested automation changes, each with a documented before/after per the governance change log — the signal is that changes are evidence-backed and logged, not a monthly quota, which rewards churn over impact
