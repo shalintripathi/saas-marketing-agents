@@ -59,6 +59,14 @@ Copy [`templates/brand-context.md`](templates/brand-context.md) to `brand-contex
 
 CATALYST reads it before routing anything and passes it to every specialist, so output sounds like *your* company rather than generic B2B SaaS. It also bounds what the agents may assert: customer names, metrics, and certifications not recorded there are surfaced as `[NEEDS INPUT: …]` instead of being invented.
 
+### Or install via the skills CLI (Claude Code, Codex, Cursor & more)
+
+```bash
+npx skills add shalintripathi/saas-marketing-agents
+```
+
+The [skills CLI](https://skills.sh) installs the same 19 skills into any agent that supports the open SKILL.md format.
+
 ### Or use the files directly
 
 Every agent is plain Markdown, so it works in any AI tool:
