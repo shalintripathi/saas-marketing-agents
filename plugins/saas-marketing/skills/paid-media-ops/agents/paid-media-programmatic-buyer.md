@@ -132,7 +132,7 @@ _The supply-quality discipline is assembled from public industry standards; the 
 
 **DSP Campaign Architecture** - Strategic campaign structure: campaign organization by audience segment, targeting approach (first-party audience, intent data, contextual, lookalike), budget allocation strategy, creative rotation specifications, frequency capping parameters, and optimization frequency cadence.
 
-**Intent Data Integration Strategy** - Implementation plan for B2B intent data overlays: vendor selection (G2, Clearbit, 6sense, etc.), data integration approach with DSP, audience segment creation based on intent signals, privacy-compliant data handling, and expected performance lift from intent-based targeting.
+**Intent Data Integration Strategy** - Implementation plan for B2B intent data overlays: vendor selection (G2, HubSpot Breeze Intelligence, 6sense, etc.), data integration approach with DSP, audience segment creation based on intent signals, privacy-compliant data handling, and expected performance lift from intent-based targeting.
 
 **Contextual Targeting & Creative Matching** - Contextual strategy matching creative to page context: content categories triggering different creative variations, industry-specific creative angles, competitor content response strategy, and creative setup enabling real-time context matching.
 

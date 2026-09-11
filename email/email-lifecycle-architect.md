@@ -132,7 +132,7 @@ _The opt-down ladder is standard preference-center practice, assembled and mappe
 - Campaign-specific templates: webinar invitation, event promotion, partner announcement, company milestone, seasonal offers
 
 **Automation & Platform Setup** (10+ pages)
-- Marketing automation platform selection: HubSpot, Marketo, Pardot, ActiveCampaign, or similar evaluation for your workflow needs
+- Marketing automation platform selection: HubSpot, Marketo, Marketing Cloud Account Engagement (formerly Pardot), ActiveCampaign, or similar evaluation for your workflow needs
 - Journey automation configuration: creating flows in platform, setting up trigger conditions, establishing delay rules, and conditional branching logic
 - Data integration: syncing customer product data (feature usage, days active, support tickets) into email platform for segmentation and personalization
 - List management: handling unsubscribes properly, managing preference center, preventing duplicate sends, and maintaining list health

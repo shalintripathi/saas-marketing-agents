@@ -329,7 +329,7 @@ Set up tracking to measure results:
 **List Sourcing**:
 - LinkedIn Sales Navigator (if B2B, targeting specific companies)
 - Apollo.io or Hunter.io (email finder tools)
-- Clearbit or similar (company data enrichment)
+- HubSpot Breeze Intelligence (formerly Clearbit) or similar (company data enrichment)
 - Manual research (for high-priority accounts)
 
 **List Criteria**:
