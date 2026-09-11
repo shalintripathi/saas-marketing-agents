@@ -2,7 +2,7 @@
 
 # 🚀 SaaS Marketing Agents
 
-**An open-source AI marketing team for B2B SaaS — 79 specialist agents, one orchestrator, real playbooks.**
+**An open-source AI marketing team for B2B SaaS — 79 AI marketing agents for Claude Code, one orchestrator, real playbooks.**
 
 Install a full B2B SaaS marketing org into Claude Code: 79 role-based agent personas, packaged as **19 skills**, coordinated by the **CATALYST** multi-agent orchestrator — with worked ABM, launch & demand-gen workflows and an actively-maintained **AEO/GEO** playbook for the AI-search era.
 
