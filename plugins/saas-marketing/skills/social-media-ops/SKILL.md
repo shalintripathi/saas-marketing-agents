@@ -1,6 +1,6 @@
 ---
 name: social-media-ops
-description: "Comprehensive social media operations for B2B SaaS brand building and engagement. Use this skill to develop LinkedIn strategy, manage Twitter/X presence, create YouTube content, engage on Reddit communities, build community, develop influencer and creator partnerships, vet a creator before paying them, start or fix a B2B podcast, book podcast guests and guest appearances, write show notes and transcripts, and execute organic social campaigns. Also triggers on: LinkedIn, Twitter/X, YouTube, Reddit, community, influencer, creator partnerships, influencer vetting, engagement rate, fake followers, engagement pods, FTC disclosure, sponsored post disclosure, media kit, social media strategy, organic social, employee advocacy, podcast, podcast strategy, podcast guesting, show notes, audiogram, episode transcript."
+description: "Comprehensive social media operations for B2B SaaS brand building and engagement. Use this skill to develop LinkedIn strategy, decide whether to run a LinkedIn newsletter and how to scope it, capture consented registrations from LinkedIn Events, check LinkedIn Live eligibility, manage Twitter/X presence, create YouTube content, engage on Reddit communities, build community, develop influencer and creator partnerships, vet a creator before paying them, start or fix a B2B podcast, book podcast guests and guest appearances, write show notes and transcripts, and execute organic social campaigns. Also triggers on: LinkedIn, LinkedIn newsletter, LinkedIn Events, LinkedIn Live, event registration form, subscribe to our newsletter on LinkedIn, marketing consent checkbox, Notify Employees, Twitter/X, YouTube, Reddit, community, influencer, creator partnerships, influencer vetting, engagement rate, fake followers, engagement pods, FTC disclosure, sponsored post disclosure, media kit, social media strategy, organic social, employee advocacy, podcast, podcast strategy, podcast guesting, show notes, audiogram, episode transcript."
 ---
 
 # Social Media Operations Skill
@@ -18,13 +18,13 @@ description: "Comprehensive social media operations for B2B SaaS brand building 
 
 ## What This Is
 
-The Social Media Operations skill coordinates a team of 6 specialist agents to build brand visibility, drive engagement, and establish authority across social platforms. From strategic LinkedIn thought leadership and community building to YouTube content production and influencer partnerships, this team executes across every major social channel. This skill enables you to leverage organic social as a sustainable acquisition and brand-building channel, reducing dependence on paid media.
+The Social Media Operations skill coordinates a team of 7 specialist agents to build brand visibility, drive engagement, and establish authority across social platforms. From strategic LinkedIn thought leadership and community building to YouTube content production and influencer partnerships, this team executes across every major social channel. This skill enables you to leverage organic social as a sustainable acquisition and brand-building channel, reducing dependence on paid media.
 
 ## The Team: 7 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
-| 1 | LinkedIn Strategist | `agents/social-linkedin-strategist.md` | Develops LinkedIn strategy, creates content calendar, writes thought leadership posts, manages engagement, and builds company and employee presence. Identifies influencer targets and partnership opportunities. |
+| 1 | LinkedIn Strategist | `agents/social-linkedin-strategist.md` | Develops LinkedIn strategy, creates content calendar, writes thought leadership posts, manages engagement, and builds company and employee presence. Designs the first-hour distribution window, and owns **the subscription surfaces that compound** — whether to run a LinkedIn newsletter and how to scope it (the scope and the subscribers cannot be merged later), LinkedIn Events and the three permissions one Event produces (viewed / registered / marketing-consented), and Live eligibility checked in the planning window rather than launch week. Identifies influencer targets and partnership opportunities. |
 | 2 | Twitter/X Strategist | `agents/social-twitter-strategist.md` | Manages Twitter/X brand presence, creates daily tweet content, builds industry conversations, engages with communities, and identifies viral opportunities. Handles both brand and executive accounts. |
 | 3 | YouTube Producer | `agents/social-youtube-producer.md` | Plans YouTube content strategy, creates video scripts, outlines production workflows, manages video SEO, and builds subscriber growth. Handles long-form and short-form video (Shorts). |
 | 4 | Reddit Specialist | `agents/social-reddit-specialist.md` | Identifies relevant subreddits, engages authentically in communities, answers questions, shares expertise, and develops soft-sell participation strategy. Prevents spamming while building credibility. |
@@ -43,6 +43,10 @@ The Social Media Operations skill coordinates a team of 6 specialist agents to b
 - "How do we get our employees sharing company content?" → LinkedIn Strategist (employee advocacy)
 - "Our LinkedIn engagement is flat—how do we grow?" → LinkedIn Strategist
 - "Identify LinkedIn influencers in [industry]" → LinkedIn Strategist
+- "Should we start a LinkedIn newsletter, and what should it cover?" → LinkedIn Strategist (scope it before the first edition — newsletters cannot be merged and subscribers cannot be transferred)
+- "Set up a LinkedIn Event and capture registrations" → LinkedIn Strategist (the registration form cannot be changed once the Event begins; the webinar *program* itself is `events-field-marketing-strategist`)
+- "Can we go live on LinkedIn for the launch?" → LinkedIn Strategist (eligibility criteria, checked in the planning window)
+- "We have LinkedIn Event registrants — can we email them?" → LinkedIn Strategist (only those who ticked the marketing-consent checkbox; routing and CRM mapping with `analytics-marketing-ops-architect`)
 
 **Twitter/X Presence & Engagement**
 - "Build our brand presence on Twitter/X" → Twitter Strategist
