@@ -513,7 +513,7 @@ The following playbooks are included in the agents/ directory to guide execution
 - **phase-3-build.md** - Content production, creative development, asset creation across all channels
 - **phase-4-launch.md** - Campaign activation, media buying, email launch, monitoring procedures
 - **phase-5-optimize.md** - Performance analysis, A/B testing, budget optimization, continuous improvement
-- **catalyst-strategy.md** - CATALYST framework overview and 70-agent reference guide
+- **catalyst-strategy.md** - CATALYST framework overview and 79-agent reference guide
 
 ---
 
