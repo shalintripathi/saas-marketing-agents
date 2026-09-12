@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-12 — Maintenance: GitHub About description now carries both `interactive demos` and `GTM data quality` (automated)
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields (`.claude-plugin/marketplace.json`, `plugins/saas-marketing/.claude-plugin/plugin.json`); all **19** skills carry a `SKILL.md` with `name` + `description`; **0** broken internal `.md` links across **223** files (Python `os.path.normpath` checker); no guide/playbook past the 90-day "Last reviewed" gate (`guides/aeo-geo-playbook.md` 2026-09-12/0d, `integrations/README.md` 2026-07-23/51d); agent-file re-count = **80** across the 17 category dirs, matching the README badge/tagline, `AGENTS_INDEX.md` (80 indexed rows), `llms.txt`, both manifests, and the **live GitHub About**; **0** stale present-tense `79 agents` references in any public surface. No P0.
+
+**Backlog pull → line 176 (the only clean, unblocked implementation item).** The P1 items remain blocked (native subagents [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1) on two in-thread decisions; every distribution item on traction/non-automatable forms) and the P2 queue is watch/scope/curation-read entries the scout works. Line 176 was filed by the 2026-09-12 interactive-demo ADD run, which took the About box to 335/350 and dropped `GTM data quality` to fit `interactive demos`. Both name real capabilities (`analytics-gtm-data-strategist`, `growth-interactive-demo-strategist`), so the drop lost a genuine, AI-/search-matchable term.
+
+**Shipped (About box only).** Freed room one word upstream — `a complete B2B SaaS marketing team` → `a full B2B SaaS marketing team` (a synonym; no keyword surrendered) — and re-inserted `GTM data quality` beside `analytics, martech`. The live description now carries **both** contested terms at **349/350** characters. Of three tested variants, this was chosen over trimming `content + editorial ops` → `content ops` (which would have lost the "editorial" differentiator) and over the weaker abbreviation `GTM data`. Applied via `gh repo edit --description` and verified with `gh repo view`.
+
+**Discoverability.** No count or name changed, so no badge/manifest/`AGENTS_INDEX.md`/`llms.txt`/`CITATION.cff` edit was owed; those surfaces already describe GTM data quality through the analytics discipline. The only defect was the About line's own character budget, now resolved.
+
+**Note on character counting.** 349 is Unicode code points; a byte count reads 351 because the single em dash in `19 skills — SEO` is 3 bytes. GitHub enforces its 350 cap on code points and accepted the string.
+
+**Deferred / still open for the maintainer** (unchanged by this run): [#1](https://github.com/shalintripathi/saas-marketing-agents/issues/1) native subagents, [#3](https://github.com/shalintripathi/saas-marketing-agents/issues/3) an inbound resource post, backlog line 46 (legal proposal carrying the synthetic-media position), line 100 (assessment-persona scope), line 111 (enforcement-register ownership), line 154 (in-market authority target list), and line 175 (employer-brand / recruitment-marketing remit — a maintainer remit call, explicitly out of scope for the scout).
+
+---
+
 ### 2026-09-12 — Maintainer decisions executed: backlog **121** (customer referral owner) and **116** (synthetic-media disclosure owner) (directed)
 
 **Job:** not a routine pull — the maintainer reviewed the open maintainer-call queue and directed two of them. Both were owner-vs-section questions the scout is explicitly forbidden to answer for itself, and both had been open for weeks (121 since 2026-08-23, 116 since 2026-08-19). Two changes, two commits, no count change (**79 agents / 19 skills / 17 disciplines**).
