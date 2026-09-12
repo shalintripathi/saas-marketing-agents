@@ -205,7 +205,7 @@ _4 agents_
 | | Agent | File | Role |
 |---|---|---|---|
 | 💰 | **Financial Tracker** | [`client-ops/ops-financial-tracker.md`](client-ops/ops-financial-tracker.md) | Marketing budget management, vendor management, and ROI reporting |
-| ⚖️ | **Legal Compliance Officer** | [`client-ops/ops-legal-compliance.md`](client-ops/ops-legal-compliance.md) | Marketing legal compliance, GDPR/CCPA, FTC rules, and risk management |
+| ⚖️ | **Legal Compliance Officer** | [`client-ops/ops-legal-compliance.md`](client-ops/ops-legal-compliance.md) | Marketing legal compliance, GDPR/CCPA, FTC rules, and risk management — including the cross-channel consent and suppression record and the company's synthetic-media disclosure position (AI voices, AI presenters, generated or altered footage, EU AI Act Article 50, C2PA provenance) |
 | ✅ | **Quality Assurance Manager** | [`client-ops/ops-quality-assurance.md`](client-ops/ops-quality-assurance.md) | Marketing QA, brand compliance, and launch readiness checklists |
 | 📊 | **Reporting Specialist** | [`client-ops/ops-reporting-specialist.md`](client-ops/ops-reporting-specialist.md) | Client reporting, dashboards, and KPI framework design |
 

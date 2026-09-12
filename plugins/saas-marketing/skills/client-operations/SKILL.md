@@ -1,6 +1,6 @@
 ---
 name: client-operations
-description: "Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, proofreading deliverables. Also triggers on: client reporting, QA, quality assurance, brand compliance, marketing budget, financial tracking, legal compliance, GDPR, CAN-SPAM, proofreading, launch checklist"
+description: "Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, deciding whether an AI voice or AI presenter has to be disclosed, proofreading deliverables. Also triggers on: client reporting, QA, quality assurance, brand compliance, marketing budget, financial tracking, legal compliance, GDPR, CAN-SPAM, proofreading, launch checklist"
 ---
 
 # Client Operations
@@ -34,7 +34,7 @@ This team is the difference between campaigns that launch and campaigns that lau
 | **Reporting Specialist** | Client reporting & dashboards | Design KPI frameworks, build automated dashboards, create executive-ready reports, establish reporting cadence, manage data pipelines |
 | **Quality Assurance Manager** | Brand QA & launch readiness | Create comprehensive QA checklists, audit brand compliance, test technical functionality, verify legal compliance, establish pre-launch processes |
 | **Financial Tracker** | Marketing budget & spend management | Track marketing spend across channels, optimize budget allocation, manage vendor contracts, analyze cost efficiency, forecast spending |
-| **Legal Compliance Officer** | Regulatory & legal compliance | Verify GDPR/CCPA/CAN-SPAM compliance, conduct regulatory audits, maintain compliance documentation, manage risk, ensure legal review processes |
+| **Legal Compliance Officer** | Regulatory & legal compliance | Verify GDPR/CCPA/CAN-SPAM compliance, conduct regulatory audits, maintain compliance documentation, manage risk, own the synthetic-media disclosure position (AI voice/presenter, EU AI Act Art. 50, C2PA), ensure legal review processes |
 
 ## How to Use
 
@@ -46,6 +46,7 @@ Invoke **Client Operations** when your work involves:
 - **Quality checks before launch**: "QA this landing page against our brand guidelines" → Quality Assurance Manager
 - **Marketing spend and budget**: "Analyze ROI by channel and recommend budget reallocation" → Financial Tracker
 - **Legal and compliance review**: "Ensure this email campaign complies with CAN-SPAM and GDPR" → Legal Compliance Officer
+- **Synthetic media disclosure**: "Do we have to say this voiceover was AI-generated?" / "Our agency used an AI presenter — what do we disclose?" → Legal Compliance Officer
 - **Audit trails and documentation**: "Create a compliance audit report for our regulatory review" → Legal Compliance Officer
 
 ### Routing Logic
