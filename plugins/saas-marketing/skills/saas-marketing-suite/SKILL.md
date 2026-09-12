@@ -1,6 +1,6 @@
 ---
 name: saas-marketing-suite
-description: "Complete B2B SaaS marketing agency powered by 79 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
+description: "Complete B2B SaaS marketing agency powered by 80 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
 ---
 
 # SaaS Marketing Suite: Complete Agency Router
@@ -18,7 +18,7 @@ description: "Complete B2B SaaS marketing agency powered by 79 AI agents across 
 
 ## What This Is
 
-The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 79 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
+The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 80 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
 
 Think of it as your full-service marketing department:
 - **Need content?** Route to Content Marketing
@@ -32,7 +32,7 @@ Think of it as your full-service marketing department:
 - **Need performance insights?** Route to Marketing Analytics
 - **Need to manage complex campaigns?** Route to Project Management
 - **Need quality checks and compliance?** Route to Client Operations
-- **Need self-serve growth or expansion revenue?** Route to Growth Operations
+- **Need self-serve growth, a self-guided product demo, or expansion revenue?** Route to Growth Operations
 - **Need press or analyst coverage?** Route to Communications Operations
 - **Need partner or marketplace motion?** Route to Partnerships Operations
 - **Need events, conferences, or webinars?** Route to Events & Field Marketing
@@ -41,7 +41,7 @@ Think of it as your full-service marketing department:
 
 The skill includes a routing decision matrix to identify which team(s) you need based on your request.
 
-## The Complete Team: 79 Specialist Agents Across 17 Disciplines
+## The Complete Team: 80 Specialist Agents Across 17 Disciplines
 
 ### Core Marketing Disciplines
 
@@ -59,13 +59,13 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Marketing Project Management** | 4 | Campaign coordination, timeline management, resource allocation, stakeholder communication, risk management |
 | **Client Operations** | 4 | Client reporting, QA/compliance, budget tracking, legal compliance, audit trails, brand quality |
 | **Account-Based Marketing** | 1 | The target account list and its 1:1/1:few/1:many tiers, capacity-sized coverage, signals-to-actions, the per-tier orchestration contract, and account coverage/penetration measurement |
-| **Growth** | 2 | PLG activation (signup to first invoice, PQL definition, in-product upgrade moments) and customer marketing (adoption, expansion, churn-save, NRR) |
+| **Growth** | 3 | PLG activation (signup to first invoice, PQL definition, in-product upgrade moments), the self-guided interactive demo before signup (gated vs ungated policy, demo freshness and seed data, step-level demo analytics) and customer marketing (adoption, expansion, churn-save, NRR) |
 | **Communications** | 2 | PR and earned media, announcements, crisis comms, and the industry-analyst program (Magic Quadrant, Forrester Wave, IDC) |
 | **Partnerships** | 1 | Co-marketing with tech alliances and channel partners, integration launches, cloud-marketplace GTM |
 | **Events & Field Marketing** | 1 | Conference and sponsorship selection, booths, owned events and roadshows, the webinar engine, event-sourced pipeline |
 | **Developer Marketing** | 1 | Docs as a marketing surface, quickstarts and time-to-first-call, SDKs, open source, DevRel |
 
-**Total: 79 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
+**Total: 80 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
 
 ---
 
@@ -422,7 +422,7 @@ START: What is your primary need?
 
 **Request**: "Plan and execute our full GTM launch"
 - **Route**: CATALYST Orchestrator (CATALYST-Full mode)
-- **Scope**: All 79 agents across all 17 disciplines
+- **Scope**: All 80 agents across all 17 disciplines
 - **Timeline**: 12+ weeks end-to-end
 
 **Request**: "Create our annual marketing strategy and plan"
@@ -458,12 +458,12 @@ START: What is your primary need?
 | Marketing Project Management | 4 |
 | Client Operations | 4 |
 | Account-Based Marketing | 1 |
-| Growth | 2 |
+| Growth | 3 |
 | Communications | 2 |
 | Partnerships | 1 |
 | Events & Field Marketing | 1 |
 | Developer Marketing | 1 |
-| **TOTAL** | **79** |
+| **TOTAL** | **80** |
 
 ---
 
@@ -493,6 +493,7 @@ START: What is your primary need?
 - "Create sales battle cards for our competitors" → Sales Enablement
 - "Set up LinkedIn content calendar" → Social Media Operations
 - "Audit our SEO" → SEO & Growth
+- "Should our interactive demo be gated?" / "Our product tour shows the old UI" → Growth Operations (Interactive Demo Strategist)
 
 ### Multi-Skill Requests
 - "We need content, ads, and email for a demand gen campaign" → Project Management (to coordinate) + multiple category skills

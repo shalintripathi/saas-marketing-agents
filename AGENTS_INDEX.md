@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**79 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**80 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **79 agents** indexed below. Last generated 2026-09-09.
+> **80 agents** indexed below. Last generated 2026-09-12.
 
 ---
 
@@ -131,11 +131,12 @@ _1 agents_
 
 ## Growth
 
-_2 agents_
+_3 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
 | 🌱 | **Customer Marketing Lead** | [`growth/growth-customer-marketing-lead.md`](growth/growth-customer-marketing-lead.md) | Carries net revenue retention as a marketing number—adoption, expansion, churn-save and renewal marketing to the installed base, where the cheapest ARR in the company already lives |
+| 🖱️ | **Interactive Demo Strategist** | [`growth/growth-interactive-demo-strategist.md`](growth/growth-interactive-demo-strategist.md) | Owns the self-guided interactive demo — the product experience in front of the login wall: demo portfolio and flow scripting, gate policy read as a measurement decision, seed data that never comes from a live account, a freshness register with release-bound re-capture triggers, step-level instrumentation with stated denominators, and the controlled comparison required before any demo uplift is called a cause |
 | 🚀 | **PLG Activation Strategist** | [`growth/growth-plg-activation-strategist.md`](growth/growth-plg-activation-strategist.md) | Owns the self-serve funnel behind the login wall — the causally validated activation event, the trial architecture, and the PQL definition product-led sales runs on |
 
 ## Analytics
