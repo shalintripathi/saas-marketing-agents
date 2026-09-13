@@ -2,7 +2,7 @@
 
 ## What is CATALYST?
 
-CATALYST is a comprehensive, multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 80 specialized marketing agents working across 12 functional categories to execute data-driven marketing campaigns with measurable results.
+CATALYST is a comprehensive, multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 80 specialized marketing agents working across 17 disciplines to execute data-driven marketing campaigns with measurable results.
 
 Think of it as conducting an orchestra: Rather than hiring one musician to play all instruments sequentially, CATALYST brings together specialists in positioning, content creation, paid advertising, analytics, email, social, demand generation, and more—each working in their domain while coordinating seamlessly with others.
 

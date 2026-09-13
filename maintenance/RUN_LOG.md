@@ -4,6 +4,21 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-13 — Health check: **P0 FIX** — the flagship orchestrator skill said "12 functional categories" while contradicting itself with "17 disciplines" three lines down (automated)
+
+**Run type: HEALTH-CHECK FIX.** The structural health check (manifests, skills, counts) came back clean on the public surfaces — agent count 80 and skill count 19 match reality (17 category dirs; 19 skills in `plugins/saas-marketing/skills/`) and the live GitHub About description. But grepping for count drift across the repo surfaced a **self-contradiction inside the shipped `catalyst-orchestrator` skill**: its opening "What This Is" paragraph said `80 specialized agents across 12 functional categories`, while the same file's `## 17 Disciplines & 80 Specialist Agents` table, its `Total: 17 Disciplines × 80 Specialist Agents` line, its Full-Annual mode ("all 80 agents across all 17 disciplines"), and its own `description:` frontmatter all say **17**. "12" is a legacy grouping from before the roster grew to its current 17 category directories.
+
+**Shipped.** Corrected the stale intro from "12 functional categories" to "17 disciplines" in four public/shipped files, all of which already stated 17 elsewhere in the same document:
+- [`plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md`](../plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md) — the copy that loads into context when the orchestrator runs (most user-facing).
+- [`strategy/catalyst-strategy.md`](../strategy/catalyst-strategy.md) and its dual-located copy [`plugins/saas-marketing/skills/catalyst-orchestrator/agents/catalyst-strategy.md`](../plugins/saas-marketing/skills/catalyst-orchestrator/agents/catalyst-strategy.md) — both edited identically; `diff` confirms they still differ only in the known brand-context relative-link depth.
+- [`strategy/EXECUTIVE-BRIEF.md`](../strategy/EXECUTIVE-BRIEF.md) — whose own "The CATALYST Framework" list already read "80 Specialized Agents across 17 disciplines".
+
+**Deferred (backlog).** `strategy/EXECUTIVE-BRIEF.md` still carries a legacy `### CATALYST Categories (12 Agent Teams)` table whose per-team agent counts sum to **69**, not 80 — a deeper staleness (an older operational grouping predating the roster's growth) that needs the 12-team lens re-derived or replaced with the 17-discipline breakdown. Logged as a backlog note rather than fixed inline to keep this run to one small change.
+
+**Verified.** No `12 functional categories` / `across 12 func` remains in any shipped/public file (historical `RUN_LOG`/`CHANGELOG`/`backlog` entries left untouched as records). `catalyst-orchestrator/SKILL.md` now reads 17 consistently at every mention. Both manifests still parse (`jq`). Pre-existing note: `scripts/lint-agents.sh` fails `catalyst-strategy.md` (no persona frontmatter / Identity·Mission·Rules sections) — it is a framework-narrative doc, not a persona agent, so it never satisfied the persona schema; the one-line text edit did not change that and it is out of scope to restructure here.
+
+---
+
 ### 2026-09-13 — Skill Scout: **ENHANCE** — the contact budget: one human, every sender, and the four frequency caps that each exclude something (automated)
 
 **Run type: ENHANCE** (alternation — the 09-12 scout run was an ADD). **Focus: email / analytics / marketing-ops**, the oldest by rotation (last 09-09). Pulled the queued 2026-09-09 backlog item *"The cross-surface interruption budget — a section, not a role"* instead of searching fresh, and made the owner-vs-section call it asked for first: **section, owned by `email-lifecycle-architect`** (`growth-customer-marketing-lead` Rule 4 already hands cadence to it and names two owners of frequency as the failure mode).
