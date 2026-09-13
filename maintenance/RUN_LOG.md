@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-13 — Skill Scout: **ENHANCE** — the contact budget: one human, every sender, and the four frequency caps that each exclude something (automated)
+
+**Run type: ENHANCE** (alternation — the 09-12 scout run was an ADD). **Focus: email / analytics / marketing-ops**, the oldest by rotation (last 09-09). Pulled the queued 2026-09-09 backlog item *"The cross-surface interruption budget — a section, not a role"* instead of searching fresh, and made the owner-vs-section call it asked for first: **section, owned by `email-lifecycle-architect`** (`growth-customer-marketing-lead` Rule 4 already hands cadence to it and names two owners of frequency as the failure mode).
+
+**Shipped** (both dual-located copies, diff-identical): a new section *The Contact Budget: One Human, Every Sender* — (1) *find out how many caps you have*: HubSpot, Marketo, Braze and Pendo each cap only what passes through them and each excludes something (HubSpot: 1:1 and transactional; Braze: in-app and Content Cards; Pendo: non-automatic guides; subscription vs user time zones); (2) a **Sender Register** before any number; (3) a per-person budget settled by the agent's own cadence test, with a written **precedence order** and a short named exemption list with one approver; (4) **quiet states** (active opportunity with a live sequence, open high-severity case/incident, renewal negotiation) that lift automatically; (5) *design journeys that survive being capped* — Braze advances a capped user as if the message was sent; (6) enforcement plumbing handed to `analytics-marketing-ops-architect`, impression frequency left with paid media, and opt-out/consent overriding every precedence (`ops-legal-compliance`). **Rule 5 rewritten**: its invented "1-3 emails/week… 1/month… 0.5% unsubscribe" figures replaced by a declared starting assumption settled by randomized frequency arms. New deliverable (*Contact Budget & Sender Register*) and a *Contact Budget Integrity* success metric with no fixed target.
+
+**Evidence.** Vendor documentation read 2026-09-13 (HubSpot, Adobe Marketo Engage, Braze fetched; Pendo via search summary) and cited inline. Market: the only open-source skill that treats the cap as plan-level is `lifecycle-crm-plan` in mohitagw15856/pm-claude-skills (MIT) — a checklist line, credited for the framing, no text reused. GitHub repo searches for frequency capping / contact policy returned zero on-thesis results. Full source list in [scout-ledger.md](scout-ledger.md).
+
+**Discoverability.** No count changed (80 agents / 19 skills / 17 disciplines), so the About box and badges are untouched. Updated: agent `description:` frontmatter (both copies), `AGENTS_INDEX.md` row + generated date, `email-marketing-ops` skill `description:` (natural phrases: "customers get too many emails", "sales and marketing both emailing the same person", "frequency cap", "communication limits") + agent table + a routing example, README Email Marketing Ops trigger phrases, `llms.txt` email line.
+
+**Verified.** `bash scripts/lint-agents.sh` on both copies → 2/2 pass (5,171 words); copies diff-identical; whole-repo internal-link crawl → 223 files, 0 broken.
+
+**Deferred** (filed in [backlog.md](backlog.md)): the same agent still carries unsourced figures in Rules 2/6/7 ("2-3x", "50-70% mobile", "10-30% CTR") and Deliverables targets ("60-70% open rate"); reciprocal one-line pointers to the contact budget in `analytics-marketing-ops-architect` and `growth-plg-activation-strategist`.
+
+---
+
 ### 2026-09-12 — Maintenance: GitHub About description now carries both `interactive demos` and `GTM data quality` (automated)
 
 **Health check (clean, no P0).** Both manifests jq-parse with required fields (`.claude-plugin/marketplace.json`, `plugins/saas-marketing/.claude-plugin/plugin.json`); all **19** skills carry a `SKILL.md` with `name` + `description`; **0** broken internal `.md` links across **223** files (Python `os.path.normpath` checker); no guide/playbook past the 90-day "Last reviewed" gate (`guides/aeo-geo-playbook.md` 2026-09-12/0d, `integrations/README.md` 2026-07-23/51d); agent-file re-count = **80** across the 17 category dirs, matching the README badge/tagline, `AGENTS_INDEX.md` (80 indexed rows), `llms.txt`, both manifests, and the **live GitHub About**; **0** stale present-tense `79 agents` references in any public surface. No P0.

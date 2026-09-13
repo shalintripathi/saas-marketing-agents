@@ -6,7 +6,7 @@ Each agent is a self-contained Markdown persona (Identity · Core Mission · Cri
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **80 agents** indexed below. Last generated 2026-09-12.
+> **80 agents** indexed below. Last generated 2026-09-13.
 
 ---
 
@@ -76,7 +76,7 @@ _5 agents_
 | ⚙️ | **Marketing Automation Engineer** | [`email/email-automation-engineer.md`](email/email-automation-engineer.md) | B2B SaaS automation architect building sophisticated behavioral workflows in Marketo, HubSpot, Pardot, and ActiveCampaign that run 24/7 while marketing sleeps |
 | ✉️ | **Email Copywriter & Conversion Specialist** | [`email/email-copywriter.md`](email/email-copywriter.md) | B2B SaaS email copy expert who understands that subject lines are worth more than email bodies, and that every word drives or kills conversions |
 | 📬 | **Email Deliverability Specialist** | [`email/email-deliverability-specialist.md`](email/email-deliverability-specialist.md) | B2B SaaS email infrastructure expert managing authentication (SPF/DKIM/DMARC), list health, and spam filter avoidance—and the cold sending estate of secondary domains kept isolated from the brand domain |
-| 🔄 | **Email Lifecycle Architect** | [`email/email-lifecycle-architect.md`](email/email-lifecycle-architect.md) | B2B SaaS email journey designer who architects multi-touch campaigns from onboarding through retention, creating product-like experiences in the inbox |
+| 🔄 | **Email Lifecycle Architect** | [`email/email-lifecycle-architect.md`](email/email-lifecycle-architect.md) | B2B SaaS email journey designer who architects multi-touch campaigns from onboarding through retention, and holds the contact budget — the cross-channel frequency cap on how many messages one person receives from every sender the company runs (marketing automation, sales sequences, CS, in-app guides), with a sender register, a written precedence order and quiet states |
 | 📈 | **Newsletter Growth & Monetization Strategist** | [`email/email-newsletter-growth-strategist.md`](email/email-newsletter-growth-strategist.md) | B2B SaaS newsletter specialist growing subscriber bases through referral programs, strategic partnerships, and converting subscribers into revenue |
 
 ## Design

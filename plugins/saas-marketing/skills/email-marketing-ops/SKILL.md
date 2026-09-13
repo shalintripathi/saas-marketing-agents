@@ -1,6 +1,6 @@
 ---
 name: email-marketing-ops
-description: "Email marketing operations and automation for B2B SaaS. Use this skill for newsletter strategy, email automation sequences, lifecycle campaigns, nurture workflows, onboarding sequences, deliverability optimization, email copywriting, lead scoring, marketing automation platform setup, and cold-email sending infrastructure — secondary sending domains, SPF/DKIM/DMARC, and domain warmup. Also triggers on: email, newsletter, drip campaign, lifecycle, nurture, onboarding sequence, deliverability, email automation, lead scoring, marketing automation, our emails are going to spam, SPF, DKIM, DMARC, sender reputation, sending domain, cold email domains, domain warmup, mailbox setup, blacklist, bounce rate."
+description: "Email marketing operations and automation for B2B SaaS. Use this skill for newsletter strategy, email automation sequences, lifecycle campaigns, nurture workflows, onboarding sequences, deliverability optimization, email copywriting, lead scoring, marketing automation platform setup, and cold-email sending infrastructure — secondary sending domains, SPF/DKIM/DMARC, and domain warmup — plus the contact budget: a cross-channel frequency cap across every sender (marketing, sales sequences, customer success, in-app). Also triggers on: email, newsletter, drip campaign, lifecycle, nurture, onboarding sequence, deliverability, email automation, lead scoring, marketing automation, our emails are going to spam, SPF, DKIM, DMARC, sender reputation, sending domain, cold email domains, domain warmup, mailbox setup, blacklist, bounce rate, frequency cap, email fatigue, customers get too many emails, too many messages, sales and marketing both emailing the same person, communication limits, send frequency safeguard, global frequency capping, quiet period, message precedence."
 ---
 
 # Email Marketing Operations Skill
@@ -26,7 +26,7 @@ The Email Marketing Operations skill brings together 5 specialist agents to exec
 |---|-------|------|-------------|
 | 1 | Newsletter Growth Strategist | `agents/email-newsletter-growth-strategist.md` | Develops newsletter strategy, creates content calendars, designs segmentation strategies, drives subscriber growth, and optimizes for engagement and conversion. |
 | 2 | Email Copywriter | `agents/email-copywriter.md` | Writes compelling subject lines, preview text, email body copy, and CTAs. Balances persuasion with authenticity, adapts messaging by segment and lifecycle stage. |
-| 3 | Lifecycle Architect | `agents/email-lifecycle-architect.md` | Designs multi-email sequences: onboarding, nurture, re-engagement, win-back, and upsell campaigns. Maps customer journey touchpoints and automation triggers. |
+| 3 | Lifecycle Architect | `agents/email-lifecycle-architect.md` | Designs multi-email sequences: onboarding, nurture, re-engagement, win-back, and upsell campaigns. Maps customer journey touchpoints and automation triggers. Holds the contact budget — the cross-channel frequency cap, sender register, precedence order and quiet states across every team that messages the same person. |
 | 4 | Automation Engineer | `agents/email-automation-engineer.md` | Implements marketing automation workflows, configures email platforms (HubSpot, Marketo, Klaviyo), builds triggers and segmentation logic, and ensures technical execution. |
 | 5 | Deliverability Specialist | `agents/email-deliverability-specialist.md` | Optimizes email deliverability, manages sender reputation and SPF/DKIM/DMARC authentication, handles list hygiene, prevents spam folder placement, architects the cold sending estate of secondary domains kept isolated from the brand domain, and maintains compliance with CAN-SPAM and GDPR. |
 
@@ -53,6 +53,7 @@ The Email Marketing Operations skill brings together 5 specialist agents to exec
 - "Design re-engagement campaign for inactive subscribers" → Lifecycle Architect + Email Copywriter
 - "Set up upsell and cross-sell email sequences" → Lifecycle Architect
 - "Build a win-back campaign" → Lifecycle Architect + Email Copywriter
+- "Our customers are getting too many emails from different teams" / "Set a frequency cap across marketing, sales and CS" → Lifecycle Architect (contact budget) + Marketing Automation Engineer
 
 **Marketing Automation Platform**
 - "Set up our marketing automation platform" → Automation Engineer
