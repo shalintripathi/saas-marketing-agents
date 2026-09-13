@@ -4,6 +4,18 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-13 — Anti-fabrication: five borrowed performance figures removed from `email-lifecycle-architect` (automated)
+
+**Run type: BACKLOG ITEM (correctness / no-fabricated-metrics guardrail).** Health check first, and it came back clean: `marketplace.json` and the one `plugin.json` parse with required fields; all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links (Python link-walker across every doc); every "Last reviewed" date within 90 days (`aeo-geo-playbook.md` 2026-09-12, `integrations/README.md` 2026-07-23); and no stale public counts — agent re-count = **80** (AGENTS_INDEX links 80 unique category files; all 80 are dual-located under `plugins/…/agents/`, the 7 "extra" plugin files being strategy/playbook docs, not agents), skills **19**, disciplines **17**, all matching README + badges, `AGENTS_INDEX.md`, `llms.txt`, and the live GitHub About (`gh repo view`). No P0.
+
+**Shipped.** Backlog item (surfaced 2026-09-13): five unsourced performance figures in [`email/email-lifecycle-architect.md`](../email/email-lifecycle-architect.md) that survived the earlier Success-Metrics anti-fabrication pass and contradicted it — Rule 2 "2-3x better", Rule 4 "70% / 20-30%" split, Rule 6 "50-70% opened on mobile", Rule 7 "CTR 10-30%", and the Onboarding deliverable's "60-70% open / 8-15% click / 30-40% activation" targets. Rather than source invented benchmarks, replaced each with the file's own established discipline: own-list controlled-test reads (Rule 7 now cross-links *Personalization Efficacy*), a declared-and-tunable value-to-ask ratio, mobile-first justified without a fixed % (and flagging machine-open inflation of open-derived device stats), and an own-cohort onboarding read with activation as the product-co-determined, holdout-measured lift. Edited both dual-located copies; `cp`-synced so they are byte-identical (md5 match).
+
+**Verified.** Grep confirms none of the five flagged figures remain; `bash scripts/lint-agents.sh` → 2/2 pass; both copies md5-identical. No count/name/capability change, so no badge/manifest/index/`llms.txt`/`CITATION.cff`/About sweep owed. Added a `### Changed` bullet to `CHANGELOG.md` and marked the backlog item done.
+
+**Deferred.** The other 2026-09-13 backlog items left untouched to keep this run to one change: the reciprocal contact-budget pointers (line 179), and the legacy "12 Agent Teams" table in `strategy/EXECUTIVE-BRIEF.md` that sums to 69 not 80 (line 66).
+
+---
+
 ### 2026-09-13 — Health check: **P0 FIX** — the flagship orchestrator skill said "12 functional categories" while contradicting itself with "17 disciplines" three lines down (automated)
 
 **Run type: HEALTH-CHECK FIX.** The structural health check (manifests, skills, counts) came back clean on the public surfaces — agent count 80 and skill count 19 match reality (17 category dirs; 19 skills in `plugins/saas-marketing/skills/`) and the live GitHub About description. But grepping for count drift across the repo surfaced a **self-contradiction inside the shipped `catalyst-orchestrator` skill**: its opening "What This Is" paragraph said `80 specialized agents across 12 functional categories`, while the same file's `## 17 Disciplines & 80 Specialist Agents` table, its `Total: 17 Disciplines × 80 Specialist Agents` line, its Full-Annual mode ("all 80 agents across all 17 disciplines"), and its own `description:` frontmatter all say **17**. "12" is a legacy grouping from before the roster grew to its current 17 category directories.
