@@ -43,22 +43,31 @@ B2B SaaS marketing teams face a contradiction: Modern marketing success requires
 - **4 Quality Gates** between phases ensuring readiness to advance
 - **12+ Coordination Protocols** defining how agents hand off work
 
-### CATALYST Categories (12 Agent Teams)
+### CATALYST Disciplines (17 Agent Teams)
 
-| Category | Agent Count | Responsibility |
-|----------|------------|-----------------|
-| Discovery & Insights | 8 | Market research, competitive analysis, SEO audits, customer research |
-| Strategy & Planning | 7 | Positioning, messaging, campaign planning, budgeting |
-| Marketing Operations | 6 | Tech stack, CRM, data pipeline, compliance |
-| Brand & Creative | 8 | Visual identity, brand voice, copywriting, design systems |
-| Content Production | 9 | Blog, video, whitepapers, landing pages, email content |
-| Paid Advertising | 7 | Google Ads, LinkedIn, Facebook, audience building, creative |
-| Social & Community | 5 | LinkedIn, Twitter, community management, social listening |
-| Demand Generation | 6 | Lead gen, outbound, webinars, nurture sequences |
-| Performance & Analytics | 6 | Testing, conversion optimization, attribution, reporting |
-| Sales Enablement | 2 | Sales assets, enablement programs |
-| Launch & Activation | 2 | Campaign launch management, email deliverability |
-| Specialized Consulting | 3 | Sales alignment, enterprise onboarding, ROI analysis |
+The roster is organized into 17 disciplines that mirror a real B2B SaaS marketing org. This table matches the canonical [Agent Index](../AGENTS_INDEX.md) and the orchestrator's own `17 Disciplines` table — see the index for every agent and when to use it.
+
+| Discipline | Agents | Responsibility |
+|----------|--------|-----------------|
+| Content Marketing | 8 | Blog, whitepapers, case studies, newsletters, copywriting, video scripts, thought leadership |
+| SEO & Organic Growth | 7 | Technical SEO, keyword research, content optimization, link building, AI/AEO/GEO, international, programmatic |
+| Paid Media | 7 | PPC, social ads, creative strategy, budget optimization, programmatic, attribution, sponsorships & syndication |
+| Social Media | 7 | LinkedIn, Twitter/X, Reddit, YouTube, community, influencer partnerships, B2B podcast |
+| Email Marketing | 5 | Lifecycle design, copywriting, automation, deliverability, newsletter growth |
+| Design | 5 | Landing pages, brand identity, presentations, visual content, ad creative |
+| Sales Enablement | 7 | Outbound, discovery coaching, deal strategy, battle cards, proposals, pipeline analysis, technical presales |
+| Product Marketing | 9 | Positioning, messaging, launches, competitive intel, advocacy, pricing & packaging, agent readiness, international, brand & demand |
+| Account-Based Marketing | 1 | Target account lists, 1:1/1:few/1:many tiering, signals-to-actions, coverage & penetration |
+| Growth | 3 | PLG activation, self-guided interactive demo, customer marketing (expansion, churn-save, NRR) |
+| Analytics | 8 | Performance analysis, attribution, demand planning, CRO, customer insights, marketing-ops architecture, martech |
+| Communications | 2 | PR & earned media, announcements, crisis comms, analyst relations |
+| Partnerships | 1 | Co-marketing, integration launches, cloud-marketplace GTM, affiliate & referral |
+| Events & Field Marketing | 1 | Conference & sponsorship selection, booths, owned events, roadshows, webinars |
+| Developer Marketing | 1 | Docs as a marketing surface, quickstarts, SDKs, open source, DevRel |
+| Project Management | 4 | Campaign coordination, timelines, resource allocation, stakeholder comms |
+| Client Operations | 4 | Client reporting, QA, financial tracking, legal compliance |
+
+**Total: 17 disciplines × 80 specialist agents.**
 
 ## ROI & Results Expectations
 

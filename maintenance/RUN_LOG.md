@@ -4,6 +4,18 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-13 — Executive Brief team table re-derived: legacy "12 Agent Teams" (summed 69) rebuilt as the 17-discipline breakdown that sums to 80 (automated)
+
+**Run type: BACKLOG ITEM (correctness / stale internal count).** Health check first, clean: `marketplace.json` and the one `plugin.json` parse with required fields intact; all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links (Python link-walker across 223 docs); `aeo-geo-playbook.md` "Last reviewed" 2026-09-12 (within 90 days); and no stale *public* counts — agent re-count via `find` across the 17 category dirs = **80**, skills **19**, disciplines **17**, all matching README + badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the live GitHub About (`gh repo view`). No P0 in the health check itself.
+
+**Shipped (backlog line 66, surfaced 2026-09-13):** `strategy/EXECUTIVE-BRIEF.md` carried a `### CATALYST Categories (12 Agent Teams)` table — an older operational grouping (Discovery & Insights, Demand Generation, Specialized Consulting, etc.) whose per-team agent counts summed to **69**, contradicting the same file's "80 Specialized Agents across 17 disciplines" headline four lines above and every public surface. Rebuilt it as the canonical 17-discipline table (Content Marketing 8 · SEO & Organic Growth 7 · Paid Media 7 · Social Media 7 · Email 5 · Design 5 · Sales Enablement 7 · Product Marketing 9 · ABM 1 · Growth 3 · Analytics 8 · Communications 2 · Partnerships 1 · Events & Field Marketing 1 · Developer Marketing 1 · Project Management 4 · Client Operations 4 = **80**), mirroring `AGENTS_INDEX.md` order and the orchestrator SKILL.md's own `17 Disciplines` table, and added a pointer to the index as the single source of truth.
+
+**Checked after the edit:** new table sums to **80** (awk over the count column); `grep` for `12 Agent Teams`, the six retired category names, and `69` → **none**; broken-link walker re-run → 0. Not an agent file, so no lint and not dual-located. No public count changed (all surfaces were already 80/19/17), so no discoverability/About/README/badge updates were needed.
+
+**Deferred:** the `12+ Coordination Protocols` line in the same file — left as-is; it is a soft framework claim about handoff protocols, not a roster count, and contradicts nothing. Distribution items remain star/usage-gated (5 stars); native-subagents (issue #1) still blocked on the two in-thread decisions.
+
+---
+
 ### 2026-09-13 — Anti-fabrication: five borrowed performance figures removed from `email-lifecycle-architect` (automated)
 
 **Run type: BACKLOG ITEM (correctness / no-fabricated-metrics guardrail).** Health check first, and it came back clean: `marketplace.json` and the one `plugin.json` parse with required fields; all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links (Python link-walker across every doc); every "Last reviewed" date within 90 days (`aeo-geo-playbook.md` 2026-09-12, `integrations/README.md` 2026-07-23); and no stale public counts — agent re-count = **80** (AGENTS_INDEX links 80 unique category files; all 80 are dual-located under `plugins/…/agents/`, the 7 "extra" plugin files being strategy/playbook docs, not agents), skills **19**, disciplines **17**, all matching README + badges, `AGENTS_INDEX.md`, `llms.txt`, and the live GitHub About (`gh repo view`). No P0.
