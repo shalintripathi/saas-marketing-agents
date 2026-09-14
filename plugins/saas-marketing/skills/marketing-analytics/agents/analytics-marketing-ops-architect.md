@@ -223,6 +223,8 @@ Prefix each custom field's API name with its owning function — `mkt_`, `sales_
 
 Two constraints make or break the convention. Set the prefix **at creation**: an API name is referenced by every integration, formula, and workflow that touches the field, so renaming it later is itself a breaking change — the exact problem the next section governs. And treat the prefix as a layer *on top of* the dictionary's owner field, never a replacement — a naming convention is a signpost, not a system of record, and it silently rots the moment a field is reassigned without being renamed.
 
+One `sys_`/cross-tool field worth naming here is the contact-budget send counter and `budget-reached / quiet-state` flag: `email-lifecycle-architect` owns the per-person number, the precedence order and the quiet-state definitions, while writing that flag to the CRM and making it readable by the sales-engagement, CS and in-app tools is the integration and field-governance work owned here.
+
 ### Give fields a deprecation lifecycle, not a delete key
 
 Rule #3's "data cleanup" fixes bad *values*. It says nothing about retiring the *field itself* — and fields accumulate relentlessly: every sunset campaign, abandoned experiment, and departed field-owner leaves orphaned columns behind. The temptation is to delete them. The danger is that most CRMs will let you delete a field without first telling you what depends on it, and the moment it's gone, every report, workflow, sync mapping, and scoring rule that referenced it breaks — silently, and often discovered only when a downstream number goes wrong. So a field needs a path out, not a delete key:

@@ -4,6 +4,21 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-14 — Maintenance: reciprocal pointers to the contact budget (backlog line 179) (automated)
+
+**Run type: backlog item.** Health check first, all clean: 225 md files scanned → 0 broken internal links; `.claude-plugin/marketplace.json` and the plugin.json valid with required fields; all 19 `SKILL.md` carry `name`+`description`; counts consistent at **81 agents / 19 skills / 17 disciplines** across README (+badge/tagline), `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run: "81 agents + 19 skills"); freshest living guide reviewed 2026-09-12, nothing >90 days. The one 2-digit near-match (`80 agents` in `sales-conversational-agent-strategist`) is dated authoring-time provenance ("across all 80 agents on 2026-09-14", before that 81st agent existed), not a stale present-tense count — left as history. No P0.
+
+**Shipped (backlog line 179 — the highest-priority genuinely-unblocked item; distribution items remain traction-gated at 13 stars < 40/100).** The contact budget owned by `email-lifecycle-architect` named three senders/owners that did not name it back. Grep-verified all three carried zero prior reference, then added **one sentence each**:
+- `analytics-marketing-ops-architect` — in "Governing the Field Layer," the send-counter / `budget-reached / quiet-state` flag is now named as the `sys_`/cross-tool field this agent plumbs, with the architect keeping the number, precedence and quiet-state definitions.
+- `sales-outbound-strategist` — Rule 6 (Frequency Discipline) now marks an outbound sequence as one counted sender under the per-person ceiling and the quiet-state signal that pauses that person's marketing nurture.
+- `growth-plg-activation-strategist` — Rule 5 (already the email-seam rule) now marks in-app guides as a counted sender, not a free surface, to be registered in the Sender Register.
+
+**Verified:** lint 6/6 (both copies of all three); all three dual pairs diff-identical (edited category copy, `cp` to plugin copy); 0 broken links post-edit; no count surface touched (pure cross-reference), so no discoverability count updates needed. CHANGELOG `### Changed` bullet added; backlog line 179 marked done.
+
+**Deferred:** the sibling item (line 180, reciprocal pointers to the Conversational Agent Strategist, 6 agents) — left for a future run to keep this to one change. Distribution/awesome-list items stay blocked on traction.
+
+---
+
 ### 2026-09-14 — Skill Scout: **ADD** — eighty agents, and nobody owned the one marketing surface that improvises (automated)
 
 **Run type: ADD**, by alternation — the 2026-09-13 scout run was an ENHANCE (contact budget) and 09-12 an ADD; the hard two-consecutive-enhancements trigger was not met, so this was the alternation default rather than a forced ADD. **Focus discipline: PMM / sales / GTM**, the oldest by rotation (last the focus 2026-09-10; paid/social 09-11, content/SEO 09-12, email/analytics/ops 09-13).
