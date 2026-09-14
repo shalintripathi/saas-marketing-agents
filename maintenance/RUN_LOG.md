@@ -4,6 +4,24 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-14 — Maintenance: reciprocal pointers to the Conversational Agent Strategist (backlog line 180) (automated)
+
+**Run type: backlog item.** Health check first, all clean: 225 md files scanned → **0 broken internal links**; `.claude-plugin/marketplace.json` and the plugin.json valid with required fields intact; all **19** `SKILL.md` carry `name`+`description`; agent count verified by frontmatter (`name:` present) at exactly **81** — the 10 extra `strategy/*.md` files are playbooks/briefs, not agents — matching the **live GitHub About** ("81 agents + 19 skills", re-read this run), README + badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` and both manifests; freshest living guide (`aeo-geo-playbook.md`) reviewed 2026-09-12, nothing >90 days. No P0.
+
+**Shipped (backlog line 180 — highest-priority genuinely-unblocked item; distribution items remain traction-gated, subagent/Pages/eval items remain large or blocked).** The `Conversational Agent Strategist` (added earlier today) has a Rule 12 boundary rule that names six neighbours; none named it back. Grep-verified zero prior references, then added **one sentence each** (both dual-located copies, edited top-level then `cp`-synced so every pair is diff-identical):
+- `analytics-marketing-ops-architect` — a chat hand-raiser handed off from the website enters the same fit/engagement routing model and MQL→SAL handoff SLA as any routed lead, with the same named-destination requirement if sales declines it.
+- `sales-outbound-strategist` Rule 1 — an active hand-raiser is inbound, owned by the strategist, and never scooped into a cold outbound sequence even when the visit registers as an intent signal.
+- `sales-solutions-engineer` Rule 10 — the strategist is a downstream consumer of the technical answer library that answers anonymous website buyers from an approved subset and escalates beyond it, so the library must stay safe for an unsupervised public reader.
+- `ops-legal-compliance` Rule 10 — the chatbot's Article 50(1) first-message AI-disclosure wording is the adjacent same-article obligation beside the 50(4) deep-fake position, drafted/validated here.
+- `pmm-agent-readiness-strategist` Rule 10 — the human-vs-machine mirror seam: a person in the chat widget is the strategist's, a buyer's agent at a commercial surface is the readiness strategist's; the widget routes agent traffic to that path.
+- `email-lifecycle-architect` — the chat widget added to the Sender Register (prose + deliverable list) as a counted sender.
+
+**Verified:** `lint-agents.sh` 12/12 pass; all six dual pairs diff-identical; each neighbour now names "Conversational Agent Strategist" exactly once; 0 broken links repo-wide. **No count/name/capability change → no discoverability sweep owed** (still 81 agents / 19 skills / 17 disciplines everywhere, incl. live About). CHANGELOG `## [Unreleased] → ### Changed` bullet added; backlog line 180 marked done.
+
+**Deferred:** the two remaining line-181 "section leads" (`trust center`, `beta program`) — grep-verified unowned but judged too narrow for a persona on current evidence; distribution submissions still traction-gated (repo below the ≥100-star / proven-adoption bars in each list's rules).
+
+---
+
 ### 2026-09-14 — Maintenance: reciprocal pointers to the contact budget (backlog line 179) (automated)
 
 **Run type: backlog item.** Health check first, all clean: 225 md files scanned → 0 broken internal links; `.claude-plugin/marketplace.json` and the plugin.json valid with required fields; all 19 `SKILL.md` carry `name`+`description`; counts consistent at **81 agents / 19 skills / 17 disciplines** across README (+badge/tagline), `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read this run: "81 agents + 19 skills"); freshest living guide reviewed 2026-09-12, nothing >90 days. The one 2-digit near-match (`80 agents` in `sales-conversational-agent-strategist`) is dated authoring-time provenance ("across all 80 agents on 2026-09-14", before that 81st agent existed), not a stale present-tense count — left as history. No P0.

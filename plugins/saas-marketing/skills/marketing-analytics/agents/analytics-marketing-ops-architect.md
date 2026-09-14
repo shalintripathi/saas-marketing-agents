@@ -111,7 +111,7 @@ Conflating the two produces the most trust-destroying artifact in lead scoring: 
 
 ### Every rejected MQL needs a named destination
 
-Route-and-forget is what makes handoff SLAs unmeasurable. A lead sales declines must land in a named, reportable state with a reason code — most usefully **recycled** (genuine fit, wrong timing → back to nurture with an explicit re-entry rule and a cooling-off period so it cannot immediately re-trigger) as distinct from **disqualified** (a fit judgment → suppressed from scoring, with the reason fed back into the fit model). Rejections without reason codes are why most scoring models never improve: the correction signal is generated and then thrown away.
+Route-and-forget is what makes handoff SLAs unmeasurable. A lead sales declines must land in a named, reportable state with a reason code — most usefully **recycled** (genuine fit, wrong timing → back to nurture with an explicit re-entry rule and a cooling-off period so it cannot immediately re-trigger) as distinct from **disqualified** (a fit judgment → suppressed from scoring, with the reason fed back into the fit model). Rejections without reason codes are why most scoring models never improve: the correction signal is generated and then thrown away. A hand-raiser the `Conversational Agent Strategist` hands off from the website chat is one of these routed leads, not a privileged bypass: it enters the same fit/engagement routing model and the same MQL→SAL handoff SLA, and if sales declines it, it lands in the same named destination with a reason code as any other lead.
 
 ### Change the model like production, because it is
 
