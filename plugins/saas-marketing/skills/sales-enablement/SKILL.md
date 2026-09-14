@@ -1,6 +1,6 @@
 ---
 name: sales-enablement
-description: "Sales enablement, technical presales and deal acceleration for B2B SaaS revenue teams. Use this skill when planning outbound campaigns, running discovery calls, building deal strategy, creating battle cards, writing proposals, responding to RFPs, preparing a product demo, scoping a proof of concept or pilot, answering a security questionnaire, executing sales sequences, or coaching qualification. Also triggers on: outbound, cold outreach, deal strategy, pipeline, battle card, proposal, RFP, discovery call, MEDDPICC, sales sequence, qualification, sales engineer, solutions engineer, presales, demo plan, demo script, POC, proof of concept, pilot success criteria, technical evaluation, technical win, security questionnaire, vendor security review, SOC 2 questionnaire, technical objection, mutual action plan, MAP, close plan, mutual close plan, buyer enablement, the deal is stalled, deal stalled after the demo, how do I get this deal to close, close date keeps slipping, JOLT, buyer indecision, no-decision loss."
+description: "Sales enablement, technical presales and deal acceleration for B2B SaaS revenue teams. Use this skill when planning outbound campaigns, running discovery calls, building deal strategy, creating battle cards, writing proposals, responding to RFPs, preparing a product demo, scoping a proof of concept or pilot, answering a security questionnaire, executing sales sequences, coaching qualification, or deciding what the website's AI chat agent is allowed to say. Also triggers on: outbound, cold outreach, deal strategy, pipeline, battle card, proposal, RFP, discovery call, MEDDPICC, sales sequence, qualification, sales engineer, solutions engineer, presales, demo plan, demo script, POC, proof of concept, pilot success criteria, technical evaluation, technical win, security questionnaire, vendor security review, SOC 2 questionnaire, technical objection, mutual action plan, MAP, close plan, mutual close plan, buyer enablement, the deal is stalled, deal stalled after the demo, how do I get this deal to close, close date keeps slipping, JOLT, buyer indecision, no-decision loss, website chatbot, chat widget, AI chat agent, AI SDR, inbound AI SDR, conversational marketing, live chat, what should our chatbot be allowed to say, our chatbot quoted the wrong price, the bot promised a discount, do we have to disclose it is AI, EU AI Act chatbot disclosure, chatbot handoff to sales, chat transcript review, prompt injection on our chatbot, Drift, Qualified, Intercom."
 ---
 
 # Sales Enablement
@@ -18,9 +18,9 @@ description: "Sales enablement, technical presales and deal acceleration for B2B
 
 ## What This Is
 
-Sales Enablement brings together sales strategists, discovery coaches, outbound specialists, pipeline analysts, proposal architects, solutions engineers, and enablement content creators to accelerate deal velocity and maximize win rates. This skill orchestrates your revenue team to execute high-impact outbound campaigns, run disciplined discovery conversations, build data-driven deal strategies, and create compelling proposals that win competitive deals. Whether you're prospecting net-new accounts, accelerating stalled deals, gating a demo, running a proof of concept, answering a vendor security review, building sales battle cards, or executing sales sequences, Sales Enablement routes your request to the right specialist and ensures consistent pipeline progression.
+Sales Enablement brings together sales strategists, discovery coaches, outbound specialists, pipeline analysts, proposal architects, solutions engineers, a conversational agent strategist, and enablement content creators to accelerate deal velocity and maximize win rates. This skill orchestrates your revenue team to execute high-impact outbound campaigns, run disciplined discovery conversations, build data-driven deal strategies, and create compelling proposals that win competitive deals. Whether you're prospecting net-new accounts, accelerating stalled deals, gating a demo, running a proof of concept, answering a vendor security review, building sales battle cards, or executing sales sequences, Sales Enablement routes your request to the right specialist and ensures consistent pipeline progression.
 
-## The Team: 7 Specialist Agents
+## The Team: 8 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -31,6 +31,7 @@ Sales Enablement brings together sales strategists, discovery coaches, outbound 
 | 5 | Proposal Architect | `agents/sales-proposal-architect.md` | Designs customer-centric proposals that map solution to buyer requirements, quantify ROI, reduce decision friction, and beat competitive alternatives |
 | 6 | Sales Enablement Content Creator | `agents/sales-enablement-content-creator.md` | Develops sales battle cards, competitive intel documents, customer success stories, objection handlers, and pitch scripts that arm sales teams with proof and confidence |
 | 7 | Solutions Engineer | `agents/sales-solutions-engineer.md` | Wins the technical evaluation: gates and designs discovery-led demos, runs proofs of concept and pilots against signed success criteria, answers security and compliance questionnaires from an evidence library, handles technical objections, and records the technical win |
+| 8 | Conversational Agent Strategist | `agents/sales-conversational-agent-strategist.md` | Owns the website's conversational front door — the AI chat agent, inbound AI SDR and live chat: the approved answer set, the prices, discounts, roadmap dates and assurances it never generates, AI disclosure at the first message, the human handoff, a pre-release test suite (including prompt injection), transcript audits, the CRM tokens the widget holds, and honest front-door measurement |
 
 ## How to Use
 
@@ -75,6 +76,13 @@ Sales Enablement brings together sales strategists, discovery coaches, outbound 
 - "Answer this vendor security questionnaire from what we can actually evidence"
 - "The buyer says we can't meet their data-residency requirement — how do we answer honestly?"
 - "Why do we keep winning the POC and losing the deal?"
+
+**Website Chat Agent & Inbound AI SDR** → Conversational Agent Strategist
+- "Our website chatbot told a prospect we're SOC 2 Type II certified — we aren't yet. How do we stop that?"
+- "Write the answer set and the do-not list for our AI chat agent: what can it say about pricing, roadmap and security?"
+- "Do we have to tell visitors the chat is an AI, and when does a human take over?"
+- "Build a test suite for our chat agent, including prompt-injection attempts, before we change the model"
+- "Chat says it drives 30% of our pipeline — is that real?"
 
 **Sales Enablement Content** → Sales Enablement Content Creator
 - "Build battle cards for our top 3 competitive threats (strengths/weaknesses, win strategies)"

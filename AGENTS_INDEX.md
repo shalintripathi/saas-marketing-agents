@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**80 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**81 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **80 agents** indexed below. Last generated 2026-09-13.
+> **81 agents** indexed below. Last generated 2026-09-14.
 
 ---
 
@@ -93,10 +93,11 @@ _5 agents_
 
 ## Sales Enablement
 
-_7 agents_
+_8 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
+| 🗨️ | **Conversational Agent Strategist** | [`sales/sales-conversational-agent-strategist.md`](sales/sales-conversational-agent-strategist.md) | Owns the website's conversational front door — the AI chat agent, inbound AI SDR and live chat: an approved answer set with prices, discounts, roadmap dates and security assurances never generated, AI disclosure at the first message (EU AI Act Art. 50), a human handoff that is a promise with hours, a pre-release test suite including prompt injection, a sampled transcript audit, the CRM tokens and scopes the widget holds, and a funnel measured on the visitors who chose to open the chat |
 | ♟️ | **Deal Strategist** | [`sales/sales-deal-strategist.md`](sales/sales-deal-strategist.md) | Complex B2B deal navigator orchestrating multi-stakeholder sales cycles and procurement processes — MEDDPICC qualification, buying-committee coverage graded rather than counted, the JOLT answer to buyer indecision, and the mutual action plan (close plan) the buyer co-owns |
 | 🎤 | **Discovery Coach** | [`sales/sales-discovery-coach.md`](sales/sales-discovery-coach.md) | Sales discovery methodology coach building deeper buyer insight through question-driven selling frameworks |
 | 📋 | **Enablement Content Creator** | [`sales/sales-enablement-content-creator.md`](sales/sales-enablement-content-creator.md) | Sales content strategist bridging marketing materials and buyer conversations through battle cards and tools |
