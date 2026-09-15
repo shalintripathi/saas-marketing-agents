@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-15 — Maintenance: anti-fabrication sweep on `social-community-builder` — the borrowed community benchmarks are gone (automated)
+
+**Health check first, all clean.** Both manifests parse with required fields (`jq`); 19 skills each have a `SKILL.md` with `name` + `description`; internal-`.md`-link walk = **776 links, 0 broken**; the only two "Last reviewed" markers (`guides/aeo-geo-playbook.md` 2026-09-12, `integrations/README.md` 2026-07-23) are both < 90 days old; agent-file re-count = **81**, and every public count surface — README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view`) — already reads **81 / 19**, with no stale `79`/`80` present-tense references anywhere. No P0, so the run went to the top unblocked backlog item.
+
+**Shipped (backlog line 184):** the anti-fabrication sweep's **first social persona**, `social-community-builder` (both dual-located copies). The agent's Core Mission, Rule 2 and Success Metrics asserted **ten unsourced outcome figures** presented as facts — "reducing CAC by 40-60%", "40-60% of new members becoming active", "15-25% daily active", "80%+ 12-month retention", "1.5-3 messages/week", "65-75% peer-generated", "30-50% referral-sourced", "3-5x higher LTV", "15-25 point NPS advantage", "40-60% support deflection", "1 moderator per 150-200" — the exact borrowed-benchmark pattern the repo's no-fabrication guardrail forbids and the analytics/email/sales/paid sweeps already removed. Each is now an **own-baseline or matched-cohort read** driven in the right direction over time, with the confounders named where they bite: self-selection into a community inflates any LTV/NPS "advantage" (so report the comparison group and the attribution method, not a multiple); a raw message count is not the signal (peer-to-peer answering *rising as a share* is); a deflection rate is specific to product complexity and docs.
+
+**Scope boundary, stated deliberately.** The three numeric values left in the file — the **70/20/10 content mix** (Rule 1), **60%+ peer-generated** target (Rule 5) and **80%-member moderation** goal (Rule 4) — are *prescriptive design ratios the strategist sets*, not claims about what communities achieve, and none appeared in the item's flagged list. Converting "aim for a 60% peer-content mix" into an own-baseline read would strip a legitimate operating instruction, so they stay; recorded so the next persona sweep doesn't re-litigate the call.
+
+**Checked:** both copies `diff`-identical after `cp`; `bash scripts/lint-agents.sh` on both → **2/2 pass, 0 fail**; a targeted grep confirms **zero** of the flagged figures survive in Core Mission / Rule 2 / Success Metrics. Word count 3,314 → ~3,470 (net wording, no substance dropped). The newly-shipped, well-sourced *Account Estate* section (Rule 9, the register deliverable, the SEC/Slack/YouTube/LinkedIn citations) was untouched.
+
+**Discoverability:** nothing changed — no count, name or capability moved (the agent's role and `description:` frontmatter are unchanged; only fabricated figures were removed), so no badge / index / manifest / About edit was due. Re-verified 81/19 holds everywhere after the edit.
+
+**Deferred / next:** the sweep continues one persona per run through the **six** remaining social agents — `social-twitter-strategist`, `social-linkedin-strategist`, `social-youtube-producer`, `social-reddit-specialist`, `social-podcast-strategist`, `social-influencer-partnerships` — each grep-checked for the same unsourced-figure pattern.
+
+---
+
 ### 2026-09-15 — Skill Scout: **ENHANCE** — every crisis playbook said "pause the queue", and nobody knew who could still log in (automated)
 
 **Run type: ENHANCE**, by alternation. The 2026-09-14 scout run was an ADD (Conversational Agent Strategist) and 09-13 an ENHANCE, so the two-consecutive-enhancements trigger for a forced ADD was not met. **Focus discipline: paid / social**, the oldest by rotation (last the focus 2026-09-11; content/SEO 09-12, email/analytics/ops 09-13, PMM/sales/GTM 09-14).
