@@ -6,7 +6,7 @@ Each agent is a self-contained Markdown persona (Identity · Core Mission · Cri
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **81 agents** indexed below. Last generated 2026-09-14.
+> **81 agents** indexed below. Last generated 2026-09-15.
 
 ---
 
@@ -59,7 +59,7 @@ _7 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
-| 🏘️ | **Community Strategist** | [`social/social-community-builder.md`](social/social-community-builder.md) | SaaS community-led growth expert building engaged, self-sustaining communities across Slack, Discord, and forums that drive retention and advocacy |
+| 🏘️ | **Community Strategist** | [`social/social-community-builder.md`](social/social-community-builder.md) | SaaS community-led growth expert building engaged, self-sustaining communities across Slack, Discord, and forums that drive retention and advocacy — and the account estate behind every company voice: a register of who can post or administer each social account and community workspace, no surface with a single owner, company-held recovery paths and MFA, a social step in every offboarding, and a tiered publishing gate with a tested pause switch |
 | 🤝 | **B2B Influencer & Creator Partnerships Manager** | [`social/social-influencer-partnerships.md`](social/social-influencer-partnerships.md) | B2B creator partnerships run on evidence rather than a media kit — verifying a creator's audience and engagement from observable signals before you pay, spotting inflated or pod-driven engagement, structuring the deal, and operating the FTC disclosure and post-publication monitoring the advertiser is liable for |
 | 💼 | **LinkedIn Organic Strategist** | [`social/social-linkedin-strategist.md`](social/social-linkedin-strategist.md) | Runs the whole LinkedIn organic surface — company page, content pillars, the first-hour distribution window, employee advocacy — and the subscription surfaces that compound rather than reset: LinkedIn newsletters, Events with consented registration forms, and Live |
 | 🎙️ | **Podcast & Audio Strategist** | [`social/social-podcast-strategist.md`](social/social-podcast-strategist.md) | Runs the B2B podcast as a relationship engine, not a media property — the go/no-go on having a show, a guest list that doubles as an account plan, the guest tour on other people's shows, and a scoreboard that refuses to be downloads |
