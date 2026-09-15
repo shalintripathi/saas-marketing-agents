@@ -4,6 +4,18 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-15 — Maintenance: reciprocal pointers to the account estate — "pause the queue" and "who owns the ad account" now resolve to a named owner (automated)
+
+**Health check first, all clean.** Both manifests parse with required fields (`jq`); 19 skills each have a `SKILL.md` with `name` + `description`; internal-`.md`-link walk = **0 broken**; the only two "Last reviewed" markers (`guides/aeo-geo-playbook.md` 2026-09-12, `integrations/README.md` 2026-07-23) are both < 90 days old; agent-file re-count = **81** across the 17 category dirs, and every public count surface — README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view`) — already reads **81 / 19**, no stale `79`/`80` present-tense references. No P0, so the run went to a small unblocked coherence item.
+
+**Shipped: the account-estate cross-references are now bidirectional.** The 2026-09-15 estate ship gave `social-community-builder` the social account register, the tiered publishing gate, and a named **pause switch**, and pointed *out* to `paid-media-social-ads-specialist` (ad accounts/business portfolios are register rows it governs). Two neighbours still described the same objects as if no owner existed, so a reader inside them couldn't find the control. Fixed (backlog line 183; both were grep-verified absent first):
+- `social-twitter-strategist`'s **Pause the autopilot** paragraph now names the pause switch and where it's defined — one control halts every scheduled queue across every tool, held by a named person with a named backup in `social-community-builder`'s account estate — so a live-crisis reader reaches the holder instead of racing each scheduler by hand.
+- `paid-media-social-ads-specialist`'s **"a restricted account costs everything"** passage now states that the ad account and its business portfolio are rows in that same estate register (named owner of record, a second person who can reach the top role, company-held recovery), with this agent governing what runs inside them — closing the loop on the pointer that already ran the other way.
+
+**Verified:** both agents are dual-located; all four copies edited and confirmed **diff-identical** (`social/` ↔ `plugins/…/social-media-ops/agents/`, `paid-media/` ↔ `plugins/…/paid-media-ops/agents/`). `lint-agents.sh` on all four = **4/4 pass**. No counts, names, or capabilities changed → no discoverability surface touched. No new links added (references are inline code, not Markdown links).
+
+---
+
 ### 2026-09-15 — Maintenance: anti-fabrication sweep on `social-community-builder` — the borrowed community benchmarks are gone (automated)
 
 **Health check first, all clean.** Both manifests parse with required fields (`jq`); 19 skills each have a `SKILL.md` with `name` + `description`; internal-`.md`-link walk = **776 links, 0 broken**; the only two "Last reviewed" markers (`guides/aeo-geo-playbook.md` 2026-09-12, `integrations/README.md` 2026-07-23) are both < 90 days old; agent-file re-count = **81**, and every public count surface — README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (`gh repo view`) — already reads **81 / 19**, with no stale `79`/`80` present-tense references anywhere. No P0, so the run went to the top unblocked backlog item.
