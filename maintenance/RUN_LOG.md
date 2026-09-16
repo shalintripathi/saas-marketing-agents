@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-16 — Maintenance: **P0 FIX** — the one skill whose SKILL.md frontmatter was invalid YAML now parses (automated)
+
+**Run type: health-check P0 fix.** The routine's health check ran first and came back almost entirely clean — manifests valid (`marketplace.json` + the plugin manifest), all 19 skills carry `name` + `description`, the agent count re-summed to **82 across 17 disciplines** (matching README/badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests **and** the live GitHub About, which reads "82 agents + 19 skills"), the AEO/GEO playbook's `Last reviewed: 2026-09-12` is 4 days old (well inside 90), and a full internal-link walk found **0 broken of 798**. The one defect: the DEFECT filed earlier today at [`backlog.md`](backlog.md) line 30.
+
+**The defect.** `plugins/saas-marketing/skills/product-marketing-ops/SKILL.md` frontmatter was **not valid YAML**. Its `description:` is a double-quoted scalar, and it contained an unescaped inner quote pair — `and how to answer "we cannot attribute it"` — so `yaml.safe_load` failed with *expected block end, but found scalar* at line 2, column 758. A repo-wide frontmatter parse this run confirmed it was isolated: of **190** files (19 SKILL.md + 82 category-dir agents + 82 dual-located skill agents + …), exactly **1** failed — this one. It survived because `scripts/lint-agents.sh` greps for `name:`/`description:`/`color:` rather than parsing YAML, so a strict SKILL.md loader would have choked on this skill while the linter passed it.
+
+**The fix.** Escaped the two inner quotes → `\"we cannot attribute it\"`. Chosen over single-quoting or a block scalar because it matches the repo's **existing** convention for inner double quotes in a double-quoted scalar — `seo-link-building-strategist.md` already writes `rel=\"sponsored\"` the same way. The description *text* is unchanged (escaping only), so no capability/name/count changed and **no discoverability surface was due** — README, badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the live About all stay correct at 82/19.
+
+**Checked:** repo-wide frontmatter parse re-run → **190/190 clean, 0 bad**; the parsed `description` value now renders the inner quotes as the literal string `"we cannot attribute it"`; the phrase's only other repo occurrence (line 80 of the same file) is plain Markdown body, not YAML, and needs no change; no manifest or duplicate copy carries the description text. Backlog item marked done; `CHANGELOG.md` gained a `### Fixed` bullet under `[Unreleased]`.
+
+**Deferred:** adding a YAML-parse step to `scripts/lint-agents.sh` so this defect class is caught by CI in future — the backlog's own suggestion, correctly filed as a **separate** change (one-change-per-run), still open.
+
+---
+
 ### 2026-09-16 — Skill Scout: **ADD** — eighty-one agents, and nobody owned the course that teaches the customer to use the product (automated)
 
 **Run type: ADD**, by alternation — the 2026-09-15 scout run was an ENHANCE (the social account estate) and 09-14 an ADD (Conversational Agent Strategist), so the hard *two-or-more-consecutive-enhancements* trigger was not met and this was the alternation default. **Focus discipline: content / SEO**, the oldest by rotation (last the focus 2026-09-12; email/analytics/ops 09-13, PMM/sales/GTM 09-14, paid/social 09-15).
