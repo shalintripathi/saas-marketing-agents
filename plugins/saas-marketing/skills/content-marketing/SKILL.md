@@ -1,6 +1,6 @@
 ---
 name: content-marketing
-description: "Master orchestrator for B2B SaaS content creation and the editorial production system behind it. Use this skill to produce blog articles, whitepapers, case studies, video scripts, newsletters and ghostwritten thought leadership, to develop content strategy, and to run the publishing line itself — content briefs, editorial calendars and production capacity, review and approval workflow, subject-matter-expert access, the style guide, an AI-drafting policy, and a content inventory with owners. Also triggers on: blog, article, case study, whitepaper, newsletter, video script, ghostwriting, content calendar, editorial, thought leadership, content strategy, content brief, content operations, content ops, editorial workflow, managing editor, who reviews this, our content pipeline is stuck, content is stuck in review, content audit, content inventory, content governance, style guide, house style, SME interview, expert interview, freelance writers, AI content policy, how much content can we actually produce."
+description: "Master orchestrator for B2B SaaS content creation and the editorial production system behind it. Use this skill to produce blog articles, whitepapers, case studies, video scripts, newsletters and ghostwritten thought leadership, to develop content strategy, and to run the publishing line itself — content briefs, editorial calendars and production capacity, review and approval workflow, subject-matter-expert access, the style guide, an AI-drafting policy, and a content inventory with owners. Also triggers on: blog, article, case study, whitepaper, newsletter, video script, ghostwriting, content calendar, editorial, thought leadership, content strategy, content brief, content operations, content ops, editorial workflow, managing editor, who reviews this, our content pipeline is stuck, content is stuck in review, content audit, content inventory, content governance, style guide, house style, SME interview, expert interview, freelance writers, AI content policy, how much content can we actually produce. Also owns the customer academy and customer education: online courses, onboarding curriculum, tutorials, certification programs, digital credentials and badges, exam and pass-mark design, course freshness when the product UI changes, and whether the academy should sit behind a login. Triggers on: customer academy, customer education, online course, course library, learning path, curriculum, tutorial, certification program, certified users, digital badge, Open Badges, recertification, exam, pass mark, LMS, Skilljar, our tutorial shows the old UI, our course is out of date, should the academy be gated, do certified customers renew better."
 ---
 
 # Content Marketing Skill
@@ -18,9 +18,9 @@ description: "Master orchestrator for B2B SaaS content creation and the editoria
 
 ## What This Is
 
-The Content Marketing skill coordinates a team of 8 specialist agents to produce publication-ready content across multiple formats and channels. From long-form whitepapers and case studies to video scripts, newsletters, and executive thought leadership pieces, this skill orchestrates the entire content creation workflow for B2B SaaS companies. Each agent brings specialized expertise in their content format, enabling you to delegate confidently and scale your content operations.
+The Content Marketing skill coordinates a team of 9 specialist agents to produce publication-ready content across multiple formats and channels. From long-form whitepapers and case studies to video scripts, newsletters, and executive thought leadership pieces, this skill orchestrates the entire content creation workflow for B2B SaaS companies. Each agent brings specialized expertise in their content format, enabling you to delegate confidently and scale your content operations.
 
-## The Team: 8 Specialist Agents
+## The Team: 9 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -32,6 +32,7 @@ The Content Marketing skill coordinates a team of 8 specialist agents to produce
 | 6 | Newsletter Curator | `agents/content-newsletter-curator.md` | Develops email newsletter strategies, curates industry insights, writes engaging email copy, and designs nurture sequences that drive engagement and conversions. |
 | 7 | Thought Leadership Ghostwriter | `agents/content-thought-leadership-ghostwriter.md` | Authors executive-level articles, opinion pieces, and bylined content attributed to company leadership. Establishes authority through authentic voice and market insights. |
 | 8 | Content Operations Manager | `agents/content-operations-manager.md` | Runs the production line the other seven work on: the brief standard that names the claim before anything is assigned, capacity planned against the real constraint (SME access and review, not writing), a review chain with named roles and turnarounds, Hold and Kill as real states, the versioned style guide, the AI-drafting accountability policy, and a content inventory where every live URL has an owner and a last-reviewed date. |
+| 9 | Customer Education Strategist | `agents/content-customer-education-strategist.md` | Owns the academy the other eight do not: the course curriculum and learner paths by role, the gate decision per lesson and what a login wall costs you in search, a certification built as a verifiable, dated, revocable credential with a defended pass mark, a freshness register that re-records every lesson a product release breaks, `Course` structured data and the query boundary between academy, docs and blog, and an education-to-retention claim that never ships without a controlled comparison. |
 
 ## How to Use
 
@@ -77,6 +78,14 @@ The Content Marketing skill coordinates a team of 8 specialist agents to produce
 - "Which of our published pages are now wrong / who owns this page?" → Content Operations Manager (content inventory; the refresh-or-retire decision routes to `seo-content-optimizer`)
 - "We're bringing on freelance writers" → Content Operations Manager (brief, SME access, rights and originality with `ops-legal-compliance`)
 - "Get our SMEs into the process" → Content Operations Manager (scheduled, recorded interview bank)
+
+**Customer Education & Certification**
+- "We want to build a customer academy / online course library" → Customer Education Strategist (curriculum and learner paths first, courses second)
+- "Should our academy sit behind a login?" → Customer Education Strategist (the gate is a measurement decision before a lead decision)
+- "Our tutorial videos show the old UI" → Customer Education Strategist (freshness register with a release-bound re-record trigger)
+- "Design a certification program for our customers/partners" → Customer Education Strategist (exam blueprint, pass mark, expiry and revocation; partner tier thresholds route to `partner-ecosystem-marketer`)
+- "Do certified customers renew better?" → Customer Education Strategist (self-selection named; the causal read routes to `analytics-conversion-rate-optimizer`)
+- "Should this be a course or a docs page?" → Customer Education Strategist (docs set and Diátaxis classification belong to `devmkt-developer-audience-strategist`)
 
 **Copywriting & Conversion**
 - "Write homepage copy that explains our value prop" → Copywriter

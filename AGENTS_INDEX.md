@@ -1,18 +1,18 @@
 # SaaS Marketing Agents — Full Index
 
-**81 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**82 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **81 agents** indexed below. Last generated 2026-09-15.
+> **82 agents** indexed below. Last generated 2026-09-16.
 
 ---
 
 ## Content Marketing
 
-_8 agents_
+_9 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -24,6 +24,7 @@ _8 agents_
 | 👻 | **Content Thought Leadership Ghostwriter** | [`content/content-thought-leadership-ghostwriter.md`](content/content-thought-leadership-ghostwriter.md) | Executive voice architect who amplifies C-suite visibility through authentic LinkedIn strategy and industry influence |
 | 🎬 | **Content Video Script Writer** | [`content/content-video-script-writer.md`](content/content-video-script-writer.md) | Visual storyteller who engineers B2B video scripts that hook viewers in 3 seconds and drive action within 8 minutes |
 | 📑 | **Content Whitepaper Architect** | [`content/content-whitepaper-architect.md`](content/content-whitepaper-architect.md) | Research-backed thought leadership designer who builds gated authority assets that establish category expertise and qualify enterprise buyers |
+| 🎓 | **Customer Education Strategist** | [`content/content-customer-education-strategist.md`](content/content-customer-education-strategist.md) | Owns the academy — courses, onboarding curriculum and the certification program: learner paths, the gate decision per lesson, a verifiable credential with an expiry and an exam blueprint, a freshness register that re-records every lesson the product breaks, Course structured data and the academy/docs/blog query boundary, and no education-caused retention claim without a controlled comparison |
 
 ## SEO & Organic Growth
 
