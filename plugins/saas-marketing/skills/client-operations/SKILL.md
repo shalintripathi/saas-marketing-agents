@@ -1,6 +1,6 @@
 ---
 name: client-operations
-description: "Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, deciding whether an AI voice or AI presenter has to be disclosed, proofreading deliverables. Also triggers on: client reporting, QA, quality assurance, brand compliance, marketing budget, financial tracking, legal compliance, GDPR, CAN-SPAM, proofreading, launch checklist"
+description: "Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, handling a request to delete someone's data across the marketing stack, deciding whether an AI voice or AI presenter has to be disclosed, proofreading deliverables. Also triggers on: client reporting, QA, quality assurance, brand compliance, marketing budget, financial tracking, legal compliance, GDPR, CAN-SPAM, proofreading, launch checklist, right to erasure, right to be forgotten, data deletion request, DSAR, someone asked us to delete their data, do we delete or suppress, suppression list, they unsubscribed and we emailed them again, we deleted them and they came back, restored a backup and re-emailed people, custom audience still has deleted contacts, California Delete Act, DROP, data broker deletion, enrichment records disappearing"
 ---
 
 # Client Operations
@@ -34,7 +34,7 @@ This team is the difference between campaigns that launch and campaigns that lau
 | **Reporting Specialist** | Client reporting & dashboards | Design KPI frameworks, build automated dashboards, create executive-ready reports, establish reporting cadence, manage data pipelines |
 | **Quality Assurance Manager** | Brand QA & launch readiness | Create comprehensive QA checklists, audit brand compliance, test technical functionality, verify legal compliance, establish pre-launch processes |
 | **Financial Tracker** | Marketing budget & spend management | Track marketing spend across channels, optimize budget allocation, manage vendor contracts, analyze cost efficiency, forecast spending |
-| **Legal Compliance Officer** | Regulatory & legal compliance | Verify GDPR/CCPA/CAN-SPAM compliance, conduct regulatory audits, maintain compliance documentation, manage risk, own the synthetic-media disclosure position (AI voice/presenter, EU AI Act Art. 50, C2PA), ensure legal review processes |
+| **Legal Compliance Officer** | Regulatory & legal compliance | Verify GDPR/CCPA/CAN-SPAM compliance, conduct regulatory audits, maintain compliance documentation, manage risk, own the cross-channel consent and suppression record, own the marketing erasure runbook and fan-out register (right to erasure, what survives on purpose, backup-restore re-contact, Delete Act / DROP broker deletions), own the synthetic-media disclosure position (AI voice/presenter, EU AI Act Art. 50, C2PA), ensure legal review processes |
 
 ## How to Use
 
@@ -47,6 +47,9 @@ Invoke **Client Operations** when your work involves:
 - **Marketing spend and budget**: "Analyze ROI by channel and recommend budget reallocation" → Financial Tracker
 - **Legal and compliance review**: "Ensure this email campaign complies with CAN-SPAM and GDPR" → Legal Compliance Officer
 - **Synthetic media disclosure**: "Do we have to say this voiceover was AI-generated?" / "Our agency used an AI presenter — what do we disclose?" → Legal Compliance Officer
+- **Erasure and deletion requests**: "Someone asked us to delete all their data — what do we actually do?" / "Do we delete them or suppress them?" → Legal Compliance Officer
+- **Re-contact after an opt-out**: "We deleted this person and now they're back on the list" / "We restored a backup and emailed people who had unsubscribed" / "Our custom audience still contains contacts we deleted" → Legal Compliance Officer
+- **Data-broker deletions on data you buy**: "Records are vanishing from our enrichment provider's coverage" / "What is the California Delete Act / DROP and does it hit us?" → Legal Compliance Officer (with GTM Data Strategist in Marketing Analytics)
 - **Audit trails and documentation**: "Create a compliance audit report for our regulatory review" → Legal Compliance Officer
 
 ### Routing Logic
@@ -57,6 +60,7 @@ Invoke **Client Operations** when your work involves:
 | QA checklist, brand audit, launch verification | Quality Assurance Manager | Reporting Specialist (for metrics verification) |
 | Budget optimization, spend tracking, ROI analysis | Financial Tracker | Reporting Specialist (for performance data) |
 | Compliance verification, GDPR/CAN-SPAM review, legal risk | Legal Compliance Officer | Quality Assurance Manager (for technical QA) |
+| Erasure / deletion request, suppression survival, re-contact after opt-out | Legal Compliance Officer | Marketing Analytics (ops architect for CRM plumbing, GTM data strategist for vendors), Email Marketing Ops (deliverability for email-side suppression) |
 | Campaign performance review | Reporting Specialist + Financial Tracker | Quality Assurance Manager (for QA findings) |
 
 ### Execution Model

@@ -312,7 +312,7 @@ _The two-estate split, the inverted defaults, the isolation-costs-observability 
 - GDPR compliance (Europe):
   - Opt-in consent: explicit consent required before first marketing email (vs. CAN-SPAM opt-out model)
   - Consent documentation: maintaining records of consent (when, how, what specifically consented to)
-  - Right to be forgotten: honoring data deletion requests, removing contact from all systems within 30 days
+  - Right to be forgotten: honoring data deletion requests — the GDPR deadline is one month from receipt (Art. 12(3)), extendable by two further months where the request is complex, not a flat 30 days, and "delete everywhere" is the wrong target: the minimum suppression record is retained deliberately so the opt-out stays enforceable. Route every erasure request to `ops-legal-compliance` (*Erasure Is Not Deletion*) rather than deleting the contact out of the ESP and considering it done
   - Data minimization: collecting/storing only necessary data, deleting when no longer needed
   - Privacy policy: clear data usage policy, transparency about how data used
 
