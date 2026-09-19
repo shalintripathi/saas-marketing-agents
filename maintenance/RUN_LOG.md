@@ -4,6 +4,18 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-19 — Maintenance: **P0 FIX** — stale `82`-agent counts left behind by the 82→83 roster growth (automated)
+
+**Health check first.** Manifests parse with required fields (`marketplace.json`, `plugin.json`); all 19 skills have a `SKILL.md` with `name`+`description`; **0 broken internal `.md` links across 818 local links in 229 Markdown files**; AEO/GEO playbook `Last reviewed` 2026-09-12 (7 days, fresh), integrations README 2026-07-23 (58 days, within 90). Real agent count re-derived = **83** (98 `.md` in the 20 category dirs − 15 non-agent files: `strategy/` framework+playbook docs, `loops/` + 2 READMEs), matching README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`, reads "83 agents, 19 skills").
+
+**P0 found + fixed.** The grep-for-stale-counts step surfaced the one defect: commit `35fbc3e` (today's Public Sector Strategist add, 82→83) updated every *public* surface but left three present-tense `82` references inside `maintenance/backlog.md`. The material one was the **Notes standing instruction** — "Keep the README badge counts (agents: 82, skills: 19) …in sync" — a directive a future run could follow to *revert* the live badge from 83 back to 82. Also corrected: the native-subagents item ("the 82 personas") and the GitHub-Pages-catalog item ("all 82 agents"). All three → `83`.
+
+**Verified:** the only surviving `82` is the 2026-09-16 YAML-fix DEFECT entry's "all 82 agent files parsed clean" — dated append-only history, correctly untouched. Post-fix grep for present-tense `82`-agent references outside dated history = **0**. No agent/skill files touched → lint N/A; no public discoverability surface needed editing (all already 83/19). Logged the fix as a dated P0 entry in `backlog.md`. Not user-facing → no `CHANGELOG.md` bullet.
+
+**Deferred:** everything else in the open queue — native-subagents (#1, blocked on design decisions), all distribution items (star/adoption-gated), the `waterfall`/iamwaqargulzar/genesys-skills/majiayu000 read-and-watch ledger items (belong to their discipline rotations), the legal-validation AI-disclosure proposal, and the P2 build items (Pages catalog, golden examples, MCP recipes, eval harness).
+
+---
+
 ### 2026-09-19 — Maintenance: value-realization loop on the Enablement Content Creator (automated)
 
 **Health check first (all green).** Manifests parse with required fields (`marketplace.json`, `plugin.json`); all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links across 229 Markdown files; AEO/GEO playbook `Last reviewed` 2026-09-12 (fresh), integrations README 2026-07-23 (within 90 days). Counts consistent at **83 agents / 19 skills / 17 disciplines** across README + badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read via `gh`). Category dirs hold 86 `.md` files − 3 non-agent files (`strategy/EXECUTIVE-BRIEF.md`, `QUICKSTART.md`, `catalyst-strategy.md`) = 83; plugin skills hold 90 agent-path files − 7 non-agent (`catalyst-orchestrator` phase docs) = 83; both agree. **No P0.**
