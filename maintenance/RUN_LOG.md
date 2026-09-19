@@ -4,6 +4,21 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-19 — Maintenance: value-realization loop on the Enablement Content Creator (automated)
+
+**Health check first (all green).** Manifests parse with required fields (`marketplace.json`, `plugin.json`); all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links across 229 Markdown files; AEO/GEO playbook `Last reviewed` 2026-09-12 (fresh), integrations README 2026-07-23 (within 90 days). Counts consistent at **83 agents / 19 skills / 17 disciplines** across README + badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read via `gh`). Category dirs hold 86 `.md` files − 3 non-agent files (`strategy/EXECUTIVE-BRIEF.md`, `QUICKSTART.md`, `catalyst-strategy.md`) = 83; plugin skills hold 90 agent-path files − 7 non-agent (`catalyst-orchestrator` phase docs) = 83; both agree. **No P0.**
+
+**Shipped:** the top unblocked P1 backlog item — the **Value-engineering enhance lead** (backlog line 34). Home chosen: `sales-enablement-content-creator`, which already owns the ROI calculator and business-case template (the deal orchestration stays with `sales-deal-strategist`). Both dual-located copies:
+- **Rule 9 (Buyer-Input-Only Business Cases)** — every headline model input traces to a buyer-supplied number read back for confirmation; seller benchmarks are labelled illustration only; the model shows its arithmetic for a skeptic CFO; the number written at signing becomes the review's yardstick; missing baselines route to `sales-discovery-coach`.
+- **Value Realization Review** deliverable — Promise Ledger (buyer baselines + agreed measurement method carried from signing), Realization Snapshot (promised vs. realized in the customer's own numbers, gap diagnosis to `growth-plg-activation-strategist` / `content-customer-education-strategist`), hand-offs to `pmm-customer-advocacy` (references, their consent rules), `growth-customer-marketing-lead` (renewal/NRR motion), analytics owner (causation), `ops-legal-compliance` (external claims); boundary states it is an artifact/discipline, not the customer-success plan; no-quiet-re-baselining rule.
+- Two benchmark-free Success Metrics: **Business-Case Input Integrity** (100% defect gate) and **Value-Realization Review Coverage** (target 60%+ of enterprise renewals).
+
+**Verified:** grep-verified gap before writing (`value realization` only 2 incidental hits; `promise ledger`/`value realization review`/`realization snapshot` zero repo-wide); every boundary agent referenced exists and owns what's attributed; lint **2/2 pass**; both copies diff-identical; 0 broken links; no count change. Discoverability: pure enhance, nothing added/renamed — no count/name/badge surface needed updating (About already lists "sales enablement/presales").
+
+**Deferred:** the `waterfall`-collision watch (explicitly a watch, not a defect); forecast-category discipline (a `sales-pipeline-analyst` enhance lead, line 175); the many "read/watch on a future X run" ledger items; distribution items (all blocked on star/adoption gates); native-subagents item (#1, blocked on design decisions).
+
+---
+
 ### 2026-09-19 — Maintenance: reciprocal pointers to the Public Sector Marketing Strategist (automated)
 
 **Health check first (all green).** Manifests parse with required fields (`marketplace.json`, `plugin.json`); all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links repo-wide; AEO/GEO playbook `Last reviewed` 2026-09-12 (fresh). Counts consistent at **83 agents / 19 skills / 17 disciplines** across README + badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read via `gh`). The 2026-04-03 stamps on the `strategy/` framework docs are version stamps, not review markers — not bumped without a real change. **No P0.**
