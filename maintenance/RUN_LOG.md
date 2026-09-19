@@ -4,6 +4,53 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-19 — Skill Scout: **ADD** — eighty-two agents, and nobody owned marketing to government buyers (automated)
+
+**Shipped:** new `product-marketing/pmm-public-sector-strategist.md` (Public Sector Marketing Strategist, 🏛️), dual-located at `plugins/saas-marketing/skills/product-marketing-ops/agents/`. Lint **2/2 pass**, 3,020 words (in line with its closest sibling, `pmm-international-gtm-strategist` at 3,528). Copies are diff-identical. Roster **82 → 83**; Product Marketing 9 → 10; skills stay at 19 and disciplines at 17. No new directory was created.
+
+**Why this run was an ADD.** The last scout run (09-17) was an ENHANCE, so alternation favoured an ADD. **Focus: PMM / sales / GTM**, the oldest discipline in the rotation (last focus 09-14).
+
+**How the gap was proven.** Across 82 agents:
+- `public sector`, `FedRAMP`, `industry marketing`, `solutions marketing`, `value engineering`, `digital sales room` and `market sizing` all returned zero.
+- Vertical messaging is already owned by `pmm-messaging-architect` (segment entry points, not separate message houses).
+- Business case and ROI are owned between `sales-discovery-coach` and `sales-enablement-content-creator`.
+- Cloud marketplaces were already recorded as **have** on 09-07 and 09-12.
+
+Public sector was the only candidate that was both unowned and governed by written rules that a generalist agent would get wrong: gift limits for officials, endorsement bans, post-solicitation contact rules, and authorization-status claims. The role is durable, since public-sector marketing is a standing function at scaling SaaS companies.
+
+**Market check.** GitHub repo searches (`public sector marketing`, `government marketing skill`, `fedramp marketing`, `govcon claude skills`, `SLED sales`) found no marketing skill. `FedRAMP` in `SKILL.md` files returns only security and GRC compliance skills. The one on-topic collection, `cleatai/agent-skills` (MIT), is a vendor-bound set of contractor business-development tools. It was read as demand evidence only. The known collections (coreyhaines31, wondelai, hyperfx-ai, genesys, LeadMagic, gtm-skills, alyssonfranklin) were tree-grepped and have no public-sector surface.
+
+**Primary sources, all read 2026-09-19:**
+- eCFR 5 CFR 2635.204(a) and (g), and 2635.702(c), current to 2026-09-17, pulled via the eCFR API because the web front end redirects bots;
+- GSAR 552.203-71;
+- FAR 15.201(a) and (f);
+- fedramp.gov marketplace page and the 2026-01-13 RFC-0020 post;
+- GovRAMP rebrand notice;
+- section508.gov ACR page;
+- gov.uk Central Digital Platform factsheet;
+- 31 U.S.C. 1102.
+
+A third-party summary claimed a specific "CR26" FedRAMP relabelling (Certified / Classes A–D). It could **not** be confirmed on fedramp.gov, so it was deliberately **not** asserted. Rule 2 instead requires quoting the live listing. UK Procurement Act s.16 could not be fetched, so no section number is cited.
+
+**Discoverability (counts changed, so the full sweep ran):**
+- README: tagline, install line, badge, jump link and anchor, team heading, feature bullet, the "all 83" line, CATALYST row, the PMM discipline row with the new link, and new trigger phrases in the skills table;
+- `AGENTS_INDEX.md`: counts, generation date, PMM 9 → 10, new row;
+- `llms.txt`;
+- `CITATION.cff`;
+- both manifests, which now name public-sector marketing;
+- `ROADMAP.md`, `integrations/README.md`, `loops/README.md`;
+- Executive Brief and Quickstart;
+- suite router: counts, PMM rows and a new worked routing example;
+- CATALYST `SKILL.md`;
+- both `catalyst-strategy.md` copies: Launch & Activation 3 → 4;
+- `product-marketing-ops` `SKILL.md`: description gained *sell to government, FedRAMP marketing claims, GovRAMP, VPAT, Section 508, gifts to government officials, sources sought, quiet period, contract vehicle, GSA schedule, how can agencies buy from us*, plus the team table and a new routing block;
+- `maintenance/SKILL_SCOUT.md`;
+- the **live GitHub About description**, now 350/350 and naming "public sector". To make room, "marketing team" became "team", "+" became ",", "sales enablement, presales" became "sales enablement/presales", and the trailing period was dropped. No keyword was lost.
+
+**Deferred / next:** reciprocal pointers back to the new agent from `sales-solutions-engineer`, `partner-ecosystem-marketer`, `events-field-marketing-strategist`, `pmm-customer-advocacy` and `abm-account-based-strategist` (filed to the backlog).
+
+---
+
 ### 2026-09-19 — Maintenance: **backlog (P2 skill-curation, top item)** — the Marketing Ops Architect now owns lead-to-account matching (automated)
 
 **Run type: backlog item (skill curation / genuinely-unowned discipline).** Health check first, all green, no P0: both manifests parse with required fields (`jq` — `.claude-plugin/marketplace.json` + the one `plugin.json`); all **19** skills carry a `SKILL.md` with `name` + `description`; every public count surface — README + badges, `AGENTS_INDEX.md` (17 disciplines summing to 82), `llms.txt`, `CITATION.cff`, both manifests — reconciles at **82 agents / 19 skills / 17 disciplines**, matching the **live GitHub About** (`gh repo view` = "82 agents + 19 skills"); the raw `find` over the 18 category dirs = 92 `.md`, of which the 10 non-agent `strategy/` framework docs (EXECUTIVE-BRIEF, QUICKSTART, catalyst-strategy + `coordination/` + `playbooks/`) are correctly excluded → 82; **0 broken internal `.md` links** across 227 files / 797 links (Python `os.path.normpath` resolver); living-doc `Last reviewed` dates inside the 90-day gate (`guides/aeo-geo-playbook.md` 2026-09-12 = 7 days; `integrations/README.md` 2026-07-23 = 58 days).

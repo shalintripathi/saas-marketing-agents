@@ -1,6 +1,6 @@
 ---
 name: saas-marketing-suite
-description: "Complete B2B SaaS marketing agency powered by 82 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
+description: "Complete B2B SaaS marketing agency powered by 83 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
 ---
 
 # SaaS Marketing Suite: Complete Agency Router
@@ -18,7 +18,7 @@ description: "Complete B2B SaaS marketing agency powered by 82 AI agents across 
 
 ## What This Is
 
-The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 82 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
+The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 83 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
 
 Think of it as your full-service marketing department:
 - **Need content?** Route to Content Marketing
@@ -41,7 +41,7 @@ Think of it as your full-service marketing department:
 
 The skill includes a routing decision matrix to identify which team(s) you need based on your request.
 
-## The Complete Team: 82 Specialist Agents Across 17 Disciplines
+## The Complete Team: 83 Specialist Agents Across 17 Disciplines
 
 ### Core Marketing Disciplines
 
@@ -54,7 +54,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Email Marketing Operations** | 5 | Email campaigns, nurture sequences, segmentation, automation, deliverability, personalization |
 | **Design Operations** | 5 | Visual design, brand identity, design systems, creative direction, design templates |
 | **Sales Enablement** | 8 | Sales materials, battle cards, objection handling, sales training, competitive positioning, deal support, technical presales — demos, proofs of concept, security questionnaires; the website AI chat agent and inbound AI SDR (what it may say, AI disclosure, human handoff) |
-| **Product Marketing** | 9 | Product positioning, feature messaging, launch strategy, competitive intel, customer advocacy, pricing & packaging, agent readiness, international market entry and localization, brand marketing and demand creation (brand-vs-performance split, category entry points, brand measurement) |
+| **Product Marketing** | 10 | Product positioning, feature messaging, launch strategy, competitive intel, customer advocacy, pricing & packaging, agent readiness, international market entry and localization, brand marketing and demand creation (brand-vs-performance split, category entry points, brand measurement), public-sector marketing (FedRAMP/GovRAMP claims, gift rules for officials, quiet periods, contract vehicles) |
 | **Marketing Analytics** | 8 | Performance reporting, attribution modeling, demand planning (funnel model, assumption register, sales-cycle lag, capacity ceilings, scenario band, re-forecast triggers), CRO optimization, data storytelling, externally acquired GTM data (enrichment provider bake-offs, waterfall ordering, data decay, list provenance), martech stack and platform-migration strategy |
 | **Marketing Project Management** | 4 | Campaign coordination, timeline management, resource allocation, stakeholder communication, risk management |
 | **Client Operations** | 4 | Client reporting, QA/compliance, budget tracking, legal compliance, audit trails, brand quality |
@@ -65,7 +65,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Events & Field Marketing** | 1 | Conference and sponsorship selection, booths, owned events and roadshows, the webinar engine, event-sourced pipeline |
 | **Developer Marketing** | 1 | Docs as a marketing surface, quickstarts and time-to-first-call, SDKs, open source, DevRel |
 
-**Total: 82 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
+**Total: 83 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
 
 ---
 
@@ -330,6 +330,11 @@ START: What is your primary need?
 - **Supporting Routes**: SEO & Growth (hreflang and multi-market site architecture), Product Marketing (local price architecture), Client Operations (legal determination on data protection and outbound legality), Partnerships (local partner), Events & Field (in-region events)
 - **Timeline**: 2-4 weeks to a market-entry plan
 
+**Request**: "We want to sell to government — can we say we're FedRAMP ready and invite agency officials to our dinner?"
+- **Primary Route**: Product Marketing → Public Sector Marketing Strategist
+- **Supporting Routes**: Sales Enablement (Solutions Engineer's security evidence library; Proposal Architect for RFP responses), Partnerships (resellers and cloud marketplaces), Client Operations (ethics, gift-rule and endorsement determinations), Events & Field (event design inside the gift rules), ABM (solicitation freeze list)
+- **Timeline**: 1-2 weeks to a readiness record and status-claims register
+
 **Request**: "Build a case study that demonstrates product value"
 - **Primary Route**: Product Marketing → Case Study Producer
 - **Supporting Routes**: Content Marketing (case study writing)
@@ -432,7 +437,7 @@ START: What is your primary need?
 
 **Request**: "Plan and execute our full GTM launch"
 - **Route**: CATALYST Orchestrator (CATALYST-Full mode)
-- **Scope**: All 82 agents across all 17 disciplines
+- **Scope**: All 83 agents across all 17 disciplines
 - **Timeline**: 12+ weeks end-to-end
 
 **Request**: "Create our annual marketing strategy and plan"
@@ -463,7 +468,7 @@ START: What is your primary need?
 | Email Marketing Operations | 5 |
 | Design Operations | 5 |
 | Sales Enablement | 8 |
-| Product Marketing | 9 |
+| Product Marketing | 10 |
 | Marketing Analytics | 8 |
 | Marketing Project Management | 4 |
 | Client Operations | 4 |
@@ -473,7 +478,7 @@ START: What is your primary need?
 | Partnerships | 1 |
 | Events & Field Marketing | 1 |
 | Developer Marketing | 1 |
-| **TOTAL** | **82** |
+| **TOTAL** | **83** |
 
 ---
 

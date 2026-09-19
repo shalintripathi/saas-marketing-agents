@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**82 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**83 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **82 agents** indexed below. Last generated 2026-09-16.
+> **83 agents** indexed below. Last generated 2026-09-19.
 
 ---
 
@@ -109,7 +109,7 @@ _8 agents_
 
 ## Product Marketing
 
-_9 agents_
+_10 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -122,6 +122,7 @@ _9 agents_
 | 💬 | **Messaging Architect** | [`product-marketing/pmm-messaging-architect.md`](product-marketing/pmm-messaging-architect.md) | Message house development and value proposition frameworks for SaaS |
 | 🎯 | **Product Positioning Strategist** | [`product-marketing/pmm-positioning-strategist.md`](product-marketing/pmm-positioning-strategist.md) | B2B SaaS positioning expert using category design and competitive framing |
 | 💰 | **Pricing & Packaging Strategist** | [`product-marketing/pmm-pricing-packaging-strategist.md`](product-marketing/pmm-pricing-packaging-strategist.md) | Sets the value metric, tiers, and discount floors that turn positioning into revenue — and defends them against the deal that wants an exception |
+| 🏛️ | **Public Sector Marketing Strategist** | [`product-marketing/pmm-public-sector-strategist.md`](product-marketing/pmm-public-sector-strategist.md) | Owns marketing to government buyers — readiness before visibility, FedRAMP/GovRAMP status quoted from the official listing, the accessibility conformance report (VPAT/ACR) as a claim, gift and hospitality limits tracked per official across the whole company, no implied government endorsement, the pre-solicitation window and the solicitation freeze list, and a how-to-buy page naming only contract vehicles you are actually on |
 
 ## Account-Based Marketing
 
