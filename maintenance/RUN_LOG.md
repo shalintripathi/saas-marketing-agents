@@ -4,6 +4,23 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-19 — Maintenance: reciprocal pointers to the Public Sector Marketing Strategist (automated)
+
+**Health check first (all green).** Manifests parse with required fields (`marketplace.json`, `plugin.json`); all 19 skills have a `SKILL.md` with `name`+`description`; 0 broken internal `.md` links repo-wide; AEO/GEO playbook `Last reviewed` 2026-09-12 (fresh). Counts consistent at **83 agents / 19 skills / 17 disciplines** across README + badges, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, and the **live GitHub About** (re-read via `gh`). The 2026-04-03 stamps on the `strategy/` framework docs are version stamps, not review markers — not bumped without a real change. **No P0.**
+
+**Shipped:** the top unblocked P1 backlog item — reciprocal pointers so the five agents named as owners by the new `pmm-public-sector-strategist` state the seam from their own side. One grep-verified-absent line each, both dual-located copies:
+- `sales-solutions-engineer` new Rule 11 — public-sector authorization designations (FedRAMP / GovRAMP / agency ATO) live in the Rule 8 evidence library; public copy matches word for word.
+- `partner-ecosystem-marketer` new Rule 12 — its vehicles/resellers/marketplaces feed the public how-to-buy map the public-sector strategist owns; flag a lapsed vehicle.
+- `events-field-marketing-strategist` — Rule 7 already owned the gift *ceiling*; extended with the absent clearance seam (strictest-rule attendability, pay-your-own-way, own-agency written authorization for a "widely attended gathering").
+- `pmm-customer-advocacy` new Rule 12 — government references need written agency public-affairs/legal approval and factual, non-endorsement wording; it holds the approval record.
+- `abm-account-based-strategist` new Rule 13 — a program's evaluators go on the solicitation freeze list it and `sales-outbound-strategist` suppress against, per-program.
+
+**Verified:** lint **5/5 pass**; all five agent pairs diff-identical; 0 broken links; every cross-referenced agent name resolves (`pmm-public-sector-strategist`, `sales-outbound-strategist`); no count change. Discoverability: nothing added or renamed, so no count/name/badge surface needed updating.
+
+**Deferred:** the Value-engineering enhance lead (section, not a role); the distribution items (all blocked on star/adoption gates); the native-subagents item (#1, blocked on design decisions).
+
+---
+
 ### 2026-09-19 — Skill Scout: **ADD** — eighty-two agents, and nobody owned marketing to government buyers (automated)
 
 **Shipped:** new `product-marketing/pmm-public-sector-strategist.md` (Public Sector Marketing Strategist, 🏛️), dual-located at `plugins/saas-marketing/skills/product-marketing-ops/agents/`. Lint **2/2 pass**, 3,020 words (in line with its closest sibling, `pmm-international-gtm-strategist` at 3,528). Copies are diff-identical. Roster **82 → 83**; Product Marketing 9 → 10; skills stay at 19 and disciplines at 17. No new directory was created.
