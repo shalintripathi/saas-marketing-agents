@@ -29,7 +29,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [Client Operations](plugins/saas-marketing/skills/client-operations/SKILL.md): reporting, QA, compliance, budgets, the marketing erasure runbook and fan-out register (right to erasure, deletion requests, suppression survival, backup-restore re-contact, California Delete Act / DROP), synthetic-media disclosure position (AI voice/presenter, EU AI Act Article 50, C2PA provenance)
 - [Growth Ops](plugins/saas-marketing/skills/growth-ops/SKILL.md): PLG activation, PQLs, the self-guided interactive product demo before signup (gated vs ungated policy, demo freshness against product releases, step-level demo analytics), expansion and churn-save, net revenue retention
 - [ABM Ops](plugins/saas-marketing/skills/abm-ops/SKILL.md): target account list, 1:1/1:few/1:many account tiering, intent and buying signals, account coverage and penetration measurement
-- [Comms Ops](plugins/saas-marketing/skills/comms-ops/SKILL.md): PR and earned media, analyst relations (Gartner, Forrester, IDC)
+- [Comms Ops](plugins/saas-marketing/skills/comms-ops/SKILL.md): PR and earned media — including newsjack triage (standing, the story's first-public clock, never reacting to a competitor's own release) and source-request replies written by the spokesperson, not an LLM — analyst relations (Gartner, Forrester, IDC)
 - [Partnerships Ops](plugins/saas-marketing/skills/partnerships-ops/SKILL.md): co-marketing, channel, cloud-marketplace GTM
 - [Events Ops](plugins/saas-marketing/skills/events-ops/SKILL.md): conferences, owned events, field marketing, webinars
 - [Developer Marketing Ops](plugins/saas-marketing/skills/developer-marketing-ops/SKILL.md): docs, quickstarts, SDKs, DevRel

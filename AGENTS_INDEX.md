@@ -164,7 +164,7 @@ _2 agents_
 | | Agent | File | Role |
 |---|---|---|---|
 | 🏛️ | **Analyst Relations Manager** | [`comms/comms-analyst-relations-manager.md`](comms/comms-analyst-relations-manager.md) | Runs the Gartner, Forrester and IDC evaluation machine — criteria decomposition, evidence assembly, and the long campaign behind a single dot on a chart |
-| 📣 | **Public Relations Strategist** | [`comms/comms-pr-strategist.md`](comms/comms-pr-strategist.md) | The company's voice to third-party gatekeepers—earned coverage, announcement architecture, and the sentences that hold a crisis together |
+| 📣 | **Public Relations Strategist** | [`comms/comms-pr-strategist.md`](comms/comms-pr-strategist.md) | The company's voice to third-party gatekeepers—earned coverage, announcement architecture, the sentences that hold a crisis together, and newsjack triage that refuses manufactured relevance |
 
 ## Partnerships
 

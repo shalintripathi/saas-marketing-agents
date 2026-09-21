@@ -1,6 +1,6 @@
 ---
 name: comms-ops
-description: "Public relations, corporate communications, and analyst relations for B2B SaaS. Use this skill for earned media and press strategy, announcements and press releases, executive and crisis communications, media relationships and briefings, and the Gartner/Forrester/IDC analyst program including Magic Quadrant and Wave evaluation submissions. Also triggers on: PR, public relations, press release, earned media, media relations, journalist, embargo, announcement, crisis comms, corporate communications, analyst relations, AR, Gartner, Forrester, IDC, Magic Quadrant, Forrester Wave, analyst briefing, inquiry."
+description: "Public relations, corporate communications, and analyst relations for B2B SaaS. Use this skill for earned media and press strategy, announcements and press releases, executive and crisis communications, media relationships and briefings, and the Gartner/Forrester/IDC analyst program including Magic Quadrant and Wave evaluation submissions. Also triggers on: PR, public relations, press release, earned media, media relations, journalist, embargo, announcement, crisis comms, corporate communications, analyst relations, AR, Gartner, Forrester, IDC, Magic Quadrant, Forrester Wave, analyst briefing, inquiry, newsjacking, rapid response, should we comment on this news story, expert commentary, reactive comment, source request, Qwoted, is this newsworthy."
 ---
 
 # Communications Operations
@@ -24,7 +24,7 @@ Communications Operations speaks in the **company's voice to third-party gatekee
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
-| 1 | Public Relations Strategist | `agents/comms-pr-strategist.md` | Owns earned-media strategy and press relationships, announcement architecture and press releases, embargo and exclusive strategy, executive visibility and spokesperson prep, crisis and issues communications, and message discipline in third-party coverage. |
+| 1 | Public Relations Strategist | `agents/comms-pr-strategist.md` | Owns earned-media strategy and press relationships, announcement architecture and press releases, embargo and exclusive strategy, executive visibility and spokesperson prep, crisis and issues communications, and message discipline in third-party coverage — plus newsjack triage (whose item it is, standing graded strong/partial/none, the story's real first-public clock, tragedy kill switch) and source-request replies the spokesperson writes themselves. |
 | 2 | Analyst Relations Manager | `agents/comms-analyst-relations-manager.md` | Owns the industry-analyst program: the standing briefing and inquiry calendar, analyst relationship map, evaluation submissions (Magic Quadrant, Forrester Wave, IDC MarketScape) with their long lead times and evidence requirements, reprint and citation rights, and feeding analyst insight back into positioning. |
 
 ## How to Use
