@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-22 (third run) — Reciprocal seams for the new Marketing AI Operations Lead (automated)
+
+**Health check first, all green.** `marketplace.json` and the plugin manifest parse with required fields intact (`jq`); all 19 skills have a `SKILL.md` with `name` + `description`; **counts consistent everywhere** (84 agents / 19 skills / 17 disciplines) — re-derived, not assumed: the 17 discipline skills' `agents/` dirs sum to exactly 84 (the plugin's 91 agent files include catalyst-orchestrator's 7 coordination agents, which are not roster agents), `strategy/`'s 3 files are framework docs not agents, and README badge + tagline, `AGENTS_INDEX.md` (84 indexed), `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`) all read 84/19; a full internal-`.md`-link walk found **0 broken**; the AEO/GEO playbook's *Last reviewed* is 2026-09-21 (1 day, fresh). No P0.
+
+**Item:** the top unblocked backlog item — **reciprocal seams for `analytics-marketing-ai-ops-lead`** (filed 2026-09-22 by the ADD run that shipped the agent earlier today; backlog line 163). The new agent's Rule 10 named ten neighbours in one direction; the four most important still described the AI-use-governance territory as unowned. Same follow-up pattern used after the 09-14, 09-15, 09-16 and 09-19 ADDs.
+
+**Shipped:** one grep-verified-absent line added to each of four agents, both dual-located copies, mirroring the new agent's Rule 10:
+- `analytics-martech-stack-strategist` **Rule 10** — it owns the *systems* and every AI-tool purchase still runs through its capability-first selection and lands in its stack register; the ops lead owns the *uses* on those systems.
+- `content-operations-manager` **Rule 8** — the editorial AI-drafting policy stays this agent's to write and enforce, but it is one use case on the team-wide AI use register the ops lead keeps (autonomy level + never-generate list carried there).
+- `sales-conversational-agent-strategist` **Rule 6** — its pre-release test suite is the test-of-record the register *links to* rather than duplicates; the chat agent is one row on that register.
+- `ops-legal-compliance` **Rule 10** — the ops lead routes the legal determinations behind AI-use governance here (Article 4 literacy applicability and on whom, works-council/co-determination and employment-law duties of deploying AI on staff, which data classes may lawfully enter which tool).
+
+**Checked:** each target grep-verified absent (`ai-ops-lead`/`AI Operations Lead`/`ai ops lead` = 0) before writing; all four dual pairs diff-identical after `cp`; `bash scripts/lint-agents.sh` on all 8 files → **8/8 pass, 0 fail**; full internal-`.md`-link walk → **0 broken**; every cross-referenced sibling verified on disk. No count/name/capability change (still 84/19), so no discoverability surface (README/badges/`AGENTS_INDEX`/`llms.txt`/`CITATION.cff`/manifests/About) was due — re-verified rather than assumed.
+
+**Deferred:** the optional one-liners on `paid-media`/`email-automation`/`sales-outbound` about default-on platform-AI settings being register rows — kept to the four "most important" as the backlog item scoped; left for a later run only if a reader of one of those channel files would otherwise miss the seam.
+
 ### 2026-09-22 (second run) — Skill Scout: **ADD** — the team was already using AI in places nobody had listed, and now someone owns that list (automated)
 
 **Shipped:** new agent `analytics/analytics-marketing-ai-ops-lead.md` (**Marketing AI Operations Lead**, 🧭), dual-located at `plugins/saas-marketing/skills/marketing-analytics/agents/`, with 10 Critical Rules, 9 Deliverables and 10 benchmark-free Success Metrics. Lint **2/2 pass, 0 fail**; copies diff-identical. **Counts 83 → 84 agents** (19 skills and 17 disciplines unchanged; Analytics 8 → 9). No new discipline directory.
