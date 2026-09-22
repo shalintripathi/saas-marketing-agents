@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **New agent: the Marketing AI Operations Lead. Your team uses AI in more places than anyone has listed, and now someone owns that list** (new [`analytics/analytics-marketing-ai-ops-lead.md`](analytics/analytics-marketing-ai-ops-lead.md), dual-located in `marketing-analytics`; 83 → 84 agents).
+  - **An AI use register kept per use case, not per tool**, with the tool and model, the data that goes in, where the output goes, its autonomy level, its human gate, its owner and its last eval.
+  - **Legalize, don't ban.** A shadow-AI amnesty and intake with four outcomes (sanctioned / approved / restricted / replaced) and a declared response window.
+  - **"Can I paste this in?" answered in writing.** Four data classes crossed with tool tiers built from each vendor's verified, dated terms.
+  - **An autonomy ladder** (assist → draft → bounded-auto → autonomous) that each workflow earns on evidence, and a list of things AI never generates: prices, contract terms, assurances, customer quotes, performance claims, roadmap dates.
+  - **Eval sets re-run whenever the model, prompt or vendor changes**, with a scheduled canary where the model can't be pinned.
+  - **Default-on platform AI inventoried**: auto-generated ad assets, auto-applied recommendations, ESP and CRM AI features.
+  - **Kill switches and an AI incident log** that fixes the gate, not just the output. **An AI-literacy record by role** for EU AI Act Art. 4 as amended in July 2026.
+
+  Ideas credited to NEON-Rutger/B2B-revops-skills, matteotitta/genesys-skills and wshobson/agents (all MIT). No benchmark is asserted.
 - **New agent: the Public Sector Marketing Strategist. Eighty-two agents, and nobody owned marketing to government buyers** (new [`product-marketing/pmm-public-sector-strategist.md`](product-marketing/pmm-public-sector-strategist.md), dual-located at `plugins/saas-marketing/skills/product-marketing-ops/agents/`; roster **82 → 83 agents**, Product Marketing 9 → 10, skills stay 19 and disciplines 17). `public sector`, `FedRAMP`, `government` and `solutions marketing` all returned zero across the roster. The new agent's rules:
   - **Readiness before visibility.** No government page, campaign or booth until three things exist: a written buying path, an accurate security status, and a current accessibility conformance report.
   - **Authorization status quoted exactly from the FedRAMP Marketplace or GovRAMP listing, with the date read.** The FedRAMP designation names are being revised in 2026, so labels are never hard-coded. *FedRAMP compliant* and *FedRAMP-ready* are never written.
