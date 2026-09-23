@@ -105,7 +105,7 @@ _8 agents_
 | 🎯 | **Outbound Strategist** | [`sales/sales-outbound-strategist.md`](sales/sales-outbound-strategist.md) | Cold outreach strategist designing signal-based multi-channel sequences for B2B SaaS prospecting |
 | 📊 | **Pipeline Analyst** | [`sales/sales-pipeline-analyst.md`](sales/sales-pipeline-analyst.md) | Pipeline health specialist diagnosing velocity problems and forecasting accuracy issues before they impact revenue |
 | 📝 | **Proposal Architect** | [`sales/sales-proposal-architect.md`](sales/sales-proposal-architect.md) | B2B SaaS proposal strategist designing winning proposals and RFP responses that sell when you're not in the room |
-| 🧪 | **Solutions Engineer** | [`sales/sales-solutions-engineer.md`](sales/sales-solutions-engineer.md) | Presales technical owner winning the technical evaluation — gated demos, proofs of concept against signed success criteria, evidence-backed security questionnaires, and the recorded technical win |
+| 🧪 | **Solutions Engineer** | [`sales/sales-solutions-engineer.md`](sales/sales-solutions-engineer.md) | Presales technical owner winning the technical evaluation — gated demos, proofs of concept against signed success criteria, evidence-backed security questionnaires and the AI annex now attached to them (model providers as sub-processors, training and retention terms, EU AI Act Article 50 disclosure, AI-CAIQ and ISO/IEC 42001 claims answered per feature and per model route), and the recorded technical win |
 
 ## Product Marketing
 
