@@ -24,8 +24,10 @@ jobs:
       - name: Lint all agent persona files
         run: |
           set -euo pipefail
-          # The 75 canonical agent personas live in these 17 category directories.
-          # (strategy/ holds framework docs, not agents, so it is not linted here.)
+          # Every canonical agent persona lives in one of these 17 category directories
+          # (strategy/ holds framework docs, not agents, so it is not linted here).
+          # The persona count is not hardcoded here — it drifts as the roster grows; the
+          # run prints the actual number of files linted below ("Linted N agent files").
           dirs="content seo paid-media social email design sales product-marketing abm growth analytics comms partnerships events developer-marketing project-management client-ops"
           count=0
           fail=0
