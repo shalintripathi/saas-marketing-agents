@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-24 — P0: kill the self-reverting badge-count trap in the maintenance Notes (automated)
+
+**Health check first.** Both JSON manifests parse with required fields (`jq`); all **19** skills carry a `SKILL.md` with `name` + `description`; `bash scripts/lint-agents.sh` over the 17 canonical category dirs → **85 linted, 0 failed**; internal `.md`-link walk across the repo → **0 broken**; `guides/aeo-geo-playbook.md` *Last reviewed* 2026-09-21 (3 days, fresh). Roster re-derived not assumed: `find` over the 17 dirs = **85 agents**, `ls plugins/saas-marketing/skills/` = **19 skills**.
+
+**P0 found — stale internal count with a public-regression trap.** A stale-count sweep found three present-tense `84` references inside `maintenance/backlog.md` after the roster grew to 85 (Channel Program Architect add, `2a53c37`). Every *public* surface (README badges + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, live GitHub About via `gh repo view`) was already correct at 85/19 — the drift was confined to the maintenance docs. But one of the three was the **Notes standing instruction** *"Keep the README badge counts (agents: 84, skills: 19)…"* — the line a future run consults to decide what to sync the badges to. Followed verbatim it would have **reverted the public badge 85→84**, the precise regression the 2026-09-19 and 2026-09-07 P0 fixes already flagged. The number has now rotted once per roster add (82→83→84→85).
+
+**Fixed (durable, not a fifth manual bump).** De-hardcoded the standing instruction to *derive* the count at run time from the 17 canonical category dirs (the same `find … | wc -l` and `dirs` list `.github/workflows/lint-agents.yml` uses) plus `ls …/skills/ | wc -l`, permanently closing the trap — mirroring the 2026-09-23 CI fix that removed *its* hardcoded number. The two P2 item descriptions ("all 84 agents" GitHub-Pages catalog; "the 84 personas" native-subagents item) corrected 84→85.
+
+**Verification.** Re-grep → **0 remaining present-tense `84`-agent references** outside dated `CHANGELOG`/`RUN_LOG`/`scout-ledger` provenance; roster re-count still 85/19; all public surfaces re-confirmed 85 (README/`AGENTS_INDEX`/`llms.txt` and live About). No agent files touched, so no lint delta and no public-surface edit was due. Not user-facing (maintenance-doc bookkeeping) → **no `CHANGELOG` entry**. Logged the fix as a dated `[x] Fixed 2026-09-24` P0 entry in `backlog.md`.
+
+**Deferred:** everything else in the queue is genuinely blocked or themed — distribution gated on stars/adoption; native-subagents on in-thread decisions (issue #1); the legal-validation proposal on counsel; the three `mbfinotti/*` sibling reads and other aggregate reads are "on a matching rotation run"; the remaining P2s (golden examples, Pages catalog, MCP recipes, eval harness, de-dup) are larger-than-one-run.
+
+---
+
 ### 2026-09-24 — name the owner of the affiliate payout *run* (backlog line 40) (automated)
 
 **Health check first, all green — no P0.** Both JSON manifests parse with required fields (`jq`); all **19** skills have a `SKILL.md` with `name` + `description`; **counts consistent across every surface at 85 agents / 19 skills**, re-derived not assumed — per-category frontmatter agent count summed to 85 (abm 1, analytics 9, client-ops 4, comms 2, content 9, design 5, developer-marketing 1, email 5, events 1, growth 3, paid-media 7, partnerships 2, product-marketing 10, project-management 4, sales 8, seo 7, social 7), and README badge/tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`) all read 85/19; internal `.md`-link walk across the repo found **0 broken**; `guides/aeo-geo-playbook.md` *Last reviewed* 2026-09-21 (3 days, fresh), `integrations/README.md` 2026-07-23 (~63 days, within 90). The only `78`/`84` references anywhere are dated `CHANGELOG`/`RUN_LOG`/`scout-ledger` provenance, not stale live counts.
