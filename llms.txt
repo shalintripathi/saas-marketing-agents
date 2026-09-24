@@ -1,13 +1,13 @@
 # SaaS Marketing Agents
 
-> An open-source (MIT) collection of 84 specialist B2B SaaS marketing AI agent personas, packaged as 19 installable Claude Code skills and coordinated by the CATALYST multi-agent orchestrator. It ships worked marketing workflows (ABM, product launch, demand generation, content engine) and a continuously updated AEO/GEO playbook for the AI-search era.
+> An open-source (MIT) collection of 85 specialist B2B SaaS marketing AI agent personas, packaged as 19 installable Claude Code skills and coordinated by the CATALYST multi-agent orchestrator. It ships worked marketing workflows (ABM, product launch, demand generation, content engine) and a continuously updated AEO/GEO playbook for the AI-search era.
 
 Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents`. The agents are plain Markdown, so they also work by copying them into any AI coding tool (Cursor, Claude Code, Copilot, Aider, Windsurf).
 
 ## Start here
 
 - [README](README.md): what the project is, quick start, and the full agent index
-- [Agent index](AGENTS_INDEX.md): all 84 agents with roles and when to use each
+- [Agent index](AGENTS_INDEX.md): all 85 agents with roles and when to use each
 - [Workflow guide](WORKFLOW_GUIDE.md): how to chain agents into campaigns
 - [Contributing](CONTRIBUTING.md): how to add or improve an agent
 - [Roadmap](ROADMAP.md): what is planned next
@@ -30,10 +30,10 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 - [Growth Ops](plugins/saas-marketing/skills/growth-ops/SKILL.md): PLG activation, PQLs, the self-guided interactive product demo before signup (gated vs ungated policy, demo freshness against product releases, step-level demo analytics), expansion and churn-save, net revenue retention
 - [ABM Ops](plugins/saas-marketing/skills/abm-ops/SKILL.md): target account list, 1:1/1:few/1:many account tiering, intent and buying signals, account coverage and penetration measurement
 - [Comms Ops](plugins/saas-marketing/skills/comms-ops/SKILL.md): PR and earned media — including newsjack triage (standing, the story's first-public clock, never reacting to a competitor's own release) and source-request replies written by the spokesperson, not an LLM — analyst relations (Gartner, Forrester, IDC)
-- [Partnerships Ops](plugins/saas-marketing/skills/partnerships-ops/SKILL.md): co-marketing, channel, cloud-marketplace GTM
+- [Partnerships Ops](plugins/saas-marketing/skills/partnerships-ops/SKILL.md): co-marketing, channel, cloud-marketplace GTM, and channel program architecture — whether to launch a partner program at all, motion selection (referral, technology, services/SI, reseller), partner unit economics and partner CAC vs direct, margin/rebate/SPIF design with clawbacks, partner recruitment and certification ramp, and the rules of engagement, deal-registration adjudication and compensation neutrality that settle channel conflict
 - [Events Ops](plugins/saas-marketing/skills/events-ops/SKILL.md): conferences, owned events, field marketing, webinars
 - [Developer Marketing Ops](plugins/saas-marketing/skills/developer-marketing-ops/SKILL.md): docs, quickstarts, SDKs, DevRel
-- [CATALYST Orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md): coordinates all 84 agents for large initiatives
+- [CATALYST Orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md): coordinates all 85 agents for large initiatives
 
 ## Playbooks & guides
 

@@ -1,6 +1,6 @@
 ---
 name: partnerships-ops
-description: "Partner, channel, and ecosystem marketing for B2B SaaS. Use this skill for co-marketing with technology alliances and channel partners, integration launches, joint campaigns and content, partner tiering and enablement, and cloud-marketplace go-to-market (AWS, Azure, GCP listings, private offers, committed-spend drawdown). Also triggers on: partner marketing, co-marketing, channel, reseller, alliance, ecosystem, integration launch, marketplace listing, AWS Marketplace, private offer, MDF, joint webinar, co-branded."
+description: "Partner, channel, and ecosystem marketing for B2B SaaS — and the design of the partner program itself. Use this skill for co-marketing with technology alliances and channel partners, integration launches, joint campaigns and content, partner tiering and enablement, cloud-marketplace go-to-market (AWS, Azure, GCP listings, private offers, committed-spend drawdown), and for channel program architecture: whether to launch a partner program at all, which motions to run (referral, technology, services/SI, reseller), partner unit economics, margin and SPIF design, partner recruitment and certification ramp, and the rules of engagement that settle a contested deal. Also triggers on: partner marketing, co-marketing, channel, reseller, VAR, MSP, distributor, OEM, alliance, ecosystem, integration launch, marketplace listing, AWS Marketplace, private offer, MDF, joint webinar, co-branded, channel conflict, rules of engagement, deal registration, partner program design, should we build a partner program, partner economics, partner P&L, partner CAC, margin stacking, SPIF, rebate, partner recruitment, partner onboarding, partner certification, partner tiers, our partners signed up and never sold anything."
 ---
 
 # Partnerships Operations
@@ -18,13 +18,14 @@ description: "Partner, channel, and ecosystem marketing for B2B SaaS. Use this s
 
 ## What This Is
 
-Partnerships Operations markets *with and through other companies* rather than directly to buyers. It covers technology alliances and integrations, channel and reseller motions, and the cloud-marketplace buying path that increasingly decides how enterprise software actually gets purchased — the listing, the private offer, and the committed-spend drawdown that makes a deal easy for a buyer to say yes to.
+Partnerships Operations markets *with and through other companies* rather than directly to buyers. It covers technology alliances and integrations, channel and reseller motions, and the cloud-marketplace buying path that increasingly decides how enterprise software actually gets purchased — the listing, the private offer, and the committed-spend drawdown that makes a deal easy for a buyer to say yes to. It also holds the architecture underneath all of that: whether a partner program should exist yet, which motions it runs, what partners earn, how they are recruited and ramped, and who wins when two routes to market claim the same account.
 
-## The Team: 1 Specialist Agent
+## The Team: 2 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
 | 1 | Partner Ecosystem Marketer | `agents/partner-ecosystem-marketer.md` | Owns partner tiering and joint business plans, co-marketing campaign design (joint webinars, co-authored research, co-branded assets, integration launches), partner enablement and MDF programs, and cloud-marketplace GTM: listing content, pricing dimensions, private offers, CPPO, and committed-spend strategy. |
+| 2 | Channel Program Architect | `agents/partner-channel-program-architect.md` | Designs the program rather than marketing through it: the readiness gate that may answer "not yet", motion selection (referral, technology, services/SI, reseller), partner unit economics on both sides including partner CAC versus direct, margin/rebate/SPIF architecture with clawbacks, recruitment and first-deal certification ramp, coverage and pruning, and the rules of engagement and channel-conflict adjudication ladder — including the compensation-neutrality decision for direct reps. |
 
 ## How to Use
 
@@ -41,6 +42,14 @@ Partnerships Operations markets *with and through other companies* rather than d
 - "How should we use private offers and committed spend?"
 - "Plan a marketplace-led motion for enterprise buyers"
 
+**Program design, economics & conflict** → Channel Program Architect
+- "Should we even build a partner program yet?"
+- "Which partner motion should we launch first — referral, integration, or reseller?"
+- "Model whether this reseller is worth signing, and compare partner CAC to direct"
+- "Write our rules of engagement — direct and a partner are both claiming this account"
+- "Design the margin bands, rebates and SPIFs, and what gets clawed back"
+- "Our partners all signed up and none of them sold anything"
+
 ### Working Method
 
 1. **Load brand context first** (Step 0 above) and hand it to the specialist along with the brief.
@@ -48,7 +57,7 @@ Partnerships Operations markets *with and through other companies* rather than d
 3. **Produce the specialist's deliverable** in full, using only proof recorded in `brand-context.md` or supplied in the request. Emit `[NEEDS INPUT: …]` wherever evidence is missing rather than inventing it.
 4. **Name the handoffs.** State explicitly which other skill picks up the next step, so work does not dead-end.
 
-**Boundaries this skill respects.** The counterparty test decides ownership: if it is a **person**, it belongs to `social-influencer-partnerships`; if it is a **company with a contract or a listing**, it belongs here. Earned media and third-party gatekeepers stay with the comms skill; link acquisition stays with `seo-link-building-strategist`.
+**Boundaries this skill respects.** The counterparty test decides ownership: if it is a **person**, it belongs to `social-influencer-partnerships`; if it is a **company with a contract or a listing**, it belongs here. Earned media and third-party gatekeepers stay with the comms skill; link acquisition stays with `seo-link-building-strategist`. Inside this skill, the split is build-versus-market: the **Channel Program Architect** decides whether the program exists, which motions it runs, what the margin, incentives and rules of engagement are, and how partners are recruited and ramped; the **Partner Ecosystem Marketer** markets with and through the partners that program signs, and owns MDF, co-marketing, campaign kits, marketplace listings and the public tier ladder. Margin never funds a campaign and MDF never funds margin.
 
 ## Output Standards
 

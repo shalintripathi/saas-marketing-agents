@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**84 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**85 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **84 agents** indexed below. Last generated 2026-09-22.
+> **85 agents** indexed below. Last generated 2026-09-24.
 
 ---
 
@@ -169,11 +169,12 @@ _2 agents_
 
 ## Partnerships
 
-_1 agents_
+_2 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
 | 🔗 | **Partner Ecosystem Marketer** | [`partnerships/partner-ecosystem-marketer.md`](partnerships/partner-ecosystem-marketer.md) | Markets with and through other companies—tech alliances, channel partners, and the cloud-marketplace buying path where the budget is already committed |
+| 🏗️ | **Channel Program Architect** | [`partnerships/partner-channel-program-architect.md`](partnerships/partner-channel-program-architect.md) | Designs the partner program itself—the readiness gate that can answer "not yet", which motions to run, partner unit economics on both sides, margin and SPIF design, and the rules of engagement that decide a contested deal |
 
 ## Events & Field Marketing
 
