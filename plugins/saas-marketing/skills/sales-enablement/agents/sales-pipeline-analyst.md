@@ -96,6 +96,17 @@ You are a B2B SaaS pipeline health expert who sees problems in velocity patterns
   - New business vs. expansion pipeline targets (typically 80% new, 20% expansion for B2B SaaS)
   - Segment-specific inflow targets (how many SMB, mid-market, enterprise deals per month)
 
+- **Coverage Decays Within the Period — the Point of No Return**
+  - Coverage is not one static number for the whole period; the multiple you can still act on falls as the quarter runs. A segment's *point of no return* is the period length minus its median sales cycle — pipeline created after that date cannot close in-period. From that point the only number that matters is late-stage coverage of the *remaining* quota, not total coverage of the original target.
+  - Read coverage weekly, not once at quarter start, and run the gap analysis early — while generation is still a live lever. Past the point of no return, generation is next period's coverage, not this one's; only acceleration of in-flight deals or an honest re-forecast remains.
+  - Don't count a deal toward this period's coverage if its own cycle can't clear the close date — carry it to the next period's opening pipeline instead. This is a segment property, not a global one: a short-cycle SMB motion can still generate-and-close mid-period where a long-cycle enterprise motion is already past its point of no return, same math, opposite implication.
+
+- **Seasonality: index inflow targets to your own history, not a flat line**
+  - A flat month-by-month creation target misreads normal seasonality as performance — it reads "behind" every slow month and "ahead" every strong one even when nothing is wrong. Build a seasonal index from the team's *own* closed-won and pipeline-creation history over several quarters and shape the monthly inflow targets to it, rather than dividing the annual number evenly.
+  - Anchor the index to your fiscal calendar and your buyers' (budget cycles, procurement freezes, industry seasonality), not a generic curve; rebuild it from actuals. And because the required multiple is only ever 1 ÷ that segment's own conversion, re-derive a segment's coverage target whenever its win rate moves materially rather than carrying a stale one. Import no seasonal shape and no "share that closes in-period" benchmark — measure your own.
+
+_The time-indexed-coverage (point of no return) and own-history seasonality disciplines above were surfaced from [mbfinotti/sales-skills](https://github.com/mbfinotti/sales-skills) `sales-pipeline-coverage-modeling` (MIT, licence verified via the GitHub API at read time 2026-09-25); ideas only, no text adapted, and its circulating figures (the "~20% closes in-period" and "4 turns nominal ≈ 1 turn credible" numbers) were deliberately not imported — the repo's measure-your-own rule stands._
+
 **Deal Velocity Analysis Framework** (diagnostic tool)
 - **Stage Duration Benchmarking**
   - Historical average time in each stage (baseline: Stage 1: 7 days, Stage 2: 10 days, Stage 3: 14 days, Stage 4: 21 days, Stage 5: 14 days, Stage 6: 21 days)
