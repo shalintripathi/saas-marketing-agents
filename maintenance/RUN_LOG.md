@@ -4230,3 +4230,25 @@ Health check first, all green: `marketplace.json` and the plugin manifest parse 
 **Checked:** both copies byte-identical (`diff` clean after `cp`); `bash scripts/lint-agents.sh` on both → **2/2 pass, 0 fail**; a full internal-`.md`-link walk → **859 links, 0 broken**; all ten cross-referenced sibling agents verified to exist on disk before the boundary paragraphs were written; every platform quote fetched this run with a 2026-09-25 read-date; the source licence re-verified via the GitHub API at read time; agent-file re-count = 85.
 
 **Deferred / next:** reciprocal pointers from `seo-ai-search-optimizer` and `pmm-agent-readiness-strategist` back to this section are **not** in this run (one change per run) and are filed to the backlog. The paid/social queue keeps three unread items for future rotations: the remaining nine skills in `ScrapeCreators/social-media-research-skills` (the social-listening-as-a-method thesis, which greps thin here and is the strongest remaining social lead), `scrollmark/social-skills`' `trend-radar`, and the standing licence re-check on `portermetricsample/marketing-skills`. `mbfinotti/sales-skills` remains queued for a PMM/sales/GTM run.
+
+### 2026-09-25 — Maintenance: **RESOLVE** — the 236-skill aggregate resolves to four upstreams we already track (automated)
+
+**What I did:** Ran the health check (all green — see below) and, with no P0 and the discipline backlog rotation-gated, pulled the highest-priority *unblocked* item: apply the **aggregate-provenance method** (established 2026-09-23) to the last named blocked aggregate on the ledger, `iamwaqargulzar/Marketing-Agent-OS` (3★, Apache-2.0 *as a repository*, 236 skills, pushed 2026-09-04) — backlog lines 43 and 86.
+
+**Finding:** The aggregate ships fully resolvable provenance. `upstreams.lock.json` (schema_version 1, audited 2026-09-04) and its human-readable twin `SOURCE_MANIFEST.md` (matching commit SHAs) pin all 236 skills to exactly **four** upstream snapshots, each with `repository`, `commit`, `url`, declared `license`, `file_count` and a `tree_sha256`. Per the method, that unblocks it — the correct read target is the four upstreams, not the wrapper. I read only the two manifest files; **no skill file content**.
+
+**The four upstreams, licences re-verified independently via the GitHub licence API this run (no drift from the lock):**
+- source-a `aaron-he-zhu/aaron-marketing-skills` — Apache-2.0
+- source-b `AgriciDaniel/claude-seo` — MIT
+- source-c `zubair-trabzada/geo-seo-claude` — MIT
+- source-d `coreyhaines31/marketingskills` — MIT
+
+**Conclusion — do not mine.** All four upstreams already appear in this ledger/backlog (aaron-he-zhu ×17, AgriciDaniel ×41, zubair-trabzada ×9, coreyhaines31 ×41), and three have already supplied shipped enhancements (`claude-seo` + `geo-seo-claude` → `seo-ai-search-optimizer`; `coreyhaines31` → the programmatic-SEO proposal, issue #2). Net-new upstreams contributed by the aggregate: **zero**. Reading its file content would be pure redundancy over a second-hand copy of sources we track at the upstream. Closed backlog line 86 (the `watch`) and the Marketing-Agent-OS clause of line 43; retained the standing policy that second-order derivatives stay ideas-only.
+
+**Health check (this run, all green):** `.claude-plugin/marketplace.json` + `plugins/saas-marketing/.claude-plugin/plugin.json` parse via jq; all 19 skills carry a `SKILL.md` with `name`+`description`; **0 broken internal `.md` links** across a whole-repo walk; no `Last reviewed` date older than 90 days (AEO/GEO playbook 2026-09-21, integrations 2026-08-23, all inside the gate). Counts re-verified against reality: **85 agent files** on disk (88 category `.md` minus the 3 `strategy/` framework docs), **19 skill directories**, **17 disciplines** — and every per-discipline sub-count in `AGENTS_INDEX.md` matches its directory and sums to 85. Live GitHub About description already reads 85/19; README badges, `llms.txt`, `CITATION.cff` and both manifests all consistent. No stale count anywhere.
+
+**Discoverability:** No count, name, or capability changed (roster and skill set unchanged), so no About/README/index/manifest edits were needed — verified rather than assumed.
+
+**Changed files:** `maintenance/backlog.md` (closed two items), `maintenance/scout-ledger.md` (new 2026-09-25 governance/provenance section), `maintenance/RUN_LOG.md` (this entry). No agent or skill content touched → no `CHANGELOG.md` entry (not user-facing).
+
+**Deferred / next:** the remaining open P1 curation item `mbfinotti/sales-skills` stays queued for a **PMM/sales/GTM** rotation run (licence to re-verify at read time). The P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
