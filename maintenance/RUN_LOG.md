@@ -4350,3 +4350,31 @@ It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and t
 **Also filed.** Two backlog items. (1) `pmm-messaging-architect` still carries two invented-benchmark Success Metrics (40%+, 25%+) that the PMM sweep missed. (2) A possible future PMM enhance on the *narrative cascade*.
 
 **Changed files:** both copies of `pmm-launch-manager.md`, `plugins/saas-marketing/skills/product-marketing-ops/SKILL.md`, `AGENTS_INDEX.md`, `llms.txt`, `README.md`, `CHANGELOG.md`, `maintenance/scout-ledger.md`, `maintenance/backlog.md`, `maintenance/RUN_LOG.md`.
+
+### 2026-09-26 — Anti-fabrication sweep: DESIGN discipline, third persona (`design-content-visual-designer`) (automated)
+
+**This run DE-FABRICATED** the Success Metrics of `design/design-content-visual-designer.md` (both dual-located copies, byte-identical). Within-capability content fix; no count/name/capability change → still **85 agents / 19 skills / 17 disciplines**, so no About-box, badge, manifest, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` or frontmatter edit was due (verified, not assumed, per the sweep precedent).
+
+**Why this item.** Health check was fully green (see below), so no P0. The highest-priority unblocked backlog work is the in-progress DESIGN anti-fabrication sweep — one persona per run — whose next persona (per backlog line 211's "Still open" pointer, filed after this morning's brand-identity de-fabrication) is `design-content-visual-designer`, flagged for "2-3x higher engagement" and "30-50% reduction". The two flagged figures were grep-verified present before editing.
+
+**The defect.** A full read of the Success Metrics found the same borrowed-benchmark defect in **six** of eight bullets (the sweep audits the whole agent, not just the spotted bullets): `70-80%` self-service adoption, `80%+` template reuse, `50% reduction` in turnaround, `2-3x higher engagement`, `30-50% reduction` in custom requests, and a `4.5+/5` satisfaction rating — all unsourced round numbers asserted as outcomes.
+
+**What shipped.** A section-level rubric intro (read against your own prior baseline; the two controllable bars are the exception) plus per-bullet rewrites, mirroring the ad-creative-producer (2026-09-16) and brand-identity (2026-09-26 AM) precedents exactly:
+- **Self-Service Adoption Rate** — behavioral read from actual library usage vs the team's own pre-template baseline; `70-80%` dropped.
+- **Template Reuse Rate** — reported as the reuse distribution across the library; arbitrary `80%+ / 5+ uses` threshold dropped.
+- **Content Production Velocity** — timed before/after vs this team's own pre-system baseline; `50%` dropped; delta treated as shared with concurrent tooling/staffing changes.
+- **Content Engagement Lift** — read vs the brand's own comparable non-templated assets; `2-3x` dropped; heavy selection confound named; causal credit routed to `analytics-conversion-rate-optimizer`.
+- **Designer Time Savings** — own-baseline before/after; `30-50%` dropped; shared credit.
+- **Template User Satisfaction** — survey read vs your own prior wave; `4.5+/5` dropped; complaints surfaced rather than averaged.
+
+**Kept with targets (controllable bars the agent owns):** **Brand Consistency Score** (95%+ compliance) and **Design System Completeness** (85%+ template coverage) — the design analog of the on-time-delivery/SLA process bars the PM precedent keeps.
+
+**Verified:** `bash scripts/lint-agents.sh` on both copies → **2/2 pass, 0 fail**; `diff` clean (byte-identical); the six retired figures now appear **only in negation context** ("not a fixed…", "dropped…"); whole-repo internal-`.md`-link walk → **0 broken**.
+
+**Health check (this run, all green):** `.claude-plugin/marketplace.json` + `plugins/saas-marketing/.claude-plugin/plugin.json` parse via jq with required fields; all **19** skills carry a `SKILL.md` with `name`+`description`; **0 broken internal `.md` links**; `guides/aeo-geo-playbook.md` "Last reviewed" 2026-09-21 (< 90 days), no other dated guide. Counts re-derived against reality (not assumed): **85 agent files** on disk (88 `.md` across the 17 category dirs minus the 3 non-agent `strategy/` docs — EXECUTIVE-BRIEF, QUICKSTART, catalyst-strategy), **19 skill directories**; the live GitHub About (`gh repo view`) reads **85 agents, 19 skills**, matching README badges/hero, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` and both manifests. No stale count anywhere.
+
+**Discoverability:** No count, name, or capability changed (a within-capability content fix removing fabricated figures from an existing agent's Success Metrics), so no discoverability surface edit was due — verified rather than assumed, consistent with every prior anti-fabrication sweep run.
+
+**Changed files:** both dual-located copies of `design/design-content-visual-designer.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (design-sweep third persona marked done with the next-persona pointer), `maintenance/RUN_LOG.md` (this entry).
+
+**Deferred / next:** the DESIGN sweep continues one persona per run — `design-presentation-designer` ("90%+ completion", "50-70% next-step conversion", "70%+ recall") and `design-ui-landing-page-specialist` ("3-5%/15-25% conversion", "10-15%/quarter", "15-20% CPA improvement") still to scan, then the project-management nuanced case (keep controllable process bars; only receiver-decided/causal figures are candidates). P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
