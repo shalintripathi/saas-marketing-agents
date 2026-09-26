@@ -4,6 +4,22 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-26 — Anti-fabrication sweep: the Messaging Architect stops grading itself against invented benchmarks (automated)
+
+**Health check first, all green — no P0.** Both JSON manifests parse with required fields (`jq`); all **19** skills have a `SKILL.md` with `name` + `description`; roster re-derived not assumed — per-category frontmatter count summed to **85** (abm 1, analytics 9, client-ops 4, comms 2, content 9, design 5, developer-marketing 1, email 5, events 1, growth 3, paid-media 7, partnerships 2, product-marketing 10, project-management 4, sales 8, seo 7, social 7); README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`) all read **85 / 19**; repo-wide internal `.md`-link walk → **0 broken**; no stale `Last reviewed` (`aeo-geo-playbook.md` 2026-09-21, 5 days). `strategy/` (10 framework docs, not agents) correctly excluded from the roster (95 category `.md` − 10 = 85).
+
+**Item (backlog line 214).** The 2026-09-11 anti-fabrication sweep of product marketing swept `pmm-launch-manager` and `ops-financial-tracker` but never listed `pmm-messaging-architect`; a scout on 2026-09-26 spotted two of its Success Metrics still asserting invented results.
+
+**Read the whole section — the defect was in five bullets, not two.** Alongside the flagged *Prospect Perception Shift* (`40%+ improvement`) and *Customer Testimonial Effectiveness* (`25%+ higher engagement`), the same invented-benchmark defect sat in *Website Conversion Impact* (`20-35%`), *Email Campaign Performance* (`15-25%`), and *Sales Messaging Effectiveness* (`15-20% higher win rates`). Per the established sweep discipline (retire every fabricating bullet in the agent, not only the spotted ones), all five were re-based on the baseline/trend/powered-comparison pattern with **no figure asserted**: pre-post reads against your own pre-exposure baseline with small/unpowered studies labeled and never rounded to a shift; powered before/after or A/B tests routed to `analytics-conversion-rate-optimizer`; causal conversion credit routed to `paid-media-attribution-analyst`; and the self-selection confound named on the win-rate gap (message-users may already run better-qualified deals).
+
+**Kept verbatim** the controllable and completion bars, exactly as every prior swept agent kept theirs: `90%+` comprehension, `80%+`/`70%+` usage measured via call review, `85%+` consistency across surfaces, and the `100%`/zero-defect integrity gates. These describe work you control, not outcomes a market decides.
+
+**Verified.** Both dual-located copies (`product-marketing/` and `plugins/saas-marketing/skills/product-marketing-ops/agents/`) byte-identical; `scripts/lint-agents.sh` 2/2 pass; the five retired figure-strings grep to zero across both copies; 0 broken links; no count/name/capability change, so no discoverability surface edits due (still 85/19).
+
+**Deferred.** Backlog line 215 (a possible PMM narrative-cascade ENHANCE from `aaron-he-zhu/aaron-marketing-skills`) is a separate external-source read left for a future PMM run — one change per run.
+
+---
+
 ### 2026-09-25 — Reciprocal pointers: the AI-answer boundary now reads the same from the SEO and PMM seats (automated)
 
 **Health check first, all green — no P0.** Both JSON manifests parse with required fields (`jq`); all **19** skills have a `SKILL.md` with `name` + `description`; roster re-derived not assumed — per-category frontmatter count summed to **85** (abm 1, analytics 9, client-ops 4, comms 2, content 9, design 5, developer-marketing 1, email 5, events 1, growth 3, paid-media 7, partnerships 2, product-marketing 10, project-management 4, sales 8, seo 7, social 7); README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`) all read **85 / 19**; repo-wide internal `.md`-link walk over 233 files → **0 broken**; no stale `Last reviewed` (`aeo-geo-playbook.md` 2026-09-21, 4 days; `integrations/README.md` 2026-07-23, within 90). The only sub-85 counts anywhere are dated `CHANGELOG`/`RUN_LOG`/`scout-ledger` provenance, not live counts. `strategy/` (10 framework docs, not agents) correctly excluded from the roster, so 95 category `.md` − 10 = 85.
