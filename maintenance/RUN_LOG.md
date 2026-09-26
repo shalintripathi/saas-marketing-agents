@@ -4,6 +4,20 @@ Append-only log of every maintenance run. Newest first. Each entry: date, what s
 
 ---
 
+### 2026-09-26 — The Messaging Architect's consistency audit now reaches the one surface it couldn't read: the live call (automated)
+
+**Health check first, all green — no P0.** Both JSON manifests parse with required fields (`jq`); all **19** skills have a `SKILL.md` with `name` + `description`; roster re-derived not assumed — the 17 canonical category dirs summed to **85** category `.md`; README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`) all read **85 / 19**; repo-wide internal `.md`-link walk → **0 broken**; no stale `Last reviewed` (`aeo-geo-playbook.md` 2026-09-21, 5 days).
+
+**Item (backlog line 215).** A PMM narrative-cascade ENHANCE lead deferred by the earlier 2026-09-26 run. Grep-verified the lead's three pieces before writing: the *field-adoption* read already lives on `pmm-messaging-architect` (`Message Usage in Sales` / `Case Study and Proof Point Usage`, both "measured via call review"), the *launch-scoped drift* read is `pmm-launch-manager`'s (`Sales-material adoption ... call listening ... holds past the launch-week novelty`), and the *rollout/training* is `sales-enablement-content-creator`'s (`Sales Training and Rollout`, `Content Utilization Rate`) — so the core of the lead was **HAVE**.
+
+**The one genuinely unowned sliver.** The Messaging Architect's surface-against-surface consistency audit reads surfaces *side by side* — structurally the **written** ones — so the **live call/demo** is excluded by construction. It is the highest-stakes surface and the one that reverts hardest to the *pre-repositioning* story (it lives in reps' heads, not a CMS), and the existing straggler sweep covers only *quiet written* surfaces. Shipped one in-voice paragraph ("The one surface you cannot read side by side is the live call"): audit the spoken surface by *sampling* recent call/demo recordings against the same four axes, with explicit boundary lines keeping it distinct from the `Message Usage in Sales` metric (pillar *presence* vs. current-narrative *replacement*), `pmm-launch-manager` (launch-scoped), and `sales-enablement-content-creator` (the assets). Credited ideas-only to the `narrative/` tree of `aaron-he-zhu/aaron-marketing-skills` (Apache-2.0 — the same source as the 2026-09-25 `early-access-designer` add); the boundary lines are ours, no text reused.
+
+**Verified.** Both dual-located copies (`product-marketing/` and `plugins/saas-marketing/skills/product-marketing-ops/agents/`) byte-identical; `scripts/lint-agents.sh` 2/2 pass; frontmatter parses; 0 broken links; no count/name/capability change, so no discoverability surface edits due (still 85/19).
+
+**Deferred.** Everything else open in the backlog is blocked (distribution on traction/star gates; native-subagents on two in-thread decisions; several licence re-checks and maintainer-call SCOPE QUESTIONs). One change this run.
+
+---
+
 ### 2026-09-26 — Anti-fabrication sweep: the Messaging Architect stops grading itself against invented benchmarks (automated)
 
 **Health check first, all green — no P0.** Both JSON manifests parse with required fields (`jq`); all **19** skills have a `SKILL.md` with `name` + `description`; roster re-derived not assumed — per-category frontmatter count summed to **85** (abm 1, analytics 9, client-ops 4, comms 2, content 9, design 5, developer-marketing 1, email 5, events 1, growth 3, paid-media 7, partnerships 2, product-marketing 10, project-management 4, sales 8, seo 7, social 7); README badge + tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the **live GitHub About** (`gh repo view`) all read **85 / 19**; repo-wide internal `.md`-link walk → **0 broken**; no stale `Last reviewed` (`aeo-geo-playbook.md` 2026-09-21, 5 days). `strategy/` (10 framework docs, not agents) correctly excluded from the roster (95 category `.md` − 10 = 85).
