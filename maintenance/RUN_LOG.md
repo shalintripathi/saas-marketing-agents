@@ -4294,3 +4294,29 @@ Ideas-only from [mbfinotti/sales-skills](https://github.com/mbfinotti/sales-skil
 **Changed files:** both dual-located copies of `design/design-brand-identity-strategist.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (design-sweep second persona marked done with the next-persona pointer), `maintenance/RUN_LOG.md` (this entry).
 
 **Deferred / next:** the DESIGN sweep continues one persona per run — `design-content-visual-designer`, `design-presentation-designer`, `design-ui-landing-page-specialist` still to scan, then the project-management nuanced case (keep controllable process bars; only receiver-decided/causal figures are candidates). P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
+
+### 2026-09-26 — Skill Scout: **ENHANCE** — the launch assumed the product was finished; the ladder before GA had no owner (automated)
+
+**This run ENHANCED** `product-marketing/pmm-launch-manager.md` (both dual-located copies, byte-identical). No count change: still **85 agents / 19 skills / 17 disciplines**, so no About-box, badge, manifest or CITATION edits were needed.
+
+**Why ENHANCE when alternation asked for an ADD.** The two previous scout runs (09-25 PPC, 09-25 Pipeline Analyst) were both enhancements, so the run opened hunting a missing role. Focus by rotation was **content / SEO** (oldest, last 09-21), but the 09-21 ledger had already declared that roster complete, so, following the 09-12 precedent, the ADD hunt went roster-wide. It killed nine hypotheses by grep (DevRel, user conference, strategic narrative, naming/brand architecture, buyer enablement, gifting, referral, PQL, and a beta/early-access program manager); all are recorded in the ledger. The last one was a real gap but not a separate role: it is the front half of a launch the Launch Manager already owns, and a second agent would split one launch across two owners. Writing a persona anyway would be the manufactured change `SKILL_SCOUT.md` forbids, so the run shipped the gap as an enhancement.
+
+**The gap.** `general availability`, `public preview`, `private preview`, `early-access` and `release stage` returned **zero** across all 85 agents. `pmm-launch-manager` had a tier ladder, a pre-mortem and a retrospective, but it assumed the thing being launched was finished. Nothing decided what a preview may be called, what sales may put in a contract about it, or when it becomes GA.
+
+**What shipped.** Rule 10: name the stage before sizing the launch, and a beta dressed as GA is a contract dispute, not a missed metric. It hooks into `pmm-messaging-architect`'s capability-claim register (preview = PARTIAL). The new *Before GA* section adds:
+- stage definitions cited to Google Cloud and Microsoft primary docs;
+- a table showing what each stage lets you say, where, and what sales may do, with a tier ceiling per stage;
+- a sales-does-not-sell-the-roadmap seam to the deal, proposal and solutions agents, citing the public future-functionality MSA clause;
+- an early-access program built around one stated purpose, selected on ICP fit, admitted in waves, with participation terms, a separate and optional reference question routed to `pmm-customer-advocacy`, a feedback-status loop and an explicit GA opt-out decision;
+- graduation as an evidence gate rather than a date;
+- a review date for every preview, with a graduate / extend / withdraw choice.
+
+It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and two controllable metrics (Stage Integrity, Early-Access Loop Closure). Nothing is fabricated: participant-to-reference conversion is explicitly never a target.
+
+**Sources.** Ideas come from `early-access-designer` in [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) (Apache-2.0, credited in-file, no text reused). The facts come from Google Cloud launch stages, Microsoft Preview Supplemental Terms and Certinia MSA §6.7, all read 2026-09-26 and quoted only in short phrases.
+
+**Discoverability.** Updated the `product-marketing-ops` skill `description:` (beta program, early access, private/public preview, general availability, "when can we call it GA", "can sales sell a beta feature", selling the roadmap) and its agent-table row, the agent's frontmatter description, the `AGENTS_INDEX.md` role line, `llms.txt`, and the README skill-trigger table.
+
+**Also filed.** Two backlog items. (1) `pmm-messaging-architect` still carries two invented-benchmark Success Metrics (40%+, 25%+) that the PMM sweep missed. (2) A possible future PMM enhance on the *narrative cascade*.
+
+**Changed files:** both copies of `pmm-launch-manager.md`, `plugins/saas-marketing/skills/product-marketing-ops/SKILL.md`, `AGENTS_INDEX.md`, `llms.txt`, `README.md`, `CHANGELOG.md`, `maintenance/scout-ledger.md`, `maintenance/backlog.md`, `maintenance/RUN_LOG.md`.
