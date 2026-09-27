@@ -4429,3 +4429,35 @@ It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and t
 **Changed files:** both copies of `growth-customer-marketing-lead.md`, `plugins/saas-marketing/skills/growth-ops/SKILL.md`, `AGENTS_INDEX.md`, `llms.txt`, `README.md`, `CHANGELOG.md`, `maintenance/scout-ledger.md`, `maintenance/backlog.md`, `maintenance/RUN_LOG.md`.
 
 **Deferred / next:** reciprocal pointers (lifecycle Sender Register row for billing/dunning, the performance analyst's split pointing here, the pricing concession class), filed in the backlog. The next scout run should hunt an ADD again, since four consecutive scout runs have now enhanced.
+
+### 2026-09-27 — Anti-fabrication sweep: DESIGN discipline, fifth & final persona (`design-ui-landing-page-specialist`) (automated)
+
+**This run DE-FABRICATED** the Success Metrics of `design/design-ui-landing-page-specialist.md` (both dual-located copies, byte-identical). Within-capability content fix; no count/name/capability change → still **85 agents / 19 skills / 17 disciplines**, so no About-box, badge, manifest, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` or frontmatter edit was due (verified against the live GitHub About via `gh repo view` — reads `85 agents, 19 skills` — not assumed, per the sweep precedent).
+
+**Why this item.** Health check fully green (see below), so no P0. The highest-priority unblocked backlog work is the in-progress DESIGN anti-fabrication sweep — one persona per run — whose last remaining design persona (per the previous run's "Deferred / next" pointer and backlog line 214) is `design-ui-landing-page-specialist`, flagged for "3-5%/15-25% conversion", "10-15%/quarter" and "15-20% CPA improvement". The three flagged figures were grep-verified present before editing.
+
+**The defect.** A full read of the Success Metrics found the borrowed-benchmark defect in **all eight** bullets (the sweep audits the whole agent, not just the spotted bullets): "3-5% / 15-25%" primary conversion, "10-15% per quarter" improvement, "15-20%" CPA improvement, "45-60 seconds" time-to-CTA, "70%+" mobile parity, "40-60% / 25-35%" form completion, "20-30%" secondary CTR, and "30-45%" bounce — all unsourced figures asserted as targets a landing page would hit.
+
+**What shipped.** A section-level rubric intro (read against this page's own prior versions on a matched traffic cohort; a page rarely moves conversion alone — traffic source, the ad/offer and price land in the same window; this agent owns the *test* that isolates a page change, not the outcome) plus per-bullet rewrites, mirroring the ad-creative-producer (09-16), brand-identity (09-26), content-visual (09-26) and presentation-designer (09-27) precedents:
+- **Primary Conversion Rate** — per traffic segment against the page's own prior versions; "3-5% / 15-25%" dropped, causal credit routed to `analytics-conversion-rate-optimizer`.
+- **Conversion Rate Improvement** — a your-own-history trend; "10-15%/quarter" quota dropped, count only experiments that reached significance.
+- **Cost Per Acquisition** — renamed from "CPA Reduction"; "15-20% improvement" dropped; a downstream cost the page influences but does not own, attribution to the page vs. a media change routed to `paid-media-attribution-analyst`.
+- **Time to Primary CTA** — "45-60 seconds" dropped; a directional above-fold-clarity diagnostic, not a threshold.
+- **Mobile Conversion Rate** — "70%+ parity" dropped; the mobile-vs-desktop gap per segment with the audience difference named.
+- **Form Completion Rate** — "40-60% / 25-35%" dropped; against this form's own prior versions, abandonment-by-field as the diagnostic.
+- **Click-Through Rate to Next Step** — "20-30%" dropped; per segment against own baseline, movement directional.
+- **Bounce Rate** — "30-45%" dropped; a directional engagement signal per traffic source, paired with time-on-page before it is read.
+
+**Scope boundary.** Matching the presentation-designer precedent, none of this agent's named metrics is a clean *controllable* bar — landing-page conversion is receiver-decided and traffic-confounded — so no fixed figure was kept or invented; the part the agent drives directly (page build quality: clarity, accessibility, load performance against its stated spec) is stated in the rubric intro rather than given a number.
+
+**Verified:** `bash scripts/lint-agents.sh` on both copies → **2/2 pass, 0 fail**; `diff` clean (byte-identical); the eight retired figures now appear **only in negation context** ("not a fixed…", "not asserted as…"); whole-repo internal-`.md`-link walk → **0 broken** (233 files).
+
+**Design discipline audited end to end** — ad-creative (09-16), brand-identity (09-26), content-visual (09-26), presentation (09-27), landing-page (09-27). The sweep's only remaining discipline is the project-management nuanced case (keep controllable process bars; retire only the receiver-decided/causal figures — "NPS 50+", "5-10% velocity/quarter", "2-3x", "turnover below 15%" — case by case).
+
+**Health check (this run, all green):** `.claude-plugin/marketplace.json` + `plugins/saas-marketing/.claude-plugin/plugin.json` parse via jq with required fields; all **19** skills carry a `SKILL.md` with `name`+`description`; **0 broken internal `.md` links** (233 files); living guides fresh (`guides/aeo-geo-playbook.md` "Last reviewed" 2026-09-21 = 6 days; `AGENTS_INDEX.md` generated 2026-09-24). Counts re-derived against reality: **85 agent files** on disk (88 `.md` across the 17 category dirs minus the 3 non-agent `strategy/` docs), **19 skill directories**; the live GitHub About reads **85 agents, 19 skills**, matching README badges/hero, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` and both manifests. No stale count anywhere (public surfaces; CHANGELOG's older numbers are dated history).
+
+**Discoverability:** No count, name, or capability changed (a within-capability content fix removing fabricated figures from an existing agent's Success Metrics), so no discoverability surface edit was due — verified rather than assumed.
+
+**Changed files:** both dual-located copies of `design/design-ui-landing-page-specialist.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (fifth design persona marked done; design sweep closed; PM case flagged as the remaining sweep target), `maintenance/RUN_LOG.md` (this entry).
+
+**Deferred / next:** the anti-fabrication sweep's only remaining discipline is project-management (nuanced case). P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions. The next Skill Scout run should hunt an ADD (per the alternation rule).
