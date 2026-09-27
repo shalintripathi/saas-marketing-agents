@@ -138,7 +138,7 @@ _3 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
-| 🌱 | **Customer Marketing Lead** | [`growth/growth-customer-marketing-lead.md`](growth/growth-customer-marketing-lead.md) | Carries net revenue retention as a marketing number—adoption, expansion, churn-save and renewal marketing to the installed base, where the cheapest ARR in the company already lives |
+| 🌱 | **Customer Marketing Lead** | [`growth/growth-customer-marketing-lead.md`](growth/growth-customer-marketing-lead.md) | Carries net revenue retention as a marketing number—adoption, expansion, churn-save and renewal marketing to the installed base, where the cheapest ARR in the company already lives—plus the self-serve exit: a cancel flow whose saves are counted only if they survive, and failed-payment (dunning) recovery run by decline type |
 | 🖱️ | **Interactive Demo Strategist** | [`growth/growth-interactive-demo-strategist.md`](growth/growth-interactive-demo-strategist.md) | Owns the self-guided interactive demo — the product experience in front of the login wall: demo portfolio and flow scripting, gate policy read as a measurement decision, seed data that never comes from a live account, a freshness register with release-bound re-capture triggers, step-level instrumentation with stated denominators, and the controlled comparison required before any demo uplift is called a cause |
 | 🚀 | **PLG Activation Strategist** | [`growth/growth-plg-activation-strategist.md`](growth/growth-plg-activation-strategist.md) | Owns the self-serve funnel behind the login wall — the causally validated activation event, the trial architecture, and the PQL definition product-led sales runs on |
 

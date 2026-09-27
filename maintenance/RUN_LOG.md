@@ -4408,3 +4408,24 @@ It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and t
 **Changed files:** both dual-located copies of `design/design-presentation-designer.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (design-sweep fourth persona marked done with the next-persona pointer), `maintenance/RUN_LOG.md` (this entry).
 
 **Deferred / next:** one design persona remains — `design-ui-landing-page-specialist` ("3-5%/15-25% conversion", "10-15%/quarter", "15-20% CPA improvement") — then the project-management nuanced case (keep controllable process bars; only receiver-decided/causal figures are candidates). P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
+
+### 2026-09-27 — Skill Scout: **ENHANCE** — the self-serve exit had no owner: nobody designed the cancel flow, and nobody ran failed-payment recovery (automated)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED, after an ADD was sought first and could not be proved.** The last three scout runs (09-25 PPC, 09-25 Pipeline Analyst, 09-26 Launch Manager) were all enhancements, so the alternation rule put an ADD first. The discipline rotation put **email / analytics / ops** in focus (last on 09-24). Six ADD hypotheses were grep-tested and killed: retention manager, email developer, MMM analyst, reverse-ETL activation, webinar program, intent-data analyst (rows in [scout-ledger.md](scout-ledger.md)). The strongest real gap was a missing program on an existing owner, not a missing role, so no persona was manufactured.
+
+**Finding.** `cancel flow`/`cancellation flow` and `exit survey` returned **zero** repo-wide. `dunning`/`failed payment`/`involuntary churn` appeared only in `analytics-performance-analyst`'s movement identity, as a maturity note. `growth-customer-marketing-lead` already owned churn-save, win-back and (Rule 7) the regulated cancellation path, but had no cancel-flow design, no save measurement and no failed-payment program. Its Rule 10 also suppressed "non-payment" churn from win-back without separating a refused bill from an expired card.
+
+**What shipped** (both dual-located copies, byte-identical):
+- **Rule 11.** Involuntary churn is reported separately and kept out of the health model's evidence and out of Rule 10's suppression. A save counts only once it survives the offer's end, read against a no-offer holdout. Rule 10 now points to it.
+- **"The Self-Serve Exit" section.** Scope: card- and mandate-billed plans only; unpaid invoiced contracts are finance's AR. It covers the cancel flow (reason, then at most one reason-matched offer, then plain confirmation, then a reactivation path; no roadmap dates; discounts inside the pricing floors with an expiry), the reason list coded like research, save-by-survival, and failed-payment handling by decline type (retryable, non-retryable, authentication required, prevention). It also states the CAN-SPAM transactional constraint on dunning copy and requires the grace period to end in a written state.
+- **Self-Serve Exit Kit** deliverable, plus a benchmark-free **Self-serve exit** success metric.
+
+**Sources.** Ideas only from coreyhaines31/marketingskills `churn-prevention` (MIT, verified at read time). Its benchmark tables were deliberately not imported. Facts are cited to Stripe's Smart Retries and Declines documentation and the FTC CAN-SPAM guide (read 2026-09-27; short quotes only).
+
+**Discoverability:** a capability is new to this agent, so the agent `description:`, `AGENTS_INDEX.md` role line, `llms.txt` Growth Ops line, the `growth-ops` skill `description:` (natural phrases: cancel flow, save offer, exit survey, pause subscription, dunning, failed payment recovery, involuntary churn, "people keep canceling") and its agent table, and the README Growth Ops trigger row were all updated. No count change: still **85 agents / 19 skills / 17 disciplines**, so no About-box, badge, manifest or CITATION edit was due.
+
+**Verified:** `bash scripts/lint-agents.sh` on both copies → 2/2 pass. `diff` between the copies is clean. The whole-repo internal `.md` link walk found **0 broken** links.
+
+**Changed files:** both copies of `growth-customer-marketing-lead.md`, `plugins/saas-marketing/skills/growth-ops/SKILL.md`, `AGENTS_INDEX.md`, `llms.txt`, `README.md`, `CHANGELOG.md`, `maintenance/scout-ledger.md`, `maintenance/backlog.md`, `maintenance/RUN_LOG.md`.
+
+**Deferred / next:** reciprocal pointers (lifecycle Sender Register row for billing/dunning, the performance analyst's split pointing here, the pricing concession class), filed in the backlog. The next scout run should hunt an ADD again, since four consecutive scout runs have now enhanced.
