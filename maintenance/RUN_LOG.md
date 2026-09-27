@@ -4378,3 +4378,33 @@ It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and t
 **Changed files:** both dual-located copies of `design/design-content-visual-designer.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (design-sweep third persona marked done with the next-persona pointer), `maintenance/RUN_LOG.md` (this entry).
 
 **Deferred / next:** the DESIGN sweep continues one persona per run — `design-presentation-designer` ("90%+ completion", "50-70% next-step conversion", "70%+ recall") and `design-ui-landing-page-specialist` ("3-5%/15-25% conversion", "10-15%/quarter", "15-20% CPA improvement") still to scan, then the project-management nuanced case (keep controllable process bars; only receiver-decided/causal figures are candidates). P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
+
+### 2026-09-27 — Anti-fabrication sweep: DESIGN discipline, fourth persona (`design-presentation-designer`) (automated)
+
+**This run DE-FABRICATED** the Success Metrics of `design/design-presentation-designer.md` (both dual-located copies, byte-identical). Within-capability content fix; no count/name/capability change → still **85 agents / 19 skills / 17 disciplines**, so no About-box, badge, manifest, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` or frontmatter edit was due (verified against the live GitHub About via `gh repo view` — reads `85 agents, 19 skills` — not assumed, per the sweep precedent).
+
+**Why this item.** Health check was fully green (see below), so no P0. The highest-priority unblocked backlog work is the in-progress DESIGN anti-fabrication sweep — one persona per run — whose next persona (per the previous run's "Deferred / next" pointer and backlog line 213) is `design-presentation-designer`, flagged for "90%+ completion", "50-70% next-step conversion" and "70%+ recall". The three flagged figures were grep-verified present before editing.
+
+**The defect.** A full read of the Success Metrics found the same borrowed-benchmark defect in **seven** of eight bullets (the sweep audits the whole agent, not just the spotted bullets): `90%+ / 85%` completion, `50-70%` next-step conversion, `70%+` recall, `70-80%` deck reuse, `<10% variance` presenter consistency, `80%+` objection resolution, and a "measurable acceleration" sales-velocity claim — all unsourced figures asserted as outcomes a deck would produce.
+
+**What shipped.** A section-level rubric intro (read against your own prior decks; a deck rarely moves a deal alone, so causal credit is shared and routed out) plus per-bullet rewrites, mirroring the ad-creative-producer (2026-09-16), brand-identity (2026-09-26) and content-visual (2026-09-26) precedents:
+- **Presentation Completion Rate** — measured from actual meeting/webinar attendance vs this team's own prior decks; `90%+ / 85%` dropped.
+- **Next Step Conversion** — receiver-decided with a which-prospects-get-a-deck confound; `50-70%` dropped, causal credit routed to `analytics-conversion-rate-optimizer`.
+- **Message Retention** — a survey read against your own prior wave; `70%+` dropped, messages surfaced rather than averaged.
+- **Deck Reusability** — the reuse distribution across the deck library; `70-80%` threshold removed.
+- **Presenter Consistency** — a delivery behavior the presenter owns; `<10% variance` dropped, read as a directional signal of where the deck needs clearer design.
+- **Objection Resolution** — `80%+` dropped; split the receiver-decided satisfaction outcome from the coverage the agent *does* own (whether backup material exists per anticipated objection).
+- **Sales Velocity Impact** — the "measurable acceleration" claim dropped; co-determined by deal size/process/competition/rep, causal claims routed to the analytics owner.
+- **Engagement Signals** carried no figure and was left as a qualitative directional read.
+
+**Scope boundary.** Unlike the two prior design personas, none of this agent's named metrics is a clean *controllable* bar (there is no compliance/coverage metric it sets outright), so — per the sweep's rule of never inventing a target — no fixed figure was kept or added; the one genuinely owned read (objection backup-material coverage) is surfaced inside its bullet without a number.
+
+**Verified:** `bash scripts/lint-agents.sh` on both copies → **2/2 pass, 0 fail**; `diff` clean (byte-identical); the seven retired figures now appear **only in negation context** ("not a fixed…", "not asserted as…"); whole-repo internal-`.md`-link walk → **0 broken**.
+
+**Health check (this run, all green):** `.claude-plugin/marketplace.json` + `plugins/saas-marketing/.claude-plugin/plugin.json` parse via jq with required fields; all **19** skills carry a `SKILL.md` with `name`+`description`; **0 broken internal `.md` links**; living guides fresh (`guides/aeo-geo-playbook.md` "Last reviewed" 2026-09-21 = 6 days, `integrations/README.md` 2026-07-23 inside 90; `AGENTS_INDEX.md` generated 2026-09-24; the `strategy/`+orchestrator `2026-04-03` stamps are static version metadata, not freshness markers). Counts re-derived against reality: **85 agent files** on disk (88 `.md` across the 17 category dirs minus the 3 non-agent `strategy/` docs), **19 skill directories**; the live GitHub About reads **85 agents, 19 skills**, matching README badges/hero, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff` and both manifests. No stale count anywhere (public surfaces; CHANGELOG's older numbers are dated history, correct as written).
+
+**Discoverability:** No count, name, or capability changed (a within-capability content fix removing fabricated figures from an existing agent's Success Metrics), so no discoverability surface edit was due — verified rather than assumed.
+
+**Changed files:** both dual-located copies of `design/design-presentation-designer.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (design-sweep fourth persona marked done with the next-persona pointer), `maintenance/RUN_LOG.md` (this entry).
+
+**Deferred / next:** one design persona remains — `design-ui-landing-page-specialist` ("3-5%/15-25% conversion", "10-15%/quarter", "15-20% CPA improvement") — then the project-management nuanced case (keep controllable process bars; only receiver-decided/causal figures are candidates). P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
