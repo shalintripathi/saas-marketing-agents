@@ -1,6 +1,6 @@
 ---
 name: social-media-ops
-description: "Comprehensive social media operations for B2B SaaS brand building and engagement. Use this skill to develop LinkedIn strategy, decide whether to run a LinkedIn newsletter and how to scope it, capture consented registrations from LinkedIn Events, check LinkedIn Live eligibility, manage Twitter/X presence, create YouTube content, engage on Reddit communities, build community, develop influencer and creator partnerships, vet a creator before paying them, start or fix a B2B podcast, book podcast guests and guest appearances, judge whether a podcast is worth appearing on when you cannot audit its numbers, write show notes and transcripts, and execute organic social campaigns. Also triggers on: LinkedIn, LinkedIn newsletter, LinkedIn Events, LinkedIn Live, event registration form, subscribe to our newsletter on LinkedIn, marketing consent checkbox, Notify Employees, Twitter/X, YouTube, Reddit, community, influencer, creator partnerships, influencer vetting, engagement rate, fake followers, engagement pods, FTC disclosure, sponsored post disclosure, media kit, social media strategy, organic social, employee advocacy, podcast, podcast strategy, podcast guesting, how do I know if this podcast has real listeners, the host says they get 50k downloads, is this podcast worth going on, podcast RSS feed research, IAB podcast measurement certification, Listen Score, Apple Podcasts reviews, show notes, audiogram, episode transcript, social media account access, who has admin on our LinkedIn page, the person who ran our social accounts left, locked out of our company account, social media offboarding, YouTube channel owner, Slack primary owner, social account MFA, social media approval workflow, pause all scheduled posts."
+description: "Comprehensive social media operations for B2B SaaS brand building and engagement. Use this skill to develop LinkedIn strategy, decide whether to run a LinkedIn newsletter and how to scope it, capture consented registrations from LinkedIn Events, check LinkedIn Live eligibility, manage Twitter/X presence, create YouTube content, engage on Reddit communities, build community, develop influencer and creator partnerships, vet a creator before paying them, start or fix a B2B podcast, book podcast guests and guest appearances, judge whether a podcast is worth appearing on when you cannot audit its numbers, write show notes and transcripts, run social listening (what are people saying about us, share of voice, brand monitoring, validated sentiment, alert thresholds, routing signals to the right owner), and execute organic social campaigns. Also triggers on: LinkedIn, LinkedIn newsletter, LinkedIn Events, LinkedIn Live, event registration form, subscribe to our newsletter on LinkedIn, marketing consent checkbox, Notify Employees, Twitter/X, YouTube, Reddit, community, influencer, creator partnerships, influencer vetting, engagement rate, fake followers, engagement pods, FTC disclosure, sponsored post disclosure, media kit, social media strategy, organic social, employee advocacy, podcast, podcast strategy, podcast guesting, how do I know if this podcast has real listeners, the host says they get 50k downloads, is this podcast worth going on, podcast RSS feed research, IAB podcast measurement certification, Listen Score, Apple Podcasts reviews, show notes, audiogram, episode transcript, social media account access, who has admin on our LinkedIn page, the person who ran our social accounts left, locked out of our company account, social media offboarding, YouTube channel owner, Slack primary owner, social account MFA, social media approval workflow, pause all scheduled posts, social listening, what are people saying about us, brand monitoring, brand mentions, share of voice, social share of voice vs competitors, sentiment analysis, is our sentiment dashboard accurate, listening query, boolean query, mention alerts, spike alert, CrowdTangle replacement, Reddit API access, which platforms can our listening tool see, someone on Reddit asked for a tool like ours, comment mining, voice of customer from social."
 ---
 
 # Social Media Operations Skill
@@ -18,9 +18,9 @@ description: "Comprehensive social media operations for B2B SaaS brand building 
 
 ## What This Is
 
-The Social Media Operations skill coordinates a team of 7 specialist agents to build brand visibility, drive engagement, and establish authority across social platforms. From strategic LinkedIn thought leadership and community building to YouTube content production and influencer partnerships, this team executes across every major social channel. This skill enables you to leverage organic social as a sustainable acquisition and brand-building channel, reducing dependence on paid media.
+The Social Media Operations skill coordinates a team of 8 specialist agents to build brand visibility, drive engagement, and establish authority across social platforms. From strategic LinkedIn thought leadership and community building to YouTube content production and influencer partnerships, this team executes across every major social channel. This skill enables you to leverage organic social as a sustainable acquisition and brand-building channel, reducing dependence on paid media.
 
-## The Team: 7 Specialist Agents
+## The Team: 8 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -31,6 +31,7 @@ The Social Media Operations skill coordinates a team of 7 specialist agents to b
 | 5 | Community Builder | `agents/social-community-builder.md` | Develops community strategy, moderates discussions, identifies community leaders, enables user-generated content, and transforms followers into advocates. Manages Discord, Slack communities, forums. Also holds **the account estate**: the register of who can post or administer every company social account and community workspace, two people able to reach the top role on every surface, recovery email/phone and MFA held by the company, the social step in every departure (ownership transferred before any account is deleted), and a risk-tiered publishing gate with a tested pause switch. |
 | 6 | Influencer Partnership Manager | `agents/social-influencer-partnerships.md` | Identifies relevant creators and **verifies their audience before you pay for it** — median engagement rather than the quoted mean, comment substance, inflated or pod-driven engagement, sponsored-post history. Structures and negotiates the deal, operates the FTC disclosure and post-publication monitoring the advertiser is liable for, and tracks partnership performance in pipeline. |
 | 7 | Podcast & Audio Strategist | `agents/social-podcast-strategist.md` | Decides whether the company should run a show at all, builds the guest list as an account plan, books the guest tour on other people's shows and qualifies each one on public evidence (RSS feed, guest history, review wall, IAB certification, Listen Score) rather than self-reported downloads, produces proofread transcripts and show notes, and holds the rights, consent and FTC disclosure register. Measures pipeline, never downloads. |
+| 8 | Social Listening Analyst | `agents/social-listening-analyst.md` | Runs social listening as a **measurement instrument, not a mention feed**: a query book where every query passes a precision check before it goes live, a coverage map that states which platforms and private channels the tooling cannot see (and re-checks platform access such as the post-CrowdTangle Meta Content Library and Reddit's Data API approval), automated sentiment validated against a hand-coded sample, social share of voice with its competitor set, source set, unit and window written down, alert thresholds set against each query's own baseline, and a routing table that sends every signal (crisis, competitor, buyer language, public buying intent) to the one agent who acts on it. Detects and routes; never replies or pitches. |
 
 ## How to Use
 
@@ -95,6 +96,14 @@ The Social Media Operations skill coordinates a team of 7 specialist agents to b
 - "Write show notes and clean up this episode transcript" → Podcast & Audio Strategist
 - "How do we measure whether the podcast is working?" → Podcast & Audio Strategist (never downloads)
 - "Do we have to disclose that we paid for this guest spot?" → Podcast & Audio Strategist (16 CFR § 255.5), with the legal verdict from Legal Compliance Officer
+
+**Social Listening & Share of Voice**
+- "What are people saying about us?" / "Set up brand monitoring" → Social Listening Analyst (the coverage map comes first: what the tooling can and cannot see)
+- "What's our share of voice against competitors on social?" → Social Listening Analyst (written denominator; press share of voice stays with PR Strategist)
+- "Is our sentiment dashboard right?" → Social Listening Analyst (hand-coded validation sample and agreement rate)
+- "Our mentions spiked—should we worry?" → Social Listening Analyst (baseline-derived thresholds; Tier 1 pages the crisis owner in `comms-pr-strategist`)
+- "Someone on Reddit is asking for a tool like ours" → Social Listening Analyst routes it; the reply decision belongs to Reddit Specialist
+- "Mine social comments for how buyers describe the problem" → Social Listening Analyst (verbatim quotes, dated and linked, routed to `pmm-messaging-architect`)
 
 **Integrated Social Campaigns**
 - "Build coordinated social strategy across all channels" → All agents coordinate
@@ -246,7 +255,7 @@ The Social Media Operations skill coordinates a team of 7 specialist agents to b
 6. Expect 6-12 months of patient consistent work before significant traction
 
 **Managing PR Crisis or Negative Sentiment**
-1. Listening: Monitor all platforms for sentiment
+1. Listening: Social Listening Analyst runs the Tier 1 alert and states what the listening can and cannot see; `comms-pr-strategist` owns the response
 2. Response strategy: Determine appropriate platforms and tone
 3. Coordination: Align messaging across all channels
 4. Transparency: Address concerns authentically and quickly
