@@ -4567,3 +4567,24 @@ It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and t
 **Verified:** lint 2/2 on both copies; `diff` identical; 86 agent files on disk; AGENTS_INDEX rows = 86 = sum of section counts = sum of README discipline counts; YAML frontmatter of all skills and agents parses; 0 broken relative links in README/AGENTS_INDEX/llms.txt; live About description reads 86.
 
 **Deferred / next:** ScrapeCreators' remaining unread skills (`audience-research`, `transcript-intelligence`, `trend-discovery`, `product-demand-research`, `content-repurposing`) stay queued. The next scout run may ENHANCE.
+
+### 2026-09-29 — Skill Scout: **ENHANCE** — the buying page an agent lands on had no instrument, and the tools it could press had no rules (automated)
+
+**Why an ENHANCE this run.** The previous scout run (09-28) was an ADD, so the alternation rule did not force another. Focus discipline **content / SEO**, the oldest in the rotation (last the explicit focus 09-21; the 09-26 content slot went to PMM).
+
+**Source.** Known-collection re-check found one meaningful release: [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) v2.4.0 (MIT, 2026-09-24) added an `seo-agentic` skill for agent readiness. All other known collections showed only badge/star/housekeeping commits since 09-20 (ledger row).
+
+**Gap proven.** Repo-wide grep: `Agentic Browsing`, `WebMCP`, `Content-Signal`, `ai-catalog`, `text/markdown` — all **zero**. `pmm-agent-readiness-strategist` owned the agent traversal of the buying path but had no page-level instrument, and nothing governed browser-exposed tools on commercial forms.
+
+**What shipped** (both dual-located copies, byte-identical, lint pass, 3,143 words):
+- **Critical Rule 11** — WebMCP tools on commercial pages bind to the visible form's own handler/validation/authz; consequential actions carry the hint *and* a human confirmation step; untrusted-content hint on third-party text; a description telling the agent to skip confirmation is a severity-one defect.
+- **"The Browser Layer" section** — reading Lighthouse Agentic Browsing as a fraction with a moving denominator (never a percentage; bigger N ≠ better site), the accessibility-tree check as the one that matters on buying pages (and not a WCAG claim), lab-only/no ranking meaning, run-twice for WebMCP regressions; WebMCP posture as enhancement-not-foundation with dated status (W3C CG draft, Chrome origin trial 149–156, WebKit oppose, ChatGPT desktop site tools); explicit seams to `seo-technical-auditor` (CLS/perf), `seo-ai-search-optimizer` (content `llms.txt`, crawler access) and `design-ui-landing-page-specialist` (markup fixes).
+- New deliverable **Browser-Agent Readiness Report** and a **Browser-layer integrity** success metric graded pass/fail against the team's own prior run (no invented benchmarks).
+
+**Facts verified at primary sources, read 2026-09-29:** [Chrome — Agentic Browsing scoring](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring) (experimental, fraction score, Chrome 150+), [Chrome — WebMCP tool security](https://developer.chrome.com/docs/ai/webmcp/secure-tools) (annotations, `exposedTo`, length guidance; updated 2026-09-01), [WebKit standards-positions #670](https://github.com/WebKit/standards-positions/issues/670) (oppose), [OpenAI Help Center — site tools](https://help.openai.com/en/articles/20001423-using-site-tools-in-the-chatgpt-desktop-app). Deliberately **not** carried: the source's audit-ID and 33-axe-rule enumeration and the Lighthouse version it was introduced in (secondary sources disagree: 13.2 vs 13.3) — version-pinned detail that would rot.
+
+**Licensing.** MIT; ideas and structure only, no text reused; attribution line at the foot of the section.
+
+**Discoverability.** Name + problem added to the `product-marketing-ops` skill `description:` (new agent-readiness trigger phrases incl. "is our site agent-ready", "Lighthouse Agentic Browsing score", "WebMCP", "site tools for ChatGPT") and its agent table, `AGENTS_INDEX.md`, `llms.txt`, and the README trigger table. No agent/skill count change, so About/badges/CITATION untouched.
+
+**Backlog.** Filed Content-Signal for `seo-ai-search-optimizer` (usage layer beside the access layer) plus optional reciprocal pointers from the SEO technical auditor and landing-page specialist.
