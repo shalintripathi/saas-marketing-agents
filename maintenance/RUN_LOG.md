@@ -4660,3 +4660,46 @@ It also adds a new deliverable (Release-Stage Plan & Early-Access Charter) and t
 **Changed files:** both dual-located copies of `project-management/pm-resource-allocator.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (PM sweep item reopened with dated correction), `maintenance/RUN_LOG.md` (this entry).
 
 **Deferred / next:** the project-management sweep has two personas left — `pm-campaign-coordinator` and `pm-marketing-ops-scrum-master` — one per run. P1 distribution items remain blocked on stars/community history; the native-subagent conversion (#1) still needs its two in-thread decisions.
+
+### 2026-10-01 — Skill Scout: **ADD** — the Founder-Led GTM Strategist: an owner for the stage before the motion repeats (automated)
+
+**Run type: ADD.** The previous scout run (09-29) was an ENHANCE, so by alternation the run hunted an ADD. Focus discipline **PMM / sales / GTM**, the oldest in the rotation (last the explicit focus 09-25). The two maintainer-gated SCOPE QUESTIONS in this territory (grade-the-function, sales-enablement program) were deliberately left unopened.
+
+**Source.** First sighting of [AIDevGTM/gtm-cofounder](https://github.com/AIDevGTM/gtm-cofounder): 306★, MIT (licence API), created 2026-07-24, pushed 2026-09-29, 19 skills for founder-led GTM at developer-tool startups. Four skills were read or skimmed. The other known collections showed only badge or README commits (ledger row).
+
+**Gap proven.** A grep across all 86 agents for `founder-led`, `PMF`, `Sean Ellis`, `first AE`, `first marketing hire`, `pre-seed` and `zero to one` returned **zero**. `product-market fit` appears once, and `design partner` only in passing. Every agent assumes a working motion to improve, and none owned the stage before that motion exists, or the handoff out of it. This is distinct from the 08-08 `adaptico-os` audience-mismatch dismissal, which was about a self-serve Product Hunt launch. The role is durable (founder-led sales precedes every sales team), and demand evidence came from founding-AE hiring and the source's traction.
+
+**What shipped.** `product-marketing/pmm-founder-led-gtm-strategist.md` (~3,050 words, schema-complete, 11 Critical Rules, a Stage Boundary section, 8 deliverables, 9 metrics), dual-located to `plugins/saas-marketing/skills/product-marketing-ops/agents/` (byte-identical). It covers:
+- an evidence ledger in which each belief is tagged validated or assumed
+- first accounts mined from the company's own usage data
+- the four-part deal check (champion, budget holder, costed pain, trigger) used as a market-learning instrument
+- design partners on written terms
+- fit read from cohort retention plus the Sean Ellis question, cited to First Round Review and framed as a heuristic
+- retention before acquisition
+- a "not yet" register over this roster
+- a sales playbook with a count of closed deals behind each line, which sets the first-hire trigger
+- a dated stage-handoff memo
+
+It has an explicit boundary paragraph naming 11 agents it must not overlap. No borrowed benchmarks: the source's MoM growth rates and customer-count thresholds were rejected (Rule 10).
+
+**Licensing.** MIT. Only ideas were taken (three, named in the in-file attribution), and no text was reused.
+
+**Structural note:** none. It sits in the existing `product-marketing/` discipline (10 → 11).
+
+**Discoverability (all in this run):**
+- the README badge, prose, anchor, Product Marketing row (11) and skills trigger table
+- the AGENTS_INDEX row, section count and regenerated date
+- llms.txt
+- CITATION.cff
+- both manifests
+- the suite router (team table and totals)
+- the CATALYST SKILL table and both strategy copies
+- EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, the loops/integrations READMEs and SKILL_SCOUT.md
+- the owning skill's `description:` (new phrases: founder-led sales, design partners, do we have product-market fit, Sean Ellis test, first AE/first marketing hire) and its agent table (row 11)
+- the live GitHub About description (now 87, adds "founder-led GTM"; trimmed "interactive demos" to "demos" to fit 350 chars)
+
+**Verified:** lint 2/2 on both copies; `diff` identical; 87 agent files on disk = 87 AGENTS_INDEX rows = sum of index section counts = sum of README discipline counts; YAML frontmatter of all skills and the new agent parses; manifests parse as JSON; 916 internal links, 0 broken; no stray `86` agent-count references remain outside history files.
+
+**Changed files:** both copies of the new agent, `AGENTS_INDEX.md`, `README.md`, `llms.txt`, `CITATION.cff`, `ROADMAP.md`, both manifests, `product-marketing-ops/SKILL.md`, `saas-marketing-suite/SKILL.md`, `catalyst-orchestrator/SKILL.md` + `agents/catalyst-strategy.md`, `strategy/{catalyst-strategy,EXECUTIVE-BRIEF,QUICKSTART}.md`, `integrations/README.md`, `loops/README.md`, `CHANGELOG.md`, `maintenance/{SKILL_SCOUT,scout-ledger,backlog,RUN_LOG}.md`.
+
+**Deferred / next:** reciprocal pointers from `pmm-positioning-strategist`, `sales-discovery-coach` and `analytics-demand-planner` into the new agent's handoff, filed in the backlog. The next scout run may ENHANCE.
