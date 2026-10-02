@@ -157,7 +157,7 @@ _The evidence tiers and contamination mechanics are defined and cited in `email-
 
 **Lead Scoring Automation Workflows** (12+ pages)
 - Automated lead scoring workflows:
-  - **Email engagement scoring** (per Rule 9): open = 0 points (Unconfirmed by construction); bare click = 0 until it resolves into a first-party session, then it scores; reply = 10 points (Confirmed human). Weight the signals a machine can't fake, not the ones it fires for free
+  - **Email engagement scoring** (per Rule 9): open = 0 points (Unconfirmed by construction); bare click = 0 until it resolves into a first-party session, then it scores; reply = 10 points (Confirmed human — a *human* reply: an out-of-office or other automatic responder carrying `Auto-Submitted` scores zero and must not advance a branch; the classification is `sales-outbound-strategist`'s *Not Every Reply Is the Buyer*). Weight the signals a machine can't fake, not the ones it fires for free
   - **Behavioral scoring**: page visits tracked, demo request = 20 points, trial signup = 30 points, updated in real-time
   - **Company-level scoring**: company size API lookup, Crunchbase data enrichment for company metrics, company score factored into lead score
   - **Decay scoring**: monthly re-calculation reducing points for actions >60 days old, keeping recent behavior weighted higher

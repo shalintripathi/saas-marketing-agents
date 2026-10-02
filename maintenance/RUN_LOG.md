@@ -4753,3 +4753,20 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 **Changed files:** both dual-located copies of `sales/sales-proposal-architect.md` (byte-identical), `CHANGELOG.md` (Unreleased/Changed bullet — user-facing), `maintenance/backlog.md` (dated `[x]` record so this proof-text fix isn't re-derived), `maintenance/RUN_LOG.md` (this entry).
 
 **Deferred / next:** nothing new. The sales Success-Metrics sweep stays correctly closed (its scope was metrics, not proof-text). P1 distribution items remain blocked on stars/community history; native-subagent conversion (#1) still needs its two in-thread decisions; `pm-marketing-ops-scrum-master`'s velocity-quota split remains the one open anti-fabrication straggler.
+
+
+## 2026-10-02 — Skill scout (email / analytics / ops) — ENHANCED: reply handling on the Outbound Strategist
+
+**Mode:** ENHANCE (the previous scout run, 10-01, was an ADD). Focus discipline email / analytics / ops, least recently covered (09-27). Pulled from the backlog's queued `chunkydotdev/email-skills` item.
+
+**Gap (grep-verified):** the repo moved outbound's verdict from opens to replies and calls the reply "confirmed human" in three agents, but nothing filtered out-of-office notices, helpdesk acknowledgements, departed-employee responders or bounce reports out of the reply count. `reply classification` / `out of office` / `reply handling` grepped to zero. And nothing said that a "remove me" reply is an opt-out, although the FTC guide names "sending a reply email" as a valid opt-out step.
+
+**What shipped:** `sales-outbound-strategist` gets Rule 10 plus a new *Not Every Reply Is the Buyer* section covering: header-first machine detection (RFC 3834 `Auto-Submitted`, `Precedence` treated as a hint only); an eight-row reply-to-sequence-action table; every human reply stops the cadence; opt-out by reply suppressed across the whole cold estate the same day (CAN-SPAM 10 business days, GDPR 21(3)); a human confirms refusals and positive-reply credit; reply bodies treated as untrusted LLM input. The Response Rate metric now counts human replies only and splits out positive replies, and Unsubscribe Rate counts opt-out replies. One-line pointers were added to `email-deliverability-specialist`'s confirmed-human tier and `email-automation-engineer`'s reply = 10 points scoring. Ideas-only credit to chunkydotdev/email-skills (MIT); its unsourced thresholds and SLAs were not carried.
+
+**Verified:** `bash scripts/lint-agents.sh` on all six changed agent files → 6/6 pass; each dual-located pair is byte-identical; whole-repo internal `.md` link walk → 0 broken (237 files); no count change (still 87 agents / 19 skills), so the About description and badges were not due.
+
+**Discoverability:** Outbound Strategist `description:` frontmatter + `AGENTS_INDEX.md` row name the reply-handling problem; the `sales-enablement` skill `description:` gains the phrases a marketer types ("out-of-office replies", "our reply rate is inflated", "prospect replied remove me", "opt-out by reply"), plus its agent-table row; `llms.txt` Sales Enablement line; the README Sales Enablement trigger-phrase row.
+
+**Changed files:** both copies each of `sales/sales-outbound-strategist.md`, `email/email-deliverability-specialist.md` and `email/email-automation-engineer.md`; `plugins/saas-marketing/skills/sales-enablement/SKILL.md`; `AGENTS_INDEX.md`; `llms.txt`; `README.md`; `CHANGELOG.md`; `maintenance/scout-ledger.md`, `maintenance/backlog.md`, `maintenance/RUN_LOG.md`.
+
+**Next:** by alternation, the next scout run should hunt an ADD.
