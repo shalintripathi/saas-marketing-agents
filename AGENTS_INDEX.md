@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**87 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**88 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **87 agents** indexed below. Last generated 2026-10-01.
+> **88 agents** indexed below. Last generated 2026-10-03.
 
 ---
 
@@ -42,13 +42,14 @@ _7 agents_
 
 ## Paid Media
 
-_7 agents_
+_8 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
 | 📐 | **Attribution Analyst** | [`paid-media/paid-media-attribution-analyst.md`](paid-media/paid-media-attribution-analyst.md) | Truth-seeker ensuring no channel takes unearned credit through multi-touch attribution, incrementality testing, and measurement integrity |
 | 💵 | **Budget Optimizer** | [`paid-media/paid-media-budget-optimizer.md`](paid-media/paid-media-budget-optimizer.md) | CFO-minded marketer maximizing media spend ROI through portfolio optimization, diminishing returns modeling and scenario analysis — reads planned-vs-delivered pacing before fitting a curve, and maps audience collision across the portfolio (self-competition, campaign assignment order, suppression lists, cross-channel frequency) so an under-delivering campaign is never defunded for a selection the ad platform made |
 | 🎨 | **Creative Strategist** | [`paid-media/paid-media-creative-strategist.md`](paid-media/paid-media-creative-strategist.md) | Creative director optimizing ad creative testing frameworks, messaging angles, and visual strategies for B2B SaaS conversion |
+| 📡 | **Conversion Signal Engineer** | [`paid-media/paid-media-conversion-signal-engineer.md`](paid-media/paid-media-conversion-signal-engineer.md) | Fixes "our paid leads are junk" at the source: sends CRM pipeline stages (SQL, opportunity, closed-won) back to Google Ads, LinkedIn, Meta and Microsoft Ads as the bidding signal — signal ladder and primary-event choice fitted to each platform's upload clock (GCLID 90 days, enhanced conversions for leads 63), click-ID capture and carry (gclid, msclkid, li_fat_id, Meta lead_id), stage values from your own win rates, dedupe, EEA consent signals, retractions, and a signal health report |
 | 💰 | **PPC Strategist** | [`paid-media/paid-media-ppc-strategist.md`](paid-media/paid-media-ppc-strategist.md) | ROI-obsessed bidder optimizing Google Ads for B2B SaaS conversion value, quality score, and efficient customer acquisition — and the AI answer surface: ads in AI Overviews and AI Mode you cannot opt out of, target or see reported, plus ChatGPT Ads and Copilot as separate opt-in platforms with plan-tier reach limits, no negative keywords and an OAI-AdsBot landing-page gate |
 | 🎯 | **Programmatic Media Buyer** | [`paid-media/paid-media-programmatic-buyer.md`](paid-media/paid-media-programmatic-buyer.md) | Algorithmic strategist optimizing display and programmatic buys for B2B SaaS brand awareness, retargeting, and influenced pipeline |
 | 📢 | **Social Ads Specialist** | [`paid-media/paid-media-social-ads-specialist.md`](paid-media/paid-media-social-ads-specialist.md) | Precision B2B targeter optimizing LinkedIn, Meta, and Twitter ads for account-based marketing and high-intent lead generation |
