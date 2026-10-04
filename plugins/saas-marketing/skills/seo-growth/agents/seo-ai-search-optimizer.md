@@ -134,6 +134,8 @@ A config review tells you what you *meant*. Only logs tell you what *happened*. 
 
 Verify the agent is genuine before you conclude anything: user-agent strings are trivially spoofed, so confirm hits against the operator's published IP ranges or reverse DNS. Report each agent as **reachable / blocked / never-seen**, and never round *never-seen* up to *reachable* — an unverified agent is an unknown, not a pass.
 
+This same log-reading discipline, applied to **search-engine crawlers** — Googlebot and its siblings, Bingbot — is `seo-technical-auditor`'s *The Server Log Is the Only Record of What a Crawler Did*: the verification method (spoof-proof the user-agent, then read the served status mix and coverage) is shared, but the agents, the verdicts, and the owner are not, so run that audit there, not here.
+
 ### 5. The posture to recommend
 
 Default to allowing every **retrieval** and **user-triggered** agent — those are the ones that put you in answers. Treat **training** access as a business and legal decision the owner makes deliberately, not a default your CDN picks for you, and be clear with them that opting out of training does not remove you from engines that retrieve live. Then re-audit after each of the four events that have a track record of flipping access without telling marketing: a CDN migration, a WAF policy change, a security review, and a site re-platform.
