@@ -4840,3 +4840,26 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 **Discoverability / count sweep:** the `paid-media-ops` SKILL `description:` gains the phrases a marketer types ("our paid leads are junk", "offline conversion import", "send CRM stages back to Google Ads", "LinkedIn CAPI", "value-based bidding", "low match rate"), plus an agent-table row and a routing block. Also updated: the AGENTS_INDEX row and count; README team row, skills trigger row and every 87 → 88; llms.txt; CITATION.cff; both manifests; the suite router (counts and a routing entry); CATALYST orchestrator table, catalyst-strategy (both copies; the conceptual Paid Advertising list gains the entry), EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations/loops READMEs and SKILL_SCOUT.md. The GitHub About description goes 87 → 88 (349 chars; no room for a new keyword).
 
 **Next:** by alternation, the next scout run should ENHANCE. A small follow-up candidate is reciprocal one-line pointers to the new agent from `paid-media-ppc-strategist` (Conversion Tracking Implementation), `paid-media-attribution-analyst` and `paid-media-social-ads-specialist` (filed in backlog).
+
+### 2026-10-04 — Skill Scout: **ENHANCE**: the Technical SEO Auditor learns to read the server log, and stops calling every 5,000-page site a crawl-budget problem (automated)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The previous scout run (10-03) was an ADD, so alternation called for an ENHANCE. The focus discipline was **content / SEO**, the oldest in the rotation (last covered 09-29). The backlog had no open content/SEO curation item, so the scout searched fresh.
+
+**Gap (grep-verified):** `log file` / `server log` appeared only in `seo-technical-auditor` (three bullets: Core Mission, Rule 2, the migration watch list) and `seo-programmatic-strategist` (one line). No agent had a method for reading a log, verifying a crawler, or declaring a log's coverage. `seo-ai-search-optimizer` §4 already holds the AI-crawler log read, so this run stays on search-engine crawlers and states that seam. The auditor's Rule 8 ("crawl budget monitoring for sites over 5,000 pages") also contradicted Google's crawl-budget guide, which is written for roughly 1M+ pages changing weekly or 10k+ changing daily. That guide is already cited correctly in `seo-programmatic-strategist` Rule 9.
+
+**Market evidence:** [RankSpotAI/awesome-seo-agent-skills](https://github.com/RankSpotAI/awesome-seo-agent-skills) (CC0, hand-checked September 2026) lists log-file analysis first among "gaps worth filling". Neither claude-seo nor coreyhaines, kostja94 or aaron-he-zhu ships one. The two repos that do ship one ship a parsing script, not a method.
+
+**What shipped:** both dual-located copies of `seo/seo-technical-auditor.md` (byte-identical; lint 2/2). They carry:
+- a new section, **"The Server Log Is the Only Record of What a Crawler Did"** (about 1,300 words): question-first scope; crawler verification by reverse-and-forward DNS or Google's IP-range files, with Bingbot via `search.msn.com`, user-triggered fetches separated out, and unverified UA hits as their own row; coverage declared before any number (edge vs. origin, every server, malformed lines, retention), cross-checked against Crawl Stats; four reads, each with an owner (status to Googlebot by section, out-of-set fetches, fetch lag on new commercial pages, never-fetched sections); and what the log cannot tell you, plus PII handling routed to `ops-legal-compliance`
+- **Rule 8 rewritten** to Google's thresholds
+- the Core Mission bullet and the Technical Audit Report's "crawl budget waste %" reworded
+- a new **Server-Log Crawl Read** deliverable and a **verified-crawler log read** process metric (no benchmarks)
+- the snapshot section's Rule 8 reference updated
+
+**Facts:** all from primary sources read 2026-10-04 (Google ×4, Bing ×1). `bingbot.json` was not asserted because only secondary sources showed it. **Licensing:** ideas only, credited in-file to RankSpotAI (CC0) and iannuttall/seo (Apache-2.0). No text or code reused.
+
+**Discoverability:** the `seo-growth` SKILL `description:` gains the phrases a marketer types ("server log analysis", "what is Googlebot crawling", "verify Googlebot", "fake Googlebot", "do we have a crawl budget problem", "Crawl Stats report", "new pages not getting crawled"). Also updated: its agent-table row, the AGENTS_INDEX row, `llms.txt`, and the README trigger row. No count change (still 88/19), so About, badges and CITATION are untouched.
+
+**Changed files:** both copies of `seo-technical-auditor.md`, `plugins/saas-marketing/skills/seo-growth/SKILL.md`, `AGENTS_INDEX.md`, `llms.txt`, `README.md`, `CHANGELOG.md`, `maintenance/{scout-ledger,backlog,RUN_LOG}.md`.
+
+**Next:** by alternation, the next scout run should hunt an ADD. Optional follow-up filed: a one-line reciprocal pointer from `seo-ai-search-optimizer` §4 to the new section, since the verification discipline is shared.

@@ -38,7 +38,7 @@ _7 agents_
 | 🔗 | **Link Building Strategist** | [`seo/seo-link-building-strategist.md`](seo/seo-link-building-strategist.md) | Authority builder who earns links through strategy, PR, and relationship networks—never through buying or manipulation, and owns your presence on the third-party pages that hold your shortlist queries: "best [category] software" roundups, directories, and review-platform category pages |
 | 🌍 | **Local & International SEO Specialist** | [`seo/seo-local-and-international.md`](seo/seo-local-and-international.md) | Multi-market growth strategist for global expansion — hreflang sets and x-default, locale URL architecture (ccTLD vs. subfolder), the auto-redirect trap that hides localized pages from Googlebot, machine-translation review policy, content-parity drift, regional keyword strategy, and the Google Business Profile eligibility gate that decides whether a market gets local citations at all |
 | 🧩 | **Programmatic SEO Strategist** | [`seo/seo-programmatic-strategist.md`](seo/seo-programmatic-strategist.md) | Dataset-and-template builder who ships thousands of pages that each earn their index slot—and prunes the ones that don't before they become index bloat |
-| 🔍 | **Technical SEO Auditor** | [`seo/seo-technical-auditor.md`](seo/seo-technical-auditor.md) | Forensic specialist uncovering crawlability issues, Core Web Vitals problems, and technical barriers to ranking |
+| 🔍 | **Technical SEO Auditor** | [`seo/seo-technical-auditor.md`](seo/seo-technical-auditor.md) | Forensic specialist uncovering crawlability issues, Core Web Vitals problems, and technical barriers to ranking — including server-log reads of verified Googlebot/Bingbot traffic |
 
 ## Paid Media
 
