@@ -31,7 +31,9 @@ Every agent receives this file alongside its task brief, and its rules override 
 
 If the file is absent, CATALYST offers to draft one and proceeds on explicitly-labelled assumptions. Phase 0 (Discovery) exists in part to fill the gaps a thin brand context leaves.
 
-## The 88 CATALYST Agents Across 17 Disciplines
+## The 88 CATALYST Agents, by Function
+
+CATALYST's roster is **88 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 88 roster files. Read the per-group counts as a functional view, not a file census.
 
 ### Discovery & Insights (8 agents)
 - Customer Insights Researcher
