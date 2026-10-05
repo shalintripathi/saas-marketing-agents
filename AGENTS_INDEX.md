@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**88 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**89 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **88 agents** indexed below. Last generated 2026-10-03.
+> **89 agents** indexed below. Last generated 2026-10-05.
 
 ---
 
@@ -111,10 +111,11 @@ _8 agents_
 
 ## Product Marketing
 
-_11 agents_
+_12 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
+| 🪢 | **Acquisition Integration Strategist** | [`product-marketing/pmm-acquisition-integration-strategist.md`](product-marketing/pmm-acquisition-integration-strategist.md) | Runs marketing through an acquisition from signing to Day 100: sign-to-close guardrails against gun-jumping, a first letter to the acquired customers that says what changes, what does not and what is still undecided, one dated brand decision (keep, endorse, fold in or retire), suppression-first database merging with consent reviewed rather than assumed, cross-sell held until the acquired base's retention is stable, and product sunsets with dates and a migration path |
 | 🤝 | **Agent Readiness Strategist** | [`product-marketing/pmm-agent-readiness-strategist.md`](product-marketing/pmm-agent-readiness-strategist.md) | Makes the product evaluable, priceable and transactable by a machine — the transactable half of AI visibility, audited from the buying agent's side of the wire, including how to read the Lighthouse Agentic Browsing score and ship WebMCP tools on commercial forms safely |
 | 🧠 | **Brand & Demand Strategist** | [`product-marketing/pmm-brand-demand-strategist.md`](product-marketing/pmm-brand-demand-strategist.md) | Owns the buyers who are not in the market yet — your own out-of-market share computed from your own replacement cycle, the demand-creation versus demand-capture split as an evidenced decision rather than an inherited ratio, the category entry points and distinctive assets a brand is remembered by, and a brand-measurement plan (baseline, share of search, tracker, holdout) that survives the quarter someone asks you to justify it |
 | 🔬 | **Competitive Intelligence Specialist** | [`product-marketing/pmm-competitive-intelligence.md`](product-marketing/pmm-competitive-intelligence.md) | Competitive analysis, battle cards, win/loss interview programs, and incumbent-displacement intelligence — competitor ad libraries, public tech-stack inference, contract clocks, switching costs and EU Data Act switching rights |

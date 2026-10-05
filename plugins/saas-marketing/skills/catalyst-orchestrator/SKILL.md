@@ -1,6 +1,6 @@
 ---
 name: catalyst-orchestrator
-description: "Master orchestrator for B2B SaaS marketing campaigns using the CATALYST framework (Coordinated Agents for Targeted, Analytics-Led, Year-round SaaS Transformation). Coordinates 88 specialist agents across 17 marketing disciplines. Use this skill for ANY large-scale marketing initiative: full GTM launches, annual marketing plans, multi-channel campaigns, quarterly planning, or any task requiring coordination across content, SEO, paid media, social, email, design, sales enablement, product marketing, analytics, project management, and client operations. Also triggers on: marketing strategy, campaign plan, GTM launch, quarterly plan, marketing ops, full-funnel campaign, marketing audit, growth plan."
+description: "Master orchestrator for B2B SaaS marketing campaigns using the CATALYST framework (Coordinated Agents for Targeted, Analytics-Led, Year-round SaaS Transformation). Coordinates 89 specialist agents across 17 marketing disciplines. Use this skill for ANY large-scale marketing initiative: full GTM launches, annual marketing plans, multi-channel campaigns, quarterly planning, or any task requiring coordination across content, SEO, paid media, social, email, design, sales enablement, product marketing, analytics, project management, and client operations. Also triggers on: marketing strategy, campaign plan, GTM launch, quarterly plan, marketing ops, full-funnel campaign, marketing audit, growth plan."
 ---
 
 # CATALYST Orchestrator: Master Marketing Framework
@@ -20,11 +20,11 @@ Brand context is what turns generic B2B SaaS output into output that sounds like
 
 ## What This Is
 
-CATALYST (Coordinated Agents for Targeted, Analytics-Led, Year-round SaaS Transformation) is the master orchestration framework for enterprise-scale B2B SaaS marketing. It coordinates 88 specialized agents across 17 disciplines executing campaigns from strategy through optimization. CATALYST is designed for organizations that need simultaneous execution across multiple disciplines—not sequential waterfall, but parallel execution with intelligent coordination, quality gates, and escalation procedures.
+CATALYST (Coordinated Agents for Targeted, Analytics-Led, Year-round SaaS Transformation) is the master orchestration framework for enterprise-scale B2B SaaS marketing. It coordinates 89 specialized agents across 17 disciplines executing campaigns from strategy through optimization. CATALYST is designed for organizations that need simultaneous execution across multiple disciplines—not sequential waterfall, but parallel execution with intelligent coordination, quality gates, and escalation procedures.
 
 CATALYST operates in three modes:
 
-1. **CATALYST-Full**: Complete annual planning (88 agents, 12+ weeks) for comprehensive GTM launches and year-round marketing strategy
+1. **CATALYST-Full**: Complete annual planning (89 agents, 12+ weeks) for comprehensive GTM launches and year-round marketing strategy
 2. **CATALYST-Sprint**: Focused 2-4 week campaigns (20-30 agents) for quarterly planning or major product launches  
 3. **CATALYST-Micro**: Rapid 1-5 day execution (5-10 agents) for tactical campaigns or immediate needs
 
@@ -32,7 +32,7 @@ All three modes flow through six phase gates ensuring strategic clarity before b
 
 ## The Team / How It Works
 
-### 17 Disciplines & 88 Specialist Agents
+### 17 Disciplines & 89 Specialist Agents
 
 | Discipline | Agents | Specialty |
 |----------|--------|-----------|
@@ -43,7 +43,7 @@ All three modes flow through six phase gates ensuring strategic clarity before b
 | **Email Marketing Operations** | 5 agents | Lifecycle design, copywriting, automation, deliverability, newsletter growth |
 | **Design Operations** | 5 agents | Landing pages, brand identity, presentations, visual content, ad creative |
 | **Sales Enablement** | 8 agents | Outbound, discovery coaching, deal strategy, battle cards, proposals, pipeline analysis, technical presales (demos, POCs, security questionnaires), the website AI chat agent / inbound AI SDR |
-| **Product Marketing** | 11 agents | Founder-led GTM (design partners, founder-led sales, product-market-fit evidence, first hire), positioning, messaging, launches, competitive intel, customer advocacy, pricing & packaging, agent readiness, international market entry and localization, brand marketing and demand creation (brand-vs-performance split, category entry points, brand measurement), public-sector marketing (FedRAMP/GovRAMP claims, gift rules for officials, quiet periods, contract vehicles) |
+| **Product Marketing** | 12 agents | Acquisition integration (sign-to-close guardrails, acquired-customer comms, brand decision, database merge, sunsets), founder-led GTM (design partners, founder-led sales, product-market-fit evidence, first hire), positioning, messaging, launches, competitive intel, customer advocacy, pricing & packaging, agent readiness, international market entry and localization, brand marketing and demand creation (brand-vs-performance split, category entry points, brand measurement), public-sector marketing (FedRAMP/GovRAMP claims, gift rules for officials, quiet periods, contract vehicles) |
 | **Account-Based Marketing** | 1 agent | Target account list and 1:1/1:few/1:many tiering, capacity-sized coverage, signals-to-actions, per-tier orchestration contract, account coverage and penetration |
 | **Growth** | 3 agents | PLG activation (signup → first invoice, PQLs, in-product upgrade moments), the self-guided interactive demo in front of the login wall (gate policy, demo freshness, step-level analytics), customer marketing (expansion, churn-save, NRR) |
 | **Marketing Analytics** | 9 agents | Performance analysis, attribution modeling, demand planning (funnel model, sales-cycle lag, capacity ceilings, scenario band), CRO, customer insights, marketing ops architecture, martech stack and platform-migration strategy, marketing AI governance |
@@ -54,7 +54,7 @@ All three modes flow through six phase gates ensuring strategic clarity before b
 | **Marketing Project Management** | 4 agents | Campaign coordination, timeline management, resource allocation, stakeholder communication |
 | **Client Operations** | 4 agents | Client reporting, QA, financial tracking, legal compliance |
 
-**Total: 17 Disciplines × 88 Specialist Agents**
+**Total: 17 Disciplines × 89 Specialist Agents**
 
 ### CATALYST Phase Architecture
 
@@ -269,7 +269,7 @@ Choose the CATALYST mode based on your initiative scope:
 #### **CATALYST-Full**: Annual Planning & Major GTM Launches
 - **Use when**: Annual marketing planning, major product launch, market entry, comprehensive strategy refresh
 - **Timeline**: 12+ weeks end-to-end
-- **Agents**: All 88 agents across all 17 disciplines
+- **Agents**: All 89 agents across all 17 disciplines
 - **Scope**: Full funnel (awareness, consideration, decision, adoption)
 - **Budget**: Enterprise-scale multi-channel campaigns
 - **Expected Output**: Comprehensive annual strategy, full content calendar, multi-channel campaigns, reporting infrastructure
@@ -397,7 +397,7 @@ Even within CATALYST, you can invoke individual category skills for focused work
 
 ### CATALYST-Full: Enterprise Campaign
 
-**Timeline**: 12+ weeks | **Team**: All 88 agents | **Scope**: Full GTM strategy
+**Timeline**: 12+ weeks | **Team**: All 89 agents | **Scope**: Full GTM strategy
 
 - **Week 1-3**: Phase 0 Discovery (10 customer interviews, 5 competitor analyses, technical audits)
 - **Week 4-6**: Phase 1 Strategy (positioning, messaging, audience segmentation, channel strategy, KPIs)
@@ -513,7 +513,7 @@ The following playbooks are included in the agents/ directory to guide execution
 - **phase-3-build.md** - Content production, creative development, asset creation across all channels
 - **phase-4-launch.md** - Campaign activation, media buying, email launch, monitoring procedures
 - **phase-5-optimize.md** - Performance analysis, A/B testing, budget optimization, continuous improvement
-- **catalyst-strategy.md** - CATALYST framework overview and 88-agent reference guide
+- **catalyst-strategy.md** - CATALYST framework overview and 89-agent reference guide
 
 ---
 
