@@ -120,7 +120,7 @@ Every human reply stops the automated cadence, including the angry and the ambig
 - **Data Sourcing Strategy** (by category)
   - Email lists: HubSpot, Apollo, RocketReach, ZoomInfo, LinkedIn Sales Navigator (prioritize quality over volume)
   - Intent data: Demandbase, 6sense, Terminus, Bombora (active account buying signals)
-  - Job change data: LinkedIn, Indeed, HiredScore (trigger-based targeting)
+  - Job change data: LinkedIn Sales Navigator's job-change alerts and champion-tracking vendors (UserGems, Champify) for prospects you have met; the people who actually bought and used the product at paying accounts are watched by `growth-customer-marketing-lead`'s Champion Move program, which hands you the fit destinations as a T2 trigger with the evidence attached and a recommended sender
   - Firmographic data: Crunchbase, PitchBook, company growth signals
   - Warm introductions and referral systems (highest conversion source)
   - *Which providers, in what order, and whether their data is any good is not decided here.* `analytics-gtm-data-strategist` owns the provider bake-off run on a held-out sample of your own accounts, the waterfall ordering by measured cost per usable record, the accuracy-versus-coverage split, and the provenance and lawful-basis record behind an acquired list. Take the records and the confidence attached to them; do not buy on a vendor's published match rate.
