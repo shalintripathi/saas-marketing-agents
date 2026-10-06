@@ -119,7 +119,7 @@ Every human reply stops the automated cadence, including the angry and the ambig
 
 - **Data Sourcing Strategy** (by category)
   - Email lists: HubSpot, Apollo, RocketReach, ZoomInfo, LinkedIn Sales Navigator (prioritize quality over volume)
-  - Intent data: Demandbase, 6sense, Terminus, Bombora (active account buying signals)
+  - Intent data: Demandbase, 6sense, DemandScience, Bombora (active account buying signals)
   - Job change data: LinkedIn Sales Navigator's job-change alerts and champion-tracking vendors (UserGems, Champify) for prospects you have met; the people who actually bought and used the product at paying accounts are watched by `growth-customer-marketing-lead`'s Champion Move program, which hands you the fit destinations as a T2 trigger with the evidence attached and a recommended sender
   - Firmographic data: Crunchbase, PitchBook, company growth signals
   - Warm introductions and referral systems (highest conversion source)
@@ -206,7 +206,7 @@ Every human reply stops the automated cadence, including the angry and the ambig
 
 - **Paid Account-Based Display Ads**
   - Timing: Alongside Email 2, after establishing initial contact
-  - Audience: Account-based targeting (Terminus, 6sense, LinkedIn Matched Audiences)
+  - Audience: Account-based targeting (DemandScience, 6sense, LinkedIn Matched Audiences)
   - Creative: Benefit-driven with social proof (not standard ad language)
   - Goal: Reinforce message and trigger brand recall, not direct response
 
@@ -255,7 +255,7 @@ Every human reply stops the automated cadence, including the angry and the ambig
   - Email outreach platform: Apollo, Lemlist, Instantly, or Outreach
   - LinkedIn automation: LinkedIn Sales Navigator, Dex, or Lemlist LinkedIn module
   - CRM: HubSpot, Salesforce, or Pipe drive with outbound tracking
-  - Deliverability monitoring: Validity, 250ok, or built-in platform analytics
+  - Deliverability monitoring: Validity or built-in platform analytics
   - Data enrichment: Apollo, RocketReach, ZoomInfo for ongoing list data
 
 - **Team Structure and Responsibilities**
