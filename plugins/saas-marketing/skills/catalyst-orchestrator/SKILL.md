@@ -38,7 +38,7 @@ All three modes flow through six phase gates ensuring strategic clarity before b
 |----------|--------|-----------|
 | **Content Marketing** | 9 agents | Blog content, whitepapers, case studies, newsletters, copywriting, video scripts, thought leadership |
 | **SEO & Growth** | 7 agents | Technical SEO, keyword research, content optimization, link building, AI/AEO/GEO, international, programmatic SEO |
-| **Paid Media Operations** | 8 agents | PPC strategy, social ads, creative strategy, budget optimization, programmatic buying, attribution, sponsorships and content syndication, the conversion signal fed back to the bidders (offline conversion import, LinkedIn Conversions API, pipeline-stage values) |
+| **Paid Media Operations** | 8 agents | PPC strategy, social ads (including Thought Leader Ads and Meta partnership ads on a person's post), creative strategy, budget optimization, programmatic buying, attribution, sponsorships and content syndication, the conversion signal fed back to the bidders (offline conversion import, LinkedIn Conversions API, pipeline-stage values) |
 | **Social Media Operations** | 8 agents | LinkedIn, Twitter/X, Reddit, YouTube, community management, influencer partnerships, B2B podcast strategy and podcast guesting, social listening (query book, coverage map, validated sentiment, share of voice, signal routing) |
 | **Email Marketing Operations** | 5 agents | Lifecycle design, copywriting, automation, deliverability, newsletter growth |
 | **Design Operations** | 5 agents | Landing pages, brand identity, presentations, visual content, ad creative |

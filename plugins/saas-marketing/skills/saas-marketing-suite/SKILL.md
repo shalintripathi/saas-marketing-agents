@@ -49,7 +49,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 |----------|----------|-------------|
 | **Content Marketing** | 9 | Blog content, whitepapers, case studies, guides, email content, infographics, content optimization, the editorial production system (briefs, calendar & capacity, review workflow, style guide, content inventory), and the customer academy (course curriculum, certification programs and credentials, course freshness, academy discoverability) |
 | **SEO & Growth** | 7 | Technical SEO, keyword research, on-page optimization, link building, AI/AEO optimization, international, programmatic SEO |
-| **Paid Media Operations** | 8 | PPC campaigns, LinkedIn ads, Facebook/Instagram ads, audience targeting, creative testing, bid optimization, newsletter/podcast sponsorships, paid G2/Capterra listings, content syndication |
+| **Paid Media Operations** | 8 | PPC campaigns, LinkedIn ads, Thought Leader Ads and Meta partnership ads, Facebook/Instagram ads, audience targeting, creative testing, bid optimization, newsletter/podcast sponsorships, paid G2/Capterra listings, content syndication |
 | **Social Media Operations** | 8 | LinkedIn strategy, Twitter/X content, YouTube, Reddit, community management, influencer partnerships, B2B podcast strategy and guest booking, social listening and share of voice |
 | **Email Marketing Operations** | 5 | Email campaigns, nurture sequences, segmentation, automation, deliverability, personalization |
 | **Design Operations** | 5 | Visual design, brand identity, design systems, creative direction, design templates |
