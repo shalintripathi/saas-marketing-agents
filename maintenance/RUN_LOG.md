@@ -4977,3 +4977,19 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 **Discoverability:** no count change (still **89 agents / 19 skills**, so no About or badge edits). The `paid-media-ops` description adds a person-led ads sentence and triggers ("thought leader ads", "boost an employee's post", "sponsor a creator's post", "partnership ads", "whitelisting", "creator usage rights"); its agent-table row and a new routing example ("Can we boost our CEO's LinkedIn post as an ad?") point here. `AGENTS_INDEX.md` row, README Paid Media Ops trigger row, `llms.txt` Paid Media Ops line, the CATALYST capability row and the suite-router Paid row are all updated.
 
 **Next:** the next scout run should hunt an ADD (two ENHANCEs in a row now). Untested whole-roster ideas are scarce; start from the backlog's swan-gtm discipline queue and the `irinabuht12-oss` licence re-check.
+
+## 2026-10-07 — Maintenance (backlog item) — flat fee vs per-qualified-click on the Creator Partnerships Manager
+
+**Health check (all green, no P0):** 0 broken internal `.md` links; `marketplace.json` and `plugin.json` parse with required fields; all 19 skills carry `SKILL.md` with `name`+`description`; live GitHub About still reads 89 agents / 19 skills, matching the roster. AEO playbook last reviewed 2026-09-28, inside the window.
+
+**Backlog:** the only unblocked open item was the 10-07 *creator pricing residual*. Everything else is blocked on stars, on maintainer scope calls, or on licence and watch re-checks. Grep-verified first: `qualified click` and `per click` returned 0 in `social-influencer-partnerships`. Its deal-structure list had affiliate, sponsored, ambassador, seeding, exclusive and rev-share, but no click-priced structure.
+
+**Shipped:** on `social/social-influencer-partnerships.md` and its `social-media-ops/agents/` copy (byte-identical, lint 2/2, frontmatter parses):
+- **A new deal structure, *Performance (Per Qualified Click)*.** Before any number, it decides what is being bought. A message (a launch, a category argument, one expert's association) gets a flat fee. Traffic you will turn into pipeline, across several creators, gets paid per click. The deal needs a written qualified-click definition before publication: the tracked link, an engagement floor, the exclusions, a cap, and a report the creator can also read. It never pays on impressions or raw clicks. The rate is set from your own unit economics, not a network range. The deal still reconciles against pipeline under Rule 6. Invoicing and employer permission for salaried experts are settled before the brief.
+- **Around it:** an agreement-template term, a *Performance-Deal Definition Coverage* metric, a description clause and an in-file credit.
+
+**Facts and licensing:** I read `swan-gtm/gtm-skills` `thomas-marcelle/creator-deal-pricing` on 2026-10-07 (MIT, licence confirmed via the GitHub API), using ideas only. Its euro CPC ranges, its seconds-on-site threshold and its "3–5× reach" multiple are unsourced, so none of them was carried over. No external figures were introduced.
+
+**Discoverability:** no count change (89 agents / 19 skills), so the About text, badges and CITATION are untouched. Updated the frontmatter description and the AGENTS_INDEX row that mirrors it, the `social-media-ops` agent-table row, a new routing example ("Should we pay this creator a flat fee or per click?") and the `llms.txt` Social Media Ops line.
+
+**Next:** nothing queued from this change. The open backlog is again blocked, maintainer-gated, or a scout re-check.
