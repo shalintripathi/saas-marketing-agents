@@ -5007,3 +5007,22 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 **Discoverability:** no count or capability change (89/19), so the About text, badges, index, llms.txt and manifests are untouched.
 
 **Next:** nothing queued from this change.
+
+## 2026-10-07 — Maintenance (backlog: swan-gtm social mining) — Quora gets an owner on the Reddit Community Specialist
+
+**Health check (all green, no P0):** 0 broken internal `.md` links; `marketplace.json` and `plugin.json` parse with required fields; all 19 skills carry `SKILL.md` with `name`+`description`; live GitHub About still reads 89 agents / 19 skills, matching the roster. Every "Last reviewed" date sits inside the 90-day window. Licence re-checks on five watched repos (irinabuht12-oss, tech-leads-club, NHinternesch, portermetricsample, the-nam-shub) are all unchanged (NONE / NOASSERTION), so nothing was unblocked.
+
+**Backlog:** took the social slice of the open *Mine swan-gtm/gtm-skills by discipline* item. Grep-verified first: `quora` returned **0** across all 89 agents, although the AEO guidance leans on community citation surfaces.
+
+**Shipped:** a new section on `social/social-reddit-specialist.md` and its `social-media-ops/agents/` copy (byte-identical, lint 2/2, frontmatter parses): *Quora: The Same Discipline, a Different Engine*. It covers:
+- **The per-engine decision:** Quora is cited by Google AI Overviews and largely not by ChatGPT or Perplexity, so sample first.
+- **What carries over from Reddit:** personal accounts, disclosure, no seeding.
+- **What changes:** the credential line does the selling and the link sits on the profile; the collapsed preview decides whether anyone reads on; answers are permanent URLs, so favor evergreen questions and answer each subject once; a batch must not read as automated.
+- **Measurement and boundaries:** a measurement read and handoffs to `seo-ai-search-optimizer` and `content-thought-leadership-ghostwriter`. The description is updated to name Quora.
+
+**Facts and licensing:** the citation shares (Quora 3.6%, Reddit 7.4% of AI Overview mentions; neither in the ChatGPT or Perplexity top 10) were read 2026-10-07 from Ahrefs' June 2025 study and labelled a directional single-vendor snapshot. Quora's Help Center returned 403, so no Quora policy text is asserted; the section tells the reader to check the policy themselves. The idea source is swan-gtm `vesselin-malev/quora-authority-answering` (MIT, licence confirmed via the GitHub API), used for ideas only and credited in-file. Its daily-posting volumes ("10–20 safe", "~50 cap") are unsourced and were not carried over.
+
+**Discoverability:** no count change (89 agents / 19 skills), so the About text, badges and CITATION are untouched. Updated the agent's description and its AGENTS_INDEX row, the `social-media-ops` skill description, agent-table row and a new routing example ("Should we answer questions on Quora?"), and the `llms.txt` Social Media Ops line.
+
+**Next:** the remaining swan-gtm candidates (ops, paid, SEO, pricing, events) stay queued.
+
