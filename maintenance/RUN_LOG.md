@@ -4993,3 +4993,17 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 **Discoverability:** no count change (89 agents / 19 skills), so the About text, badges and CITATION are untouched. Updated the frontmatter description and the AGENTS_INDEX row that mirrors it, the `social-media-ops` agent-table row, a new routing example ("Should we pay this creator a flat fee or per click?") and the `llms.txt` Social Media Ops line.
 
 **Next:** nothing queued from this change. The open backlog is again blocked, maintainer-gated, or a scout re-check.
+
+## 2026-10-07 — Maintenance (follow-up) — Solutions Engineer feeds first-enterprise-review gaps back to the upmarket build list
+
+**Health check (all green, no P0):** 0 broken internal `.md` links; `marketplace.json` and `plugin.json` parse with required fields; all 19 skills carry `SKILL.md` with `name`+`description`; the 17 linted category dirs hold 89 agents, matching the live About (89 agents / 19 skills). Every "Last reviewed" date is 2026-07-23 or later, inside the 90-day window.
+
+**Backlog:** no unblocked open item (stars, maintainer scope calls, licence and watch re-checks). Took the follow-up filed by the 10-07 upmarket run instead. Grep-verified first: `upmarket` returned 0 in `sales-solutions-engineer`, although the upmarket section routes security questionnaires, the answer library and the trust center to it. Gaps found in a first enterprise review therefore had no path back to the Upmarket Readiness Register.
+
+**Shipped:** one paragraph on `sales/sales-solutions-engineer.md` and its `sales-enablement/agents/` copy (byte-identical, lint 2/2), placed after the trust-center ownership paragraph. Each gap (missing control, certification not held, unfamiliar vendor form) is logged in the buyer's words with deal and date and passed to `pmm-founder-led-gtm-strategist`. The build decision stays with the product owner, and the answer stays in its Rule 3 state until the control ships. The pricing half of the follow-up was skipped as unnecessary (see the backlog note).
+
+**Facts / licensing:** no external figures or sources; internal routing only.
+
+**Discoverability:** no count or capability change (89/19), so the About text, badges, index, llms.txt and manifests are untouched.
+
+**Next:** nothing queued from this change.
