@@ -5045,3 +5045,29 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 **Discoverability:** no count change (89/19), so the About text, badges, CITATION and manifests are untouched. Updated the agent description and its AGENTS_INDEX row, the `marketing-analytics` agent-table row and trigger words ("duplicate records in the CRM", "dedupe before import", "which value wins in a merge", "CRM cleanup"), and the `llms.txt` Marketing Analytics line.
 
 **Next:** swan-gtm `hygiene-gated-outbound` (outbound list prep), plus the paid, SEO, events and creators candidates, stay queued.
+
+## 2026-10-08 — Skill scout (content / SEO → whole roster) — ADDED: Integrated Campaign Strategist (agent #90)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.** The two previous scout runs (10-06, 10-07) were both ENHANCE runs, so the two-consecutive-enhancements trigger fired and the run hunted an ADD. The focus discipline was **content / SEO**, the oldest in the rotation (last 10-04). Content/SEO turned up no defensible gap: original research, free tools, web ops, decay, repurposing and localization are all owned or were killed earlier (see the ledger). So the run swept the whole roster, as the 09-12 run did.
+
+**Gap proof:** `channel plan`, `campaign plan`, `big idea`, `always-on`, `tentpole`, `flagship campaign`, `quarterly campaign`, `offer strategy` and `integrated campaign` all grep to **zero** across the 17 agent dirs. The Campaign Coordinator runs a campaign's scope, timeline and status, but nobody designed the campaign or owned the channel plan. The clearest evidence was internal: the suite router sent *"Develop a channel strategy for 2026"* to a **Channel Strategy Planner** that does not exist, and CATALYST Phase 1 (SKILL.md and both copies of the Phase 1 playbook) listed it too. The role is durable: demand-gen and integrated campaign management is a standard B2B SaaS marketing function, not a fad. Three MIT collections ship it as a skill.
+
+**Shipped:** `product-marketing/pmm-integrated-campaign-strategist.md` and its `product-marketing-ops/agents/` copy (2,188 words, lint 2/2, byte-identical, frontmatter parses). It has ten Critical Rules:
+- one campaign, one job
+- start from a buyer problem, not an asset
+- match the offer to buyer readiness, using Brand & Demand's out-of-market estimate
+- one job and one leading indicator per channel
+- one message adapted by format, never by claim
+- kill, scale and adjust rules written before launch and read at a fixed checkpoint
+- "campaign-associated" pipeline unless a holdout was designed in
+- capacity decides the calendar, and always-on programs get review dates
+- every channel gets a dated status and goes on a published stop list if dropped
+- no launch without a follow-up play agreed with sales
+
+It also carries six deliverables (brief, offer ladder, annual calendar, portfolio and stop list, checkpoint note, readout) and seven metrics. A boundary paragraph names the Launch Manager, ABM, Brand & Demand, Demand Planner, Budget Optimizer, Attribution Analyst, CRO, Campaign Coordinator, Partner Ecosystem and Events. No external figures are asserted. Ideas only, credited in-file, all MIT and verified via the GitHub API on 10-08: coreyhaines31 `marketing-plan` (the skipped-channel list became the stop list), marketing-council-pack `campaign-strategy` (one job, reversal evidence set in advance), itsual `demand-generation` (always-on plus timed campaigns, offers by awareness stage).
+
+**Placement:** `product-marketing/`, next to the Brand & Demand Strategist and the Launch Manager. growth-ops explicitly hands pre-signup work to the acquisition skills, and project-management covers execution rather than design. **No new discipline directory.** A stale count was fixed in passing: the `product-marketing-ops` skill header said "10 Specialist Agents" while listing 12. It now reads 13.
+
+**Discoverability / count sweep:** 89 → 90 in every surface: README badge and prose, AGENTS_INDEX (header, count, regenerated date), llms.txt, CITATION.cff, both manifests, the suite router (prose, table, TOTAL), CATALYST SKILL and both catalyst-strategy copies, EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations/loops READMEs and SKILL_SCOUT.md. Product Marketing went 12 → 13 in the README team and skills tables, AGENTS_INDEX, the suite, CATALYST and EXECUTIVE-BRIEF. The dangling *Channel Strategy Planner* was replaced everywhere: the router, CATALYST Phase 1, both Phase 1 playbook copies, and both catalyst-strategy Strategy & Planning lists. A new router example was added ("Plan our next demand gen campaign"). The `product-marketing-ops` description gained a campaign sentence and triggers ("demand gen campaign", "campaign brief", "channel plan", "which channels should we stop", "always-on vs tentpole", "offer strategy", "random acts of marketing"), plus a routing block. The README trigger row, llms.txt and both manifests now name integrated campaigns. **GitHub About** was updated to 90 agents with "campaign/demand planning" (348/350). To make room, ", Copilot" was dropped; the trade is logged in the backlog.
+
+**Next:** by alternation, the next scout run should ENHANCE. The follow-up is filed in the backlog: reciprocal pointers from `pm-campaign-coordinator`, `pmm-brand-demand-strategist` and `analytics-demand-planner`. Also queued: a possible AI-app-directory section on `pmm-agent-readiness-strategist`.

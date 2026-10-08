@@ -1,6 +1,6 @@
 ---
 name: saas-marketing-suite
-description: "Complete B2B SaaS marketing agency powered by 89 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), partnerships and channel programs (co-marketing, marketplace GTM, channel conflict and deal registration, partner economics), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
+description: "Complete B2B SaaS marketing agency powered by 90 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), partnerships and channel programs (co-marketing, marketplace GTM, channel conflict and deal registration, partner economics), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
 ---
 
 # SaaS Marketing Suite: Complete Agency Router
@@ -18,7 +18,7 @@ description: "Complete B2B SaaS marketing agency powered by 89 AI agents across 
 
 ## What This Is
 
-The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 89 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
+The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 90 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
 
 Think of it as your full-service marketing department:
 - **Need content?** Route to Content Marketing
@@ -41,7 +41,7 @@ Think of it as your full-service marketing department:
 
 The skill includes a routing decision matrix to identify which team(s) you need based on your request.
 
-## The Complete Team: 89 Specialist Agents Across 17 Disciplines
+## The Complete Team: 90 Specialist Agents Across 17 Disciplines
 
 ### Core Marketing Disciplines
 
@@ -54,7 +54,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Email Marketing Operations** | 5 | Email campaigns, nurture sequences, segmentation, automation, deliverability, personalization |
 | **Design Operations** | 5 | Visual design, brand identity, design systems, creative direction, design templates |
 | **Sales Enablement** | 8 | Sales materials, battle cards, objection handling, sales training, competitive positioning, deal support, technical presales — demos, proofs of concept, security questionnaires; the website AI chat agent and inbound AI SDR (what it may say, AI disclosure, human handoff) |
-| **Product Marketing** | 12 | Acquisition integration (sign-to-close guardrails, the acquired-customer letter, brand decision, database merge, sunsets), founder-led GTM for pre-repeatable-motion startups (design partners, founder-led sales, product-market-fit evidence, first sales/marketing hire), product positioning, feature messaging, launch strategy, competitive intel, customer advocacy, pricing & packaging, agent readiness, international market entry and localization, brand marketing and demand creation (brand-vs-performance split, category entry points, brand measurement), public-sector marketing (FedRAMP/GovRAMP claims, gift rules for officials, quiet periods, contract vehicles) |
+| **Product Marketing** | 13 | Integrated demand-gen campaigns and the channel plan (one job per campaign, offer by buyer readiness, a job per channel, pre-launch kill/scale rules, always-on vs tentpole calendar, stop list), acquisition integration (sign-to-close guardrails, the acquired-customer letter, brand decision, database merge, sunsets), founder-led GTM for pre-repeatable-motion startups (design partners, founder-led sales, product-market-fit evidence, first sales/marketing hire), product positioning, feature messaging, launch strategy, competitive intel, customer advocacy, pricing & packaging, agent readiness, international market entry and localization, brand marketing and demand creation (brand-vs-performance split, category entry points, brand measurement), public-sector marketing (FedRAMP/GovRAMP claims, gift rules for officials, quiet periods, contract vehicles) |
 | **Marketing Analytics** | 9 | Performance reporting, attribution modeling, demand planning (funnel model, assumption register, sales-cycle lag, capacity ceilings, scenario band, re-forecast triggers), CRO optimization, data storytelling, externally acquired GTM data (enrichment provider bake-offs, waterfall ordering, data decay, list provenance), martech stack and platform-migration strategy, governance of the team's own AI use (AI use register, data-class rules, evals on model changes, shadow-AI intake) |
 | **Marketing Project Management** | 4 | Campaign coordination, timeline management, resource allocation, stakeholder communication, risk management |
 | **Client Operations** | 4 | Client reporting, QA/compliance, budget tracking, legal compliance, audit trails, brand quality |
@@ -65,7 +65,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Events & Field Marketing** | 1 | Conference and sponsorship selection, booths, owned events and roadshows, the webinar engine, event-sourced pipeline |
 | **Developer Marketing** | 1 | Docs as a marketing surface, quickstarts and time-to-first-call, SDKs, open source, DevRel |
 
-**Total: 89 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
+**Total: 90 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
 
 ---
 
@@ -427,8 +427,12 @@ START: What is your primary need?
 - **Timeline**: 2-3 weeks
 
 **Request**: "Develop a channel strategy for 2026"
-- **Primary Route**: Strategy & Planning → Channel Strategy Planner
-- **Supporting Routes**: Analytics (performance data), Project Management (resource planning)
+- **Primary Route**: Product Marketing → Integrated Campaign Strategist (channel portfolio, stop list, always-on vs tentpole calendar)
+- **Supporting Routes**: Analytics (Demand Planner for the number and source mix), Paid Media (Budget Optimizer for paid allocation), Project Management (Resource Allocator for capacity)
+
+**Request**: "Plan our next demand gen campaign"
+- **Primary Route**: Product Marketing → Integrated Campaign Strategist (one-page brief: buyer problem, offer, channel jobs, kill/scale rules, follow-up play)
+- **Supporting Routes**: Messaging Architect (message house), Campaign Coordinator (timeline and scope), channel specialists (execution)
 - **Timeline**: 1-2 weeks
 
 **Request**: "Build our audience segmentation and personas"
@@ -442,7 +446,7 @@ START: What is your primary need?
 
 **Request**: "Plan and execute our full GTM launch"
 - **Route**: CATALYST Orchestrator (CATALYST-Full mode)
-- **Scope**: All 89 agents across all 17 disciplines
+- **Scope**: All 90 agents across all 17 disciplines
 - **Timeline**: 12+ weeks end-to-end
 
 **Request**: "Create our annual marketing strategy and plan"
@@ -473,7 +477,7 @@ START: What is your primary need?
 | Email Marketing Operations | 5 |
 | Design Operations | 5 |
 | Sales Enablement | 8 |
-| Product Marketing | 12 |
+| Product Marketing | 13 |
 | Marketing Analytics | 9 |
 | Marketing Project Management | 4 |
 | Client Operations | 4 |
@@ -483,7 +487,7 @@ START: What is your primary need?
 | Partnerships | 2 |
 | Events & Field Marketing | 1 |
 | Developer Marketing | 1 |
-| **TOTAL** | **89** |
+| **TOTAL** | **90** |
 
 ---
 

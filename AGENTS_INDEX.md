@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**89 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**90 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **89 agents** indexed below. Last generated 2026-10-05.
+> **90 agents** indexed below. Last generated 2026-10-08.
 
 ---
 
@@ -111,7 +111,7 @@ _8 agents_
 
 ## Product Marketing
 
-_12 agents_
+_13 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -121,6 +121,7 @@ _12 agents_
 | 🔬 | **Competitive Intelligence Specialist** | [`product-marketing/pmm-competitive-intelligence.md`](product-marketing/pmm-competitive-intelligence.md) | Competitive analysis, battle cards, win/loss interview programs, and incumbent-displacement intelligence — competitor ad libraries, public tech-stack inference, contract clocks, switching costs and EU Data Act switching rights |
 | 🌟 | **Customer Advocacy Manager** | [`product-marketing/pmm-customer-advocacy.md`](product-marketing/pmm-customer-advocacy.md) | Customer marketing, advocacy programs, and reference development for B2B SaaS — references, case studies, reviews, the customer advisory board, and the customer referral program (who may accept a reward, how the introduction is made, and why a referral costs the advocate more than any other ask) |
 | 🪴 | **Founder-Led GTM Strategist** | [`product-marketing/pmm-founder-led-gtm-strategist.md`](product-marketing/pmm-founder-led-gtm-strategist.md) | Runs go-to-market while the founder is the team — an evidence ledger tagging every belief validated or assumed, design partners on written terms, founder-led sales mined from your own usage data first, product-market fit read from cohort retention and the Sean Ellis "very disappointed" question rather than signups, a "not yet" list that holds back programs the stage cannot use, the written playbook and trigger for hiring the first AE or marketer, and the move upmarket, which reopens the ledger for larger buyers and builds the enterprise-readiness list from lost deals rather than a checklist |
+| 🎼 | **Integrated Campaign Strategist** | [`product-marketing/pmm-integrated-campaign-strategist.md`](product-marketing/pmm-integrated-campaign-strategist.md) | Designs the demand-generation campaign before anyone builds it, and owns the channel plan it runs on: one campaign with one job, started from a buyer problem rather than an asset, an offer matched to how ready the buyer is, a single job and leading indicator for every channel, kill, scale and adjust rules written before launch, a follow-up play agreed with sales, an annual calendar of always-on programs and a few capacity-checked tentpoles, a channel portfolio where every channel is scaled, run, tested, held or stopped for a dated reason, and a readout against the hypothesis set before launch |
 | 🌍 | **International GTM Strategist** | [`product-marketing/pmm-international-gtm-strategist.md`](product-marketing/pmm-international-gtm-strategist.md) | Decides which countries you market into, in what order and how deep — market selection on observed pull, the four-rung localization ladder and its standing maintenance bill, in-region proof, a per-market channel mix, and the GDPR/ePrivacy questions sequenced before the campaign |
 | 🚀 | **Product Launch Manager** | [`product-marketing/pmm-launch-manager.md`](product-marketing/pmm-launch-manager.md) | Product launch orchestration with tiered frameworks, the pre-GA release-stage ladder, and internal enablement |
 | 💬 | **Messaging Architect** | [`product-marketing/pmm-messaging-architect.md`](product-marketing/pmm-messaging-architect.md) | Message house development and value proposition frameworks for SaaS |

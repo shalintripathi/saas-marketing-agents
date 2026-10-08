@@ -1,7 +1,7 @@
 # Phase 1: Strategy & Planning
 
 **Duration**: 1-2 weeks for CATALYST-Full | 2-3 days for CATALYST-Sprint | Not typically used for CATALYST-Micro
-**Agents Involved**: 7 strategy specialists (Positioning Strategist, Messaging Architect, Campaign Coordinator, Budget Optimizer, Goals Strategist, Audience Segmentation Specialist, Channel Strategy Planner)
+**Agents Involved**: 7 strategy specialists (Positioning Strategist, Messaging Architect, Campaign Coordinator, Budget Optimizer, Goals Strategist, Audience Segmentation Specialist, Integrated Campaign Strategist)
 **Output**: Strategic framework, messaging, campaign architecture, budgets, and timelines
 
 ## Overview
@@ -389,7 +389,7 @@ For primary audience, document complete buying journey:
 
 ---
 
-### 6. Channel Strategy & Integration (Channel Strategy Planner)
+### 6. Channel Strategy & Integration (Integrated Campaign Strategist)
 
 **Objective**: Define how you will use each channel; ensure integration between channels.
 

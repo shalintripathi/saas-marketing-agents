@@ -2,7 +2,7 @@
 
 ## Framework Overview
 
-CATALYST is a comprehensive multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 89 specialized marketing agents working across 17 disciplines to execute highly targeted, data-driven marketing campaigns from strategy through optimization and continuous improvement.
+CATALYST is a comprehensive multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 90 specialized marketing agents working across 17 disciplines to execute highly targeted, data-driven marketing campaigns from strategy through optimization and continuous improvement.
 
 The framework is built on the principle that modern B2B SaaS marketing requires simultaneous execution across multiple specialized domains—from market research and strategic positioning to technical SEO, paid advertising, content production, and advanced analytics. Rather than sequential waterfall execution, CATALYST enables parallel agent execution with intelligent handoff protocols, quality gates, and escalation procedures.
 
@@ -14,7 +14,7 @@ CATALYST operates on five core principles:
 
 2. **Phase-Based Progress**: Work flows through six distinct phases (Discovery → Strategy → Foundation → Build → Launch → Optimize) with quality gates ensuring readiness before advancement.
 
-3. **Flexibility in Scope**: Three operating modes allow CATALYST to scale from micro-campaigns (5-10 agents, 1-5 days) to full annual strategies (all 89 agents, 12+ weeks).
+3. **Flexibility in Scope**: Three operating modes allow CATALYST to scale from micro-campaigns (5-10 agents, 1-5 days) to full annual strategies (all 90 agents, 12+ weeks).
 
 4. **Data-Driven Decision Making**: Every phase produces metrics, insights, and validated assumptions that feed downstream work and inform optimization.
 
@@ -31,9 +31,9 @@ Every agent receives this file alongside its task brief, and its rules override 
 
 If the file is absent, CATALYST offers to draft one and proceeds on explicitly-labelled assumptions. Phase 0 (Discovery) exists in part to fill the gaps a thin brand context leaves.
 
-## The 89 CATALYST Agents, by Function
+## The 90 CATALYST Agents, by Function
 
-CATALYST's roster is **89 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 89 roster files. Read the per-group counts as a functional view, not a file census.
+CATALYST's roster is **90 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 90 roster files. Read the per-group counts as a functional view, not a file census.
 
 ### Discovery & Insights (8 agents)
 - Customer Insights Researcher
@@ -53,7 +53,7 @@ CATALYST's roster is **89 specialized agents** across **17 category disciplines*
 - Budget Optimizer
 - Marketing Goals Strategist
 - Audience Segmentation Specialist
-- Channel Strategy Planner
+- Integrated Campaign Strategist (the channel plan and campaign design: one job per campaign, offer by buyer readiness, a job per channel, pre-launch kill/scale rules, stop list)
 
 ### Marketing Operations (7 agents)
 - Marketing Ops Architect
@@ -151,7 +151,7 @@ CATALYST's roster is **89 specialized agents** across **17 category disciplines*
 
 ### CATALYST-Full: Complete Annual Strategy
 
-**Duration**: 12-16 weeks | **Agents Engaged**: All 89 | **Scope**: Comprehensive annual marketing strategy
+**Duration**: 12-16 weeks | **Agents Engaged**: All 90 | **Scope**: Comprehensive annual marketing strategy
 
 CATALYST-Full orchestrates a complete marketing transformation, running all six phases sequentially with full team coordination:
 
