@@ -1,6 +1,6 @@
 ---
 name: "Marketing Ops Architect"
-description: "Marketing systems and data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring design, field governance, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy)"
+description: "Marketing systems and data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring design, field governance, duplicate prevention and merge survivorship rules, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy)"
 color: "#2563EB"
 emoji: "⚙️"
 ---
@@ -339,3 +339,54 @@ The health signal is not a matched-percentage asserted as a target. It is **acco
 **Deliverable — Lead-to-Account Matching Specification.** A short governed document stating the ordered signals used to assign an account (governed keys first, enrichment and fuzzy rules after, with their scores), the four match states and what each permits downstream, the companion fields that carry state/source/`as-of`, the routing rule for the ambiguous queue, and the owner and cadence that works the unmatched queue down. Ship it beside the Field and Object Data Dictionary and cross-reference it from the `abm-account-based-strategist` account list it feeds — the strategist selects and tiers accounts, this spec decides which people land on them.
 
 _Lead-to-account matching was surfaced as a genuinely unowned discipline by this repo's own 2026-09-17 ops/analytics scout pass — `lead-to-account matching` and `CRM hygiene` returned zero repo-wide — and filed as a section, not a role, since account selection and tiering are already owned by `abm-account-based-strategist` and person-level identity resolution by `analytics-performance-analyst`. Written from scratch; the failure-mode taxonomy and the match-to-a-state discipline are this page's, reusing the observed/modeled/missing and three-state-verification framings it already establishes rather than importing new ones. CRM and enrichment behavior is described vendor-neutrally on purpose — free-mailbox handling, multi-domain accounts, and match-confidence fields differ across Salesforce, HubSpot, and Clearbit/Apollo-class providers and change over time; verify your own stack before wiring a rule, and treat any provider's stated match rate as directional until measured against your own list._
+
+
+## Duplicates: Resolve Before Create, Merge by a Written Survivorship Rule
+
+Critical Rule #6 sets a duplicate-rate target and the Data Quality Dashboard tracks it. Neither says how a duplicate is prevented or how two records become one, and that is where duplicate work usually fails. A cleanup sprint drives the rate down, and the same import recreates the duplicates the next month. A bulk merge keeps the wrong email on a few hundred contacts, and nobody can say which ones. Three disciplines close the gap.
+
+### Resolve before create
+
+Every path that writes a new contact or account runs a resolution step first. That covers list imports, form handlers, enrichment syncs, event-badge uploads and a rep's manual entry. The step returns one of four decisions, not a yes/no:
+
+- **Link.** One existing record is an unambiguous match, and the new data goes onto it.
+- **Create.** No credible candidate exists after every strong key was searched.
+- **Review.** Several candidates remain, or strong identifiers disagree (two different verified emails, two legal entities behind one name). This is a routed queue with an owner, never a silent pick.
+- **Reject.** The input has too little identity evidence, or an exclusion rule applies (suppression, competitor domain, role-mailbox policy).
+
+Three rules make the decision trustworthy:
+
+- **Search each strong key on its own.** Email, then canonical domain, then provider or CRM ID, and include archived and previously merged records. One malformed field then cannot hide an existing record.
+- **A normalized company name corroborates, it never matches on its own.** Name-only matching is the commonest source of false merges.
+- **Search again immediately before writing.** Another workflow may have created the record since the decision was made. If a new candidate appears, the create decision is void.
+
+Keep the raw input beside the normalized comparison values. Normalizing (lowercasing, stripping URL paths, separating legal suffixes) is how matching works; overwriting the original is how evidence gets lost. Resolution runs before the lead-to-account join above. Resolution decides whether this person already exists; matching decides which account they belong to. A free-mailbox domain is not account identity in either step.
+
+### Write the survivorship rule before the first merge
+
+A merge discards values, so decide which ones survive in writing, per field, before any merge runs, rather than merge by merge:
+
+- **Verified beats unverified.** A verified email or a human-confirmed value is never replaced by an enrichment guess, however recent the guess.
+- **Owner-of-record beats recency on governed fields.** Lifecycle stage, record owner and `sales_`-prefixed fields follow the owning team's rule, which the field-prefix convention above makes visible. Most-recent-wins applies only where newer is genuinely better, such as a job title from a fresh verification.
+- **Consent and suppression take the most restrictive value.** If either record is unsubscribed, opted out or erased, the survivor is too. This is the one field where a merge must never pick the "better" record.
+- **History is unioned, not chosen.** Activities, campaign memberships and form submissions from both records move to the survivor. Otherwise attribution and scoring silently lose touches.
+
+On most CRMs a merge is hard or impossible to undo, and the details differ by platform, so check yours. Snapshot both records first and log the field-level outcome.
+
+### Run a bulk cleanup as reviewable operations, not a mass edit
+
+When a backlog of duplicates already exists:
+
+1. **Snapshot first.** Capture the affected records, their field values, the record counts and the extraction time.
+2. **Write each change as one operation.** Each one names the record ID, the field, the current and proposed values, the rule that produced it, and whether it is deterministic or needs a human decision. A bulk total never hides the record-level detail.
+3. **Keep the first batch small.** Sample at least five operations per rule, edge cases included. Approval covers the listed operation IDs, not a summary.
+4. **Re-read each target immediately before writing.** If the value changed since planning, skip the operation as stale rather than overwrite newer work.
+5. **Re-run the same rules after the batch.** Reconcile planned, applied, skipped, failed and newly found.
+
+A cleanup is finished when the entry point that created the duplicates has a control and an owner, not when the backlog reaches zero. Trace each recurring cluster to its source and fix it there: an import template, a form with no lookup, or an integration that searches a narrower population than it writes to.
+
+**Monitor the gate, not only the rate.** Track creates, links, review-queue size and age, and sampled false links and false creates. A gate that routes everything to review is as broken as one that auto-links on a fuzzy score, and both look fine in the duplicate rate.
+
+**Deliverable — Record Resolution & Merge Policy.** The strong keys and search order per object, the four decisions and who works the review queue, the per-field survivorship table, the cleanup operation format and approval rule, and the prevention control on each entry point. Ship it beside the Field and Object Data Dictionary and the Lead-to-Account Matching Specification. `pmm-acquisition-integration-strategist` sequences an acquisition's database merge (suppressions first, consent reviewed) and applies this policy rather than writing its own.
+
+_Resolve-before-create, governed bulk cleanup and stale-operation checks were surfaced by `ryan-iyengar/resolve-before-create` and `ryan-iyengar/governed-crm-cleanup` in [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT, licence verified via the GitHub API on 2026-10-08), with `udi-cohen/data-quality` read for the dedupe-before-enrich order. Ideas only, written from scratch; no text was reused. The per-field survivorship table and the most-restrictive-consent rule are this page's. No duplicate-rate or match-rate benchmark is asserted. CRM merge and undelete behavior is described vendor-neutrally because it differs across Salesforce, HubSpot and others and changes over time, so verify your platform before running a merge._

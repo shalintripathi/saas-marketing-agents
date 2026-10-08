@@ -5026,3 +5026,22 @@ It has an explicit boundary paragraph naming 11 agents it must not overlap. No b
 
 **Next:** the remaining swan-gtm candidates (ops, paid, SEO, pricing, events) stay queued.
 
+
+## 2026-10-08 — Maintenance (backlog: swan-gtm ops mining) — duplicate prevention and merge survivorship on the Marketing Ops Architect
+
+**Health check (all green, no P0):** 0 broken internal `.md` links; `marketplace.json` and `plugin.json` parse with required fields; all 19 skills carry `SKILL.md` with `name`+`description`; the 17 linted category dirs hold 89 agents and all 89 pass lint, matching the live About (89 agents / 19 skills). Oldest "Last reviewed" is 2026-07-21 (inside the 90-day window until 2026-10-19; flagged for the next freshness pass).
+
+**Backlog:** took the ops slice of the open *Mine swan-gtm/gtm-skills by discipline* item. Pricing (`ai-pricing-model-picker`, `credit-packaging`) was checked first and skipped: `pmm-pricing-packaging-strategist` already covers credit design, margin floors and P50/P90 costing. Grep-verified the ops gap: `merge rule` and `golden record` returned 0 roster-wide, and `analytics-marketing-ops-architect` set a "<1% duplicates" target (Rule #6) with no method to prevent or merge duplicates.
+
+**Shipped:** a new section on `analytics/analytics-marketing-ops-architect.md` and its `marketing-analytics/agents/` copy (byte-identical, lint 2/2): *Duplicates: Resolve Before Create, Merge by a Written Survivorship Rule*. It covers:
+- **Resolve before create:** a four-way decision (link, create, review, reject), with each strong key searched separately, never a name-only match, and a re-search just before writing.
+- **Per-field survivorship rule:** verified beats enriched, the owner-of-record team's rule beats recency, consent takes the most restrictive value, and history is unioned.
+- **Governed bulk cleanup:** snapshot first, then operation-level changes, approval by operation ID, stale-value skips and post-batch reconciliation.
+- **Gate monitoring:** creates, links and the review queue tracked alongside the duplicate rate.
+- **Deliverable and boundary:** a Record Resolution & Merge Policy deliverable, with a boundary note to `pmm-acquisition-integration-strategist`.
+
+**Facts / licensing:** no external figures or benchmarks asserted. Ideas from swan-gtm `ryan-iyengar/resolve-before-create`, `ryan-iyengar/governed-crm-cleanup` and `udi-cohen/data-quality` (MIT, licence verified via the GitHub API 2026-10-08), written from scratch and credited in-file. The Lusha-specific workflow of `data-quality` was not carried over.
+
+**Discoverability:** no count change (89/19), so the About text, badges, CITATION and manifests are untouched. Updated the agent description and its AGENTS_INDEX row, the `marketing-analytics` agent-table row and trigger words ("duplicate records in the CRM", "dedupe before import", "which value wins in a merge", "CRM cleanup"), and the `llms.txt` Marketing Analytics line.
+
+**Next:** swan-gtm `hygiene-gated-outbound` (outbound list prep), plus the paid, SEO, events and creators candidates, stay queued.
