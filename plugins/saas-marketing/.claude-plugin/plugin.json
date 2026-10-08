@@ -1,7 +1,7 @@
 {
   "name": "saas-marketing",
   "description": "Your AI B2B SaaS marketing team: 90 specialist agents in 19 skills across content and editorial operations, SEO/AEO, paid media, social, email, design, sales enablement, product marketing, integrated demand-gen campaigns and channel planning, founder-led GTM and public-sector marketing, account-based marketing (ABM), growth/PLG, analytics, comms and analyst relations, partnerships, events, developer marketing, project management, and client ops, coordinated by the CATALYST multi-agent orchestrator.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Shivaa Tripathi"
   },
@@ -19,5 +19,6 @@
     "paid-media",
     "orchestrator",
     "ai-agents"
-  ]
+  ],
+  "types": "./types/index.d.ts"
 }

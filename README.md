@@ -53,6 +53,10 @@ That's it — the 19 skills load as `/saas-marketing:<skill>` (e.g. `/saas-marke
 
 The orchestrator routes positioning to product marketing, assets to content & design, distribution to social/email/paid, and measurement to analytics.
 
+### Watch it work: the campaign board
+
+The plugin ships a live pane for Claude Code: type `/campaign-board` (or just run any skill) and it shows the specialists CATALYST routed, each deliverable as it lands, and every `[NEEDS INPUT]` marker collected into a checklist — the facts your agents refused to invent, waiting for you to supply them. It also tells you whether `brand-context.md` was found.
+
 ### Then: tell it who you are (15 minutes, biggest quality jump)
 
 Copy [`templates/brand-context.md`](templates/brand-context.md) to `brand-context.md` in your project root and fill it in — ICP, positioning, messaging pillars, voice, banned words, and the proof you can actually cite.
