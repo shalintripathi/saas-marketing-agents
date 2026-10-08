@@ -5071,3 +5071,16 @@ It also carries six deliverables (brief, offer ladder, annual calendar, portfoli
 **Discoverability / count sweep:** 89 → 90 in every surface: README badge and prose, AGENTS_INDEX (header, count, regenerated date), llms.txt, CITATION.cff, both manifests, the suite router (prose, table, TOTAL), CATALYST SKILL and both catalyst-strategy copies, EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations/loops READMEs and SKILL_SCOUT.md. Product Marketing went 12 → 13 in the README team and skills tables, AGENTS_INDEX, the suite, CATALYST and EXECUTIVE-BRIEF. The dangling *Channel Strategy Planner* was replaced everywhere: the router, CATALYST Phase 1, both Phase 1 playbook copies, and both catalyst-strategy Strategy & Planning lists. A new router example was added ("Plan our next demand gen campaign"). The `product-marketing-ops` description gained a campaign sentence and triggers ("demand gen campaign", "campaign brief", "channel plan", "which channels should we stop", "always-on vs tentpole", "offer strategy", "random acts of marketing"), plus a routing block. The README trigger row, llms.txt and both manifests now name integrated campaigns. **GitHub About** was updated to 90 agents with "campaign/demand planning" (348/350). To make room, ", Copilot" was dropped; the trade is logged in the backlog.
 
 **Next:** by alternation, the next scout run should ENHANCE. The follow-up is filed in the backlog: reciprocal pointers from `pm-campaign-coordinator`, `pmm-brand-demand-strategist` and `analytics-demand-planner`. Also queued: a possible AI-app-directory section on `pmm-agent-readiness-strategist`.
+
+## 2026-10-08 — Backlog: reciprocal pointers into the Integrated Campaign Strategist
+
+**Health check:** 0 broken internal `.md` links; marketplace + plugin manifests valid; 19/19 skills have `name` + `description`; roster 90 agents / 19 skills matches README badge, AGENTS_INDEX and the live GitHub About. Oldest "Last reviewed" is `integrations/README.md` at 2026-07-23 (77 days, under the 90-day bar). No P0.
+
+**Item:** the follow-up filed by today's ADD run. P1 items above it are all blocked (star/usage gates on awesome-lists, maintainer decisions on #1, the community-marketplace in-app form is human-only). Grep-verified `integrated-campaign` = 0 in all three targets, then added one in-voice sentence each, both dual-located copies:
+- `pm-campaign-coordinator` Rule 1 — the scope statement is built from the Integrated Campaign Brief; change requests that touch objective, audience, offer, channel roles or the kill/scale/adjust checkpoint go back to the Strategist before the timeline is replanned.
+- `pmm-brand-demand-strategist` Rule 11 — entry points and the out-of-market estimate go to the Strategist, which designs the campaign; neither rewrites the other's call.
+- `analytics-demand-planner` Rule 12 — per-source capacity and next-unit cost feed the Strategist's scale/run/test/hold/stop portfolio; its calendar checks read the plan of record, they do not edit it.
+
+**Verified:** lint 6/6, all three pairs byte-identical, 0 broken links. **Discoverability:** no count, name or capability change (still 90/19), so About, badges, CITATION, llms.txt and manifests untouched.
+
+**Next:** the possible AI-app-directory section on `pmm-agent-readiness-strategist` stays queued for a scout run.
