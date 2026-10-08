@@ -5084,3 +5084,16 @@ It also carries six deliverables (brief, offer ladder, annual calendar, portfoli
 **Verified:** lint 6/6, all three pairs byte-identical, 0 broken links. **Discoverability:** no count, name or capability change (still 90/19), so About, badges, CITATION, llms.txt and manifests untouched.
 
 **Next:** the possible AI-app-directory section on `pmm-agent-readiness-strategist` stays queued for a scout run.
+
+## 2026-10-08 — Backlog: Directory Layer on the Agent Readiness Strategist
+
+**Health check:** 0 broken internal `.md` links; marketplace and plugin manifests valid; 19/19 skills have `name` + `description`; the roster is 90 agents and 19 skills, which matches the README, AGENTS_INDEX and the live GitHub About. The oldest "Last reviewed" date is 2026-07-21 (79 days, under the 90-day limit). No P0.
+
+**Item:** the only unblocked backlog item was the queued possible ENHANCE on AI-app directories. The P1 distribution items are still gated on stars or usage, or need a human. The evidence held on primary sources read today:
+- OpenAI's Apps SDK guidelines page is now titled *Plugin guidelines* and covers "all plugins listed in the ChatGPT Directory". It requires verified submitters, three explicit tool hints, a full reviewer demo account, no comparative or unverifiable listing claims, and no steering in tool descriptions, and it restricts selling digital goods.
+- Claude's connector submission docs: remote HTTPS only, `title` + read-only/destructive hint, OAuth 2.0, a populated test account, listing caps of 100/200/2,000 characters, and a permanent slug. Submissions are listed as Community by default, Verified is a separate label, and standalone MCPB local servers are no longer accepted.
+- The MCP Registry README: preview since 2025-09 with an API freeze at v0.1, metadata only, namespaces verified by GitHub or by DNS/HTTP, and a data-reset caveat before GA.
+
+A new section, *The Directory Layer*, was added after the Browser Layer. It gives the facts per directory, five disciplines, and the seams (Launch Manager, Developer Audience Strategist, Legal & Compliance). Contested or volatile items are dated and marked re-read-before-quoting.
+
+**Verified:** lint 2/2; the two copies are byte-identical; 0 broken links; every agent named in the seams exists. **Discoverability:** no count, name or capability-level change (still 90/19), so the About, badges, CITATION, llms.txt and manifests are unchanged.
