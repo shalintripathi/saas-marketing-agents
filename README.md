@@ -55,7 +55,7 @@ The orchestrator routes positioning to product marketing, assets to content & de
 
 ### Watch it work: the campaign board
 
-The plugin ships a live pane for Claude Code: type `/campaign-board` (or just run any skill) and it shows the specialists CATALYST routed, each deliverable as it lands, and every `[NEEDS INPUT]` marker collected into a checklist — the facts your agents refused to invent, waiting for you to supply them. It also tells you whether `brand-context.md` was found.
+The plugin ships a live pane for Claude Code: type `/campaign-board` (or just run any skill) and it shows the specialists CATALYST routed, each deliverable as it lands, and every `[NEEDS INPUT]` marker collected into a checklist — the facts your agents refused to invent, waiting for you to supply them. It also tells you whether `brand-context.md` was found. (The mod hooks `command.run` only to answer its own `/campaign-board` command; it never alters other commands.)
 
 ### Then: tell it who you are (15 minutes, biggest quality jump)
 

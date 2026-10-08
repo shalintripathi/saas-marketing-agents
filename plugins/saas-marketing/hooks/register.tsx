@@ -1,5 +1,5 @@
 import { atom, read, update } from 'claude-code'
-import type { Register } from 'claude-code'
+import type { EngineInterface, Register } from 'claude-code'
 
 import type { BrandState, Deliverable, NeedsInput, SkillRun } from '../types'
 
@@ -14,11 +14,11 @@ const brand = atom({ plugin: 'saas-marketing', key: 'brand' } as const, 'unknown
 
 const base = (path: string) => path.split('/').pop() ?? path
 
-const harvest = async ($: unknown, file: string, content: string) => {
+const harvest = async ($: EngineInterface, file: string, content: string) => {
   const found = content.match(MARKER) ?? []
   if (found.length === 0) return
   const short = base(file)
-  await update($ as never, needs, list => {
+  await update($, needs, list => {
     const next = [...list]
     for (const raw of found) {
       const text = raw.slice(0, 120)
