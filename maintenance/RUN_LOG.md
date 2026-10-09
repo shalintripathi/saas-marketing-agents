@@ -5112,3 +5112,28 @@ A new section, *The Directory Layer*, was added after the Browser Layer. It give
 **Deferred:** the CHANGELOG was never cut into `[1.2.0]` / `[1.3.0]` sections; all ~360 lines since 1.1.0 sit under Unreleased. Filed as a P2 backlog item, because splitting by tag date is a maintainer release-notes call and too big for one run.
 
 **Discoverability:** no count change (90/19). The About description is at 348/350 characters and names no plugin features, so it was left unchanged. Both manifests describe the roster, not the mod, so they were also left as they are.
+
+## 2026-10-09 — Skill scout (PMM / sales / GTM) — ENHANCED: the Proven ICP on the Positioning Strategist
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The focus discipline was **PMM / sales / GTM**, the oldest in the rotation (last covered 10-05). The previous scout run (10-08) was an ADD, so alternation allowed an ENHANCE. The run started from the backlog's open item to mine [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT, 171★, pushed 2026-10-08) by discipline.
+
+**Gap proof:** `ICP refresh`, `refresh the ICP`, `ICP review` and `archetype` (in the customer sense) all grep to zero across the 90 agents. "ICP" appears in ten agents, but always as an input someone else is assumed to have written. `abm-account-based-strategist` builds its account list "closed-won patterns first", so it uses the evidence but does not own the company-wide definition. `pmm-positioning-strategist` cites Dunford's target-market component but had no method for establishing it.
+
+**Shipped:** a new section on `product-marketing/pmm-positioning-strategist.md`, *The Proven ICP: Re-derived from the Revenue, Not the Plan*. It has nine method rules:
+- select deals on populated value, not stage names;
+- compute totals and shares, never read them off rows;
+- weight by revenue, then overlay retention to produce an anti-ICP list;
+- build two to four falsifiable archetypes, each from two or more named companies;
+- report a whale as concentration, not a pattern;
+- never fill an absent dimension;
+- rank acquisition sources with their coverage;
+- decide the stated-versus-proven gap (re-aim, or a dated bet);
+- refresh on a date and on drift.
+
+It closes with a handoff paragraph (ABM, Outbound, Social Ads lookalikes, Marketing Ops fit score) and a credit line. The run also added a Core Mission bullet, a **Proven ICP Record** deliverable and an **ICP Evidence Standard** metric (a count of compliant entries, no fabricated rate), and appended to the frontmatter description. Both dual-located copies are byte-identical, and lint passes on both.
+
+**Licensing:** `erwann-lefevre/won-deal-icp-finder` was read in full (MIT, read 2026-10-09). Its ideas were rewritten in our voice and credited in-file. The ~25% concentration and ~70% coverage lines are attributed to that source as practice heuristics, not benchmarks. The retention overlay, the anti-ICP list, the stated-versus-proven decision and the handoffs are this repo's additions.
+
+**Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests were left unchanged. The README team table annotates the Positioning Strategist, and the README skill-trigger table adds "what's our real ICP". The AGENTS_INDEX row was synced to the new description. The `llms.txt` product-marketing line names the Proven ICP, and the `product-marketing-ops` skill gained ICP trigger phrases in its `description:` and in its agent-table row.
+
+**Follow-up filed:** reciprocal pointers from `abm-account-based-strategist`, `sales-outbound-strategist` and `analytics-marketing-ops-architect` back to the Proven ICP Record (one change per run).
