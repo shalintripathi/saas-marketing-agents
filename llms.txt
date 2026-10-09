@@ -39,6 +39,7 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 
 - [AEO/GEO Playbook](guides/aeo-geo-playbook.md): how to get cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews, Copilot)
 - [Marketing loops](loops/README.md): recurring-cadence workflow templates
+- [Campaign board](README.md#watch-it-work-the-campaign-board): `/campaign-board`, a live Claude Code pane (plugin v1.3.0+) showing routed specialists, deliverables as they land, and every `[NEEDS INPUT]` marker as a checklist
 
 ## Optional
 

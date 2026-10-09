@@ -5097,3 +5097,18 @@ It also carries six deliverables (brief, offer ladder, annual calendar, portfoli
 A new section, *The Directory Layer*, was added after the Browser Layer. It gives the facts per directory, five disciplines, and the seams (Launch Manager, Developer Audience Strategist, Legal & Compliance). Contested or volatile items are dated and marked re-read-before-quoting.
 
 **Verified:** lint 2/2; the two copies are byte-identical; 0 broken links; every agent named in the seams exists. **Discoverability:** no count, name or capability-level change (still 90/19), so the About, badges, CITATION, llms.txt and manifests are unchanged.
+
+## 2026-10-09 — P0: release metadata caught up with v1.3.0 (campaign board)
+
+**Health check:** 0 broken internal `.md` links. Marketplace and plugin manifests are valid, and 19/19 skills have `name` + `description`. The roster is 90 agents and 19 skills, matching the README, AGENTS_INDEX, llms.txt, CITATION, both manifests and the live GitHub About. The oldest "Last reviewed" date is 2026-07-21 (80 days, under the 90-day limit). Lint was not run because no agent was touched.
+
+**Finding:** two commits landed after the last run: the `/campaign-board` mod (21772d7, released as v1.3.0 on 2026-10-08) and the `displayName` fix. The README covers the board, but the repo's own metadata lagged:
+- `CITATION.cff` still cited `1.1.0` / `2026-07-21`, two releases behind (v1.2.0 2026-09-11, v1.3.0 2026-10-08). Anyone citing the repo would cite the wrong version.
+- `CHANGELOG.md` had no entry for the campaign board.
+- `llms.txt` had no pointer to it.
+
+**Fix:** CITATION set to 1.3.0 / 2026-10-08. A campaign-board bullet was added under Unreleased › Added, describing what the pane shows and that it is UI-only (no network, no credentials), wording taken from the README and the v1.3.0 release notes. One `llms.txt` line links the README section.
+
+**Deferred:** the CHANGELOG was never cut into `[1.2.0]` / `[1.3.0]` sections; all ~360 lines since 1.1.0 sit under Unreleased. Filed as a P2 backlog item, because splitting by tag date is a maintainer release-notes call and too big for one run.
+
+**Discoverability:** no count change (90/19). The About description is at 348/350 characters and names no plugin features, so it was left unchanged. Both manifests describe the roster, not the mod, so they were also left as they are.
