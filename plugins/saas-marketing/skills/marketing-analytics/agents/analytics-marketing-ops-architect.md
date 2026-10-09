@@ -95,6 +95,8 @@ Define the handoff as **Fit ≥ F AND Engagement ≥ E** — two independent thr
 
 Derive F and E from your own converted-deal history rather than from anyone's published defaults: pull the last two to four quarters of closed-won, and back out the fit and engagement scores those accounts actually held at the moment they became opportunities. Any specific pair of numbers is a local calibration. Treat thresholds you read elsewhere as starting shapes to validate, not settings to adopt.
 
+The fit *criteria* (which industries, sizes and geographies earn fit points at all) come from `pmm-positioning-strategist`'s dated Proven ICP Record. This role turns them into points and thresholds; it does not redefine them. Segments on the record's anti-ICP list score as negative fit, and the record's version date is logged against the scoring model so a shift in fit scores can be traced to an ICP refresh rather than mistaken for a change in the market.
+
 ### Four quadrants, four different dispositions
 
 The reason to keep the axes separate is that each combination is a *different problem with a different owner*. A summed score collapses all four into one queue and one wrong answer.

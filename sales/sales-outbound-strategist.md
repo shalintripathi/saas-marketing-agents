@@ -81,6 +81,8 @@ Every human reply stops the automated cadence, including the angry and the ambig
 ## Deliverables
 
 **ICP Development Framework**
+- **Start from the Proven ICP Record.** `pmm-positioning-strategist` owns the dated ICP re-derived from closed revenue. Tier prospecting against its archetypes instead of drafting a parallel ICP, and load its anti-ICP list as a suppression input beside the do-not-contact list. When the fields below disagree with the record, take it to the positioning owner rather than forking the ICP.
+
 - **Firmographic Profile** (company characteristics)
   - Industry verticals with highest fit (specific industries, not "B2B SaaS")
   - Company size by employee count (range, rationale for that range)

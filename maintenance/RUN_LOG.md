@@ -5137,3 +5137,16 @@ It closes with a handoff paragraph (ABM, Outbound, Social Ads lookalikes, Market
 **Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests were left unchanged. The README team table annotates the Positioning Strategist, and the README skill-trigger table adds "what's our real ICP". The AGENTS_INDEX row was synced to the new description. The `llms.txt` product-marketing line names the Proven ICP, and the `product-marketing-ops` skill gained ICP trigger phrases in its `description:` and in its agent-table row.
 
 **Follow-up filed:** reciprocal pointers from `abm-account-based-strategist`, `sales-outbound-strategist` and `analytics-marketing-ops-architect` back to the Proven ICP Record (one change per run).
+
+## 2026-10-09 — Backlog: reciprocal pointers to the Proven ICP Record
+
+**Health check:** 0 broken internal `.md` links. Marketplace and plugin manifests are valid, and 19/19 skills have `name` + `description`. Counts are 90 agents and 19 skills everywhere, including the live About. The oldest "Last reviewed" date is 2026-07-21 (80 days). No P0.
+
+**Shipped:** the P2 follow-up filed by this morning's scout ENHANCE. A grep confirmed `Proven ICP` appeared only on `pmm-positioning-strategist`. One in-voice pointer was added to each downstream owner:
+- `abm-account-based-strategist`, Rule 2: the closed-won-first list starts from the record's archetypes, and anti-ICP segments stay off it unless a written bet with an owner says otherwise.
+- `sales-outbound-strategist`, ICP Development Framework: tier against the archetypes rather than drafting a parallel ICP, load the anti-ICP list as a suppression input, and escalate disagreements to the positioning owner rather than forking the ICP.
+- `analytics-marketing-ops-architect`, Fit/Engagement section: fit criteria come from the record, anti-ICP scores as negative fit, and the record version is logged against the scoring model.
+
+Both dual-located copies of all three agents are byte-identical, and lint passes 6/6. The seam was previously stated only from the positioning side.
+
+**Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left as they are. A CHANGELOG Unreleased bullet was added.
