@@ -5150,3 +5150,16 @@ It closes with a handoff paragraph (ABM, Outbound, Social Ads lookalikes, Market
 Both dual-located copies of all three agents are byte-identical, and lint passes 6/6. The seam was previously stated only from the positioning side.
 
 **Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left as they are. A CHANGELOG Unreleased bullet was added.
+
+## 2026-10-09 (evening) — Backlog: CHANGELOG cut into the releases it shipped in
+
+**Health check:** 0 broken internal `.md` links. Marketplace and plugin manifests are valid, and 19/19 skills have `name` + `description`. Counts are 90 agents and 19 skills everywhere, including the live About. The oldest guide "Last reviewed" date is 2026-07-21 (80 days). No P0.
+
+**Shipped:** the P2 item filed this morning. `v1.2.0` and `v1.3.0` are tagged and published on GitHub, but `CHANGELOG.md` still filed everything since 1.1.0 (273 bullets) under `[Unreleased]`, so a reader could not tell what each release contained. The item was deferred as a judgment call; it turned out not to need one. Each bullet was assigned to the earliest tag containing the commit that wrote it (`git blame -w -M` per line × `git merge-base --is-ancestor`), with a `git log -S` cross-check on each bullet's opening. The two methods disagreed on 2 bullets; both disagreements were pickaxe false-matches on a shared "AEO/GEO freshness pass" prefix, and the commit dates (09-21, 09-28) confirm 1.3.0.
+- `[1.2.0] — 2026-09-11`: 60 Added / 112 Changed / 3 Fixed.
+- `[1.3.0] — 2026-10-08`: 21 Added / 61 Changed / 2 Fixed. One manual override: the campaign-board bullet was written in a commit just after the tag, but it describes `hooks/register.tsx`, which is in the `v1.3.0` tree and gives the release its title.
+- `[Unreleased]`: the two Proven ICP entries shipped today.
+
+**Verified:** the sorted non-heading line set is identical before and after (273 = 273 bullets; no text edited). Within each release, bullets keep their original relative order.
+
+**Discoverability:** no count, name or capability change. `CITATION.cff` was already at 1.3.0.
