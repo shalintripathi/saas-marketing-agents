@@ -5209,3 +5209,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 - `social-listening-analyst` was **skipped**: no AI, LLM or model workflow appears in it, so a pointer would be padding.
 
 **Verified:** lint 6/6, all three pairs byte-identical, and no count change, so the About box, badges, CITATION and manifests were left unchanged. Each line names a concrete control already in the file it points to, and no new claims or figures were added.
+
+## 2026-10-10 — Freshness pass: Bing's Copilot meta-tag controls (AEO/GEO Playbook + AI Search Optimizer)
+
+**Health check:** no broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. Agent count is 90 (sum of `AGENTS_INDEX.md` sections and `find` over the category dirs) and skill count is 19, matching the README badges, `llms.txt`, manifests and the live About. The remaining "80/81 agents" strings are dated provenance notes, so they are not stale. The oldest live `Last reviewed` is 2026-08-09, which is inside the 90-day window. No P0.
+
+**Backlog:** P0 is empty. Every open P1 is blocked on stars, community usage, a maintainer decision (#1) or a human-only form (the Anthropic community marketplace), so this run did a freshness pass.
+
+**Finding:** the playbook already covered Google's Search Console Include/Exclude control but had nothing on Bing's equivalent. Bing's Webmaster Guidelines, rewritten 27 Feb 2026 and read on bing.com on 2026-10-10, define GEO as *"content eligibility for grounding and reference in AI responses."* They state that NOARCHIVE prevents use in Copilot responses and grounding, and that NOCACHE limits Copilot to URL, title and snippet. They also add a *Prompt Injection and AI Manipulation* section and retitle keyword stuffing as *Keyword Stuffing and Artificially Engineered Language*. Grep found `noarchive`, `nocache` and `prompt injection` nowhere in the playbook or the agent.
+
+**Shipped:** in the playbook, §1's Bing bullet now explains the two meta tags and the audit to run (`robots` meta and `X-Robots-Tag`). §5 *What not to do* gains the Bing AI-manipulation rules, the Bing guidelines URL joins Sources, and `Last reviewed` is bumped to 2026-10-10. Both copies of `seo-ai-search-optimizer` get the same check on the Bing/Copilot line (byte-identical, lint 2/2). No effect sizes or figures were added.
+
+**Also checked, no change:** Google's May 2026 generative-AI guide is already covered. The AI Mode Europe rollout that surfaced in search dates to Oct 2025, so it is not news.
+
+**Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left unchanged.
