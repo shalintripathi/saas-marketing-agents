@@ -5195,3 +5195,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Discoverability:** the README Analytics row, the `AGENTS_INDEX.md` row, `llms.txt` and the `marketing-analytics` skill's description and agent table now name the prompt-injection check, with the phrases a marketer would type ("prompt injection", "can our AI read prospect replies safely", "lethal trifecta", "the AI leaked internal notes"). Counts are unchanged (90 agents, 19 skills), so the About box, badges, CITATION and manifests were left alone. A CHANGELOG Unreleased bullet was added.
 
 **Follow-up filed:** P1 reciprocal pointers from the outbound, conversational-agent, GTM-data and listening agents back to the check.
+
+## 2026-10-10 — Maintenance — P1 reciprocal pointers to the three-ingredient check
+
+**Health check:** marketplace and plugin manifests are valid, 19/19 skills, and counts are 90 agents and 19 skills, matching the live About. No P0. The backlog P0 section is empty.
+
+**Item:** the P1 follow-up filed by this morning's scout ENHANCE. The grep showed no pointer back to `analytics-marketing-ai-ops-lead`'s *Outside Content Is Data* check in any of the four targets.
+
+**Shipped (both dual-located copies, 6 files):**
+- `sales-outbound-strategist`: the reply-body classifier paragraph now names the three ingredients and gives the split as the way to automate. The step that reads the body returns only a label and has no CRM or send access.
+- `sales-conversational-agent-strategist` Rule 8: read scopes now matter for a second reason. A live chat already reads strangers' text and replies, so CRM read access would complete the trifecta, and a live conversation can't wait for per-message approval. Private-data actions run in a separate step on a fixed label.
+- `analytics-gtm-data-strategist` Rule 10: the AI Ops Lead joins the ownership list. AI research or summarization steps over scraped pages or enrichment payloads count as untrusted content and return candidate values to the gate, with no CRM write or send path.
+- `social-listening-analyst` was **skipped**: no AI, LLM or model workflow appears in it, so a pointer would be padding.
+
+**Verified:** lint 6/6, all three pairs byte-identical, and no count change, so the About box, badges, CITATION and manifests were left unchanged. Each line names a concrete control already in the file it points to, and no new claims or figures were added.
