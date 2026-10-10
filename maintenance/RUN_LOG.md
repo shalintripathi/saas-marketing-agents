@@ -5163,3 +5163,21 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Verified:** the sorted non-heading line set is identical before and after (273 = 273 bullets; no text edited). Within each release, bullets keep their original relative order.
 
 **Discoverability:** no count, name or capability change. `CITATION.cff` was already at 1.3.0.
+
+## 2026-10-10 — Freshness re-check of the integrations guide; Cursor install-target fix
+
+**Health check:** 0 broken internal `.md` links. Marketplace and plugin manifests are valid, and 19/19 skills have `name` + `description`. Counts are 90 agents and 19 skills everywhere, including the live About. The only "Last reviewed" date near the 90-day window was `integrations/README.md` (2026-07-23, 79 days). No P0.
+
+**Why this item:** every open backlog line is blocked on stars, a maintainer decision, a watch, or too large for one run. The AEO/GEO playbook was reviewed 12 days ago, so a pass would almost certainly no-op. The integrations guide was the stalest living doc and the one whose drift breaks installs, so it got the freshness pass, ahead of its 2026-10-21 due date.
+
+**Re-checked against vendor docs (2026-10-10):**
+- Cursor: `.cursor/rules` and `.mdc` are still required, with plain `.md` ignored. The four rule types are unchanged.
+- Copilot: `description` is still the only required field, with `.agent.md`. VS Code still scans `.github/agents` and `.claude/agents` in the workspace, and `~/.copilot/agents` and `~/.claude/agents` for the user.
+- Aider: all six commands and the `opus`/`sonnet` aliases are unchanged.
+- Windsurf: the docs URL now redirects to `docs.devin.ai/desktop/...` and presents the product as Devin Desktop. Paths are unchanged.
+
+**Defect found and fixed:** `install.sh --tool cursor` wrote to `~/.cursor/rules/`. Cursor's Rules docs name no home-folder path, and User Rules are set in Customize → Rules. Forum evidence says the folder is not loaded unless the project sits under `$HOME`: a staff reply on 2025-12-30 called it a bug, and a 2026-07-18 feature request still describes it as unsupported. The 2026-07-23 install verification checked that files landed, not that Cursor read them. The target is now `./.cursor/rules/` (project rules, current directory, like `aider` and `windsurf`). Also updated: the help text, the success message, the integrations table and the Cursor section, and `WORKFLOW_GUIDE.md`, which had the same stale path plus a `~/.github/agents/` Copilot path corrected in July in the guide but not there. Sources date bumped to 2026-10-10.
+
+**Verified:** `bash -n` passes. In a sandbox HOME and project, `--tool cursor` produced `proj/.cursor/rules/seo-ai-search-optimizer.mdc` with `description` frontmatter intact and wrote nothing under HOME. 0 broken links.
+
+**Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left unchanged.

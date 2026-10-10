@@ -50,7 +50,7 @@ Agents also work as native subagent files: `scripts/install.sh --tool claude` co
 scripts/install.sh --tool cursor content/content-blog-strategist.md
 ```
 
-Cursor project rules live in `.cursor/rules` as `.mdc` files; **plain `.md` files in that folder are ignored**, which is why the script rewrites the extension. Because each agent's frontmatter carries a `description` but no `alwaysApply` or `globs`, the rules install as *Apply Intelligently* — Cursor pulls one in when the request matches its description. You can also `@`-mention a rule to apply it manually.
+Run it from the project you want the agents in: the script writes to `./.cursor/rules/` in the current directory. Cursor project rules live in `.cursor/rules` as `.mdc` files; **plain `.md` files in that folder are ignored**, which is why the script rewrites the extension. Cursor has no documented home-folder rules directory — *User Rules* that apply across every project are set in **Customize → Rules**, not as files — and a `~/.cursor/rules` folder is not reliably loaded, so the script no longer writes there. Because each agent's frontmatter carries a `description` but no `alwaysApply` or `globs`, the rules install as *Apply Intelligently* — Cursor pulls one in when the request matches its description. You can also `@`-mention a rule to apply it manually.
 
 For a one-off, skip the install and `@`-reference the file directly in Cursor Chat:
 
@@ -128,7 +128,7 @@ Use `/read-only`, not `/add`, for agent personas — `/add` puts a file in the e
 
 ## Windsurf
 
-**Setup**: [Install Windsurf](https://windsurf.com)
+**Setup**: [Install Windsurf](https://windsurf.com) (its docs now present it as **Devin Desktop**; the rule paths below are unchanged)
 
 **Usage** — install the agents as workspace rules:
 
@@ -174,12 +174,12 @@ Where each `--tool` writes:
 |---|---|---|
 | `cowork` | `~/.claude/skills/` | 19 skill folders (`SKILL.md` + `agents/`) |
 | `claude` | `~/.claude/agents/` | one `.md` per agent |
-| `cursor` | `~/.cursor/rules/` | one `.mdc` per agent |
+| `cursor` | `./.cursor/rules/` | one `.mdc` per agent |
 | `copilot` | `~/.copilot/agents/` | one `.agent.md` per agent |
 | `aider` | `./CONVENTIONS.md` | all agents concatenated |
 | `windsurf` | `./.windsurfrules` | all agents concatenated |
 
-`aider` and `windsurf` write into the **current directory**, so run those from the project you want the agents scoped to — not from this repo.
+`cursor`, `aider` and `windsurf` write into the **current directory**, so run those from the project you want the agents scoped to — not from this repo.
 
 ---
 
@@ -281,12 +281,12 @@ Agent files in this repo run ~680–2,900 words each (median ~1,270), so loading
 
 ## Sources
 
-_Last reviewed: 2026-07-23._ Tool conventions change often; these are the vendor docs each section was checked against. If something here stops matching your tool, the doc below is the authority — please open an issue.
+_Last reviewed: 2026-10-10._ Tool conventions change often; these are the vendor docs each section was checked against. If something here stops matching your tool, the doc below is the authority — please open an issue.
 
-- Cursor — [Rules](https://cursor.com/docs/context/rules) (`.cursor/rules`, `.mdc` required, rule-type frontmatter)
+- Cursor — [Rules](https://cursor.com/docs/context/rules) (`.cursor/rules`, `.mdc` required, rule-type frontmatter; User Rules set in Customize → Rules, no home-folder path documented). On `~/.cursor/rules` not loading: [forum report, staff reply 2025-12-30](https://forum.cursor.com/t/rules-in-home-folder-cursor-rules-are-not-applied/147236) and [feature request, 2026-07-18](https://forum.cursor.com/t/file-backed-agent-editable-user-rules-parity-with-project-cursor-rules/166055)
 - GitHub Copilot — [Creating custom agents](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/create-custom-agents) (`.github/agents/NAME.agent.md`), [Custom agents configuration](https://docs.github.com/en/copilot/reference/custom-agents-configuration) (`description` required), [VS Code custom agents](https://code.visualstudio.com/docs/copilot/customization/custom-agents) (`~/.copilot/agents`, `.claude/agents` detection)
 - Aider — [In-chat commands](https://aider.chat/docs/usage/commands.html) (`/read-only`, `/add`, `/drop`, `/ask`, `/architect`), [model aliases](https://aider.chat/docs/config/model-aliases.html) (`opus`, `sonnet`)
-- Windsurf — [Cascade memories & rules](https://docs.windsurf.com/windsurf/cascade/memories) (`.devin/rules` preferred, `.windsurf/rules` fallback, legacy `.windsurfrules` still read, `~/.codeium/windsurf/memories/global_rules.md`)
+- Windsurf / Devin Desktop — [Cascade memories & rules](https://docs.devin.ai/desktop/cascade/memories) (`trigger` frontmatter: `always_on`, `model_decision`, `glob`, `manual`; `.devin/rules` preferred, `.windsurf/rules` fallback, legacy `.windsurfrules` still read, `~/.codeium/windsurf/memories/global_rules.md`)
 
 ---
 

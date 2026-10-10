@@ -233,7 +233,9 @@ install_to_claude_code() {
 
 install_to_cursor() {
     local agent_file=$1
-    local target_dir="$HOME/.cursor/rules"
+    # Project rules: Cursor reads .cursor/rules in the open project. A home-folder
+    # ~/.cursor/rules is not in Cursor's docs and is not reliably loaded.
+    local target_dir="./.cursor/rules"
 
     mkdir -p "$target_dir"
 
@@ -389,7 +391,7 @@ OPTIONS:
     --tool TOOL         Install to specific tool only:
                         - cowork    Claude Cowork (~/.claude/skills/)
                         - claude    Claude Code (~/.claude/agents/)
-                        - cursor    Cursor (~/.cursor/rules/)
+                        - cursor    Cursor (./.cursor/rules/)
                         - copilot   GitHub Copilot (~/.copilot/agents/)
                         - aider     Aider (CONVENTIONS.md)
                         - windsurf  Windsurf (.windsurfrules)
@@ -541,7 +543,7 @@ main() {
                 echo "  Location: $HOME/.claude/agents/"
                 ;;
             cursor)
-                echo "  Location: $HOME/.cursor/rules/"
+                echo "  Location: ./.cursor/rules/ (in this project)"
                 ;;
             copilot)
                 echo "  Location: $HOME/.copilot/agents/"

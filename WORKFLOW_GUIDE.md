@@ -334,8 +334,8 @@ Output directory: ./converted/cursor/
 
 **Supported Tools**:
 - **Claude Code** - ~/.claude/agents/
-- **Cursor** - ~/.cursor/rules/
-- **GitHub Copilot** - ~/.github/agents/ or ~/.copilot/agents/
+- **Cursor** - .cursor/rules/ (in current directory)
+- **GitHub Copilot** - ~/.copilot/agents/
 - **Aider** - CONVENTIONS.md (in current directory)
 - **Windsurf** - .windsurfrules (in current directory)
 
@@ -367,8 +367,8 @@ Output directory: ./converted/cursor/
 
 **Installation Locations**:
 - Claude Code: `$HOME/.claude/agents/`
-- Cursor: `$HOME/.cursor/rules/`
-- GitHub Copilot: `$HOME/.github/agents/` or `$HOME/.copilot/agents/`
+- Cursor: `./.cursor/rules/`
+- GitHub Copilot: `$HOME/.copilot/agents/`
 - Aider: `./CONVENTIONS.md`
 - Windsurf: `./.windsurfrules`
 
@@ -437,8 +437,8 @@ cd ../agents-converted
 # 5. Verify installation
 echo "Agents installed to:"
 echo "  - Claude Code: ~/.claude/agents/"
-echo "  - Cursor: ~/.cursor/rules/"
-echo "  - Copilot: ~/.github/agents/"
+echo "  - Cursor: .cursor/rules/ (in current dir)"
+echo "  - Copilot: ~/.copilot/agents/"
 echo "  - Aider: CONVENTIONS.md (in current dir)"
 echo "  - Windsurf: .windsurfrules (in current dir)"
 ```
