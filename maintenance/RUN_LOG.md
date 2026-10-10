@@ -5181,3 +5181,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Verified:** `bash -n` passes. In a sandbox HOME and project, `--tool cursor` produced `proj/.cursor/rules/seo-ai-search-optimizer.mdc` with `description` frontmatter intact and wrote nothing under HOME. 0 broken links.
 
 **Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left unchanged.
+
+## 2026-10-10 — Skill scout (email / analytics / ops) — ENHANCED: prompt injection on the Marketing AI Operations Lead
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The previous runs were 10-08 ADD and 10-09 ENHANCE, so the two-enhancements trigger had not fired, but an ADD was still tried first. Six email/analytics/ops ADD hypotheses were grep-tested and killed (see the ledger). The warehouse/reverse-ETL persona was killed for the third time.
+
+**The gap:** `analytics-marketing-ai-ops-lead` keeps the register of every AI use in marketing, but it said nothing about workflows that read text written by strangers: prospect replies, form fills, scraped pages, enrichment payloads. Roster-wide, `prompt injection` appeared only in two sales agents' own scopes, and `exfiltrat` and `jailbreak` returned zero.
+
+**Shipped:** a new section, *Outside Content Is Data: The Three-Ingredient Check*, in both dual-located copies (byte-identical, lint 2/2). Each register row is tagged for private data, untrusted content and an outbound path. A row with all three is capped at Draft on the existing autonomy ladder, and the only way up is to split the workflow so the step that reads untrusted text returns a fixed label and cannot reach the data. Approval has to cover each exact artifact. Injection cases join every eval pack, and attempts are logged as incidents even when the gate held. Rule 1, the Core Mission, the AI Use Register and the Workflow Eval Pack deliverables, a new *Trifecta containment* metric and the frontmatter description were all updated.
+
+**Sources:** `nadav-david/inbound-is-data` in swan-gtm/gtm-skills (MIT, read in full, ideas rewritten), Simon Willison's lethal trifecta (2025-06-16), Meta's Agents Rule of Two (2025-10-31) and OWASP LLM01:2025. All were read on 2026-10-10 and are credited in the file. No detection-rate or prevalence figure is asserted.
+
+**Discoverability:** the README Analytics row, the `AGENTS_INDEX.md` row, `llms.txt` and the `marketing-analytics` skill's description and agent table now name the prompt-injection check, with the phrases a marketer would type ("prompt injection", "can our AI read prospect replies safely", "lethal trifecta", "the AI leaked internal notes"). Counts are unchanged (90 agents, 19 skills), so the About box, badges, CITATION and manifests were left alone. A CHANGELOG Unreleased bullet was added.
+
+**Follow-up filed:** P1 reciprocal pointers from the outbound, conversational-agent, GTM-data and listening agents back to the check.
