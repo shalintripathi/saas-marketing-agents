@@ -5239,3 +5239,18 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Discoverability:** `AGENTS_INDEX.md` role line, the `paid-media-ops` skill description, agent table row and trigger phrases (CTV, connected TV, OTT, LinkedIn CTV, SSAI fraud), `llms.txt` and the README Paid Media Ops trigger row. No count change (90 agents / 19 skills), so About box, badges, CITATION and manifests unchanged.
 
 **Follow-up filed:** reciprocal pointers from the PPC Strategist (YouTube), Social Ads Specialist (LinkedIn CTV) and Budget Optimizer (cross-row frequency) to the new section.
+
+## 2026-10-11 — Maintenance — P2 reciprocal pointers to the CTV section
+
+**Health check:** no broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. The agent count is 90: `find` over the category dirs returns 100 files, minus the 10 frontmatter-less CATALYST strategy and playbook docs. The skill count is 19. Both match the README badges, `llms.txt`, manifests and the live About. No `Last reviewed` date is older than 90 days. No P0.
+
+**Picked:** the CTV reciprocal-pointer item filed by this morning's scout run. Every P1 is blocked: #1 is waiting on decisions, the awesome-lists on stars or usage, and the community-marketplace form needs the human. Grep-verified first: `CTV`, `connected TV` and `OTT` each returned zero in all three targets.
+
+**Shipped (both copies, byte-identical, lint 6/6):**
+- `paid-media-social-ads-specialist`: a new *LinkedIn CTV: the member targeting holds, the screen does not* subsection at the end of *Delivery Is Not Targeting*. It reports member-targeted reach, not accounts engaged, treats completion rate as a property of the slot, and requires a holdout or an "unverified" label. The buy sits behind the same brand/demand gate, and its frequency goes onto the Budget Optimizer's collision map.
+- `paid-media-ppc-strategist`: a Core Mission bullet that owns YouTube bought in Google Ads, including TV-screen views, as one of three CTV rows.
+- `paid-media-budget-optimizer`: two sentences on the cross-platform frequency paragraph. The three CTV rows go on the collision map as one household line, and their combined frequency is labelled an estimate.
+
+**No new facts or figures:** every platform claim used here (LinkedIn CTV served through streaming partners, the account-claim and holdout rules) is already sourced in `paid-media-programmatic-buyer`.
+
+**Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left unchanged.
