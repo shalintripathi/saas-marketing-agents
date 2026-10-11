@@ -5266,3 +5266,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Sources (read 2026-10-11):** Google *Email sender guidelines* (per-type From:/IP separation); Google Workspace *Set up BIMI* (DMARC gate, VMC/CMC, checkmark, SVG Tiny PS); BIMI Group FAQ (says it "does not change message delivery"; record inheritance). SSL.com (issuer) for the roughly 12-month prior-use bar on a CMC, and Spam Resource for Apple Business Connect Branded Mail; both are flagged as secondary. **Contested and stated, not resolved:** the BIMI Group FAQ says Gmail and Apple require a VMC while Google's own page accepts a CMC, and secondary sources disagree on whether Apple honours a CMC. No support matrix or "BIMI lift" figure is asserted.
 
 **Discoverability:** `AGENTS_INDEX.md` row, `llms.txt`, the `email-marketing-ops` skill description, agent table and routing row, and the README Email Marketing Ops trigger row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
+
+## 2026-10-11 — Maintenance — reciprocal pointers to the BIMI/transactional section
+
+**Health check:** no broken internal `.md` links. Manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the badges, `llms.txt`, the manifests and the live About. The living guides were reviewed 2026-10-10. No P0.
+
+**Picked:** the standard reciprocal-pointer follow-up to this morning's *Brand Domain's Unowned Mail* section, which names `email-lifecycle-architect` and `growth-customer-marketing-lead` but got no pointer back from either. Every P1 is still blocked. Grep-verified first: `deliverability-specialist`, `BIMI` and `Brand Domain` returned zero in both targets.
+
+**Shipped (both copies each, byte-identical, lint 4/4):**
+- `email-lifecycle-architect`: the *A transactional sender still gets a row* paragraph now says inbox delivery of that stream (DKIM alignment for the billing platform and product mail API, separation by message type, seed tests on reset/invoice/trial-expiry templates) is owned by `email-deliverability-specialist`.
+- `growth-customer-marketing-lead`: the dunning paragraph now says cap-exempt is not authentication-exempt, and routes each dunning template through the specialist's DKIM check and seed-list tests before it ships.
+
+**No new facts or figures:** both sentences restate claims already sourced in the specialist's section.
+
+**Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests are unchanged.
