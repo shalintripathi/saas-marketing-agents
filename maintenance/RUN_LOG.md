@@ -5254,3 +5254,15 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **No new facts or figures:** every platform claim used here (LinkedIn CTV served through streaming partners, the account-claim and holdout rules) is already sourced in `paid-media-programmatic-buyer`.
 
 **Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left unchanged.
+
+## 2026-10-11 — Maintenance — P2 BIMI and transactional email on the Deliverability Specialist
+
+**Health check:** no broken internal `.md` links. Manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the badges, `llms.txt`, the manifests and the live About. The oldest `Last reviewed` date is 2026-07-21 (82 days). No P0.
+
+**Picked:** the open P2 item *BIMI and transactional-email ownership* (filed 2026-10-10). Every P1 is still blocked. Grep-verified first: `BIMI` and `transactional stream` returned zero in every agent.
+
+**Shipped (both copies, byte-identical, lint 2/2):** a new section on `email-deliverability-specialist`, *The Brand Domain's Unowned Mail: Transactional Streams and the BIMI Logo*, plus a Core Mission bullet, a *Brand-Domain Completion* metric and the frontmatter description. Transactional mail gets separation by message type, DKIM alignment for the product mail API and seed tests on reset, invoice and trial-expiry templates. It points to `email-lifecycle-architect` (CAN-SPAM primary purpose) and `growth-customer-marketing-lead` (dunning program). BIMI is treated as a display signal gated on `p=quarantine|reject` with `pct=100`. The section covers VMC vs CMC by trademark position (trademark questions go to `ops-legal-compliance`), the SVG Tiny PS spec and the organisational-domain record, and adds a repo judgement that BIMI stays off the cold estate (Rule 10).
+
+**Sources (read 2026-10-11):** Google *Email sender guidelines* (per-type From:/IP separation); Google Workspace *Set up BIMI* (DMARC gate, VMC/CMC, checkmark, SVG Tiny PS); BIMI Group FAQ (says it "does not change message delivery"; record inheritance). SSL.com (issuer) for the roughly 12-month prior-use bar on a CMC, and Spam Resource for Apple Business Connect Branded Mail; both are flagged as secondary. **Contested and stated, not resolved:** the BIMI Group FAQ says Gmail and Apple require a VMC while Google's own page accepts a CMC, and secondary sources disagree on whether Apple honours a CMC. No support matrix or "BIMI lift" figure is asserted.
+
+**Discoverability:** `AGENTS_INDEX.md` row, `llms.txt`, the `email-marketing-ops` skill description, agent table and routing row, and the README Email Marketing Ops trigger row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
