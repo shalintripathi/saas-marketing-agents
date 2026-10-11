@@ -5223,3 +5223,19 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Also checked, no change:** Google's May 2026 generative-AI guide is already covered. The AI Mode Europe rollout that surfaced in search dates to Oct 2025, so it is not news.
 
 **Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests were left unchanged.
+
+## 2026-10-11 — Skill scout (paid / social) — ENHANCED: connected TV on the Programmatic Media Buyer
+
+**ADD or ENHANCE:** ENHANCED. The last two scout runs (10-09, 10-10) were both enhancements, so this run hunted an ADD first. None survived the gap test (scout-ledger 2026-10-11 rows), and the honest call was a section on an existing owner rather than a manufactured persona.
+
+**Focus:** paid / social, the oldest in the rotation (last 10-07).
+
+**Gap proven:** `CTV`/`connected TV` returned **zero** across all 17 agent directories, and `YouTube ads` appeared once (an ad-spec line in `design-ad-creative-producer`). Three paid agents each touch video by platform, but none owned the decision to buy streaming TV, the household-to-account claim or SSAI fraud. A "Video & CTV strategist" persona was considered and rejected: it would take YouTube from `paid-media-ppc-strategist` and LinkedIn video from `paid-media-social-ads-specialist`. So this is a section on `paid-media-programmatic-buyer`, the DSP owner, with the seams drawn in a table.
+
+**Shipped:** both copies of `paid-media-programmatic-buyer` (byte-identical, lint 2/2): a Core Mission bullet, **Rule 10**, the *Connected TV: Buying a Household, Claiming an Account* section (gate, platform seams, three account-claim mechanisms, five SSAI/supply questions, completion rate as a format property, holdout-first measurement, creative handoff), a *CTV Buy Readiness & Measurement Plan* deliverable and a *CTV accountability* metric. Frontmatter description now names CTV.
+
+**Sources (read 2026-10-11):** LinkedIn newsroom (CTV, 2024-04-04) and MarTech for partners and targeting attributes; Google Marketing Platform's CTV invalid-traffic guide (2021) for the SSAI quote and the IFA / Programmatic Guaranteed / refund / app-ads.txt questions; HUMAN's ICEBUCKET research (via search summary and Sophos; the HUMAN page returned 403), stated as a 2020 vendor estimate; VAST 4.1 SSAI headers via Pixalate (secondary, flagged). kostja94 `ctv-ads` (MIT) supplied one idea (per-publisher QR/vanity URL tagging); its unsourced figures were not adopted. No benchmark asserted.
+
+**Discoverability:** `AGENTS_INDEX.md` role line, the `paid-media-ops` skill description, agent table row and trigger phrases (CTV, connected TV, OTT, LinkedIn CTV, SSAI fraud), `llms.txt` and the README Paid Media Ops trigger row. No count change (90 agents / 19 skills), so About box, badges, CITATION and manifests unchanged.
+
+**Follow-up filed:** reciprocal pointers from the PPC Strategist (YouTube), Social Ads Specialist (LinkedIn CTV) and Budget Optimizer (cross-row frequency) to the new section.
