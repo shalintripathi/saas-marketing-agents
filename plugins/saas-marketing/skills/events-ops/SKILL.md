@@ -1,6 +1,6 @@
 ---
 name: events-ops
-description: "Field marketing, events, and webinars for B2B SaaS. Use this skill for conference and sponsorship selection, booth strategy, owned events and roadshows, executive dinners, the webinar program, and event-sourced pipeline measurement. Also triggers on: field marketing, events, conference, trade show, booth, sponsorship, roadshow, executive dinner, webinar, event ROI, event pipeline, user conference, meetups."
+description: "Field marketing, events, and webinars for B2B SaaS. Use this skill for conference and sponsorship selection, booth strategy, owned events and roadshows, executive dinners, the webinar program, and event-sourced pipeline measurement. Also triggers on: field marketing, events, conference, trade show, booth, sponsorship, roadshow, executive dinner, webinar, webinar follow-up, webinar lead handoff, event ROI, event pipeline, user conference, meetups."
 ---
 
 # Events & Field Marketing Operations
@@ -38,6 +38,7 @@ Events & Field Marketing Operations turns rooms into pipeline. It decides which 
 **Owned events & webinars** → Field Marketing & Events Strategist
 - "Plan an executive dinner series in three regions"
 - "Turn our webinar program into a repeatable engine"
+- "Which of our webinar registrants should sales actually call?"
 - "Design a roadshow that supports the enterprise pipeline"
 
 ### Working Method

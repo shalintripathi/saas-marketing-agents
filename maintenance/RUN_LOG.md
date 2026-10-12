@@ -5280,3 +5280,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **No new facts or figures:** both sentences restate claims already sourced in the specialist's section.
 
 **Discoverability:** no count, name or capability change, so the About box, badges, CITATION and manifests are unchanged.
+
+## 2026-10-12 — Maintenance — webinar reconciliation and handoff on the Events Strategist
+
+**Health check:** no broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents (100 files in the category dirs, minus the 10 frontmatter-less docs) and 19 skills. They match the README badges, `llms.txt`, the manifests and the live About. The AEO/GEO playbook was reviewed 2026-10-10, and the oldest dated review stamp is 2026-07-23 (81 days). No P0.
+
+**Picked:** the swan-gtm mining item's open candidate `gerrit-kesten/webinar-to-qualified-pipeline`, flagged for "next events run". Every P1 is still blocked. Grep-verified first: `buyer's wording`, `attendance alone` and `content conversion` returned zero roster-wide. `events-field-marketing-strategist` had a three-track follow-up and registration→SQL math, but no step that reconciles registrants against the CRM, no state precedence, and no use of questions as evidence.
+
+**Shipped (both copies, byte-identical, lint 2/2):** a new section, *After the Webinar: Reconcile the Record Before You Route It*, on `events-field-marketing-strategist`. It covers six separate funnel rungs, with registration counted as a content conversion and not a lead. It reads the relationship before the score: suppression first, then customer or open opportunity to its owner, then a booked meeting, which ends booking nurture; a cancelled meeting is not a no-show. Uncertain identities go to review under the Ops Architect's resolve-before-create rules. Webinar signals are treated as engagement inputs to `analytics-marketing-ops-architect`'s Fit-AND-Engagement gate; no separate webinar scorecard is built. Educational questions are separated from decision questions, the buyer's wording is passed verbatim, and repeated questions are routed to `pmm-messaging-architect` or `sales-solutions-engineer`. The section also defines a handoff package with human approval for sends, enrolment and merges. Supporting changes: a one-sentence extension of Rule 8, a reconciliation table in the Webinar Program Operating System, and a *Webinar handoff traceability* metric. The `events-ops` SKILL.md gains two trigger phrases and one routing example.
+
+**Source:** swan-gtm/gtm-skills `gerrit-kesten/webinar-to-qualified-pipeline` (MIT, licence verified via the GitHub API on 2026-10-12). Ideas only, written from scratch. Its 0–100 point bands were not imported, because its own author labels them local operating thresholds and this repo already has a house scoring model. No benchmark is asserted.
+
+**Discoverability:** `events-ops` skill description and routing examples updated. No count or agent-name change (90/19), so the About box, badges, CITATION and manifests are unchanged. The `AGENTS_INDEX.md` row is the agent's frontmatter description, which is unchanged.
+
+**Deferred:** a reciprocal pointer from `analytics-marketing-ops-architect`'s two-axis section back to the webinar inputs is optional and was not filed; the section already names attendance as a behavior-score input.
