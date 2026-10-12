@@ -5310,3 +5310,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Also closed:** the open survey action on `guia-matthieu/clawfu-skills` (all *have* by name).
 
 **Next:** P2 follow-up filed in the backlog: reciprocal pointers from `seo-content-optimizer` (Update/Conflict intake) and `content-blog-strategist` (briefs take the rewarded format from the register). The next scout run may ENHANCE or ADD, but four ENHANCEs in a row means it should try the backlog's scope questions with the maintainer before hunting another persona.
+
+## 2026-10-12 — Maintenance — reciprocal pointers to the Keyword Qualification Register
+
+**Health check:** 0 broken internal `.md` links. The marketplace and plugin manifests parse with their required fields. Counts are 90 agents and 19 skills, matching the badges, manifests and the live About. No P0.
+
+**Picked:** the P2 follow-up filed by this morning's scout ENHANCE on `seo-keyword-researcher`. Every P1 is still blocked. Grep-verified first: `Qualification Register`, `From Candidate to Target` and `keyword-researcher` returned zero in both targets.
+
+**Shipped (both copies each, byte-identical, lint 4/4):**
+- `seo-content-optimizer` Rule 7: the decay triage gains the register as a second intake. Update rows enter like any decline, and Conflict rows get the consolidation call before a second page is briefed.
+- `content-blog-strategist` Rule 8: primary pieces are assigned only from Qualify rows or cleared Conditional rows. A Conflict row means an existing page holds the intent, and the brief takes the format the register recorded the live result rewarding.
+
+**No new facts or figures:** both sentences restate routing already defined in the researcher's section.
+
+**Discoverability:** no count, name or capability change (90/19), so the About box, badges, CITATION and manifests are unchanged.
