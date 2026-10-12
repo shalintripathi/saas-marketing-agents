@@ -5294,3 +5294,19 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Discoverability:** `events-ops` skill description and routing examples updated. No count or agent-name change (90/19), so the About box, badges, CITATION and manifests are unchanged. The `AGENTS_INDEX.md` row is the agent's frontmatter description, which is unchanged.
 
 **Deferred:** a reciprocal pointer from `analytics-marketing-ops-architect`'s two-axis section back to the webinar inputs is optional and was not filed; the section already names attendance as a behavior-score input.
+
+## 2026-10-12 — Skill scout (content / SEO) — ENHANCED: keyword qualification on the Keyword Researcher
+
+**ADD or ENHANCE:** ENHANCED. The last three scout runs (10-09, 10-10, 10-11) were all enhancements, so this run hunted an ADD first, across the whole roster as the 10-11 backlog note asked. Five fresh hypotheses (incident comms, trust-center marketing, customer advisory board, awards/speaker program, cloud marketplace again) all resolved to existing owners (scout-ledger 2026-10-12 rows). The two genuinely unowned roles, employer brand and sales-enablement program, are open scope questions for the maintainer and were not decided autonomously. Shipping a fourth ENHANCE is more honest than a manufactured persona. **The roster now looks saturated against the open-source market. The maintainer should decide the open scope questions, or accept that ADDs will be rare.**
+
+**Focus:** content / SEO, the oldest in the rotation (last 10-08).
+
+**Gap proven:** `seo-keyword-researcher` Rule 2 said "validate through SERP analysis" but gave no method or verdict, and nothing in the roster qualified or killed a keyword before briefing (`QUALIFY`/`KILL`, `mixed intent` and `rewarded format` were all zero). Cannibalization was handled only after publication or at taxonomy level.
+
+**Shipped:** both copies of `seo-keyword-researcher` (byte-identical, lint 2/2): a Core Mission bullet, an extended Rule 2, the *From Candidate to Target* section (five live-result questions, a Qualify/Conditional/Kill verdict, four commercial gates tied to the Proven ICP Record, New/Update/Conflict routing to `seo-content-optimizer` and `content-blog-strategist`, a kept kill list, and explicit non-scope covering scoring formulas, programmatic patterns and conversational queries), a *Keyword Qualification Register* deliverable, a *Verdict coverage and kill honesty* metric and an in-file MIT credit. Source: swan-gtm/gtm-skills `sam-dunning/seo-serp-qualification` + `seo-business-fit-filter` (MIT, read 2026-10-12).
+
+**Discoverability:** frontmatter description, the `AGENTS_INDEX.md` role line, the `seo-growth` skill description (trigger phrases: can we rank for this keyword, which keywords are actually worth it, qualify these keywords, check the SERPs, keyword shortlist), its agent-table row and routing example, `llms.txt` and the README SEO Growth trigger row. No count change (90 agents / 19 skills), so the About box, badges, CITATION and manifests are unchanged.
+
+**Also closed:** the open survey action on `guia-matthieu/clawfu-skills` (all *have* by name).
+
+**Next:** P2 follow-up filed in the backlog: reciprocal pointers from `seo-content-optimizer` (Update/Conflict intake) and `content-blog-strategist` (briefs take the rewarded format from the register). The next scout run may ENHANCE or ADD, but four ENHANCEs in a row means it should try the backlog's scope questions with the maintainer before hunting another persona.
