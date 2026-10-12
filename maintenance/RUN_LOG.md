@@ -5324,3 +5324,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **No new facts or figures:** both sentences restate routing already defined in the researcher's section.
 
 **Discoverability:** no count, name or capability change (90/19), so the About box, badges, CITATION and manifests are unchanged.
+
+## 2026-10-12 — Maintenance — CRM-segment launch gate on the Outbound Strategist
+
+**Health check:** 0 broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents (100 files in the category dirs, minus the 10 frontmatter-less CATALYST docs) and 19 skills. These match the badges, `llms.txt`, CITATION, the manifests and the live About. The living guides were reviewed 2026-10-10. No P0.
+
+**Picked:** the open swan-gtm candidate `ryan-iyengar/hygiene-gated-outbound`, which has been carried since 2026-10-08. Every P1 is still blocked (#1 decisions, awesome-list stars/usage, the community-marketplace form). Licence re-verified MIT via the GitHub API on 2026-10-12. Grep-verified first: `conditional go`, `ownerless` and `cooldown` returned zero roster-wide. `sales-outbound-strategist`'s *List Hygiene* covered purchased-list data (verification, cross-source dedupe, DNC) but had no gate on a CRM-derived audience before launch.
+
+**Shipped (both copies, byte-identical, lint 2/2):** a new section on `sales-outbound-strategist`, *Before a CRM Segment Goes Live*. It builds and counts the exact slice, checks the account-to-contact joins, and runs five per-record gates in a table: identity (unresolved duplicates go to `analytics-marketing-ops-architect`'s Review queue), ownership, context (including the Proven ICP anti-ICP list), reachability (accept-all is not valid) and fit. The verdict is go / conditional go / stop. Remediation runs in dependency order and is limited to this campaign. The audience is then rebuilt from source and approved by a human, and results are read by readiness defect. Also new: Rule 11, a *Launch-Gate Coverage* metric and the frontmatter description.
+
+**Source:** ideas only, written from scratch, with an in-file credit. The skill's readiness thresholds (duplicate %, ownership %, verification %) were not imported, and no benchmark is asserted.
+
+**Discoverability:** frontmatter description, the `AGENTS_INDEX.md` row, the `sales-enablement` skill description (trigger phrases: is this list ready to send, launch readiness, CRM segment outbound, we emailed a current customer, outbound hit an open opportunity, ownerless leads), its agent-table row and a routing example, `llms.txt` and the README Sales Enablement trigger row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
+
+**Deferred:** optional reciprocal pointer from `analytics-marketing-ops-architect`'s *Resolve Before Create* back to the launch gate. It was not filed, because the gate already routes into that queue and the Ops Architect's section names the intake paths generically.
