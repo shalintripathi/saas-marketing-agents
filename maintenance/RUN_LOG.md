@@ -5338,3 +5338,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Discoverability:** frontmatter description, the `AGENTS_INDEX.md` row, the `sales-enablement` skill description (trigger phrases: is this list ready to send, launch readiness, CRM segment outbound, we emailed a current customer, outbound hit an open opportunity, ownerless leads), its agent-table row and a routing example, `llms.txt` and the README Sales Enablement trigger row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
 
 **Deferred:** optional reciprocal pointer from `analytics-marketing-ops-architect`'s *Resolve Before Create* back to the launch gate. It was not filed, because the gate already routes into that queue and the Ops Architect's section names the intake paths generically.
+
+## 2026-10-12 — Maintenance — step-down triggers on the AI autonomy ladder
+
+**Health check:** 0 broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the badges, `llms.txt`, the manifests and the live About. The AEO/GEO playbook was reviewed 2026-10-10. No P0.
+
+**Picked:** the open swan-gtm candidate `nadav-david/earned-autonomy`, which the 10-10 run said to check against Rule 4 first. Every P1 is still blocked. Licence re-verified MIT via the GitHub API on 2026-10-12. Rule 4 of `analytics-marketing-ai-ops-lead` grants step-ups on evidence, but nothing brought a workflow back down: step-downs appeared only as a line in the quarterly review, and `logged refusal`, automatic demotion and a live-reply floor grep-verified zero roster-wide (the ABM and partner agents demote accounts and partners, not AI workflows).
+
+**Shipped (both copies, byte-identical, lint 2/2):** a new section, *Coming Back Down the Ladder*. Step-down triggers are written for each row when a step is granted, they fire without approval, and a breach drops the row to Draft with a Rule 7 incident. Each judgment inside a row is scored separately, and a credibility-costing miss resets that judgment's count. A step-up is held when the window has no logged flag. Volume is not evidence, and live replies stay at Draft, which restates the three-ingredient cap for its most common case. Also updated: the Core Mission bullet, the frontmatter description, the ladder deliverable, the quarterly review (automatic demotions counted separately), a new *Demotion that fires* metric and the in-file credit.
+
+**Source:** ideas only, rewritten from scratch, with an in-file credit. The skill's default promotion and demotion thresholds (item counts, pass-rate percentages, week counts) were not imported, and no benchmark is asserted.
+
+**Discoverability:** frontmatter description, the `AGENTS_INDEX.md` row, the `marketing-analytics` skill description (trigger phrases: when can we stop reviewing every AI draft, can the agent send on its own, the AI made a mistake now what, pull back AI autonomy), its agent-table row, `llms.txt` and the README Analytics row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
+
+**Deferred:** nothing new filed. The remaining swan-gtm candidate is `peter-cools/competitor-connection-displacement` for the next sales run.
