@@ -5390,3 +5390,17 @@ The run also added a Core Mission bullet, an **Objection Register** deliverable,
 **Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The README team table annotates the Enablement Content Creator, and the README skill-trigger row adds "why do we keep hearing this objection" and "mine our call recordings for objections". The AGENTS_INDEX row is synced to the new description. The `llms.txt` Sales Enablement line names the Objection Register. The `sales-enablement` skill description and agent-table row gain objection trigger phrases. 0 broken internal links (921 checked).
 
 **Follow-up filed:** reciprocal pointers into the register from `sales-discovery-coach` (its pre-empt rule) and `pmm-competitive-intelligence` (win/loss vs in-flight objections).
+
+## 2026-10-13 — Maintenance — reciprocal pointers to the Objection Register
+
+**Health check:** 0 broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the badges and the live About. The living guides were reviewed 2026-10-10. No P0.
+
+**Picked:** the follow-up the scout ENHANCE filed earlier today (backlog: *Reciprocal pointers to the Objection Register*). Every P1 above it is still blocked: star and usage gates on the awesome-lists, maintainer decisions on #1, and the community-marketplace in-app form, which only a human can submit. Grep-verified first: `Objection Register` returned zero in `sales-discovery-coach`. `pmm-competitive-intelligence` named `sales-enablement-content-creator` only as a routing target for sales-execution findings, never the register.
+
+**Shipped (both copies each, byte-identical, lint 4/4):**
+- `sales-discovery-coach`, *Pre-empt the objection you know is coming*: "the objection you know is coming" now means one ranked by count in the register, with its stage recorded. The register's re-count shows whether a pre-empt worked.
+- `pmm-competitive-intelligence`, *Three Records, Three Questions*: a new *in-flight counterpart* paragraph. The register records what buyers say during the deal and the interview asks why they decided afterwards. A top objection is not a loss reason until an interview confirms it. A loss reason missing from the register was either never raised aloud or raised on a call nobody reviewed. Competition-class rows route here. This mirrors the register's own line 29.
+
+**Discoverability:** no count or capability change (90/19), so the About box, badges, CITATION, manifests and index rows are unchanged.
+
+**Deferred:** nothing new filed.

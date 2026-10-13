@@ -99,6 +99,8 @@ Rule 5 sets the control — interviews, not sales claims — and names a quarter
 | **Recorded sales calls** | Deals that were recorded | *When* the deal turned, which objection surfaced at which stage, who joined late | Why the buyer decided — the seller was in the room |
 | **Post-decision interview** (neutral interviewer) | A sample, and only a sample | *Why* — the reason the buyer had no reason to give earlier | Any rate, share, or trend |
 
+**The in-flight counterpart.** Objections raised while the deal is still live are counted in `sales-enablement-content-creator`'s *Objection Register*, quoted from recordings and threads, ranked by count with the denominator, and recorded by stage. That register and this program are separate instruments. The register records what buyers say during the deal. The interview asks why they decided once it is over. Neither substitutes for the other: a top-ranked objection is not a loss reason until a post-decision interview confirms it, and a loss reason found here that never appears in the register was either never raised aloud or raised on a call nobody reviewed. Competition-class rows in the register route here.
+
 The census and the sample do different jobs and the confusion between them is the single most common defect in these programs. **Win rate is a census statistic**: it comes from all closed opportunities, and the interview sample never measures it — the interviews *explain* a rate they cannot compute. Read the other direction, the census cannot explain itself: a close-reason distribution is a distribution of rep judgements, and reporting it as "why we lose" is a category error even when every rep was trying to be accurate.
 
 ### Interviewing is research, and there is a published standard that says so
