@@ -5352,3 +5352,17 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Discoverability:** frontmatter description, the `AGENTS_INDEX.md` row, the `marketing-analytics` skill description (trigger phrases: when can we stop reviewing every AI draft, can the agent send on its own, the AI made a mistake now what, pull back AI autonomy), its agent-table row, `llms.txt` and the README Analytics row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
 
 **Deferred:** nothing new filed. The remaining swan-gtm candidate is `peter-cools/competitor-connection-displacement` for the next sales run.
+
+## 2026-10-13 — Maintenance — published vs observed signals, and competitor-connection displacement, on the Outbound Strategist
+
+**Health check:** 0 broken internal `.md` links. The marketplace and plugin manifests parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents (100 files in the category dirs, minus the 10 frontmatter-less CATALYST docs) and 19 skills, matching the badges, `llms.txt`, the manifests and the live About. The living guides were reviewed 2026-10-10. No P0.
+
+**Picked:** the swan-gtm candidate the last three runs queued for the next sales run, `peter-cools/competitor-connection-displacement`. Every P1 is still blocked. Licence re-verified MIT via the GitHub API on 2026-10-13. Grep-verified first: `connected with`, `how you found` and `surveillance` returned zero roster-wide, and `creepy` appeared only in `email-copywriter` Rule 6. `sales-outbound-strategist`'s T1 hook told reps to "reference a trigger event" without separating what a prospect published from what was observed about them.
+
+**Shipped (both copies, byte-identical, lint 2/2):** a new section on `sales-outbound-strategist`, *Act on the Signal, Open on the Problem*. A two-class table: published signals may be named, observed signals (site visits, intent topics, connections, competitor engagement) set timing only. A five-step competitor-engagement play: collect only within platform terms (LinkedIn's User Agreement prohibits scraping, linked) with lawful basis routed to `ops-legal-compliance`; qualify against the ICP and Fit gate; route by relationship (the competitor's existing customers go to `pmm-competitive-intelligence`'s *Displacing an Incumbent* and `sales-deal-strategist`); rank on net-new, decision power and freshness; a problem-first, competitor-agnostic angle. Every signal gets a written freshness window set from own reply/meeting rates by signal age. Also new: Rule 12, the T1 hook line now points to Rule 12, a *Signal Leakage* metric, the frontmatter description.
+
+**Source:** ideas only, written from scratch, with an in-file credit. No timing figure was imported or asserted.
+
+**Discoverability:** frontmatter description, the `AGENTS_INDEX.md` row, the `sales-enablement` skill description (trigger phrases: prospects engaging our competitors, competitor connections, displacement list, is this personalization creepy, can we mention they visited our site, signal freshness) and its agent-table row, `llms.txt` and the README Sales Enablement trigger row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
+
+**Deferred:** the sibling `peter-cools/*` skills are on watch; `signal-timing` should be checked against the new freshness window on a future sales run before anything is carried.
