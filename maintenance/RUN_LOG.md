@@ -5366,3 +5366,27 @@ Both dual-located copies of all three agents are byte-identical, and lint passes
 **Discoverability:** frontmatter description, the `AGENTS_INDEX.md` row, the `sales-enablement` skill description (trigger phrases: prospects engaging our competitors, competitor connections, displacement list, is this personalization creepy, can we mention they visited our site, signal freshness) and its agent-table row, `llms.txt` and the README Sales Enablement trigger row. No count change (90/19), so the About box, badges, CITATION and manifests are unchanged.
 
 **Deferred:** the sibling `peter-cools/*` skills are on watch; `signal-timing` should be checked against the new freshness window on a future sales run before anything is carried.
+
+## 2026-10-13 — Skill scout (PMM / sales / GTM) — ENHANCED: the Objection Register on the Enablement Content Creator
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The focus discipline was **PMM / sales / GTM**, the oldest in the rotation (last 10-09).
+
+**Why not an ADD:** the last four scout runs were ENHANCE, so an ADD was hunted first, across a fresh GitHub sweep, the known collections, and the unread PMM/sales half of swan-gtm. Every role hypothesis resolved to an existing owner or an earlier kill: message testing, procurement navigation, objection intelligence, cloud marketplace, GTM engineer, CAB, beta and vertical marketing. The only proven-unowned roles are still the three maintainer scope questions. The ledger records each kill.
+
+**Gap proof:** `pre-handle`, `objection log`, `objection catalog`, `objection taxonomy` and `objection frequency` grep to zero across the 90 agents. `sales-enablement-content-creator`'s Objection Handling Playbook scripted ten to fifteen "most common" objections with nothing behind the ranking. Its own quality checklist asked for "actual … not assumed" objections but had no method to find them.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section on `sales/sales-enablement-content-creator.md`, *The Objection Register: Count It, Classify It, Then Move It Upstream*. It sets these rules:
+- entries come from the record, quoted with source and date; refusals and opt-outs stay with outbound and are never rows;
+- every entry is classified before it is answered, using a six-class table with the wrong answer for each class; price concessions go through the pricing strategist's approval matrix;
+- objections are ranked by count with the denominator, with the stage recorded;
+- every top objection gets an upstream home with a named owner: outbound, messaging architect / CRO, discovery coach, case-study producer / advocacy, pricing, competitive intelligence; win/loss is kept as a separate instrument;
+- timing objections are dated deferrals;
+- a re-count tests whether the fix landed, as a rate per conversation reviewed, with no win-rate claim.
+
+The run also added a Core Mission bullet, an **Objection Register** deliverable, a definition of "most common" in the playbook, an **Objection Register Integrity** metric (a compliance standard, no fabricated rate), and an addition to the frontmatter description.
+
+**Licensing:** `tanyo-gochev/objection-mining` in swan-gtm/gtm-skills, MIT, re-verified by API 2026-10-13, read in full. Ideas only, written from scratch, credited in-file. The source's "not interested ≠ stop" stance was deliberately **not** imported because it conflicts with the Outbound Strategist's suppression rule.
+
+**Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The README team table annotates the Enablement Content Creator, and the README skill-trigger row adds "why do we keep hearing this objection" and "mine our call recordings for objections". The AGENTS_INDEX row is synced to the new description. The `llms.txt` Sales Enablement line names the Objection Register. The `sales-enablement` skill description and agent-table row gain objection trigger phrases. 0 broken internal links (921 checked).
+
+**Follow-up filed:** reciprocal pointers into the register from `sales-discovery-coach` (its pre-empt rule) and `pmm-competitive-intelligence` (win/loss vs in-flight objections).
