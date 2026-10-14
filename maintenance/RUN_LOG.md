@@ -5404,3 +5404,28 @@ The run also added a Core Mission bullet, an **Objection Register** deliverable,
 **Discoverability:** no count or capability change (90/19), so the About box, badges, CITATION, manifests and index rows are unchanged.
 
 **Deferred:** nothing new filed.
+
+## 2026-10-14 — Skill scout (email / analytics / ops) — ENHANCED: DMARC after RFC 9989 on the Deliverability Specialist
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The focus discipline was **email / analytics / ops**, the oldest in the rotation (last 10-10).
+
+**Why not an ADD:** the last five scout runs were ENHANCE, so an ADD was hunted first. Every email/analytics/ops role hypothesis resolved to an existing owner or an earlier kill: review-site/G2 program, web operations (killed 09-09), lead routing, marketing mix modelling, billing/dunning comms, NPS/survey program and data clean rooms. A fresh GitHub sweep and the known-collection re-check found nothing new in this discipline. The ledger records each kill. The only proven-unowned roles are still the three maintainer scope questions. **Six ENHANCEs in a row now. A maintainer decision on a scope question is what would unblock an ADD.**
+
+**Gap proof:** `9989`, `DMARCbis`, `t=y` and `np=` grep to zero across the 90 agents. RFC 9989 (May 2026) obsoletes RFC 7489 and moves `pct` to historic. Our deliverability agent still described the staged rollout against RFC 7489, and it required `pct=100` in a metric. Without a method, the old percentage ramp is now ambiguous: a receiver on RFC 9989 must ignore `pct=50` and enforce on all of the mail.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section on `email/email-deliverability-specialist.md`, *DMARC After RFC 9989: Moving the Policy Without `pct`*. It covers:
+- what changed, quoted from the RFC: `pct` historic, `t=y` test mode, `np`, `rf`/`ri` removed, the PSL replaced by a DNS Tree Walk;
+- the intermediate-`pct` hazard, labelled as an inference from two quoted rules;
+- a five-record ladder that behaves the same under both specs (`pct=0; t=y` rehearsal steps), grounded in RFC 7489 §6.6.4 and RFC 9989 Appendix A.6;
+- `pct=100` kept explicit on BIMI domains while Google's page still asks for it, and never `t=y` on a logo domain;
+- `np=reject` once enforced (labelled as this repo's judgement), an explicit record per sending subdomain (the RFC's own Tree-Walk interop fix), and `rf`/`ri` dropped;
+- a "written to which spec" column on the authentication drift check;
+- a boundary: this is not a compliance deadline, since Google's floor still accepts `p=none`.
+
+The run also updated the Core Mission bullet, the DMARC deliverable bullets (rollout, RUA/RUF, subdomains) and the Brand-Domain Completion metric, and added to the frontmatter description.
+
+**Licensing:** the facts come from RFC 9989, RFC 7489 and Google's *Set up BIMI* page, all read 2026-10-14. [CosmoBlk/email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) v2.8 (MIT, re-verified by API) supplied only the pointer, credited in-file. None of its text was used, and its unverified RFC-attributed SPF/quarantine claims were not imported (they are on watch in the backlog).
+
+**Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The README team table annotates the Deliverability Specialist, and the README skill-trigger row adds "DMARC after RFC 9989 / DMARCbis". The AGENTS_INDEX row is synced to the new description, and the `llms.txt` Email Marketing Ops line names RFC 9989. The `email-marketing-ops` skill description gains the DMARCbis / RFC 9989 / `pct` / `t=y` trigger phrases, its agent-table row is updated, and it has a new trigger example.
+
+**Follow-up filed:** a reciprocal pointer from the CATALYST Phase 2 playbook's DMARC line (both copies) to the new section.
