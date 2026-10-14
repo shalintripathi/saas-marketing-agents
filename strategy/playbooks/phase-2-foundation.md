@@ -255,7 +255,7 @@ Create dashboards and reports for ongoing management:
 - DMARC (Domain-based Message Authentication, Reporting, and Conformance): Monitor compliance
   - Setup DMARC policy (quarantine/reject non-compliant mail)
   - Monitor DMARC reports for issues
-  - Start with p=none (monitor), move to p=quarantine (strict)
+  - Start with p=none (monitor), then step to enforcement one level at a time: rehearse each level with `pct=0; t=y` before enforcing `p=quarantine`, then `p=reject`. Do not use an intermediate `pct` ramp (e.g. `pct=50`): RFC 9989 makes `pct` historic, so updated receivers ignore it and enforce on all mail. Ladder, BIMI caveat and drift checks: `email/email-deliverability-specialist.md` → *DMARC After RFC 9989*
 
 **Email Deliverability Practices**:
 - List hygiene: Remove invalid email addresses regularly

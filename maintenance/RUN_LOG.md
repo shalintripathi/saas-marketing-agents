@@ -5429,3 +5429,13 @@ The run also updated the Core Mission bullet, the DMARC deliverable bullets (rol
 **Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The README team table annotates the Deliverability Specialist, and the README skill-trigger row adds "DMARC after RFC 9989 / DMARCbis". The AGENTS_INDEX row is synced to the new description, and the `llms.txt` Email Marketing Ops line names RFC 9989. The `email-marketing-ops` skill description gains the DMARCbis / RFC 9989 / `pct` / `t=y` trigger phrases, its agent-table row is updated, and it has a new trigger example.
 
 **Follow-up filed:** a reciprocal pointer from the CATALYST Phase 2 playbook's DMARC line (both copies) to the new section.
+
+## 2026-10-14 — Maintenance — backlog: CATALYST Phase 2 DMARC line points at *DMARC After RFC 9989*
+
+**Health check:** clean. No broken internal `.md` links; `marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` parse with required fields; all 19 skills have `SKILL.md` with `name` + `description`; 90 agents (100 `.md` in category dirs minus the 10 CATALYST strategy/playbook/coordination docs) and 19 skills match the README, AGENTS_INDEX and the live GitHub About description. The AEO/GEO playbook was reviewed 2026-10-10 (not stale). No P0.
+
+**Shipped:** the top unblocked backlog item, filed by today's scout. The DMARC step in `strategy/playbooks/phase-2-foundation.md` and its byte-identical copy under `plugins/saas-marketing/skills/catalyst-orchestrator/agents/` said only "Start with p=none (monitor), move to p=quarantine (strict)". It now says to rehearse each enforcement level with `pct=0; t=y` before enforcing quarantine and then reject. It warns that an intermediate `pct` ramp is ignored by RFC 9989 receivers, and it names the deliverability specialist's section for the ladder, the BIMI caveat and the drift checks. The pointer is a backticked path, not a relative link, so the two copies stay identical and neither copy can carry a broken link. No new claims: everything restates the cited section. No agent edited, so lint not applicable.
+
+**Discoverability:** no count or capability change (90/19), so the About box, badges, CITATION, manifests and index rows are unchanged.
+
+**Deferred:** nothing new filed.
