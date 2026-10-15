@@ -5477,3 +5477,19 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The following were synced: the AGENTS_INDEX row (the new description), the `paid-media-ops` skill description and agent-table row, the `llms.txt` Paid Media Ops line, and two README trigger phrases ("our Meta ads all look the same", "creative diversity on Meta").
 
 **Follow-up filed:** reciprocal pointers from `paid-media-social-ads-specialist` and `social-influencer-partnerships`. Also a watch item on the unconfirmed Meta "Creative diversity" score.
+
+## 2026-10-15 — Maintenance — reciprocal pointers to *Variety Before Variants*
+
+**Health check:** clean. 917 internal `.md` links checked, 0 broken. `marketplace.json` and `plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About. The AEO/GEO playbook was reviewed 2026-10-10. The remaining `80 agents`/`81 agents` hits are dated provenance notes, not live counts. No P0.
+
+**Picked:** the P1 items are still blocked (stars gate, #1, in-app form). So this run took the reciprocal-pointer item filed by today's scout ENHANCE.
+
+**Gap proof:** in `social-influencer-partnerships`, `Concept Library`, `Variety Before` and `creative-strategist` all returned 0. In `paid-media-social-ads-specialist` the Creative Strategist appeared only as a routing target for policy fixes. Its fatigue "queue" paragraph never said where the next concept comes from.
+
+**Shipped (both copies byte-identical, lint 4/4):**
+- `paid-media-social-ads-specialist`: one sentence on the creative-fatigue queue. On Meta, the next build is a new concept taken from the gap column of the Concept Library & Gap Map, not a variant of the worn ad.
+- `social-influencer-partnerships`: a **Creator-Made Ad Creative** deal type. It is priced per asset or on spend share (*1 + k*) and never on audience size. The brief is owned by the Creative Strategist, and this agent keeps the contract (usage rights and term, disclosure, paid-partnership label).
+
+**Discoverability:** no count or capability-name change (90/19), so the About box, badges, CITATION, manifests and index are unchanged.
+
+**Deferred:** nothing new filed.
