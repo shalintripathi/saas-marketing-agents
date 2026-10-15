@@ -5453,3 +5453,27 @@ The run also updated the Core Mission bullet, the DMARC deliverable bullets (rol
 **Discoverability:** no count change (90/19), so the About box, badges, CITATION, manifests and index rows are unchanged. The capability sits inside an existing section already named in the description, the AGENTS_INDEX and `llms.txt`.
 
 **Deferred:** nothing new filed.
+
+## 2026-10-15 — Skill scout (paid / social) — ENHANCED: concept diversity on the Creative Strategist
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The focus discipline was **paid / social**, the oldest in the rotation (last 10-11).
+
+**Why not an ADD:** the last six scout runs were ENHANCE, so an ADD was hunted first. No maintainer answer exists on the open scope questions (issues #1 and #3 have no comments). The one fresh role hypothesis this run, *creator ad program manager* from coreyhaines31 release 2.11.30, splits cleanly between three existing owners, and it is prosumer/DTC-shaped (scout-ledger 2026-10-15 rows). **Seven ENHANCEs in a row now. A maintainer decision on a scope question is still what would unblock an ADD.**
+
+**Gap proof:** `creative diversity`, `Andromeda`, `Advantage+`, `Entity ID` and `UGC` returned zero across the paid-media agents. The Creative Strategist's Rule 4 (isolate one variable) was the only guidance on building a library. On an algorithmic-delivery placement that rule backfires, because a library of one-variable variants gives the delivery system no distinct concepts to choose between.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section on `paid-media/paid-media-creative-strategist.md`, *Variety Before Variants: Feeding a Delivery System That Picks the Ad*. It covers:
+- the test-versus-portfolio split, with Meta's own April 2025 diversification statement;
+- a concept defined as buyer, situation, promise and proof, so that anything else counts as a variant;
+- near-duplicate grouping **labelled unconfirmed**, with spend share by concept offered as the in-account check;
+- the copy-treadmill failure, and a rule that every brief names a gap: a buyer, an Objection Register entry, a format or a region;
+- B2B limits: only as many concepts as the budget can feed, concept-level pooled reads, and no porting to LinkedIn or Search (Rule 8);
+- creator-made ad creative, where a spend-share commission *k* makes every unit of spend cost *1 + k*. Contract terms are routed to `social-influencer-partnerships` and the Person-Led Ads Register.
+
+The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable, a concept-diversity metric and a description clause.
+
+**Licensing:** ideas only, from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, re-verified by API). No text was reused, and its single-company figures (Wispr Flow's rate, volumes and retainer table) were deliberately left out as unverifiable. Platform statements come from Meta's newsroom (2025-04-22) and Engineering at Meta (2024-12-02), both read 2026-10-15. Learning-phase numbers were not cited because Meta's help page did not render for reading.
+
+**Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The following were synced: the AGENTS_INDEX row (the new description), the `paid-media-ops` skill description and agent-table row, the `llms.txt` Paid Media Ops line, and two README trigger phrases ("our Meta ads all look the same", "creative diversity on Meta").
+
+**Follow-up filed:** reciprocal pointers from `paid-media-social-ads-specialist` and `social-influencer-partnerships`. Also a watch item on the unconfirmed Meta "Creative diversity" score.
