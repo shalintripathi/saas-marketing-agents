@@ -5439,3 +5439,17 @@ The run also updated the Core Mission bullet, the DMARC deliverable bullets (rol
 **Discoverability:** no count or capability change (90/19), so the About box, badges, CITATION, manifests and index rows are unchanged.
 
 **Deferred:** nothing new filed.
+
+## 2026-10-15 — Maintenance — RFC 9989 §7.4: `p=reject` on an everyday-mail domain becomes a recorded decision
+
+**Health check:** clean. 915 internal `.md` links checked, 0 broken. `marketplace.json` and `plugins/saas-marketing/.claude-plugin/plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the badges, the AGENTS_INDEX and the live About. The AEO/GEO playbook was reviewed 2026-10-10 (not stale). No P0.
+
+**Picked:** every P1 is still blocked. The awesome-lists are gated at 22★ against their ≥40/≥100 bars, #1 awaits maintainer decisions, and the community-marketplace form is in-app only. So this run took the open RFC watch item filed 2026-10-14 and read RFC 9989 §§5.4 and 7.1–7.4 in full.
+
+**Findings:** §7.4 makes a normative statement the agent's five-step ladder did not reflect: domains whose users might post to mailing lists SHOULD NOT publish `p=reject`, with a conditional staged exception. In B2B SaaS the brand domain is usually every employee's address. The source's "stop at `quarantine`" is a softened version of this rule. §7.1 cautions that SPF `-all` can reject before DMARC runs, which hides those failures from aggregate reports. It does not mandate `~all`, so the source overstates it.
+
+**Shipped (both copies byte-identical, lint 2/2):** a *Step 5 is a decision, not the default* paragraph in `email-deliverability-specialist`. It gives three recorded paths: quarantine (which still meets Gmail's BIMI gate), the RFC's own staged route to reject, or separate subdomain streams at reject (labelled as this repo's judgement). It also adds the §7.4 DKIM MUST, a third clean-up move on the `-all` qualifier, and updated citations. All eight RFC quotes were grep-verified verbatim against the RFC text.
+
+**Discoverability:** no count change (90/19), so the About box, badges, CITATION, manifests and index rows are unchanged. The capability sits inside an existing section already named in the description, the AGENTS_INDEX and `llms.txt`.
+
+**Deferred:** nothing new filed.
