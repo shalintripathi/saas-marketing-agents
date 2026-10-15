@@ -5493,3 +5493,17 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count or capability-name change (90/19), so the About box, badges, CITATION, manifests and index are unchanged.
 
 **Deferred:** nothing new filed.
+
+## 2026-10-15 — Maintenance — agent defaults: does a coding agent pick you when no vendor is named?
+
+**Health check:** clean. 919 internal `.md` links checked, 0 broken. `marketplace.json` and `plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills (94 category `.md` files minus 4 non-agent strategy docs), matching the live About. The AEO/GEO playbook was reviewed 2026-10-10. No P0.
+
+**Picked:** the P1 items are still blocked (stars gate at 22★, #1, in-app form). So this run took the open half of the 2026-10-15 watch item: read coreyhaines31 `ai-seo/references/agent-defaults.md` (MIT, re-verified by API) against `pmm-agent-readiness-strategist`.
+
+**Gap proof:** `agent default`, `task panel`, `picks the vendor` and similar returned 0 across the roster. The agent's traversal tests a buying path the agent has already chosen, the Directory Layer covers listings, `devmkt-developer-audience-strategist` makes docs machine-readable, and `seo-ai-search-optimizer` measures citations in answers. Nobody measured whether a coding agent chooses the product mid-task.
+
+**Shipped (both copies byte-identical, lint 2/2):** a *Default Layer* section with six disciplines (vendor-neutral task panel in clean environments; 3+ runs and share by stack; fix stalls first via the traversal failure ledger; rerun per model release and date every figure; pick open stacks; describe the task, never steer the agent — tied to Rule 11) plus named seams, and an **Agent Default Share Panel** deliverable. The source's Railway ARR and share figures are third-party and unverified, so they were left out. Ideas only; no text reused.
+
+**Discoverability:** no count change (90/19) and the agent's `description:` is unchanged, so the About box, badges, CITATION, manifests and index rows are unchanged.
+
+**Deferred:** the Meta "Creative diversity" score half of the same watch item stays open.
