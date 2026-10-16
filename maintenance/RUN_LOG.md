@@ -5541,3 +5541,18 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 
 **Follow-ups filed (backlog):** a P2 correctness item on the copywriter's own Rules 2 and 6, whose illustrative statistics and fixed "100+ conversions" threshold conflict with its Success Metrics note. Also a reciprocal pointer from `email-copywriter`.
 
+
+## 2026-10-16 — Maintenance — Content Copywriter's own rules stop modelling unsourced figures
+
+**Health check:** clean. 923 internal `.md` links checked, 0 broken. `marketplace.json` and `plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents (100 category `.md` files minus 10 non-agent strategy docs and playbooks) and 19 skills, matching the live About. The oldest "Last reviewed" date is 2026-07-21, under 90 days. No P0.
+
+**Picked:** the P1 items are still blocked (stars gate at 23★, #1, in-app form). So this run took the P2 correctness item filed by today's scout ENHANCE: `content-copywriter` contradicted its own Success Metrics note.
+
+**Shipped (both copies byte-identical, lint 2/2):**
+- Rule 2's PAS example: the bare figures ("40% of rep time", "$1.2M per 50-rep team", "90%") are now bracketed placeholders, plus a rule that every number needs a showable source (product data, an approved named customer, cited research) or the pain is written qualitatively.
+- Rule 3 and the MOFU webinar example: "18%" became `[measured %]`, and "outcome headlines typically win" is now a hypothesis to test.
+- Rule 6: the fixed "100+ conversions per variation" floor is replaced by the feasibility check and trust gate that `analytics-conversion-rate-optimizer` owns (its Rules 10 and 9 and the Test Feasibility Record).
+
+**Discoverability:** no count, name or `description:` change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** the `email-copywriter` reciprocal pointer (P2, same filing) stays open.
