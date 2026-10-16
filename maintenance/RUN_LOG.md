@@ -5507,3 +5507,17 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count change (90/19) and the agent's `description:` is unchanged, so the About box, badges, CITATION, manifests and index rows are unchanged.
 
 **Deferred:** the Meta "Creative diversity" score half of the same watch item stays open.
+
+## 2026-10-16 — Maintenance — Meta's Creative diversity label confirmed first-party
+
+**Health check:** clean. 920 internal `.md` links checked, 0 broken. `marketplace.json` and `plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About. The AEO/GEO playbook and `integrations/README.md` were both reviewed 2026-10-10. No P0.
+
+**Picked:** the P1 items are still blocked (stars gate at 23★, #1, in-app form). So this run took the open half of the 2026-10-15 watch item: is the agency-reported Meta "Creative diversity" score documented by Meta?
+
+**Finding:** yes. The Meta Business Help Center article *Creative diversity* (help ID 2371176336684086, read 2026-10-16 in a browser because it does not render for plain fetches) describes an ad-set label. The metric compares images and video thumbnails for similarity, scores them, and labels the ad set High, Medium or Low. Meta uses it to say when more varied visuals are needed to prevent creative fatigue, and marks it "estimated and in development". Meta does **not** document grouping near-duplicates into one Entity ID, and it does not document the circulating 40/60/70% thresholds. The third-party sources checked (marketingconcurrent.nl, roashack, relevantaudience via Marketing Brew 2026-09-28) link no Meta page for those claims.
+
+**Shipped (both copies byte-identical, lint 2/2):** in `paid-media-creative-strategist`, *Near-duplicates probably do not earn their own spend* now describes the documented metric and gives two limits: it reads visuals only, so it is no substitute for the four-part concept test, and it is a label, not a delivery rule. The grouping claim stays labelled unconfirmed. The footer cites the Help Center article.
+
+**Discoverability:** no count, name or `description:` change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** nothing new filed.
