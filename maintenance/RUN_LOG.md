@@ -5556,3 +5556,15 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count, name or `description:` change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** the `email-copywriter` reciprocal pointer (P2, same filing) stays open.
+
+## 2026-10-16 — Maintenance — Email Copywriter edits through the three edit modes
+
+**Health check:** clean. 924 internal `.md` links checked, 0 broken. `marketplace.json` and `plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About. The oldest "Last reviewed" date is 2026-07-23, under 90 days. No P0. (Older numbers like "80 agents" in two agents' provenance notes are dated historical records, not stale counts.)
+
+**Picked:** the P1 items are still blocked (stars gate at 23★, #1, in-app form). So this run took the P2 item deferred by the previous run: the `email-copywriter` reciprocal pointer to *Editing Copy You Didn't Write*.
+
+**Shipped (both copies byte-identical, lint 2/2):** Critical Rule 10, *"Fix This Subject Line" Is a Point Edit, Not a Rewrite*. It names the edit mode first, uses `content-copywriter`'s modes and its changed-lines-only return, and adds the email-specific lock. A subject line that won a test decided under Rule 9 and logged in the learnings library is locked. An opens-only directional result is not a winner, so it does not lock the line.
+
+**Discoverability:** no count, name or `description:` change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** nothing new.
