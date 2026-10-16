@@ -5521,3 +5521,23 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count, name or `description:` change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** nothing new filed.
+
+## 2026-10-16 — Skill scout (content / SEO) — ENHANCED: edit modes on the Content Copywriter
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The focus discipline was **content / SEO**, the oldest in the rotation (last 10-12).
+
+**Why not an ADD:** the last seven scout runs were ENHANCE, so an ADD was hunted first. Issues #1 and #3 still have no maintainer answer on the scope questions. Every content/SEO role hypothesis resolved to an existing owner or an earlier kill: free tools (fourth kill), original research, copy editor / UX writer, managing editor, and glossary (scout-ledger 2026-10-16 rows). swan-gtm's new `ai-gtm-transformation-audit` is a third arrival at the open grade-the-marketing-function scope question. It is recorded and not opened. **Eight ENHANCEs in a row now. The roster is saturated against the open-source market, and a maintainer decision on a scope question is what would unblock an ADD.**
+
+**Gap proof:** `point edit`, `line edit`, `voice drift` and `preserve the voice` returned zero across the agent dirs. All eight of `content-copywriter`'s rules assumed a blank page, and nothing told it how to handle "make this better" or "fix this headline". In practice that means a full rewrite in the model's taste, which discards the author's angle, tested lines and cleared claims.
+
+**Shipped (both copies byte-identical, lint 2/2):** on `content/content-copywriter.md`:
+- Critical Rule 9 (diagnose existing copy before touching it);
+- a new section, *Editing Copy You Didn't Write*: three modes (Rebuild, Restore, Point edit) with a one-line evidence-based diagnosis, a default to the smaller mode, a diff-only point-edit return, locked lines (test winners, approved claims), a withdrawn-proof check against `brand-context.md` §14, a "measurably better or just different" revert test, and routing to `ops-quality-assurance` and `content-thought-leadership-ghostwriter`;
+- a Core Mission bullet, an **Edit Return** deliverable and an edit-discipline success metric.
+
+**Licensing:** ideas only from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) release 2.11.35 (MIT, verified via the licence API) and the source it credits, [retieedra-profound/skills-marketing-library](https://github.com/retieedra-profound/skills-marketing-library) (MIT). Both are credited in-file. No text was reused. No statistics were introduced.
+
+**Discoverability:** no count change (90 agents, 19 skills), so the About box, badges, CITATION and manifests are unchanged. The following were synced: the README team-table "(incl. …)" note and two Content Marketing trigger phrases ("fix this headline", "edit this copy without losing our voice"), the AGENTS_INDEX row, the `llms.txt` Content Marketing line, and the `content-marketing` skill `description:` triggers plus its agent-table row.
+
+**Follow-ups filed (backlog):** a P2 correctness item on the copywriter's own Rules 2 and 6, whose illustrative statistics and fixed "100+ conversions" threshold conflict with its Success Metrics note. Also a reciprocal pointer from `email-copywriter`.
+
