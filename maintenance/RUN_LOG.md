@@ -5568,3 +5568,19 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count, name or `description:` change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** nothing new.
+
+## 2026-10-17 — Freshness pass: Bing's Topics Portfolio and Opportunity Queries (AEO/GEO Playbook + AI Search Optimizer)
+
+**Health check:** clean. 925 internal `.md` links checked, 0 broken. `marketplace.json` and `plugin.json` parse with their required fields, and 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About. The oldest "Last reviewed" date is 2026-07-21, under 90 days. No P0.
+
+**Backlog:** P0 is empty. Every open P1 is still blocked (stars gate at 23★, #1, the human-only in-app form), and the P2 items are watches or future-run reads. So this run did a freshness pass.
+
+**Finding:** the Bing Webmaster Blog post *Introducing Topics Portfolio (Beta) in AI Performance* (13 Oct 2026, read 2026-10-17) adds a tab to the AI Performance report. It clusters a site's grounding queries into topics, each with approximate Topic Size, Sites Cited and query count. It also lists **Opportunity Queries**: queries where other sites are cited and yours is not. Microsoft's caveats are that classification is AI-generated and may be imperfect, opportunity volumes are ranges, branded queries can appear as opportunities, topics are hidden when data is thin, and the figures are "directional signals". Grep found `Topics Portfolio` and `Opportunity Queries` nowhere in the playbook or the agent. The June 2026 "Topics" view was already covered, but the gap list was not.
+
+**Shipped:** in the playbook, §1's Bing bullet now describes the tab, the gap list and Microsoft's caveats, with the instruction to filter out other brands' queries before briefing. The source is added to Sources, and `Last reviewed` is bumped to 2026-10-17. Both copies of `seo-ai-search-optimizer` get the same instruction on the Bing/Copilot line (byte-identical, lint 2/2). No figures or effect sizes were added.
+
+**Also checked, no change:** Google's 15 Oct 2026 AI Overviews/AI Mode change (inline links placed higher, official-site sections, creator profiles in carousels) is reported only in the trade press, and no Search Central guidance was found. It changes how results are presented, not what publishers should do, so it was not added. Search Engine Roundtable's reported ranking volatility is unconfirmed by Google.
+
+**Discoverability:** no count, name or capability change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** nothing new.
