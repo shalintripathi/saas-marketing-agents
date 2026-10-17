@@ -5631,3 +5631,15 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** `pmm-messaging-architect`'s *Message Consistency Score* still carries a fixed "85%+" target (candidate for the same no-target treatment). `sales-enablement-content-creator`'s own *Content Utilization Rate* ("target 75%+ adoption") is also an unsourced fixed target; filed in the backlog.
+
+## 2026-10-17 — Backlog: Message Consistency Score loses its unsourced "85%+" target
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. Counts are 90 agents (frontmatter files across the category dirs; `strategy/` holds 10 non-agent CATALYST docs) and 19 skills, matching the live About description. Latest "Last reviewed" dates are 2026-10-17 (AEO/GEO playbook) and 2026-10-10 (integrations); none over 90 days. No P0.
+
+**Backlog:** P0 empty; P1 distribution and #1 still blocked. Pulled the open item *Unsourced fixed targets* (filed 2026-10-17), first half: `pmm-messaging-architect` *Message Consistency Score*.
+
+**Shipped (both copies byte-identical, lint 2/2):** the metric now uses the unit the agent's own *Auditing Message Consistency* section already defines — the surface pair. Per axis (category, lead value, audience, proof): pairs that agree ÷ pairs compared, with the surface frame, visibility × stakes ranking, house version and audit date declared before reading so the denominator can't be curated. Mismatches are logged with both surfaces and an owner, read against the previous audit, and a disagreeing high-priority pair outranks the aggregate. No target percentage, matching the Comprehension and Pull-Through metrics. The straggler-checklist done-gate is kept (a completion rule, not a number).
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** `sales-enablement-content-creator` *Content Utilization Rate* ("target 75%+ adoption") is the remaining half of the backlog item, for a future run. `Proof Point Specificity` and `Segment Routing Integrity` use 100%/zero completeness gates, which are rules rather than benchmarks, so they were left alone.
