@@ -5584,3 +5584,26 @@ The run also added Critical Rule 10, a **Concept Library & Gap Map** deliverable
 **Discoverability:** no count, name or capability change (90/19), so the About box, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** nothing new.
+
+## 2026-10-17 — Skill scout (PMM / sales / GTM) — ENHANCED: field pull-through on the Messaging Architect
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.** The focus was **PMM / sales / GTM**, the oldest discipline in the rotation (last covered 10-13).
+
+**Why not an ADD:** the last eight scout runs were ENHANCE, so an ADD was hunted first. That covered a fresh GitHub sweep (five queries, updated ≥ 09-01), four collections new to the ledger (zime-ai, mia-ppp, explorium-ai, eliasstravik) and a whole-roster grep of eight role hypotheses. Each one resolved to an existing owner. The strongest was a conversation-intelligence analyst, and its work is split four ways across the roster. The only proven-unowned roles are still the three maintainer scope questions. The ledger records each kill.
+
+**Gap proof:** `pull-through` appeared only in `comms-pr-strategist` (media coverage), and `message adoption` and `conversation intelligence` returned zero. `pmm-messaging-architect` Success Metrics claimed "80%+ of sales conversations" use a pillar and "70%+" cite proof, "measured via call review". Neither figure had a source, and there was no method behind the measurement.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section on `product-marketing/pmm-messaging-architect.md`, *Measuring Field Pull-Through: Delivered Is Not Landed*. It sets these rules:
+- the sample frame is declared before any recording is opened (in-scope call types, a window since the house version, random or stratified draw, never manager-picked calls), and a small sample is labelled a spot-check;
+- every pillar is coded Absent / Delivered / Landed / Contradicted, each state with a "does not count" column, and each coded cell has a timestamped, role-attributed quote;
+- a reads-well check runs on a good call before reporting;
+- results are two rates per pillar (Delivered ÷ in-scope, Landed ÷ Delivered) with denominators, and patterns are routed to enablement, message validation, the straggler sweep, the claim register or the segment map;
+- results are reported per pillar, never per rep, and the recording-consent boundary goes to `ops-legal-compliance`.
+
+A **Field Pull-Through Audit** deliverable was added. The two unsourced targets were replaced with a no-target "Message Pull-Through in the Field" metric and a reworded proof-usage metric. The live-call paragraph now points to the new section.
+
+**Source:** [zime-ai/zime-gtm-skills](https://github.com/zime-ai/zime-gtm-skills) (MIT, read 2026-10-17). It supplied the evidence discipline: buyer-said only, rep claims are not evidence, what does not count, no finding without a quote, and the reads-well check. Ideas only, credited in-file, written from scratch.
+
+**Discoverability:** README (PMM roster row and trigger phrases), `AGENTS_INDEX.md`, `llms.txt`, and the `product-marketing-ops` description and agent table were updated. No count changed, so the About description, badges, manifests and orchestrator tables are untouched.
+
+**Follow-ups filed:** a reciprocal pointer from `sales-enablement-content-creator` (Absent-everywhere results land there); the agent's remaining unsourced "90%+" Message Comprehension target; product/feature naming as a possible Messaging Architect section.
