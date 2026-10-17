@@ -5619,3 +5619,15 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** the same Success Metrics list still carries fixed targets in *Message Consistency Score* ("85%+") — a candidate for the same treatment on a future run. The reciprocal pointer in `sales-enablement-content-creator` (backlog) remains open.
+
+## 2026-10-17 — Backlog: Enablement Content Creator points back to Field Pull-Through
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` (description under `metadata`) and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. Counts are 90 agents (frontmatter files across the 18 category dirs) and 19 skills, matching the live About description, manifests and the suite skill description. No guide's "Last reviewed" date is over 90 days old. No P0.
+
+**Backlog:** P0 empty; P1 distribution and #1 items still blocked (stars gates, open decisions, human-only in-app form). Pulled the open follow-up filed by this morning's scout: *Reciprocal pointer to Measuring Field Pull-Through*.
+
+**Shipped (both copies byte-identical, lint 2/2):** grep-verified first that `pull-through` returned zero in `sales-enablement-content-creator`. Rule 8 *Content Utilization Accountability* now says opens are only half the read: an **Absent everywhere** result from `pmm-messaging-architect`'s pull-through audit is an enablement brief for this agent (talk track, card, training moment), not a messaging rewrite, while Delivered-but-not-Landed goes back to the Messaging Architect. This mirrors the routing list in the PMM section, so the hand-off now reads from both sides.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** `pmm-messaging-architect`'s *Message Consistency Score* still carries a fixed "85%+" target (candidate for the same no-target treatment). `sales-enablement-content-creator`'s own *Content Utilization Rate* ("target 75%+ adoption") is also an unsourced fixed target; filed in the backlog.
