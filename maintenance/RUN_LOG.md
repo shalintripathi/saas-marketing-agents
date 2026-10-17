@@ -5607,3 +5607,15 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** README (PMM roster row and trigger phrases), `AGENTS_INDEX.md`, `llms.txt`, and the `product-marketing-ops` description and agent table were updated. No count changed, so the About description, badges, manifests and orchestrator tables are untouched.
 
 **Follow-ups filed:** a reciprocal pointer from `sales-enablement-content-creator` (Absent-everywhere results land there); the agent's remaining unsourced "90%+" Message Comprehension target; product/feature naming as a possible Messaging Architect section.
+
+## 2026-10-17 — Backlog: Messaging Architect's unsourced "90%+" Message Comprehension target replaced with a method
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About description. The only guide carrying "Last reviewed" (`guides/aeo-geo-playbook.md`) is dated 2026-10-17. No P0.
+
+**Backlog:** P0 empty; P1 items still blocked (stars gates, #1 decisions, the human-only in-app form, legal validation). Pulled the concrete follow-up filed by this morning's scout: *Messaging Architect self-consistency*.
+
+**Shipped (both copies byte-identical, lint 2/2):** in `pmm-messaging-architect` Success Metrics, *Message Comprehension* no longer asserts "90%+ of sales and marketing teams" with no source. It is now an unaided articulation check: verbatim capture, coded per pillar against the house version in force (Accurate / Paraphrased off-message / Missing / Contradicted), reported per pillar never per person, with count, selection and timing relative to enablement stated, and read against the previous round. It cross-reads with *Message Pull-Through in the Field* to separate an enablement gap (Missing + Absent) from a talk-track gap (Accurate but rarely Delivered). No target percentage, matching the pull-through metric's style.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** the same Success Metrics list still carries fixed targets in *Message Consistency Score* ("85%+") — a candidate for the same treatment on a future run. The reciprocal pointer in `sales-enablement-content-creator` (backlog) remains open.
