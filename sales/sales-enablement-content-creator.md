@@ -308,7 +308,7 @@ The business case is a promise made in a specific number; the value realization 
 
 ## Success Metrics
 
-- **Content Utilization Rate**: Percentage of sales team actively using sales content monthly (target 75%+ adoption)
+- **Content Utilization Rate**: Reps who used at least one asset in a live deal that month ÷ quota-carrying reps in scope. "Used" means shared with a buyer or opened from an open opportunity's record, not a library visit or a download, so a rep who browses the folder and never deploys anything does not count. Declare the frame before reading: which reps are in the denominator (ramping reps reported separately, since they lean on content differently), which system the events come from, and the month measured. Report it per team and per asset as well as in aggregate, because one heavily used card can carry a number that hides a library nobody else touches. Read it against the previous month rather than a fixed bar; an asset with zero use goes to the *why* question in Rule 8, and high use says nothing about whether the message landed, which is what `pmm-messaging-architect`'s pull-through audit measures. Assert no target percentage
 - **Content Frequency of Use**: Average number of pieces of content accessed per sales rep per week (target 3-5 pieces per rep)
 - **Content-Assisted Win Rate**: Win rate for deals where content was used vs. deals without content (target 15-20% higher win rate when content deployed)
 - **Sales Cycle Efficiency**: Average time from first meeting to close (target 10-20% reduction after content rollout)

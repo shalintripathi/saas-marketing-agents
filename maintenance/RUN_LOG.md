@@ -5643,3 +5643,15 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** `sales-enablement-content-creator` *Content Utilization Rate* ("target 75%+ adoption") is the remaining half of the backlog item, for a future run. `Proof Point Specificity` and `Segment Routing Integrity` use 100%/zero completeness gates, which are rules rather than benchmarks, so they were left alone.
+
+## 2026-10-19 — Backlog: Content Utilization Rate loses its unsourced "75%+ adoption" target
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About description. "Last reviewed" dates are 2026-10-17 (AEO/GEO playbook) and 2026-10-10 (integrations); none over 90 days. No P0.
+
+**Backlog:** P0 empty; P1 distribution and #1 still blocked. Pulled the remaining half of *Unsourced fixed targets* (filed 2026-10-17): `sales-enablement-content-creator` *Content Utilization Rate*. Item now closed.
+
+**Shipped (both copies byte-identical, lint 2/2):** the metric is now reps who used at least one asset in a live deal (shared with a buyer, or opened from an open opportunity's record; library visits and downloads don't count) ÷ quota-carrying reps in scope. Ramping reps are reported separately, the event source and month are declared, and it is broken out per team and per asset so one popular card can't carry the aggregate. Read against the previous month; zero-use assets route to Rule 8's *why* question, and the line states that usage is not evidence the message landed (that is the Messaging Architect's pull-through audit). No target percentage, matching the PMM metrics.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** the same Success Metrics list carries nine more unsourced round-number targets, two of them uncontrolled win-rate correlations; filed in the backlog as a new item, one or two metrics per run.
