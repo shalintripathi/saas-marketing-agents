@@ -5683,3 +5683,15 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Sources:** Apple and Google primary pages, listed in the ledger. Vendor blogs (Klaviyo, Braze, Attentive, Knak) were read for orientation only; none of their claims are used. No open-source text was adapted.
 
 **Deferred:** reciprocal pointers, filed to the backlog.
+
+## 2026-10-19 — Backlog: Sales Cycle Efficiency in Enablement Content Creator loses its unsourced "10-20% reduction" target
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents (93 category `.md` files minus 3 CATALYST strategy docs without agent frontmatter) and 19 skills, matching the live About description, README badges and manifests. AEO/GEO playbook last reviewed 2026-10-17. No P0.
+
+**Recovered work:** the working tree held an uncommitted, byte-identical edit to both copies of `sales-enablement-content-creator`, timestamped 16:30 today. An earlier run had been interrupted before logging and committing it. It was the backlog's named next pick, so it was reviewed, lint-checked and finished rather than redone.
+
+**Shipped (both copies byte-identical, lint 2/2):** *Sales Cycle Efficiency* is now the median days from first meeting to close. It compares deals created after the rollout with a matched period before it, grouped by creation date with equal follow-up windows. Grouping by close date is ruled out because only the fast deals have closed right after a rollout. Won, lost and still-open deals are reported separately. Seasonality, deal-size mix and pricing or packaging changes are checked before the content is credited. The pricing check points to `pmm-pricing-packaging-strategist`, which owns the price-change program (verified at its line 21). The metric reuses the staggered-rollout design and the "deployed" definition already in the list. No target.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** six unsourced targets remain (Frequency of Use, ROI Tool Adoption, Value-Realization Review Coverage, Content Freshness, Sales Team Satisfaction, Feedback Implementation).
