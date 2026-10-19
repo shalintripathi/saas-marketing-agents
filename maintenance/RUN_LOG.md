@@ -5655,3 +5655,15 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** the same Success Metrics list carries nine more unsourced round-number targets, two of them uncontrolled win-rate correlations; filed in the backlog as a new item, one or two metrics per run.
+
+## 2026-10-19 — Backlog: the two win-rate comparisons in Enablement Content Creator lose their unsourced lift targets
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. Counts are 90 agents and 19 skills, matching the live About description, README and manifests (the "80/81 agents" hits are dated provenance notes, not stale counts). "Last reviewed" dates are 2026-10-17 (AEO/GEO playbook) and 2026-10-10 (integrations); none over 90 days. No P0.
+
+**Backlog:** P0 empty; P1 distribution and #1 still blocked. Pulled *Remaining unsourced targets in `sales-enablement-content-creator`* (filed 2026-10-19) and did the two metrics the item flagged as uncontrolled correlations.
+
+**Shipped (both copies byte-identical, lint 2/2):** *Content-Assisted Win Rate* dropped "15-20% higher" and is now read as a correlation. It names two biases: selection (compare each rep's own deals with and without content before pooling, and report how many reps had both) and timing (count only assets deployed before a declared stage, among deals that reached it). The frame is declared first, both win rates are printed with deal counts, and a staggered team rollout is named as the design that supports a causal claim. *Battle Card Effectiveness* dropped "5-10% higher" and uses the same frame. It depends on the CRM competitor field (pointing to `pmm-competitive-intelligence`'s "fix the picklist" rule, verified at line 176), prints a deal count per competitor, and checks that agent's market tracker for competitor-side changes before crediting the card.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** seven unsourced targets remain in the same list (Frequency of Use, Sales Cycle Efficiency, ROI Tool Adoption, Value-Realization Review Coverage, Content Freshness, Sales Team Satisfaction, Feedback Implementation). *Sales Cycle Efficiency* is a before/after comparison with the same confounding problem and is the natural next pick. The *Analytics* deliverable's "Content correlation to win rate" bullets (around line 268) could point at the new caveats, but that is a small follow-up and was not done this run.
