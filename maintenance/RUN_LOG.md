@@ -5667,3 +5667,19 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** seven unsourced targets remain in the same list (Frequency of Use, Sales Cycle Efficiency, ROI Tool Adoption, Value-Realization Review Coverage, Content Freshness, Sales Team Satisfaction, Feedback Implementation). *Sales Cycle Efficiency* is a before/after comparison with the same confounding problem and is the natural next pick. The *Analytics* deliverable's "Content correlation to win rate" bullets (around line 268) could point at the new caveats, but that is a small follow-up and was not done this run.
+
+## 2026-10-19 — Scout: ENHANCED the Email Copywriter (writing for AI inbox summaries and category sorting)
+
+**Run type: ENHANCE** (no agent added; counts unchanged at 90 agents / 19 skills).
+
+**Focus:** email / analytics / ops, the oldest in the rotation (last 10-14). The last nine scout runs were ENHANCE, so an ADD was hunted first. Five email/analytics/ops role hypotheses were grep-tested and each resolved to an existing owner (see the ledger's last row). Per the backlog's ADD saturation note, a maintainer decision on one of the three open scope questions is still the only proven route to an ADD.
+
+**Gap proven by grep:** `Apple Intelligence`, `AI summar`, `Gemini`, `Promotions tab`, `Apple Mail categor` and `inbox categor` all returned 0 across `email/`. Meanwhile Apple documents that Mail replaces the preview line with a summary ("Summarize Message Previews"), Apple Mail sorts into categories per sender, Gmail thread summaries are free for everyone (2026-01-08), and Gmail's AI Inbox began rolling out to paid US EN-US Workspace on 2026-10-12 / 10-26. That last date lands this inside B2B buyers' inboxes this month, and our Rule 2 still treated preview text as always visible.
+
+**Shipped (both copies byte-identical, lint 2/2):** `email-copywriter` gains *The Inbox Reads It First: Writing for Summaries and Category Sorting*, with four vendor facts quoted from Apple and Google pages with read-dates and the AI Inbox VIP point labelled as an inference. It adds six copy rules and a rollout-annotation rule for reading results. Also new: Critical Rule 11, a Rule 2 pointer, and an *Inbox Machine-Reader Check* deliverable. Cross-references were verified to exist: `email-deliverability-specialist` *The Brand Domain's Unowned Mail*, `email-lifecycle-architect` Contact Budget, `analytics-marketing-ai-ops-lead` *Outside Content Is Data*.
+
+**Discoverability:** the problem and natural phrases now appear in the `email-marketing-ops` skill description (AI email summaries, Gmail AI Inbox, Apple Mail categories, "our emails land in Promotions"), its agent table and routing examples, `AGENTS_INDEX.md`, `llms.txt`, and the README triggers table. No count change, so the About description, badges, CITATION, manifests and router tables are unchanged.
+
+**Sources:** Apple and Google primary pages, listed in the ledger. Vendor blogs (Klaviyo, Braze, Attentive, Knak) were read for orientation only; none of their claims are used. No open-source text was adapted.
+
+**Deferred:** reciprocal pointers, filed to the backlog.
