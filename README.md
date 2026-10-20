@@ -53,6 +53,8 @@ That's it — the 19 skills load as `/saas-marketing:<skill>` (e.g. `/saas-marke
 
 The orchestrator routes positioning to product marketing, assets to content & design, distribution to social/email/paid, and measurement to analytics.
 
+**Getting updates:** agents improve most weeks, and each improvement ships as a new version. Run `/plugin marketplace update saas-marketing-agents`, or turn on auto-update for this marketplace under `/plugin` > Marketplaces (it's off by default for community marketplaces).
+
 ### Watch it work: the campaign board
 
 The plugin ships a live pane for Claude Code: type `/campaign-board` (or just run any skill) and it shows the specialists CATALYST routed, each deliverable as it lands, and every `[NEEDS INPUT]` marker collected into a checklist — the facts your agents refused to invent, waiting for you to supply them. It also tells you whether `brand-context.md` was found. (The mod hooks `command.run` only to answer its own `/campaign-board` command; it never alters other commands.)
