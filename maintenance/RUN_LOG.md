@@ -5705,3 +5705,17 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** four unsourced targets remain (Value-Realization Review Coverage, Content Freshness, Sales Team Satisfaction, Feedback Implementation).
+
+## 2026-10-20 — Scout: ENHANCED the Conversion Signal Engineer (the bottom rung: is the first conversion even real?)
+
+**Run type: ENHANCE** (no agent added; counts unchanged at 90 agents / 19 skills).
+
+**Focus:** paid / social, the oldest in the rotation (last 10-15). The last ten scout runs were ENHANCE, so an ADD was hunted first. Five paid/social role hypotheses were grep-tested and each resolved to existing owners or to earlier kills (ledger, last row). A maintainer decision on one of the three open scope questions is still the only proven route to an ADD.
+
+**Gap proven by grep:** `thank.you page`, `DebugView`/`Tag Assistant`/`Preview mode` and `dataLayer` returned 0 across `analytics/`, `paid-media/` and `growth/`. The Signal Engineer's ladder started from a form-submit rung that no agent verified fires on a confirmed success. The trigger was coreyhaines31/marketingskills shipping a dedicated `conversion-tracking` skill (MIT, merged 2026-10-19).
+
+**Shipped (both copies byte-identical, lint 2/2):** `paid-media-conversion-signal-engineer` gains *The Bottom Rung: Is the First Conversion Even Real?*. It covers confirmed success versus attempt, a four-row form-delivery table (redirect, inline AJAX, iframe embed, external handoff), the Calendly `date_and_time_selected` versus `event_scheduled` trap, cited to Calendly's developer docs and read 2026-10-20, and verify-by-arrival with test leads excluded or retracted under Rule 6. It also adds a symptom-to-suspect table and pass/fail/unknown/n-a scoring where unknown is never a failure. A Conversion Moment Register deliverable and a *Verified conversion points* metric were added too. The boundary was restated: container build and consent wiring stay with `analytics-marketing-ops-architect`, Meta Pixel stays with `paid-media-social-ads-specialist`, and reading the GA4-versus-Ads gap stays with `paid-media-attribution-analyst`. The source's discrepancy percentages were deliberately not imported, because they are unsourced.
+
+**Discoverability:** the agent's `description:` (both copies), the `paid-media-ops` skill description (new triggers: conversions stopped, zero conversions, spend but no conversions, too many conversions, double counting, conversion tracking not working) and a new routing example, `AGENTS_INDEX.md`, `llms.txt`, and the README triggers table. No count change, so the About description, badges, CITATION, manifests and router tables are unchanged.
+
+**Deferred:** a reciprocal pointer from `analytics-marketing-ops-architect`'s GA4 key-event audit to *The Bottom Rung*, filed to the backlog.
