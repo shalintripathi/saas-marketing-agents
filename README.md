@@ -53,7 +53,7 @@ That's it — the 19 skills load as `/saas-marketing:<skill>` (e.g. `/saas-marke
 
 The orchestrator routes positioning to product marketing, assets to content & design, distribution to social/email/paid, and measurement to analytics.
 
-**Getting updates:** agents improve most weeks, and each improvement ships as a new version. Run `/plugin marketplace update saas-marketing-agents`, or turn on auto-update for this marketplace under `/plugin` > Marketplaces (it's off by default for community marketplaces).
+**Getting updates:** agents improve most weeks, and each improvement ships as a new version. Run `claude plugin marketplace update saas-marketing-agents`, then `claude plugin update saas-marketing@saas-marketing-agents`, and restart Claude Code. Or turn on auto-update for this marketplace under `/plugin` > Marketplaces (it's off by default for community marketplaces).
 
 ### Watch it work: the campaign board
 

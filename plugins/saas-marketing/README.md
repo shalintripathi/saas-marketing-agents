@@ -20,7 +20,7 @@ The skills are instructions only. The Campaign Board mod watches the session's s
 
 ## Updates
 
-New agent improvements ship as new versions. In Claude Code, run `/plugin marketplace update saas-marketing-agents`, or turn on auto-update for this marketplace under `/plugin` > Marketplaces.
+New agent improvements ship as new versions. Run `claude plugin marketplace update saas-marketing-agents`, then `claude plugin update saas-marketing@saas-marketing-agents`, and restart Claude Code. Or turn on auto-update for this marketplace under `/plugin` > Marketplaces.
 
 ## Source and feedback
 
