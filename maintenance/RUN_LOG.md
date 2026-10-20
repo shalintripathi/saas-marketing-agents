@@ -5719,3 +5719,13 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** the agent's `description:` (both copies), the `paid-media-ops` skill description (new triggers: conversions stopped, zero conversions, spend but no conversions, too many conversions, double counting, conversion tracking not working) and a new routing example, `AGENTS_INDEX.md`, `llms.txt`, and the README triggers table. No count change, so the About description, badges, CITATION, manifests and router tables are unchanged.
 
 **Deferred:** a reciprocal pointer from `analytics-marketing-ops-architect`'s GA4 key-event audit to *The Bottom Rung*, filed to the backlog.
+
+## 2026-10-20 — Backlog: GA4 key-event audit now points to *The Bottom Rung*
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents and 19 skills, matching the live About description, README badges and manifests. Oldest "Last reviewed" is `integrations/README.md` (2026-10-10), well inside 90 days.
+
+**Shipped (both copies byte-identical, lint 2/2):** the top unblocked backlog item, filed by today's scout ENHANCE. Grep-verified the gap first (`Bottom Rung`, `Signal Engineer` and `signal-engineer` were absent from `analytics-marketing-ops-architect`). Its GA4 audit item 1 now says that, for a form or booking-widget key event, "fires where it should" means firing on the confirmed success, not the submit click or the slot pick, and points to `paid-media-conversion-signal-engineer`'s *The Bottom Rung* and Conversion Moment Register. The thank-you page was deliberately left out of the "not" list, because *The Bottom Rung* allows it as a hook when the page can't be reached without submitting.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** nothing new.
