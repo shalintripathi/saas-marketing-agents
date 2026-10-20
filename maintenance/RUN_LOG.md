@@ -5729,3 +5729,13 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** nothing new.
+
+## 2026-10-20 — Backlog: Value-Realization Review Coverage and Content Freshness lose their unsourced targets
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents and 19 skills, matching the live About description, README badges, `AGENTS_INDEX.md` and manifests. AEO/GEO playbook last reviewed 2026-10-17. No P0.
+
+**Shipped (both copies byte-identical, lint 2/2):** in `sales-enablement-content-creator` Success Metrics, *Value-Realization Review Coverage* ("60%+") is now enterprise renewals whose conversation began with a completed review in hand ÷ all enterprise renewals whose conversation began in the period. The denominator comes from the renewal calendar, "completed" requires customer-measured or confirmed numbers (Rule 9) or a recorded gap diagnosis for every Promise Ledger metric, accounts signed without a business case are a separate count fed back to *ROI Tool Adoption*, and renewal rate of reviewed vs. unreviewed accounts is explicitly not the review's effect. *Content Freshness* ("90%+ within 6 months") now uses per-asset staleness triggers (competitor release/price for battle cards, own price/packaging for the ROI tool, UI change for demo scripts), defines "reviewed" as a dated owner check rather than a re-save, reports trigger-fired-but-not-updated assets with days live, weights by assets deployed that month, and aligns its fields with `content-operations-manager`'s inventory. No targets.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** two unsourced targets remain (Sales Team Satisfaction "4+/5", Feedback Implementation "3-5 per quarter").
