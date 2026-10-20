@@ -5739,3 +5739,13 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** two unsourced targets remain (Sales Team Satisfaction "4+/5", Feedback Implementation "3-5 per quarter").
+
+## 2026-10-20 — Backlog: Sales Team Satisfaction and Feedback Implementation lose their unsourced targets
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents and 19 skills, matching the live About description, README badges and manifests. No guide "Last reviewed" date is over 90 days. The "80 agents"/"81 agents" strings in two agents are dated provenance notes, not stale counts. No P0.
+
+**Shipped (both copies byte-identical, lint 2/2):** the last two items of the unsourced-targets backlog entry for `sales-enablement-content-creator`. *Sales Team Satisfaction* ("4+/5") is now a two-question survey (useful in front of a buyer; findable when needed), asked only about assets the rep deployed. It reports the distribution and response rate, reads scores against usage, and ends with a free-text "what did a buyer ask that you had nothing for" that feeds the request log. *Feedback Implementation* ("3-5 per quarter") is now a dated request log that quotes the buyer and links objections to their Objection Register row. Each request closes as a new asset, an update or a reasoned decline, and a new or updated asset closes its request only once reps deploy it. The report gives open and closed counts, wait times and median days to close. No targets. The backlog item is now closed.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** *Content-to-Deal Correlation* has no target but the same selection problem as the win-rate metrics; left as is since it asserts no number.
