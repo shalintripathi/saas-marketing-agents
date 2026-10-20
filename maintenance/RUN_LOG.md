@@ -5695,3 +5695,13 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** six unsourced targets remain (Frequency of Use, ROI Tool Adoption, Value-Realization Review Coverage, Content Freshness, Sales Team Satisfaction, Feedback Implementation).
+
+## 2026-10-20 — Backlog: Content Frequency of Use and ROI Tool Adoption lose their unsourced targets
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents and 19 skills, matching the live About description, README badges and manifests. Oldest "Last reviewed" is `integrations/README.md` 2026-10-10; AEO/GEO playbook 2026-10-17. No P0.
+
+**Shipped (both copies byte-identical, lint 2/2):** in `sales-enablement-content-creator` Success Metrics, *Content Frequency of Use* ("3-5 pieces per rep") is now assets deployed per active rep per week, reusing the "deployed" and rep-base definitions from *Content Utilization Rate* so library visits do not count. It reports the median and the share of reps at zero instead of a mean, is read against deal volume, and notes that more is not automatically better. *ROI Tool Adoption* ("30-50%") is now enterprise deals that reached a declared stage with a business case ÷ all enterprise deals that reached that stage. Only cases passing *Business-Case Input Integrity* count, and it is reported per segment against the previous period. No targets.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Deferred:** four unsourced targets remain (Value-Realization Review Coverage, Content Freshness, Sales Team Satisfaction, Feedback Implementation).
