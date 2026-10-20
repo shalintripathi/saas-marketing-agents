@@ -1,0 +1,40 @@
+title: "[Show and tell] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing a real run. Leave out anything confidential: client names, numbers you can't share, internal docs.
+  - type: textarea
+    id: ask
+    attributes:
+      label: What did you ask for?
+      description: The brief or prompt, in your own words.
+    validations:
+      required: true
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill or agent handled it?
+      placeholder: e.g. catalyst-orchestrator, seo-growth, email-marketing-ops
+  - type: textarea
+    id: output
+    attributes:
+      label: What came back?
+      description: A short summary, an excerpt, or a screenshot.
+    validations:
+      required: true
+  - type: textarea
+    id: fixes
+    attributes:
+      label: What did you have to fix or fill in?
+      description: Including any [NEEDS INPUT] markers. This is the most useful part for improving the agents.
+  - type: dropdown
+    id: feature
+    attributes:
+      label: OK to feature this in the README?
+      options:
+        - "Yes, with my GitHub handle"
+        - "Yes, but without my name"
+        - "No, just sharing"
+    validations:
+      required: true

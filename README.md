@@ -1,18 +1,25 @@
 <div align="center">
 
-# 🚀 SaaS Marketing Agents
+# SaaS Marketing Agents
 
-**An open-source AI marketing team for B2B SaaS — 90 AI marketing agents for Claude Code, one orchestrator, real playbooks.**
+**AI marketing agents for Claude Code: a B2B SaaS marketing team you install in two commands.**
 
-Install a full B2B SaaS marketing org into Claude Code: 90 role-based agent personas, packaged as **19 skills**, coordinated by the **CATALYST** multi-agent orchestrator — with worked ABM, launch & demand-gen workflows and an actively-maintained **AEO/GEO** playbook for the AI-search era.
-
-[![Stars](https://img.shields.io/github/stars/shalintripathi/saas-marketing-agents?style=social)](https://github.com/shalintripathi/saas-marketing-agents/stargazers)
-[![License: MIT](https://img.shields.io/github/license/shalintripathi/saas-marketing-agents)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/shalintripathi/saas-marketing-agents)](https://github.com/shalintripathi/saas-marketing-agents/commits)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Agents](https://img.shields.io/badge/agents-90-blue)](AGENTS_INDEX.md)
-[![Skills](https://img.shields.io/badge/Claude%20skills-19-8A2BE2)](plugins/saas-marketing)
 [![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-D97757)](https://claude.com/claude-code)
+
+</div>
+
+```
+/plugin marketplace add shalintripathi/saas-marketing-agents
+/plugin install saas-marketing@saas-marketing-agents
+```
+
+Then ask for real work: *"Plan a product launch for [feature] aimed at [ICP]."* CATALYST splits the brief across 90 specialists in 17 disciplines (19 skills) and hands back the files. Anything it can't back up from your `brand-context.md` comes back as `[NEEDS INPUT]`, not a made-up stat.
+
+**[See one real run: 7 files from one brief](examples/acme-uptime/)** · [All 90 agents](AGENTS_INDEX.md) · [Campaign Board](#watch-it-work-the-campaign-board) · [Other ways to install](#-quick-start)
+
+<div align="center">
 
 [Quick start](#-quick-start) · [The 90 agents](#-the-team-90-specialist-agents) · [Skills](#-skills) · [CATALYST](#️-catalyst-orchestrator) · [Loops](#-marketing-loops) · [AEO/GEO](#-built-for-ai-search-aeogeo) · [Contributing](#-contributing)
 
@@ -64,6 +71,8 @@ The plugin ships a live pane for Claude Code: type `/campaign-board` (or just ru
 Copy [`templates/brand-context.md`](templates/brand-context.md) to `brand-context.md` in your project root and fill it in — ICP, positioning, messaging pillars, voice, banned words, and the proof you can actually cite.
 
 CATALYST reads it before routing anything and passes it to every specialist, so output sounds like *your* company rather than generic B2B SaaS. It also bounds what the agents may assert: customer names, metrics, and certifications not recorded there are surfaced as `[NEEDS INPUT: …]` instead of being invented.
+
+If the first run saved you time, a star on this repo helps other people find it. Ran it on a real campaign? Post what you asked and what came back in [Show and tell](https://github.com/shalintripathi/saas-marketing-agents/discussions/categories/show-and-tell). There are no logos or testimonials on this page yet, and I won't make any up.
 
 ### Or install via the skills CLI (Claude Code, Codex, Cursor & more)
 
@@ -191,12 +200,6 @@ Buyers increasingly ask an AI engine instead of clicking ten links — so the ve
 ## 🤝 Contributing
 
 Contributions are welcome — new agents, better agents, new loops, and freshness fixes. See [CONTRIBUTING.md](CONTRIBUTING.md), the [ROADMAP](ROADMAP.md), and the [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md). Good first contributions are listed in the [maintenance backlog](maintenance/backlog.md).
-
----
-
-## ⭐ Star this repo
-
-If this saves you time, a star genuinely helps other marketers find it — and it's the signal that tells us which parts to invest in next. Thank you.
 
 ---
 

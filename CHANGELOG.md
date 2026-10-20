@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **README: install and a real example come first.** The top of the README is now one sentence, the two install commands, three badges and a link to [`examples/acme-uptime/`](examples/acme-uptime/), the unedited output of one CATALYST launch brief (fictional company, labeled), with its 50 `[NEEDS INPUT]` markers left in. The star request moved from a closing section to one line after the first run, next to a new Show and tell link. Discussions now has a Show and tell form (`.github/DISCUSSION_TEMPLATE/show-and-tell.yml`) asking what you asked for, what came back, what you had to fix, and whether it may be featured.
+
 ## [1.4.0] — 2026-10-21
 
 - **The plugin folder now has its own README.** [`plugins/saas-marketing/README.md`](plugins/saas-marketing/README.md) is what the Claude plugin directory shows as the listing text: what the plugin does, how to use it, what the Campaign Board mod reads (no network calls, no credentials), and how to get updates. The main README's Quick start now explains that installed copies only update when the version changes, and how to update or turn on auto-update.

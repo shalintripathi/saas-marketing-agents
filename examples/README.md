@@ -12,6 +12,10 @@ The SaaS Marketing Agents framework enables complex marketing operations through
 - **Integration Points**: Clear integration points where agent outputs become inputs for other agents
 - **Quality Gates**: Validation checkpoints ensure work meets standards before proceeding
 
+## A real run, start to finish
+
+[Acme Uptime feature launch](./acme-uptime/): one brief, seven deliverables, and 50 `[NEEDS INPUT]` markers where the brand file had no proof. The company is fictional and labeled as such.
+
 ## Available Workflows
 
 ### 1. [Product Launch Workflow](./workflow-product-launch.md)

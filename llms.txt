@@ -45,3 +45,4 @@ Install in Claude Code: `/plugin marketplace add shalintripathi/saas-marketing-a
 
 - [Integrations guide](integrations/README.md): tool-by-tool setup
 - [Example workflows](examples/README.md): full worked campaigns
+- [One real run (Acme Uptime, fictional)](examples/acme-uptime/README.md): the unedited output of one CATALYST launch brief, seven deliverables with every unproven claim left as a [NEEDS INPUT] marker
