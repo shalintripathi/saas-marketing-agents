@@ -5749,3 +5749,19 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
 
 **Deferred:** *Content-to-Deal Correlation* has no target but the same selection problem as the win-rate metrics; left as is since it asserts no number.
+
+## 2026-10-21 — Freshness pass: Search Console's multimodal search type (AEO/GEO Playbook + AI Search Optimizer)
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents and 19 skills, matching the live About description. No guide "Last reviewed" date is over 90 days. No P0.
+
+**Backlog:** P0 is empty. Every open P1 is still blocked: #1, the stars and usage gates, and the human-only in-app form. So this run did a freshness pass.
+
+**Finding:** nothing new on the Bing Webmaster Blog since *Topics Portfolio* (13 Oct, covered 2026-10-17). In the Search Central blog, *Announcing web multimodal Search performance reporting in Search Console* (24 Sep 2026, read 2026-10-21) had never been assessed: grep found `multimodal` nowhere in the repo. It adds a **Web: multimodal** search type (Lens, Circle to Search on Android, uploaded images, Chrome "Search this image") to the Search results performance report *and* the Generative AI performance report. The Generative AI performance report's help page (read 2026-10-21) confirms the Web: text-based / Web: multimodal filter. It also confirms the report is still impressions-only with Pages/Countries/Dates/Devices dimensions and no queries, and it gives two reasons the report can be missing: too few impressions, or a site excluded through the Search generative AI control.
+
+**Shipped:** the playbook's step 15 now describes the filter, says to read text-based and multimodal separately so camera or screenshot searches aren't taken for text-query growth, and adds Google's two missing-report causes. The Search Central post is added to Sources and `Last reviewed` is bumped to 2026-10-21. Both copies of `seo-ai-search-optimizer` get a matching measurement sentence on the Google line (byte-identical, lint 2/2). No figures or effect sizes were added.
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Not committed:** an unrelated uncommitted edit to `plugins/saas-marketing/README.md` (a per-hook description of the Campaign Board mod) was already in the working tree when this run started. It was left untouched and kept out of this commit for the maintainer.
+
+**Deferred:** nothing new.

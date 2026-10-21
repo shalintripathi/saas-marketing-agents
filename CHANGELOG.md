@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **AEO/GEO: read Google's AI impressions by search type.** The [AEO/GEO Playbook](guides/aeo-geo-playbook.md) (step 15) and `seo-ai-search-optimizer` now cover the **Web: text-based / Web: multimodal** filter that Search Console added on 24 Sep 2026. Multimodal covers Lens, Circle to Search, uploaded images and Chrome image search. They say to report the two separately, and the playbook adds Google's two reasons the report can be missing. Source: Google Search Central.
 - **README: install and a real example come first.** The top of the README is now one sentence, the two install commands, three badges and a link to [`examples/acme-uptime/`](examples/acme-uptime/), the unedited output of one CATALYST launch brief (fictional company, labeled), with its 50 `[NEEDS INPUT]` markers left in. The star request moved from a closing section to one line after the first run, next to a new Show and tell link. Discussions now has a Show and tell form (`.github/DISCUSSION_TEMPLATE/show-and-tell.yml`) asking what you asked for, what came back, what you had to fix, and whether it may be featured.
 
 ## [1.4.0] — 2026-10-21
