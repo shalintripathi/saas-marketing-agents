@@ -32,7 +32,7 @@ _7 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
-| 🤖 | **AI Search Optimizer** | [`seo/seo-ai-search-optimizer.md`](seo/seo-ai-search-optimizer.md) | Forward-thinking strategist optimizing B2B SaaS for AI answer engines and where search is going, not where it's been |
+| 🤖 | **AI Search Optimizer** | [`seo/seo-ai-search-optimizer.md`](seo/seo-ai-search-optimizer.md) | Forward-thinking strategist optimizing B2B SaaS for AI answer engines and where search is going, not where it's been. Audits which AI crawlers (OpenAI, Anthropic, Perplexity, Google, Meta) can reach you, by purpose |
 | ⚡ | **Content Optimizer** | [`seo/seo-content-optimizer.md`](seo/seo-content-optimizer.md) | Surgeon optimizing existing content for search visibility without full rewrites, maximizing content ROI through incremental improvements |
 | 🗝️ | **Keyword Researcher** | [`seo/seo-keyword-researcher.md`](seo/seo-keyword-researcher.md) | Data miner who maps the B2B SaaS search landscape—typed search and AI-answer-engine queries—plus competitive gaps and buyer-intent clusters, then qualifies or kills each keyword against the live search result and the buyer before it reaches a brief |
 | 🔗 | **Link Building Strategist** | [`seo/seo-link-building-strategist.md`](seo/seo-link-building-strategist.md) | Authority builder who earns links through strategy, PR, and relationship networks—never through buying or manipulation, and owns your presence on the third-party pages that hold your shortlist queries: "best [category] software" roundups, directories, and review-platform category pages |

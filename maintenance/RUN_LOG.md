@@ -5765,3 +5765,19 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Not committed:** an unrelated uncommitted edit to `plugins/saas-marketing/README.md` (a per-hook description of the Campaign Board mod) was already in the working tree when this run started. It was left untouched and kept out of this commit for the maintainer.
 
 **Deferred:** nothing new.
+
+## 2026-10-21 — Scout: ENHANCED the AI Search Optimizer (Meta's crawlers in the access audit)
+
+**Run type: ENHANCE** (no agent added; counts unchanged at 90 agents / 19 skills).
+
+**Focus:** content / SEO, the oldest in the rotation (last 10-16). The last eleven scout runs were ENHANCE, so an ADD was hunted first. Four content/SEO role hypotheses resolved to existing owners or earlier kills (ledger, last row). A maintainer decision on one of the three open scope questions is still the only proven route to an ADD.
+
+**Gap proven by grep:** `meta-externalagent`, `meta-webindexer`, `meta-externalfetcher`, `facebookexternalhit` and `Meta AI` = 0 outside `maintenance/`. The trigger was coreyhaines31/marketingskills `ai-seo` 2.10.0 (MIT, merged 2026-10-19).
+
+**Shipped (both copies byte-identical, lint 2/2):** `seo-ai-search-optimizer` *Access Before Citation* gains four Meta rows in the crawler table, read from [Meta's crawler docs](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers) on 2026-10-21. It adds Meta to the "robots.txt is not access control" point (`meta-externalfetcher` and `facebookexternalhit` may bypass it). It also adds a fourth misread: `meta-webindexer` is the citation crawler, `meta-externalagent` is documented as training *or* indexing (so blocking it isn't a clean training opt-out, and Meta doesn't say what it does to Meta AI answers), a WAF rule against `facebookexternalhit` silently breaks link previews in Meta's apps, and robots.txt changes take up to 24 hours. The source's training-only label for `meta-externalagent` was corrected against the primary doc, not copied. Muse/Shopify ecommerce material was left out as off-thesis.
+
+**Discoverability:** `seo-growth` skill description (new triggers: should we block AI crawlers, robots.txt for AI bots, GPTBot vs OAI-SearchBot, are we visible in Meta AI, meta-externalagent, meta-webindexer, link previews broken on WhatsApp), its agent table row and a routing example, `AGENTS_INDEX.md`, `llms.txt`, and the README triggers table. No count change, so the About description, badges, CITATION, manifests and router tables are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched again.
+
+**Deferred:** a possible ENHANCE of `social-listening-analyst` from wshobson's `social-evidence-research` ("a discovery-only record supports no claim"), filed to the backlog.
