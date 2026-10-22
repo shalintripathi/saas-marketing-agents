@@ -5800,3 +5800,28 @@ No new external claims. Every vendor fact is already sourced in `email-copywrite
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched again.
 
 **Deferred:** nothing new.
+
+## 2026-10-22 — Scout: ENHANCED the International GTM Strategist (running several live markets as a portfolio)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** PMM / sales / GTM, the oldest in the rotation (last 10-17). The last twelve scout runs were ENHANCE, so an ADD was hunted first. Four PMM/GTM role hypotheses were grep-tested, and each resolved to an existing owner (see the ledger's last row). A maintainer decision on one of the three open scope questions is still the only proven route to an ADD.
+
+**Source:** Gaetano Romeo's `multi-region-gtm-playbook` in [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT, merged 10-20, read in full). Ideas only, credited in-file.
+
+**Gap (grep-proven):** `pmm-international-gtm-strategist` ran one market from selection to exit. `portfolio`, `governance`, `deviat`, `dispersion` and `tier` were all 0. It had no method for what stays global vs. local once several markets are live, how to fund them against each other, or what to do when a local team departs from the plan.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *Running the Portfolio: When More Than One Market Is Live*, with five rules:
+1. A decision-rights register: locked, default-with-departure or local.
+2. Funding by market stage (proving, scaling or sustaining) and evidence.
+3. Local departures logged as experiments, promoted only after they hold in a second market.
+4. Dispersion beside the blended total, with mix shift named.
+5. One fixed review.
+
+The run also added a Market Portfolio Operating Model deliverable, a Core Mission bullet, two metrics, and an updated description and credit line. The section hands off to `analytics-demand-planner`, `ops-financial-tracker`, `growth-customer-marketing-lead`, `pmm-messaging-architect`, `pmm-pricing-packaging-strategist` and `analytics-marketing-ops-architect`. No figures were added.
+
+**Discoverability:** the capability now appears in `AGENTS_INDEX.md`, `llms.txt`, the `product-marketing-ops` skill (description triggers, agent table, a routing example) and the README trigger phrases. There was no count change (90/19), so About, badges, CITATION and the manifests are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+**Deferred:** a possible ENHANCE for `paid-media-budget-optimizer`, "name the delayed cost of every cut" (backlog).
