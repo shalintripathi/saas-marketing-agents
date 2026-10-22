@@ -122,6 +122,7 @@ What makes this tractable rather than paranoid is that in a B2B SaaS stack the i
 | MAP, ESP, CRM, analytics-property or CMP **replacement** — the whole instrument swapped, not reconfigured | Every metric produced by that system, with no error and no gap in the chart | `analytics-martech-stack-strategist` (platform-change continuity register, filed before cutover) |
 | Audience Expansion, network placements, platform auto-targeting toggles | Who received the budget, and so lead quality and CPL | `paid-media-social-ads-specialist` |
 | Sending-domain, authentication, or suppression-list change | Deliverability, open and click rates, engagement scores | `email-deliverability-specialist` |
+| Mailbox-provider inbox feature rollout — AI summaries, category sorting (e.g. Gmail's AI Inbox on paid US EN-US Workspace, 2026-10-12 Rapid / 2026-10-26 Scheduled Release) | Open and click rates and engagement scores, with no change to the copy or the send; split by provider and by language or region | `email-copywriter` (*The Inbox Reads It First*) |
 | Site migration, redirect, canonical, or template change | Sessions and conversions by landing page | `seo-technical-auditor` |
 
 An MQL count that fell 30% the week after a scoring threshold was raised is not a demand problem, and no amount of campaign analysis will discover that. Check the register before opening the campaign data.

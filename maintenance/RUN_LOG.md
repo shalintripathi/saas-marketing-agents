@@ -5781,3 +5781,22 @@ A **Field Pull-Through Audit** deliverable was added. The two unsourced targets 
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched again.
 
 **Deferred:** a possible ENHANCE of `social-listening-analyst` from wshobson's `social-evidence-research` ("a discovery-only record supports no claim"), filed to the backlog.
+
+## 2026-10-22 — Backlog: reciprocal pointers to *The Inbox Reads It First*
+
+**Health check:** clean. 0 broken internal `.md` links. `marketplace.json` and `plugin.json` parse with required fields; 19/19 skills have `name` and `description`. 90 agents and 19 skills, matching the live About description. The oldest "Last reviewed" date is 2026-10-10 (`integrations/README.md`). No P0. The two "80/81 agents" hits are dated provenance notes in agent footers, not stale counts.
+
+**Backlog:** every open P1 is still blocked (#1, the stars and usage gates, the human-only in-app form, legal validation). The About-box wording trade is a note, not a task. So this run took the concrete P2 item filed on 2026-10-19: grep-verified that only `email-copywriter` referenced *The Inbox Reads It First*.
+
+**Shipped (both copies byte-identical, lint 6/6):**
+- `email-newsletter-growth-strategist`: Rule 10. Lead each issue with one item in the first two sentences, because a summarizer can't describe six equal items. A newsletter in Apple Mail's Updates is read inside a per-sender digest.
+- `email-lifecycle-architect`: one sentence in *The Contact Budget*. One Apple Mail category move applies to "all current and future messages from the sender", so a promotional burst from a shared sender can file its product notices away too.
+- `analytics-performance-analyst`: a series-break register row for mailbox-provider inbox feature rollouts (Gmail AI Inbox 2026-10-12 / 2026-10-26), with `email-copywriter` as the owner to confirm with.
+
+No new external claims. Every vendor fact is already sourced in `email-copywriter` (read 2026-10-19).
+
+**Discoverability:** no count, name or capability change (90/19), so About, badges, CITATION, manifests, index and `llms.txt` are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched again.
+
+**Deferred:** nothing new.
