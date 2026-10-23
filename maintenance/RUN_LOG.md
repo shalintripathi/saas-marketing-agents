@@ -5841,3 +5841,29 @@ The run also added a Market Portfolio Operating Model deliverable, a Core Missio
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
 
 **Deferred:** the `paid-media-budget-optimizer` "delayed cost of every cut" ENHANCE (backlog P2) is next.
+
+## 2026-10-23 — Scout: ENHANCED the Budget Optimizer (pricing the delayed cost of a budget cut)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last 10-19). The last thirteen scout runs were ENHANCE, so an ADD was hunted first. It was the third email/analytics/ops hunt this month and it found nothing. Fresh grep candidates (push, SMS, in-app, transactional) are channel mechanics owned by the lifecycle and PLG agents. Three new web finds were generic or auto-generated (ledger). With nothing fresh to adopt, the run took the queued skill-curation ENHANCE, as the scout process prefers.
+
+**Source:** Gaetano Romeo's `budget-reallocation-under-cut` in [swan-gtm/gtm-skills](https://github.com/swan-gtm/gtm-skills) (MIT, re-read in full). Ideas only, credited in-file.
+
+**Gap (grep-proven):** `delayed`, `capture`, `creation` and `shortfall` were 0 in `paid-media-budget-optimizer`, and `delayed cost` / `reversal trigger` were 0 roster-wide. The agent reallocated a fixed total but had no method for a mandated cut.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *When the Total Shrinks: Cutting Without Hiding the Bill*, covering:
+- Capture vs. creation, labelled by a lag profile measured on your own cohorts.
+- Cutting along the marginal-return curve after closed-won, assisted-influence and delivery checks (Rules 9–10).
+- A floor sized to a priced restart cost.
+- A cover plan with owners that prints its shortfall.
+- Three scenarios on two clocks, with the cut applied to the plan.
+- A reversal trigger with thresholds and a review date.
+
+Also Rule 11 (never cut without naming its delayed cost), a Budget Cut Plan deliverable, a cut-accountability metric, a Core Mission bullet and the description. Handoffs: `pmm-brand-demand-strategist` (owns the split), `paid-media-attribution-analyst`, `analytics-demand-planner`, `ops-financial-tracker`, and the PPC spend-change gate. The source's two percentages are not imported (unsourced). No new figures.
+
+**Discoverability:** the capability is named in `AGENTS_INDEX.md`, `llms.txt`, the `paid-media-ops` skill (description trigger, agent table, routing example) and the README trigger phrases ("our marketing budget is being cut", "what should we cut"). No count change (90/19), so About, badges, CITATION and the manifests are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+**Deferred:** reciprocal pointers from the brand-demand strategist and the demand planner (backlog P2).
