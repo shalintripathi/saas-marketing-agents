@@ -5825,3 +5825,19 @@ The run also added a Market Portfolio Operating Model deliverable, a Core Missio
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
 
 **Deferred:** a possible ENHANCE for `paid-media-budget-optimizer`, "name the delayed cost of every cut" (backlog).
+
+## 2026-10-23 — Backlog P2: claim traceability for the Social Listening Analyst (automated)
+
+**Health check, all green, no P0.** 0 broken internal `.md` links. Both manifests parse with required fields, and all 19 skills have `name` + `description`. The AEO/GEO playbook was last reviewed 2026-10-21. Live counts are 90 agents / 19 skills / 17 disciplines and match the GitHub About description, README badges and every surface checked. The `80 agents` / `81 agents` hits in two credit lines are historical provenance ("searched across N agents at the time"), not stale counts.
+
+**Backlog:** every P1 is still blocked (#1, the stars and usage gates, the human-only in-app form, legal validation). Took the older of the two concrete P2 ENHANCEs (filed 2026-10-21).
+
+**Gap (grep-proven):** `snippet`, `unfurl`, `traceab`, `inspected` and `access gap` were all 0 in `social-listening-analyst`. Rule 11 required verbatim, dated quotes but did not separate discovery from evidence, group reposts, or treat an empty search as a gap.
+
+**Shipped (both copies byte-identical, lint 2/2):** Rule 12, *A search hit is a lead, not evidence* (old Rule 12 is now 13; grep found no file citing this agent's rule numbers outside historical logs). Also a claim table plus discovered/inspected/excluded/access-gap counts in the Monthly Conversation Brief, a *Claim traceability* metric, a description phrase and a credit line. Source: `social-evidence-research` in wshobson/agents (MIT, re-read in full 2026-10-23), ideas only.
+
+**Discoverability:** the capability is named in `AGENTS_INDEX.md`, `llms.txt` and the `social-media-ops` skill (description trigger + agent table). No count change (90/19), so About, badges, CITATION and manifests are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+**Deferred:** the `paid-media-budget-optimizer` "delayed cost of every cut" ENHANCE (backlog P2) is next.
