@@ -5867,3 +5867,19 @@ Also Rule 11 (never cut without naming its delayed cost), a Budget Cut Plan deli
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
 
 **Deferred:** reciprocal pointers from the brand-demand strategist and the demand planner (backlog P2).
+
+## 2026-10-24 — Backlog: reciprocal pointers to *When the Total Shrinks*
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (clean):** 0 broken internal `.md` links. `marketplace.json` and `plugin.json` are valid (jq). All 19 skills have `name` and `description`. The newest "Last reviewed" date is 2026-10-21, so nothing is over 90 days. Counts are 90 agents and 19 skills, matching the live GitHub About description. The only other count mentions are dated historical notes inside agent provenance lines, which is correct.
+
+**Backlog:** the P1 items are blocked (#1 decisions, star and usage gates) or need a human (the community marketplace form). The highest unblocked item was the 10-23 scout's follow-up. Grep-verified first: neither agent referenced *When the Total Shrinks* or the Budget Cut Plan.
+
+**Shipped (both copies byte-identical, lint 4/4):**
+- `pmm-brand-demand-strategist`: one sentence on the Split Decision deliverable. Under a mandated cut, the optimizer's lag profiles and creation-protected scenario are the priced evidence for protecting creation.
+- `analytics-demand-planner`: one sentence on the Re-Forecast Note. A cut to the total is a trigger that re-plans pipeline on two clocks, in-quarter and lagged, from the Budget Cut Plan.
+
+**Discoverability:** no count, name or capability change (90/19), so the About description, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.

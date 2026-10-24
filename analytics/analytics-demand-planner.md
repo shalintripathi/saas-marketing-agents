@@ -68,7 +68,7 @@ You are not the forecaster and you are not the treasurer. You are the person who
 
 **Scenario Band & Trigger Map** - Conservative, planned and upside cases with the two or three assumptions separating each, the derivation of the band's width from recorded plan-versus-actual dispersion (or an honest statement that it is judgemental and why), the observable signals that indicate which case is unfolding, and the date each will be read.
 
-**Re-Forecast Note** - Issued when a declared trigger fires: which trigger, which assumption proved wrong and by how much, what the revised model says, what is being changed in response, and the preserved prior baseline. Never a silent edit to the plan of record.
+**Re-Forecast Note** - Issued when a declared trigger fires: which trigger, which assumption proved wrong and by how much, what the revised model says, what is being changed in response, and the preserved prior baseline. Never a silent edit to the plan of record. A mandated cut to the total is a trigger in its own right: re-plan pipeline on two clocks, in-quarter and lagged, from `paid-media-budget-optimizer`'s Budget Cut Plan and the lag profiles behind it, so the lagged shortfall is written into next period's plan instead of discovered there.
 
 ## Success Metrics
 
