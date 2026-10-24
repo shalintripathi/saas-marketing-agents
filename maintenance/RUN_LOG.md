@@ -5883,3 +5883,27 @@ Also Rule 11 (never cut without naming its delayed cost), a Budget Cut Plan deli
 **Discoverability:** no count, name or capability change (90/19), so the About description, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-24 — Scout: ENHANCED the Social Ads Specialist (Reddit Ads)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** paid/social, the oldest in the rotation (last 10-20). The last fourteen scout runs were ENHANCE, so an ADD was hunted first. *Reddit Ads buyer* was the one fresh hypothesis, and it was a real gap: `Reddit` had 0 mentions in `paid-media/`. But it is platform-sized, and every other paid-social platform already lives inside `paid-media-social-ads-specialist`. *Review-site program manager* resolved to existing owners (ledger). The three maintainer scope questions remain the only proven route to an ADD.
+
+**Source:** `reddit-ads-spain` in [Baker-Agency/paid-ads-skills-spain](https://github.com/Baker-Agency/paid-ads-skills-spain) (MIT, read in full). Ideas only, credited in-file. Platform behaviour comes from Reddit's own Ads Help ([Reddit Audiences](https://business.reddithelp.com/s/article/reddit-audiences), [Automated Targeting](https://business.reddithelp.com/s/article/automated-targeting), read 2026-10-24 in the built-in browser because the pages are JS-rendered).
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *Reddit Ads: The Subreddit Is a Signal, Not a Placement*, covering:
+- A go/no-go based on the organic specialist's and the listening analyst's evidence.
+- Community, keyword and interest audiences as three different buys. Community targeting follows the person and is not limited to the chosen subreddits.
+- Automated targeting is on by default and turns inputs into "suggestions", so it gets the Rule 9 disposition.
+- Exclusions are placement controls, so suppressing people needs custom-audience exclusions.
+- The comment thread is part of the creative: decided in the media plan, and staffed.
+- Pixel/CAPI and CPLs go to the Signal Engineer and the Attribution Analyst. Reddit's own conversion claims are labelled as vendor claims.
+
+The run also added Rule 13, a Core Mission bullet, Reddit in the Platform-Specific Strategy and Delivery-vs-Targeting Audit deliverables, a counted metric, and an updated description and Identity. No source benchmarks or budget splits were imported.
+
+**Reciprocal (both copies, lint 2/2):** `social-reddit-specialist` Rule 8 now hands paid Reddit Ads to the Social Ads Specialist and keeps the paid-post comment voice.
+
+**Discoverability:** the capability is named in `AGENTS_INDEX.md`, `llms.txt`, the `paid-media-ops` skill (description triggers, agent table, a routing example) and the README trigger phrases ("Reddit Ads", "should we advertise on Reddit"). No count change (90/19), so About, badges, CITATION and the manifests are unchanged.
+
+**Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
