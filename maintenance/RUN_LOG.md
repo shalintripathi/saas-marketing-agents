@@ -5907,3 +5907,23 @@ The run also added Rule 13, a Core Mission bullet, Reddit in the Platform-Specif
 **Discoverability:** the capability is named in `AGENTS_INDEX.md`, `llms.txt`, the `paid-media-ops` skill (description triggers, agent table, a routing example) and the README trigger phrases ("Reddit Ads", "should we advertise on Reddit"). No count change (90/19), so About, badges, CITATION and the manifests are unchanged.
 
 **Not committed:** the maintainer's pre-existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+
+## 2026-10-25 — Backlog: Reddit Ads comment setting and conversation placement, now sourced
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (clean):** 0 broken internal `.md` links. `marketplace.json` and `plugin.json` are valid (jq). All 19 skills have `name` and `description`. The newest "Last reviewed" date is 2026-10-21, so nothing is over 90 days old. Counts are 90 agents and 19 skills, matching the live GitHub About description.
+
+**Item:** the 2026-10-24 watch item. The scout could not find a primary source for Reddit's ad-comments control or the conversation placement, so the section hedged with "where a format carries comments". This run read the JS-rendered Reddit Ads Help in the built-in browser and found both: [Manage Ads with Comments On](https://business.reddithelp.com/s/article/Managing-ads-with-comments-on) and [Ad Unit Specifications](https://business.reddithelp.com/s/article/Reddit-Ad-Unit-Specifications). The help centre's AI-generated search answer was not used as a source.
+
+**Shipped (both copies byte-identical, lint 2/2):** `paid-media-social-ads-specialist`, *The thread is part of the creative*:
+- Comments are off on every new ad unless *Allow comments on Reddit post* is ticked, and they can be locked or unlocked later.
+- Moderation (lock, remove or approve, pin, mark spam) needs ads-account administrator access, so the comment owner's role is checked before launch.
+- The conversation placement shows the ad on other posts' thread pages, including to readers arriving from web search, so the surrounding discussion is not the advertiser's.
+
+The two new pages were added to the credit line. Rule 13 and the counted metric already say "a named comment owner or comments closed", so they were unchanged.
+
+**Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
