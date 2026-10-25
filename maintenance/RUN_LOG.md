@@ -5927,3 +5927,28 @@ The two new pages were added to the credit line. Rule 13 and the counted metric 
 **Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-25 — Scout: ENHANCED the Programmatic SEO Strategist (the Sibling Test)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** content/SEO, the oldest in the rotation (last 10-21). The last fifteen scout runs were ENHANCE, so an ADD was hunted first. Five content/SEO role hypotheses all resolved to existing owners (ledger). A maintainer decision on one of the three open scope questions is still the only proven route to an ADD.
+
+**Source:** [ouranos-labs/pseolint](https://github.com/ouranos-labs/pseolint) (MIT packages, README read). Found through the new [zhuyansen/awesome-claude-seo-skills](https://github.com/zhuyansen/awesome-claude-seo-skills) list. Ideas only, credited in-file. Policy wording comes from Google Search Central's [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) (updated 2026-08-28, read 2026-10-25).
+
+**Gap (grep-proven):** `mask`, `pairwise`, `entity swap` and `worst` were 0 in `seo-programmatic-strategist`. Its substance floor (Rule 3) checks the dataset row, and its validation cohort (Rule 4) finds a too-similar set only weeks after publish, as an indexation rate. Nothing compared rendered pages with their siblings before publish.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *The Sibling Test: Auditing the Set, Not the Page*, covering:
+- Grading per template with a seeded sample, not a site-wide average.
+- Four reads on rendered HTML: masked-entity comparison, unique-text share as a distribution, structure-plus-meta sameness as a combined doorway signature, and publish clustering.
+- Thresholds set before the run and calibrated on a template that is already indexed and earning. No tool's percentages imported.
+- The worst template holds the batch, with three-way routing for a failure (dataset, template, exclusion).
+- Boundaries with `seo-content-optimizer`, `seo-technical-auditor` and `ops-quality-assurance`, and a rule against spinning text to beat a similarity score.
+
+Also Rule 11, a Core Mission bullet, a Page-Set Distinctness Report deliverable, a Sibling Test coverage metric and the description. No new figures.
+
+**Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt` (programmatic SEO was missing from the SEO line and is now added), the `seo-growth` skill (description triggers such as "are our programmatic pages too similar", "doorway pages", "scaled content abuse", the agent table and a routing example) and the README trigger phrases. No count change (90/19), so About, badges, CITATION and the manifests are unchanged.
+
+**Dismissed on principle:** seomachine's `/scrub`, which strips Unicode watermarks and em-dashes so AI text "appears" human-written. It is a disclosure-evasion method (ledger).
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
