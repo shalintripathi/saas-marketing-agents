@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **Closed-lost deals now have a re-entry play: check the loss reason, then come back only when something has changed.** [`sales-outbound-strategist`](sales/sales-outbound-strategist.md) (both copies) gains *Closed-Lost Is Not Cold: Re-Entry on a Changed Reason*. It covers the recorded loss reason as a claim checked against the notes, a reopening change per loss reason (shipped gap, the buyer's own date, a champion move, published strain), a re-enter / watch / retire verdict, the original deal owner speaking first, history-accurate openers, and re-opened pipeline kept apart from net-new. Also new: Rule 13, a Closed-Lost Re-Entry Register and a re-entry metric. Renewal losses stay on the competitive intelligence contract clock. Ideas from rvanshur/vertical-gtm-skills (MIT), written from scratch.
+
 ## [1.4.1] — 2026-10-26
 
 - **Localized programmatic page sets now go through the Sibling Test before a locale rollout.** [`seo-local-and-international`](seo/seo-local-and-international.md) (both copies): a per-locale translation review answers for each page, not the batch, so template-rendered locale sets are routed to `seo-programmatic-strategist`'s Sibling Test, and a held template holds the rollout.

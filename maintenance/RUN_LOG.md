@@ -5966,3 +5966,26 @@ Also Rule 11, a Core Mission bullet, a Page-Set Distinctness Report deliverable,
 **Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-26 — Scout: ENHANCED the Outbound Strategist (closed-lost re-entry)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** PMM/sales/GTM, the oldest in the rotation (last 10-22). The last sixteen scout runs were ENHANCE, so an ADD was hunted first. The one new unowned gap, closed-lost re-entry, is a play inside outbound with hand-offs to competitive intelligence and ABM, not a role. Earlier PMM kills were re-grepped and stand (ledger). A maintainer decision on one of the three open scope questions is still the only proven route to an ADD.
+
+**Source:** [rvanshur/vertical-gtm-skills](https://github.com/rvanshur/vertical-gtm-skills) `05-closed-loss-reactivation` (MIT, licence verified via the GitHub API, read in full 2026-10-26). Ideas only, credited in-file.
+
+**Gap (grep-proven):** `closed-loss` and opportunity reactivation were 0 roster-wide. `pmm-competitive-intelligence` owns only the renewal loss (contract clock, hand-off to ABM) and says every other loss leaves you guessing at re-entry. The outbound launch gate fails any record with a known objection, so lost deals had no play.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *Closed-Lost Is Not Cold: Re-Entry on a Changed Reason*, covering:
+- The recorded loss reason as a claim, checked against notes, recordings and win/loss interviews, tagged recorded or inferred, with blank meaning unknown. A changed reason goes back to the competitive intelligence census.
+- A table of seven checked loss reasons, each with the change that reopens it and where that change shows up. A shipped gap is matched by `pmm-launch-manager`, a packaging change comes from `pmm-pricing-packaging-strategist`, and the anti-ICP list retires the account.
+- Three verdicts (re-enter / watch / retire). The original deal owner speaks first, earlier opt-outs and the contact budget still apply, and Rule 12 still holds.
+- History-accurate openers that only use verified proof.
+- Counts with their n, per-reason review windows set from your own history, and a separate pipeline source for re-opened deals.
+
+Also Rule 13, a Core Mission bullet, a Closed-Lost Re-Entry Register deliverable, a re-entry metric and the description. No new figures. The source's per-reason timing windows were not imported (unsourced).
+
+**Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt`, the `sales-enablement` skill (description triggers such as "closed-lost reactivation", "re-engage lost deals", "is the loss reason in the CRM true", the agent table and a routing example) and the README (roster note and trigger phrase). No count change (90/19), so About, badges, CITATION and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
