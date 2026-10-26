@@ -5952,3 +5952,17 @@ Also Rule 11, a Core Mission bullet, a Page-Set Distinctness Report deliverable,
 **Dismissed on principle:** seomachine's `/scrub`, which strips Unicode watermarks and em-dashes so AI text "appears" human-written. It is a disclosure-evasion method (ledger).
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-26 — Backlog: reciprocal pointer to *The Sibling Test*
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (clean):** 0 broken internal `.md` links. `marketplace.json` and `plugin.json` are valid (jq). All 19 skills have `name` and `description`. The oldest "Last reviewed" date outside the maintenance logs is 2026-10-10, so nothing is over 90 days old. Counts are 90 agents and 19 skills, matching the live GitHub About description.
+
+**Item:** the 2026-10-25 scout follow-up. Grep-verified first: `seo-local-and-international` had no pointer to `seo-programmatic-strategist` (its only `sibling` hit is the hreflang set).
+
+**Shipped (both copies byte-identical, lint 2/2):** one sentence at the end of *Translation quality is a policy question*. The per-locale review record covers each page, not the batch. A locale's template-rendered pages (city, industry, integration) are a programmatic set that can pass page-by-page review and still read as one page with a swapped name, so they go through the Sibling Test before publish, and a held template holds the locale rollout. No new figures or sources.
+
+**Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
