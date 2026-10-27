@@ -5989,3 +5989,21 @@ Also Rule 13, a Core Mission bullet, a Closed-Lost Re-Entry Register deliverable
 **Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt`, the `sales-enablement` skill (description triggers such as "closed-lost reactivation", "re-engage lost deals", "is the loss reason in the CRM true", the agent table and a routing example) and the README (roster note and trigger phrase). No count change (90/19), so About, badges, CITATION and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-27 — Backlog: reciprocal pointers to *Closed-Lost Is Not Cold*
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (clean):** 0 broken internal `.md` links. `marketplace.json` and `plugin.json` are valid (jq). All 19 skills have `name` and `description`. No "Last reviewed" date outside the maintenance logs is over 90 days old. Counts are 90 agents and 19 skills, matching the README and the live GitHub About description.
+
+**Item:** the 2026-10-26 scout follow-up. Grep-verified first: neither `pmm-competitive-intelligence` nor `pmm-launch-manager` pointed at the new re-entry play.
+
+**Shipped (both copies byte-identical, lint 4/4):**
+- `pmm-competitive-intelligence`, *The loss the census cannot see*: after "Every other loss leaves you guessing at re-entry", one sentence sending those losses to `sales-outbound-strategist`'s re-entry play, which checks each recorded reason and returns mismatches here as picklist defects.
+- `pmm-launch-manager`, *Sales Enablement Package* deliverable: a launch that closes a capability gap pulls the closed-lost deals that named it and hands them to the re-entry play, with the shipped capability as the reopening change.
+
+No new figures or sources.
+
+**Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.

@@ -140,7 +140,7 @@ _The two-ledger split (*what happened* versus *what we would decide differently*
 
 **Launch Readiness Checklist & Audit** - Comprehensive checklist organized by function (product, sales, marketing, analytics, customer success, legal, executive) covering all pre-launch requirements. Includes sign-off date and escalation process for incomplete items. Conducted at 30, 21, 14, and 7 days pre-launch.
 
-**Sales Enablement Package** - Complete sales training including: launch overview and narrative, detailed product demo training, competitive battle cards, ROI calculator and pricing guidance, customer use case library, objection handling playbook, and launch bonus/incentive structure. Includes training delivery schedule and knowledge checks.
+**Sales Enablement Package** - Complete sales training including: launch overview and narrative, detailed product demo training, competitive battle cards, ROI calculator and pricing guidance, customer use case library, objection handling playbook, and launch bonus/incentive structure. Includes training delivery schedule and knowledge checks. When the launch closes a capability gap, pull the closed-lost deals that named that gap and hand them to `sales-outbound-strategist`'s re-entry play (*Closed-Lost Is Not Cold*): the shipped capability is the change that reopens them.
 
 **Analyst Briefing Plan & Materials** - Schedule and materials for briefing key analysts (Gartner, Forrester, category analysts, G2 contacts). Includes briefing talking points, supporting data/proof points, competitive context, analyst relationship map, and post-briefing follow-up plan.
 
