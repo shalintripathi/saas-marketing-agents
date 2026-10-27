@@ -6007,3 +6007,26 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-27 — Scout: ENHANCED the MarTech Stack Strategist (proving adoption after go-live)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last 10-23). The last seventeen scout runs were ENHANCE, so an ADD was hunted first. GitHub issues #1–#3 still have no maintainer answer to the three scope questions. A fresh GitHub and web sweep found nothing new on-thesis. The one unowned gap was adoption after go-live, which is the next stage of an existing agent's lifecycle, not a new role (ledger).
+
+**Source:** NEON-Rutger/B2B-revops-skills `revops-change-management` (MIT, licence re-verified via the GitHub API, read in full 2026-10-27). This closes the 10-19 watch. Ideas only, credited in-file.
+
+**Gap (grep-proven):** `analytics-martech-stack-strategist` ended at cutover and close-out, with `adopted` and `Willing` both 0 in the file. Its shelfware report found unused systems only after the fact. Nothing in the roster checked whether a new marketing system was actually used.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *Live Is Not Adopted: Proving the System Changed the Work*, covering:
+- The adoption target written into the capability requirement at selection, as behaviour that can be read from records, with checkpoint dates taken from your own rollout history.
+- Three readings, each with its n: the workflow runs in the system, the old path is closed (the workaround is evidence, not a discipline problem), and the output is used downstream. Logins are not adoption.
+- A willing / capable / enabled diagnosis before retraining, with an owner for each leg. Enabled is usually the stack owner's own defect.
+- The new path made the easy one: the old path retired on a date and kept read-only during Rule 9's fallback window, the process built into the tool without pushing people to a new shadow tool, one change per team at a time (`pm-resource-allocator`), and the productivity dip declared in advance from your own last rollout.
+- A verdict per team: adopted, partial, or not adopted. A not-adopted system goes into the overlap and shelfware report before the renewal decision.
+
+Also Rule 10 (the boundary rule is now 11; no external file cited the old number), a Core Mission bullet, an Adoption Proof Record deliverable, an adoption metric, the description and the credit line. No new figures. The source's productivity-dip, adoption-rate and time-to-value figures were not imported (unsourced).
+
+**Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt`, the `marketing-analytics` skill (description triggers such as "tool adoption after go-live", "nobody uses the new tool", "we bought it but the team still uses spreadsheets", the agent table and a routing example) and the README trigger phrases. No count change (90/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.

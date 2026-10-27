@@ -161,7 +161,7 @@ _9 agents_
 | 📊 | **Marketing Data Storyteller** | [`analytics/analytics-data-storyteller.md`](analytics/analytics-data-storyteller.md) | Executive reporting, data visualization, and campaign post-mortems |
 | ⚙️ | **Marketing Ops Architect** | [`analytics/analytics-marketing-ops-architect.md`](analytics/analytics-marketing-ops-architect.md) | Marketing systems and data architecture inside the stack — MAP/CRM integration, lead lifecycle and scoring design, field governance, duplicate prevention and merge survivorship rules, and the marketing instrumentation contract (tracking plan, event taxonomy, UTM taxonomy) |
 | 📈 | **Marketing Performance Analyst** | [`analytics/analytics-performance-analyst.md`](analytics/analytics-performance-analyst.md) | Marketing funnel metrics, cohort analysis, and ROI measurement |
-| 🔌 | **MarTech Stack Strategist** | [`analytics/analytics-martech-stack-strategist.md`](analytics/analytics-martech-stack-strategist.md) | The martech stack as a portfolio — capability-first tool selection and build-vs-buy, shadow-tool and overlap rationalization, and the true switching cost of a platform migration (suppression record, engagement history, personalization, measurement continuity) |
+| 🔌 | **MarTech Stack Strategist** | [`analytics/analytics-martech-stack-strategist.md`](analytics/analytics-martech-stack-strategist.md) | The martech stack as a portfolio — capability-first tool selection and build-vs-buy, shadow-tool and overlap rationalization, and the true switching cost of a platform migration (suppression record, engagement history, personalization, measurement continuity), and proving after go-live that the team actually adopted the system |
 
 ## Communications
 
