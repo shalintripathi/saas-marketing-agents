@@ -6048,3 +6048,27 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-28 — Scout: ENHANCED the PPC Strategist (AI Max for Search)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** paid/social, the oldest in the rotation (last 10-24). The last eighteen scout runs were ENHANCE, so an ADD was hunted first. GitHub issues #1–#3 still have no maintainer answer. A fresh paid/social grep and a GitHub/web sweep found no unowned role (ledger). The one unowned gap, AI Max, is a feature of the platform the PPC Strategist already owns.
+
+**Source:** coreyhaines31/marketingskills `ads` skill, `google-search-playbook.md` (MIT, licence checked via the GitHub API, read 2026-10-28). It gives AI Max one paragraph. The section is built on Google Ads Help, read the same day. Ideas only, credited in-file.
+
+**Gap (grep-proven):** `AI Max` was 0 across the roster. The PPC Strategist's list of AI-powered campaign types named Performance Max and broad match but not AI Max. It had no rule for final URL expansion picking the landing page.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new subsection in *Operating a Live Account*, *AI Max for Search: one switch, three decisions, and one of them picks your landing page*:
+- The switch is three features and goes through the gate as Tier 3.
+- Search term matching is read through the AI Max match type, the Source column and the two keyword-report summary rows, with the "Other search terms" undercount as its own line.
+- Final URL expansion: write the URL exclusion list first (careers, docs, support, login, status, blog, partner, legal, and pages with no form or tag). Pinned assets can be skipped, so keep it off where a pin carries a required claim. Review the Selected-by pages each loop.
+- Text customization: "Google AI" assets get a recurring review against the Proof Point Library; turning text off also turns expansion off.
+- Brand exclusions on non-brand campaigns. No test while the campaign is budget-limited. An experiment judged on CRM-qualified leads, with a verdict per feature.
+- Microsoft's AI Max noted from trade press, to be verified in-platform.
+
+Also Rule 13, an AI Max Decision Record deliverable, a metric, the AI-campaign-types list item, the description and the credit line. No lift or CPA figures.
+
+**Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt`, the `paid-media-ops` skill (description triggers such as "should we turn on AI Max", "final URL expansion", "our ads are landing on the careers page", the agent table and a routing example) and the README trigger phrases. No count change (90/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
