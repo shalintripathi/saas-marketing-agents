@@ -6030,3 +6030,21 @@ Also Rule 10 (the boundary rule is now 11; no external file cited the old number
 **Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt`, the `marketing-analytics` skill (description triggers such as "tool adoption after go-live", "nobody uses the new tool", "we bought it but the team still uses spreadsheets", the agent table and a routing example) and the README trigger phrases. No count change (90/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-28 — Backlog: reciprocal pointers to *Live Is Not Adopted*
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (clean):** 0 broken internal `.md` links. `marketplace.json` and `plugin.json` are valid (jq). All 19 skills have `name` and `description`. No "Last reviewed" date is over 90 days old (oldest: `integrations/README.md`, 2026-10-10). Counts are 90 agents (17 category dirs; `strategy/` is not an agent dir) and 19 skills, matching the README and the live GitHub About description.
+
+**Item:** the 2026-10-27 scout follow-up. Grep-verified first: neither `analytics-marketing-ai-ops-lead` nor `pm-resource-allocator` mentioned *Live Is Not Adopted*.
+
+**Shipped (both copies byte-identical, lint 4/4):**
+- `analytics-marketing-ai-ops-lead`, Rule 2: a sanctioned or replacement AI tool is a system rollout too, adopted only when it passes the MarTech Stack Strategist's check, not when licences are issued.
+- `pm-resource-allocator`, Rule 4: a system migration and its declared productivity dip count against team capacity; one system change per team at a time.
+
+No new figures or sources.
+
+**Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
