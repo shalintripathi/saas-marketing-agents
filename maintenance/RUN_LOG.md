@@ -6072,3 +6072,21 @@ Also Rule 13, an AI Max Decision Record deliverable, a metric, the AI-campaign-t
 **Discoverability:** named in `AGENTS_INDEX.md`, `llms.txt`, the `paid-media-ops` skill (description triggers such as "should we turn on AI Max", "final URL expansion", "our ads are landing on the careers page", the agent table and a routing example) and the README trigger phrases. No count change (90/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-29 — Backlog: reciprocal pointers to *AI Max for Search*
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration.
+
+**Health check (clean):** 0 broken internal `.md` links. `marketplace.json` and `plugin.json` are valid (jq). All 19 skills have `name` and `description`. No live "Last reviewed" date is over 90 days old. Counts are 90 agents and 19 skills, matching the README and the live GitHub About description. Older counts ("80 agents", "81 agents") appear only in dated provenance notes, which is correct.
+
+**Item:** the 2026-10-28 scout follow-up. Grep-verified first: `AI Max` returned 0 in both target agents.
+
+**Shipped (both copies byte-identical, lint 4/4):**
+- `paid-media-conversion-signal-engineer`, *Failure Patterns*: keywordless matching on a shallow primary. AI Max search term matching finds more of whatever the primary rewards, so the ladder (primary at qualified lead or deeper, retractions running) is confirmed before an AI Max lift is read.
+- `seo-technical-auditor`, *Declare the intended-exclusion map*: the map feeds the PPC Strategist's AI Max URL exclusion list as URL patterns, and is re-sent after a migration or new section. Says `noindex` is a search-results control and should not be assumed to cover paid landing-page selection. Whether final URL expansion honours `noindex` was not verified, so the text makes no claim either way.
+
+No new figures or sources.
+
+**Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.

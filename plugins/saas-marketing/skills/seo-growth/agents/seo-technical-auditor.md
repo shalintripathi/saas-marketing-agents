@@ -124,6 +124,8 @@ For each class, record the enforcement mechanism and the follow directive, becau
 
 Anything genuinely sensitive belongs behind authentication, not behind a directive. `noindex` is a request to a cooperating crawler; it is not access control, and it is not a security boundary.
 
+The same map feeds paid search. When `paid-media-ppc-strategist` turns on AI Max final URL expansion, Google picks which page on the site a paid click lands on, and the PPC Strategist fences that with a URL exclusion list (its *AI Max for Search* section). That list is a separate campaign setting. `noindex` is a search-results control, so don't assume it also keeps a page out of paid landing-page selection. Hand over the page classes that should never take a paid click (careers, docs, support, login, status, legal, the blog, the partner portal) as URL patterns. After a migration or a new site section, re-send them, because an exclusion written against the old patterns stops matching without any error.
+
 ### 5. Removing a page: pick the mechanism from the intent
 
 Retirement decisions arrive here from `seo-content-optimizer`'s triage. The choice is not a matter of taste, but it is also narrower than it is usually presented.
