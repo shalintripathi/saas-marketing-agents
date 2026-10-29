@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**90 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**91 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **90 agents** indexed below. Last generated 2026-10-08.
+> **91 agents** indexed below. Last generated 2026-10-08.
 
 ---
 
@@ -28,7 +28,7 @@ _9 agents_
 
 ## SEO & Organic Growth
 
-_7 agents_
+_8 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -38,6 +38,7 @@ _7 agents_
 | 🔗 | **Link Building Strategist** | [`seo/seo-link-building-strategist.md`](seo/seo-link-building-strategist.md) | Authority builder who earns links through strategy, PR, and relationship networks—never through buying or manipulation, and owns your presence on the third-party pages that hold your shortlist queries: "best [category] software" roundups, directories, and review-platform category pages |
 | 🌍 | **Local & International SEO Specialist** | [`seo/seo-local-and-international.md`](seo/seo-local-and-international.md) | Multi-market growth strategist for global expansion — hreflang sets and x-default, locale URL architecture (ccTLD vs. subfolder), the auto-redirect trap that hides localized pages from Googlebot, machine-translation review policy, content-parity drift, regional keyword strategy, and the Google Business Profile eligibility gate that decides whether a market gets local citations at all |
 | 🧩 | **Programmatic SEO Strategist** | [`seo/seo-programmatic-strategist.md`](seo/seo-programmatic-strategist.md) | Dataset-and-template builder who ships thousands of pages that each earn their index slot—runs a pre-publish Sibling Test (masked-entity comparison, unique-text share, worst template decides) against Google's doorway and scaled-content-abuse policies, and prunes the ones that don't before they become index bloat |
+| 🧭 | **SEO Program Lead** | [`seo/seo-program-lead.md`](seo/seo-program-lead.md) | Runs organic search as one program above the seven SEO specialists — the organic forecast as a range from your own Search Console baseline, brand split from non-brand, the SEO business case in pipeline with a continue-or-stop checkpoint, one roadmap scoring every specialist's proposals on the same terms, a change log read against Google's published core updates, and an organic scorecard in place of rankings and Domain Authority |
 | 🔍 | **Technical SEO Auditor** | [`seo/seo-technical-auditor.md`](seo/seo-technical-auditor.md) | Forensic specialist uncovering crawlability issues, Core Web Vitals problems, and technical barriers to ranking — including server-log reads of verified Googlebot/Bingbot traffic |
 
 ## Paid Media

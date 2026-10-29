@@ -6090,3 +6090,35 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change (90/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-29 — Scout: ADDED the SEO Program Lead (agent #91)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.**
+
+**Focus:** content/SEO, the oldest in the rotation (last 10-25). The last nineteen scout runs were ENHANCE, so an ADD was hunted first and found.
+
+**Gap (grep-proven):** `SEO forecast`, `traffic forecast`, `SEO business case`, `SEO budget`, `SEO investment`, `SEO team`, `SEO agency`, `in-house SEO`, `organic-sourced`, `brand vs non-brand` and `SEO maturity` were all 0 across the agent directories. Seven SEO specialists each own a lever. Nobody owned the program: the forecast, the business case, the order of work across the specialists, or the scorecard leadership reads. `analytics-demand-planner` Rule 6 already asked for organic as its own planned line, with no supplier. The role (head of SEO / SEO program lead) is a standing job title, not a fad.
+
+**Demand evidence:** two large open-source SEO suites ship a program-planning skill: AgriciDaniel/claude-seo `seo-plan` (MIT, 23.5k★, read) and seranking/seo-skills `seo-plan` (MIT, surveyed by name). Ideas only. Their phased templates and Domain-Authority KPI targets were deliberately not carried.
+
+**Shipped (both copies byte-identical, lint 2/2):** `seo/seo-program-lead.md` and `plugins/saas-marketing/skills/seo-growth/agents/seo-program-lead.md`, 12 rules and 7 deliverables:
+- Organic Forecast as a range per cohort (brand / non-brand / commercial page types) from your own Search Console baseline, with inputs labelled measured or inferred
+- Brand split from non-brand
+- The aggregation named
+- AI Overviews/AI Mode treated as inside the Web totals (Google docs), with AI-answer visibility kept as a separate line
+- SEO Business Case in pipeline, handed to the Demand Planner, with no ranking guarantee and a continue-or-stop checkpoint
+- One Program Roadmap with indexation blockers first
+- Baseline & Change Log read against Google's Search Status Dashboard updates
+- Organic Scorecard retiring Domain Authority and ranking counts as goals
+- Paid–Organic Overlap Register
+- Build / Hire / Agency Evaluation with read-only access
+
+The boundary rule (Rule 12) names all seven SEO specialists plus the blog strategist, demand planner, performance analyst, attribution analyst, data storyteller and brand & demand strategist. Sources are Google primary docs read 2026-10-29. No benchmark is asserted.
+
+**Discoverability:** README team table and SEO Growth trigger phrases ("forecast our organic traffic", "SEO business case", "is SEO worth the investment?", "prioritize our SEO roadmap"); `AGENTS_INDEX.md` row and count; `llms.txt`; `seo-growth` SKILL description triggers, agent table (8) and a new *Program, Forecast & Business Case* routing block; suite router and CATALYST tables (SEO 7 → 8).
+
+**Count change 90 → 91** in the README (badge, prose, tables), `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, the suite router, CATALYST SKILL and both catalyst-strategy copies, EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations and loops READMEs, `SKILL_SCOUT.md`, and the live GitHub About description. Skills stay at 19. No new discipline directory.
+
+**Follow-up filed:** reciprocal pointers in four agents (backlog P2).
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left out of the commit. Only this run's 90 → 91 line in that file was staged.

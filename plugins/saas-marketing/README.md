@@ -1,6 +1,6 @@
 # SaaS Marketing Agents
 
-A B2B SaaS marketing team for Claude: 90 specialist agents in 17 disciplines, packaged as 19 skills, with one orchestrator (CATALYST) that turns a brief into assigned work across content, SEO and AI search, paid media, social, email, design, sales enablement, product marketing, ABM, growth, analytics, comms, partnerships, events, developer marketing, project management and client operations.
+A B2B SaaS marketing team for Claude: 91 specialist agents in 17 disciplines, packaged as 19 skills, with one orchestrator (CATALYST) that turns a brief into assigned work across content, SEO and AI search, paid media, social, email, design, sales enablement, product marketing, ABM, growth, analytics, comms, partnerships, events, developer marketing, project management and client operations.
 
 ## How to use it
 
