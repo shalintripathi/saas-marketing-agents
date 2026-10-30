@@ -6140,3 +6140,22 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change (91/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-30 — Scout: ENHANCED the Outbound Strategist with verified-gap openers
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** PMM/sales/GTM, the oldest in the rotation (last 10-26). The previous scout run (10-29) was an ADD, so an ENHANCE keeps the alternation. The pick came from the 10-28 ledger note that coreyhaines31's prospecting gap plays were a candidate for a PMM/sales run.
+
+**Gap (grep-proven):** `gap play`, `verify the gap`, `from outside` and `ad library` returned 0 across `sales/` and `abm/`. The outbound agent sorted signals into two classes, published and observed. It had no rule for a third kind: a gap anyone can check on the prospect's own public surface (site, DNS, ad listings). That is the opener most likely to be invented by an agent asked to "find gaps".
+
+**Shipped (both copies byte-identical, lint 2/2):** in `sales-outbound-strategist`:
+- A third row in the signal-class table
+- A six-step gap check: evidence and capture with the date; what the outside view cannot see (Meta Conversions API is server-side, per Meta's docs read 2026-10-30; a homepage destination is normal for brand search; long-running ads may be winners); the gap must map to the product; a re-check before each send that names it, with the interval taken from your own closure rate rather than the source's 7-day figure; observation and question, never a verdict; human evidence review by tier
+- Rule 12 extended, a mission bullet, the description, a Gap Evidence Log deliverable and a False Gap Rate metric
+
+Not carried: the source's agency-oriented signal-to-gap table. No figures are asserted.
+
+**Discoverability:** `AGENTS_INDEX.md` row, README team table and Sales Enablement trigger phrases ("can we mention a gap we found on their website"), `llms.txt`, and the `sales-enablement` SKILL description triggers, agent table and a routing example. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
