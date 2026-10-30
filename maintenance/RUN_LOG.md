@@ -6122,3 +6122,21 @@ The boundary rule (Rule 12) names all seven SEO specialists plus the blog strate
 **Follow-up filed:** reciprocal pointers in four agents (backlog P2).
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left out of the commit. Only this run's 90 → 91 line in that file was staged.
+
+## 2026-10-30 — Backlog P2: reciprocal pointers to the SEO Program Lead
+
+**Health check:** 0 broken internal `.md` links. Marketplace and plugin manifests are valid. All 19 skills have `name` and `description`. The live count is 91 agents and 19 skills, and it matches the README, the manifests and the live GitHub About description. The leftover `80 agents`/`81 agents` hits are dated provenance notes inside two agents and the backlog, not public counts. "Last reviewed" dates: CHANGELOG and integrations are from 2026-10-10, the AEO/GEO playbook from 2026-10-21, so none is stale. No P0.
+
+**Item:** the P1 items are blocked (issue #1 needs the maintainer's decisions, two awesome-lists are gated on stars and usage, and the community marketplace uses an in-app form). So the run took the top P2: reciprocal pointers to `seo-program-lead`. `seo-program-lead` was grep-verified absent from all four agents first.
+
+**Shipped (one in-voice sentence per agent, both copies byte-identical, lint 8/8):**
+- `analytics-demand-planner` Rule 6: the organic line is the Program Lead's SEO Business Case. It is non-brand, a range, with lag applied and a checkpoint, and it is not topped up with branded search.
+- `seo-technical-auditor` Rule 11: the drop-date correlation starts from the Program Lead's Baseline & Change Log, with no second log.
+- `paid-media-ppc-strategist` Rule 1: each query on the Paid–Organic Overlap Register is a keep/reduce/stop bid decision, read on combined clicks, with incrementality routed to the attribution analyst.
+- `pmm-brand-demand-strategist` Rule 11: uses the same written brand-query pattern list as the Program Lead.
+
+No new figures or sources.
+
+**Discoverability:** no count, name or capability change (91/19). About, badges, CITATION, `llms.txt` and the manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
