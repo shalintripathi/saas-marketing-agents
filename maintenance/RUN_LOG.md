@@ -6175,3 +6175,28 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change (91/19). About, badges, CITATION, `llms.txt` and manifests unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-31 — Scout: ENHANCED the Email Lifecycle Architect (competitor sign-up log)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last run 10-27). The last two scout runs were ADD (10-29) then ENHANCE (10-30), so the add-first rule did not trigger. An ADD was still checked, and the earlier email/analytics/ops kills stand (ledger).
+
+**Source:** coreyhaines31/marketingskills v2.14.0 `reverse-engineer-marketing`: `go-inside.md` and `funnel-hack.md` read in full (MIT, licence checked via the GitHub API on 2026-10-31). Ideas only, credited in-file.
+
+**Gap (grep-proven):** `email-lifecycle-architect` listed "competitive landscape analysis: how competitors approach lifecycle email" as a deliverable with no method. `sign up for a competitor`, `mystery shop` and `swipe file` were 0 roster-wide.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *Reading a Competitor's Lifecycle: The Sign-Up Log*:
+- Enter honestly: a real identity on your own domain, the terms of service read first, a separate yes for each outward-facing act, and stop when asked
+- A per-message log keyed to days since sign-up, with the onboarding answers that set the branch
+- Branch labelling: one account is one path; a second account that stops halfway is used only with approval
+- Three inbox-contamination checks: security scanners clicking links, engagement suppression read as "quiet from day N", and send-time optimisation (read the day, not the hour)
+- The money moments (the trial-end pair, the first named human, the cancel flow) routed to their owners
+- Delivery on time with the log marked pending
+- Structure only, never words, with every entry marked Observed or Inferred
+
+Also: a mission bullet, the description, the deliverable bullet rewritten as a Competitor Sign-Up Log, and a Competitor Log Integrity metric. No figures asserted.
+
+**Discoverability:** the `AGENTS_INDEX.md` row; the README team table and Email Marketing Ops trigger phrases ("what emails does our competitor send after sign-up"); `llms.txt`; and the `email-marketing-ops` SKILL description triggers, agent table and a routing example. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
