@@ -6159,3 +6159,19 @@ Not carried: the source's agency-oriented signal-to-gap table. No figures are as
 **Discoverability:** `AGENTS_INDEX.md` row, README team table and Sales Enablement trigger phrases ("can we mention a gap we found on their website"), `llms.txt`, and the `sales-enablement` SKILL description triggers, agent table and a routing example. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-10-31 — Backlog: reciprocal pointers between the outbound gap check and the competitor stack read
+
+**Health check:** manifests valid (jq: marketplace + plugin.json required fields), 19/19 skills have `name` + `description`, all 91 agents lint clean, 0 broken internal `.md` links, no guide past 90 days (AEO/GEO playbook reviewed 2026-10-21). Counts: 91 agents in 17 discipline dirs / 19 skills, matching README badges and tagline, `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests and the live GitHub About. No P0.
+
+**Item:** every P1 is blocked (issue #1 awaits maintainer decisions; awesome-lists gated on stars/usage; the community marketplace is an in-app form). The 10-30 scout ENHANCE (verified-gap openers) filed no reciprocal follow-up, so this run took the obvious one. The gap check's step 2 ("a missing browser tag does not prove missing tracking") is the prospect-facing twin of `pmm-competitive-intelligence`'s *A clean scan is the easiest finding to get wrong*, and neither linked the other. Grep-verified absent first.
+
+**Shipped (one sentence per agent, both copies byte-identical, lint 4/4):**
+- `sales-outbound-strategist` gap-check step 2: points to the competitive-intelligence rule; evidence rows are labelled Confirmed / Inferred / Unknown and an empty scan is logged Unknown, never as the gap.
+- `pmm-competitive-intelligence` *What the stack is for*: the same read aimed at a prospect belongs to the outbound gap check. The boundary and absence-is-Unknown rule are shared; the output (a dated question in a first touch) and owner are not.
+
+No new figures or sources.
+
+**Discoverability:** no count, name or capability change (91/19). About, badges, CITATION, `llms.txt` and manifests unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
