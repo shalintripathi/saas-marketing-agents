@@ -6216,3 +6216,15 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change (91/19). About, badges, CITATION, `llms.txt` and manifests unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-11-01 — Scout: ENHANCED the Sponsorship & Syndication Buyer (LinkedIn BrandLink)
+
+**Run type: ENHANCE.** Focus paid/social (oldest in rotation, last 10-28). The last two scout runs were ENHANCE, so an ADD was hunted first and failed the gap test: every paid/social format grepped has an owner (see the ledger).
+
+**Gap:** `BrandLink` was 0 across the roster. LinkedIn sells pre-roll before creator and publisher video, and sponsorship of Shows by LinkedIn, as a negotiated beta package. That is neither an auction buy nor a creator endorsement, so it fell between `paid-media-social-ads-specialist` and `social-influencer-partnerships`.
+
+**Shipped (both copies byte-identical, lint 2/2):** `paid-media-sponsorship-syndication-buyer` gains *When the Platform Sells the Adjacency: LinkedIn BrandLink*. It covers what the two formats are and how they're bought, terms to get in writing, qualifying the adjacency rather than the audience, pre-roll as placement vs. a show turning into an endorsement, and seller metrics as non-benchmarks. Also added: a Platform Adjacency Brief deliverable, a Rule 10 seam (package here, targeting and build with the Social Ads Specialist), a description phrase and a source footnote. Sources are LinkedIn's own BrandLink page (read 2026-11-01) and newsroom post (2025-04-30). No open-source text was used. The unfootnoted 130%/23% uplift figures were not repeated.
+
+**Discoverability:** the `AGENTS_INDEX.md` row; the README Paid Media Ops trigger phrases ("LinkedIn BrandLink", "should we sponsor a LinkedIn show"); `llms.txt`; and the `paid-media-ops` SKILL description, agent table and a routing example. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
