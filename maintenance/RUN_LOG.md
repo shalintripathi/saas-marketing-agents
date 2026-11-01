@@ -6200,3 +6200,19 @@ Also: a mission bullet, the description, the deliverable bullet rewritten as a C
 **Discoverability:** the `AGENTS_INDEX.md` row; the README team table and Email Marketing Ops trigger phrases ("what emails does our competitor send after sign-up"); `llms.txt`; and the `email-marketing-ops` SKILL description triggers, agent table and a routing example. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-11-01 — Backlog: reciprocal pointers to the Sign-Up Log
+
+**Health check:** manifests valid (jq: marketplace + plugin.json required fields), 19/19 skills have `name` + `description`, all 91 agents lint clean, 0 broken internal `.md` links, no guide past 90 days (AEO/GEO playbook reviewed 2026-10-21). Counts: 91 agents / 19 skills, matching the live GitHub About. The only other 80/81 hits are dated provenance footnotes, left as-is. No P0.
+
+**Item:** P1s are still blocked (issue #1; awesome-lists gated on stars/usage; the community marketplace is an in-app form). Took the P2 filed by the 10-31 scout ENHANCE. Grep first: `Sign-Up Log` appeared only in `email-lifecycle-architect` and the CHANGELOG.
+
+**Shipped (one sentence per agent, both copies byte-identical, lint 4/4):**
+- `pmm-competitive-intelligence` Rule 1: what a competitor sends after a trial sign-up is read from the Sign-Up Log. A "what they send" claim on a battle card cites its Observed rows and the day the log reached.
+- `growth-customer-marketing-lead` cancel flow (*Measure a save by survival*): a competitor's save offers come from the log's approved cancellation. They are compared as structure, never as a benchmark, because you can't see whether their saves survive.
+
+No new figures or sources.
+
+**Discoverability:** no count, name or capability change (91/19). About, badges, CITATION, `llms.txt` and manifests unchanged.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
