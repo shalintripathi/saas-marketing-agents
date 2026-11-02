@@ -6242,3 +6242,17 @@ No new figures or sources.
 **Deferred:** watch (b), product skill files as an agent checkout surface, is still open for a content/SEO run.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-11-02 — Scout: ENHANCED the Agent Readiness Strategist (the product skill file)
+
+**Run type: ENHANCE.** Focus content/SEO (oldest in rotation, last 10-29). The last three scout runs were ENHANCE, so an ADD was hunted first and failed the gap test: every content/SEO role grepped has an owner (see the ledger). The two queued content/SEO watches were worked instead: SE Ranking's share-of-voice skill closed as **have**, and coreyhaines31's product-skill-file idea proved a real gap.
+
+**Gap:** `SKILL.md`, product skill file and `prefill` were 0 in `pmm-agent-readiness-strategist`, which owns transactable surfaces (llms.txt for docs, MCP, WebMCP, directories, coding-agent defaults) but had no treatment of a public skill file a buyer's agent runs. The watch said to check it against `seo-ai-search-optimizer`; Rule 1 makes it the Agent Readiness Strategist's instead, so the section went there.
+
+**Shipped (both copies byte-identical, lint 2/2):** *The Skill Layer: Shipping a Skill File the Buyer's Agent Runs*, covering the format and what it implies (description as trigger copy, offline-first because skills run with no network on the API, copies that can't be recalled), a three-part fit test, six content rules (propose then ask, local-only context, catalog-generated price tables with version and as-of date, one prefilled link with no price, credential or personal data in it, offers as facts, auditable in one sitting), a traversal-style test and measurement by source parameter. Also added: a Product Skill File Spec deliverable, a skill-file accuracy metric and a description phrase. Sources: the Agent Skills specification and Anthropic's Agent Skills overview (read 2026-11-02); idea credited to coreyhaines31/marketingskills (MIT).
+
+**Discoverability:** the `AGENTS_INDEX.md` row; the README Product Marketing Ops trigger phrases ("should we publish a SKILL.md for our product"); `llms.txt`; and the `product-marketing-ops` SKILL description triggers and agent table. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Backlog:** filed P2 reciprocal pointers (pricing, developer audience, marketing ops); closed the 10-29 SE Ranking watch and 10-30 watch (b).
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
