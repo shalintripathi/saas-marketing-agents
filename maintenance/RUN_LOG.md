@@ -6228,3 +6228,17 @@ No new figures or sources.
 **Discoverability:** the `AGENTS_INDEX.md` row; the README Paid Media Ops trigger phrases ("LinkedIn BrandLink", "should we sponsor a LinkedIn show"); `llms.txt`; and the `paid-media-ops` SKILL description, agent table and a routing example. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-11-02 — Backlog: dilution and triggered analysis on the Conversion Rate Optimizer
+
+**Health check:** manifests valid (jq: marketplace + plugin.json required fields), 19/19 skills have `name` + `description`, all 91 agents lint clean, 0 broken internal `.md` links, no guide past 90 days (AEO/GEO playbook reviewed 2026-10-21). Counts: 91 agents / 19 skills, matching the live GitHub About. The other 80/81 hits are dated provenance footnotes, left as-is. No P0.
+
+**Item:** P1s are still blocked (issue #1; awesome-lists gated on stars/usage; the community marketplace is an in-app form). No reciprocal-pointer P2 was filed by the 11-01 scout. Took watch (a) from 2026-10-30. Grep first: `dilut`, `trigger` (in the experiment sense), `exposed` and `opt-in` had no coverage in the CRO agent's power section. The source warning was read in coreyhaines31/marketingskills `skills/ab-testing/SKILL.md` (MIT).
+
+**Shipped (both copies byte-identical, lint 2/2):** `analytics-conversion-rate-optimizer` gains *When only some visitors ever meet the change: dilution*, placed before the five reroutes. It has a worked example on the existing 3% page. A change reaching 10% of visitors needs ≈1.28M visitors per arm read page-wide, against ≈13,900 exposed (≈139,000 total) per arm when triggered. Both numbers come from the section's own formula and were recomputed this run. It also sets four rules (trigger fixed and logged in both arms, counterfactual in control; reach, not engagement; SRM on the triggered group; translate back to page level) and says triggering does not create traffic. The Test Feasibility Record gets a trigger field, and the agent description a phrase. Method per Kohavi, Tang & Xu (2020), ch. 20. No lift figures asserted.
+
+**Discoverability:** the `AGENTS_INDEX.md` row; the README Marketing Analytics trigger phrases ("A/B testing a pop-up only some visitors see"); `llms.txt`; and the `marketing-analytics` SKILL description triggers and agent table. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
+
+**Deferred:** watch (b), product skill files as an agent checkout surface, is still open for a content/SEO run.
+
+**Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
