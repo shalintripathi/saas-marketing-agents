@@ -16,7 +16,13 @@ The plugin includes a mod that adds a live pane. Type `/campaign-board`, or run 
 
 ## What it runs and sends
 
-The skills are instructions only. The Campaign Board mod watches the session's skill calls and file writes (to collect deliverables and `[NEEDS INPUT]` markers), checks whether `brand-context.md` exists in your project folder, and draws a pane. It makes no network calls and reads no credentials.
+The skills are instructions only. The Campaign Board mod (`hooks/register.tsx`) makes no network calls, reads no credentials, and never blocks or changes a call. Its hooks:
+
+- `session.start`: registers the `/campaign-board` command and checks whether `brand-context.md` exists in your project folder. The session then continues as normal.
+- `command.run`: only for its own `/campaign-board` command, which opens the pane. It doesn't see or change any other command.
+- `tool.call` for `Skill`: only for this plugin's own skills (`saas-marketing:*`). It records the skill name, opens the pane and updates the status line, then runs the call unchanged and returns its result.
+- `tool.call` for `Write` and `Edit`: runs the call first, unchanged. Afterwards, if one of this plugin's skills ran in the session, it reads the written text for `[NEEDS INPUT]` markers to show in the pane. For a newly written Markdown file it also adds the file to the pane's deliverables list and shows a short on-screen notice.
+- `ui.render`: draws the pane.
 
 ## Updates
 
