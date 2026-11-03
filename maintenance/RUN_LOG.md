@@ -6256,3 +6256,13 @@ No new figures or sources.
 **Backlog:** filed P2 reciprocal pointers (pricing, developer audience, marketing ops); closed the 10-29 SE Ranking watch and 10-30 watch (b).
 
 **Not committed:** the maintainer's existing uncommitted edit to `plugins/saas-marketing/README.md` was left untouched.
+
+## 2026-11-03 — Backlog: reciprocal pointers to *The Skill Layer*
+
+**Health check:** manifests valid (jq: marketplace + plugin.json required fields), 19/19 skills have `name` + `description`, all 91 agents lint clean, 0 broken internal `.md` links, no guide past 90 days (AEO/GEO playbook reviewed 2026-10-21). Counts: 91 agents / 19 skills, matching the live GitHub About. The 80/81 hits are the known dated provenance footnotes. No P0.
+
+**Item:** P1s are still blocked (issue #1; awesome-lists gated on stars/usage; the community marketplace is an in-app form). Took the P2 filed by the 11-02 scout. Grep first: `skill file`, `SKILL.md` and `Skill Layer` were 0 in all three agents, so every pointer was a real gap.
+
+**Shipped (both copies byte-identical, lint 6/6):** one in-voice addition per agent, each tied to a deliverable or contract the agent already owns. `pmm-pricing-packaging-strategist`: the Price-Change & Migration Kit gains a second-copies list (pricing page, machine-readable catalog, skill-file price section), since installed copies cannot be recalled. `devmkt-developer-audience-strategist`: the Quickstart & First-Run Specification fixes the URLs the skill file links to, and a moved quickstart keeps a permanent redirect. `analytics-marketing-ops-architect`: the instrumentation contract reserves the agent-built source parameter as one literal, carried into the CRM as an order-origin field so agent-built orders do not blend into *Direct*. Ownership of the file stays with `pmm-agent-readiness-strategist` in all three. No new facts or figures.
+
+**Discoverability:** no count, name or capability change (91/19), so the About description, badges, CITATION, manifests, index, `llms.txt` and skill tables are unchanged.
