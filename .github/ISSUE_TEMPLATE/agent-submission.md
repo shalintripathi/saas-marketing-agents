@@ -15,19 +15,24 @@ assignees: ''
 
 **Category**
 <!-- Which category does this agent belong to?
-Choose from:
-- Content Marketing
-- SEO & Organic Growth
-- Paid Media
-- Social Media
-- Email Marketing
-- Design
-- Sales Enablement
-- Product Marketing
-- Analytics
-- Project Management
-- Client Operations
-- Strategy/CATALYST Framework
+Choose from (agent folder in parentheses):
+- Content Marketing (content/)
+- SEO & Organic Growth (seo/)
+- Paid Media (paid-media/)
+- Social Media (social/)
+- Email Marketing (email/)
+- Design (design/)
+- Sales Enablement (sales/)
+- Product Marketing (product-marketing/)
+- Account-Based Marketing (abm/)
+- Growth (growth/)
+- Analytics (analytics/)
+- Communications (comms/)
+- Partnerships (partnerships/)
+- Events & Field Marketing (events/)
+- Developer Marketing (developer-marketing/)
+- Project Management (project-management/)
+- Client Operations (client-ops/)
 -->
 
 
