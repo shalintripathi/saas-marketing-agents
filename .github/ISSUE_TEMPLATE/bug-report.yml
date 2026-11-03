@@ -1,0 +1,50 @@
+name: Bug report
+description: A skill, agent or the Campaign Board isn't doing what its docs say
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, update to the latest version. The fix may already be shipped.
+
+        ```
+        claude plugin marketplace update saas-marketing-agents
+        claude plugin update saas-marketing@saas-marketing-agents
+        ```
+
+        Then restart Claude Code. The first command alone doesn't update the plugin.
+  - type: input
+    id: version
+    attributes:
+      label: Installed plugin version
+      description: Run `claude plugin list` and copy the Version line under `saas-marketing@saas-marketing-agents`.
+      placeholder: "1.4.2"
+    validations:
+      required: true
+  - type: input
+    id: claude_version
+    attributes:
+      label: Claude Code version
+      description: Run `claude --version`.
+    validations:
+      required: false
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: What you asked for, which skill or agent ran (if you know), and what came back. Leave out anything private from your brand-context.md.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, error text, or whether a brand-context.md was present.
+    validations:
+      required: false
