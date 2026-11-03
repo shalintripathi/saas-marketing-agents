@@ -4,114 +4,93 @@ Thank you for your interest in contributing to the SaaS Marketing Agents reposit
 
 ## How to Submit a New Agent
 
-### 1. Choose or Create a Category
+### 1. Choose a Discipline
 
-Agents are organized by specialty. Choose an existing category or propose a new one:
+Agents are organized into 17 disciplines. Each one has a folder, a file-name prefix, and a plugin skill that ships a copy of every agent in it:
 
-- `content-marketing/`
-- `seo-organic-growth/`
-- `paid-media/`
-- `social-media/`
-- `email/`
-- `design/`
-- `sales-enablement/`
-- `product-marketing/`
-- `analytics/`
-- `project-management/`
-- `client-ops/`
-- `strategy/`
+| Discipline | Folder | File prefix | Plugin skill |
+|---|---|---|---|
+| Content Marketing | `content/` | `content-` | `content-marketing` |
+| SEO & Organic Growth | `seo/` | `seo-` | `seo-growth` |
+| Paid Media | `paid-media/` | `paid-media-` | `paid-media-ops` |
+| Social Media | `social/` | `social-` | `social-media-ops` |
+| Email Marketing | `email/` | `email-` | `email-marketing-ops` |
+| Design | `design/` | `design-` | `design-ops` |
+| Sales Enablement | `sales/` | `sales-` | `sales-enablement` |
+| Product Marketing | `product-marketing/` | `pmm-` | `product-marketing-ops` |
+| Account-Based Marketing | `abm/` | `abm-` | `abm-ops` |
+| Growth | `growth/` | `growth-` | `growth-ops` |
+| Analytics | `analytics/` | `analytics-` | `marketing-analytics` |
+| Communications | `comms/` | `comms-` | `comms-ops` |
+| Partnerships | `partnerships/` | `partner-` | `partnerships-ops` |
+| Events & Field Marketing | `events/` | `events-` | `events-ops` |
+| Developer Marketing | `developer-marketing/` | `devmkt-` | `developer-marketing-ops` |
+| Project Management | `project-management/` | `pm-` | `marketing-project-mgmt` |
+| Client Operations | `client-ops/` | `ops-` | `client-operations` |
+
+`strategy/` holds the CATALYST framework docs, not agents. If no discipline fits, propose a new one in your [agent submission issue](https://github.com/shalintripathi/saas-marketing-agents/issues/new?template=agent-submission.md) before you write the file.
 
 ### 2. Required File Format
 
-All agent files must follow this structure:
+All agent files follow this structure, which is what the existing agents use and what the linter checks:
 
 ```markdown
 ---
-name: Agent Display Name
-slug: agent-slug-name
-category: category-name
-description: One-line description of the agent's purpose
-expertise: [tag1, tag2, tag3]
+name: "Agent Display Name"
+description: "One sentence on what this agent owns and how its work is judged"
+color: "#2563EB"
+emoji: "✍️"
 ---
 
 # Agent Display Name
 
-## Overview
-2-3 sentence overview of the agent's role and value.
+## Identity
+Who this agent is, written to it in the second person ("You are…"): the role,
+the conviction it works from, and the mistake it exists to prevent.
 
-## Core Expertise
-- Specific skill or domain knowledge
-- Another key competency
-- Related expertise area
+## Core Mission
+- **First thing it owns** — the decision or artifact, and the standard it is held to
+- **Second thing it owns** — …
 
-## Responsibilities
-Detailed list of what this agent handles:
-- Primary responsibility 1
-- Primary responsibility 2
-- Primary responsibility 3
+## Critical Rules
+1. **A rule stated as a rule.** Why it holds, what breaking it looks like, and
+   which agent owns the neighbouring work (named by file slug, e.g.
+   `paid-media-attribution-analyst`).
+2. **Another rule.** …
 
-## Key Personality Traits
-- Decisive
-- Detail-oriented
-- Collaborative
-[etc.]
-
-## Example Workflows
-
-### Workflow 1: [Title]
-Description of a typical workflow this agent would lead or participate in.
-
-### Workflow 2: [Title]
-Another example workflow.
-
-## Tools & Frameworks
-- Framework or tool name: Brief description
-- Another framework: Brief description
+## Deliverables
+**Deliverable Name** - What it contains and who uses it.
 
 ## Success Metrics
-- Metric 1: How success is measured
-- Metric 2: Another success indicator
-
-## Communication Style
-Description of how this agent communicates with stakeholders, teams, and other agents.
-
-## Integration Points
-- [Other agent category]
-- [Tool or system]
+- **Metric name**: How it is measured, and what it is read against
 ```
+
+You can add more `##` sections between these when a playbook needs room of its own (many agents do), but keep the five headings above exactly as written.
 
 ### 3. Frontmatter Requirements
 
-Every agent **must** include valid YAML frontmatter with these fields:
+Every agent **must** open with YAML frontmatter, and it must close within the first 20 lines:
 
-```yaml
----
-name: "Full Agent Name"
-slug: "agent-slug-name"
-category: "category-name"
-description: "One-line description"
-expertise: [tag1, tag2, tag3]
----
-```
+- `name`: Display name of the agent (quoted string). Required.
+- `description`: One sentence (quoted string). It becomes the agent's Role line in [AGENTS_INDEX.md](AGENTS_INDEX.md), so say what the agent owns, not just its title. Required.
+- `color`: A hex color (quoted string, e.g. `"#2563EB"`). Required.
+- `emoji`: One emoji (quoted string), used as the agent's icon in the index. Every agent has one, though the linter doesn't check it.
 
-- `name`: Display name of the agent (string)
-- `slug`: URL-friendly identifier (kebab-case, no spaces)
-- `category`: One of the 17 disciplines listed above
-- `description`: Single-line summary (50 characters max recommended)
-- `expertise`: Array of 3-5 relevant tags or skills
+There are no `slug`, `category` or `expertise` fields: the file name is the slug, and the folder is the category.
 
 ### 4. Content Requirements
 
-- **Minimum body length**: 50 words per section
-- **Sections**: Must include Overview, Core Expertise, Responsibilities, Key Personality Traits, and at least one Example Workflow
+- **Sections**: Must include `## Identity`, `## Core Mission` and `## Critical Rules` (the linter checks these exact headings), plus `## Deliverables` and `## Success Metrics`, which every existing agent has
+- **Length**: At least 50 words in the file — the linter's floor, not a target
 - **Clarity**: Write for clarity; assume the reader is familiar with SaaS marketing but may not know this specific role
-- **Accuracy**: Ensure all frameworks, tools, and terminology are accurate
+- **Accuracy**: Ensure all frameworks, tools, and terminology are accurate. When a rule rests on a platform limit or a published source, link it and give the date you read it, as existing agents do
 
 ### 5. Naming Conventions
 
-- **File name**: `category-agent-slug-name.md` (e.g., `content-marketing-blog-writer.md`)
-- **Directory**: Place in appropriate category folder (e.g., `content-marketing/`)
-- **Slug**: Use kebab-case, no special characters
+- **File name**: The discipline's prefix from the table above, then the role in kebab-case (e.g., `content-blog-strategist.md`, `pmm-launch-manager.md`, `ops-financial-tracker.md`)
+- **Directory**: Place it in the discipline's folder (e.g., `content/`)
+- **Plugin copy**: Put an identical copy in `plugins/saas-marketing/skills/<plugin skill>/agents/` (e.g., `plugins/saas-marketing/skills/content-marketing/agents/content-blog-strategist.md`). The plugin installs from `plugins/saas-marketing/` only, so an agent without this copy never reaches plugin users
+- **Index**: Add a row for the agent under its discipline in [AGENTS_INDEX.md](AGENTS_INDEX.md), and add it to its discipline's row in the README team table
 
 ---
 
@@ -119,17 +98,17 @@ expertise: [tag1, tag2, tag3]
 
 ### Before You Submit
 
-1. **Check for duplicates**: Search existing agents to avoid overlap
-2. **Validate format**: Run the linting script (see below)
+1. **Check for duplicates**: Search [AGENTS_INDEX.md](AGENTS_INDEX.md) to avoid overlap with an existing agent
+2. **Validate format**: Run the linter (see below)
 3. **Test readability**: Ensure the agent file reads clearly and is actionable
-4. **Review examples**: Include realistic, helpful example workflows
+4. **Review deliverables**: Each one should say what it contains and who uses it
 
 ### Submitting a PR
 
 1. **Fork** the repository
 2. **Create a branch**: `git checkout -b add/category-agent-name`
-3. **Add your agent file** in the appropriate category directory
-4. **Run linting**: Ensure lint-agents.sh passes (see below)
+3. **Add your agent file** in its discipline folder, and its copy in the plugin skill's `agents/` folder
+4. **Run linting**: Ensure `scripts/lint-agents.sh` passes on both copies (see below)
 5. **Write a clear commit message**: "Add [Agent Name] to [Category]"
 6. **Push and open a PR** with the PR template filled out
 
@@ -139,32 +118,34 @@ Use the [PR template](.github/pull_request_template.md) – it will auto-populat
 
 ## Linting Requirements
 
-All agent files must pass our linting checks.
+All agent files must pass `scripts/lint-agents.sh`.
 
 ### Run Local Linting
 
+From the repository root:
+
 ```bash
-./lint-agents.sh content/content-blog-strategist.md
+bash scripts/lint-agents.sh content/content-blog-strategist.md
 ```
 
-Or lint all agents in a category:
+The script takes file paths, not folders. To lint a whole discipline:
 
 ```bash
-./lint-agents.sh content-marketing/
+bash scripts/lint-agents.sh content/*.md
 ```
 
 ### Checks Performed
 
-- ✓ Valid YAML frontmatter
-- ✓ Required fields present (name, slug, category, description, expertise)
-- ✓ Minimum body length (50 words per section)
-- ✓ Markdown formatting validity
-- ✓ No broken links
-- ✓ Slug matches file name
+- ✓ Frontmatter opens with `---` and closes with `---` within the first 20 lines
+- ✓ Required frontmatter fields present (`name`, `description`, `color`)
+- ✓ Required sections present (`## Identity`, `## Core Mission`, `## Critical Rules`)
+- ✓ At least 50 words in the file
+
+The linter doesn't check `emoji`, Deliverables, Success Metrics, links or the plugin copy, so check those yourself before opening the PR.
 
 ### GitHub Actions CI
 
-Every PR automatically runs linting via the `lint-agents.yml` workflow. All checks must pass before merging.
+Every PR that changes a Markdown file runs the `lint-agents.yml` workflow, which lints every agent file in the 17 discipline folders. All checks must pass before merging.
 
 ---
 

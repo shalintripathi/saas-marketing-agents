@@ -53,13 +53,13 @@ Choose from (agent folder in parentheses):
 ## Submission Checklist
 
 - [ ] I have read the [CONTRIBUTING.md](../../CONTRIBUTING.md) guidelines
-- [ ] I have created the agent file with proper YAML frontmatter (name, slug, category, description, expertise)
-- [ ] The agent description is clear and at least 50 words
-- [ ] I have included Core Expertise, Responsibilities, Key Personality Traits sections
-- [ ] I have included at least one Example Workflow
-- [ ] The file name follows the convention: `category-agent-slug-name.md`
-- [ ] The file is placed in the correct category directory
-- [ ] I have verified the YAML frontmatter is valid
+- [ ] I have created the agent file with YAML frontmatter: `name`, `description`, `color` (required) and `emoji`
+- [ ] The `description` is one sentence that says what the agent owns
+- [ ] I have included the Identity, Core Mission and Critical Rules sections
+- [ ] I have included the Deliverables and Success Metrics sections
+- [ ] The file name uses the discipline's prefix: `prefix-role-name.md` (e.g., `pmm-launch-manager.md`)
+- [ ] The file is in the discipline's folder, with an identical copy in `plugins/saas-marketing/skills/<plugin skill>/agents/`
+- [ ] `bash scripts/lint-agents.sh <file>` passes
 - [ ] All content is original or properly attributed
 
 ## Additional Notes
