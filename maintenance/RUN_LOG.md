@@ -6278,3 +6278,13 @@ No new figures or sources.
 **Discoverability:** the `AGENTS_INDEX.md` row; README Sales Enablement row; `llms.txt`; the `sales-enablement` SKILL agent table and description triggers ("arm my champion", "champion or a coach", "one-pager my champion can forward", "win over the skeptic"). No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Backlog:** filed P2 reciprocal pointers (`sales-enablement-content-creator`, `pmm-customer-advocacy`), plus a watch on the business-case readiness rubric.
+
+## 2026-11-04 — Backlog: reciprocal pointers to *The Champion Kit*
+
+**Health check:** manifests valid (jq: marketplace + plugin.json 1.4.2 required fields), 19/19 skills have `name` + `description`, all 91 agents lint clean (checked one file per call), 0 broken internal `.md` links, no guide past 90 days (AEO/GEO playbook reviewed 2026-10-21). Counts: 91 agents / 19 skills, matching the live GitHub About. The 80/81 hits are the known dated provenance footnotes. No P0.
+
+**Item:** P1s are still blocked (issue #1; awesome-lists gated on stars/usage; the community marketplace is an in-app form). Took the P2 filed by the 11-03 scout. Grep first: `Champion Kit` and `room map` were 0 in both agents.
+
+**Shipped (both copies byte-identical, lint 4/4):** `sales-enablement-content-creator`: the Business Case Template gains a *Carried upward* line naming the Champion Kit's internal note as its cover page, which quotes the case's figures and never restates its own; a changed baseline is updated in the case first. `pmm-customer-advocacy`: the *Route through the relationship owner* paragraph now covers requests that start inside a live deal, so the reference call the room map asks for is a logged ask, not a rep's favour. Ownership stays where the Champion Kit's *Where it stops* paragraph put it. No new facts or figures.
+
+**Discoverability:** no count, name or capability change (91/19), so the About description, badges, CITATION, manifests, index, `llms.txt` and skill tables are unchanged.

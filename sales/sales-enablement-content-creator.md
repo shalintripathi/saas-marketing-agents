@@ -186,6 +186,7 @@ _The six-class objection taxonomy, frequency ranking on real quotes, and naming 
   - Implementation plan: Timeline, resource requirements, risk mitigation
   - Success metrics: How they'll measure ROI, timeline for measurement
   - Risk mitigation: Why implementation will succeed, support provided, training approach
+  - Carried upward: the one-page internal note in `sales-deal-strategist`'s Champion Kit is the cover page for this document, so it quotes these figures and never restates its own. When a baseline changes, update this case first and the note follows
 
 - **Cost of Inaction Document** (quantify downside of not buying)
   - Current cost of problem (annual cost of status quo, opportunity cost)
