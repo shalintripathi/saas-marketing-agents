@@ -6302,3 +6302,13 @@ No new figures or sources.
 **Discoverability:** the agent `description:` (both copies) and its `AGENTS_INDEX.md` row now name the admission audit. The `marketing-analytics` SKILL agent table and description triggers add "exclude internal traffic from GA4", "our own team inflates the conversion numbers", "staging or test traffic in analytics", "unknown hostname in GA4", "GA4 data filters" and "hostname allowlist". Also updated: the README Marketing Analytics trigger row and `llms.txt`. No count change (91/19), so the About description, badges, CITATION and manifests are unchanged.
 
 **Backlog:** filed a P2 reciprocal pointer (`paid-media-conversion-signal-engineer`'s test conversions should come from traffic the Testing-state filter labels, so proof-of-arrival tests never enter a certified count). Also filed a watch on GA4's 2026-06-11 *Source Group* field against check 6's AI-assistant channel group.
+
+## 2026-11-05 — Backlog: test conversions kept out of GA4 key-event counts
+
+**Health check:** manifests valid (jq: marketplace + plugin.json 1.4.2 required fields), 19/19 skills have `name` + `description`, all 91 agents lint clean (the 10 `strategy/` files that fail are playbooks, not agents), 0 broken internal `.md` links, no guide past 90 days (AEO/GEO playbook 2026-10-21, integrations 2026-10-10). Counts: 91 agents / 19 skills, matching the live GitHub About. The 80/81 hits are the known dated provenance footnotes. No P0.
+
+**Item:** P1s still blocked (issue #1; awesome-lists gated on stars/usage; community marketplace is an in-app form). Took the P2 filed by the 11-04 scout. Grep first: `Admission`, `data filter` and `internal traffic` were 0 in the signal engineer.
+
+**Shipped (both copies byte-identical, lint 2/2):** `paid-media-conversion-signal-engineer`: *Not done until a test arrives* now keeps the test out of the analytics count as well as the CRM upload. The test is fired from traffic check 8 (*Admission*) of `analytics-marketing-ops-architect` labels as internal or developer traffic, and where no filter exists yet its timestamp and conversion point are logged for subtraction. The Conversion Moment Register gains which filter kept each test out. Filter design stays with the Ops Architect. No new facts or figures.
+
+**Discoverability:** no count, name or capability change (91/19), so the About description, badges, CITATION, manifests, index, `llms.txt` and skill tables are unchanged.
