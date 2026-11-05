@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**91 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**92 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **91 agents** indexed below. Last generated 2026-10-08.
+> **92 agents** indexed below. Last generated 2026-11-05.
 
 ---
 
@@ -58,7 +58,7 @@ _8 agents_
 
 ## Social Media
 
-_8 agents_
+_9 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -66,6 +66,7 @@ _8 agents_
 | 🤝 | **B2B Influencer & Creator Partnerships Manager** | [`social/social-influencer-partnerships.md`](social/social-influencer-partnerships.md) | B2B creator partnerships run on evidence rather than a media kit — verifying a creator's audience and engagement from observable signals before you pay, spotting inflated or pod-driven engagement, structuring the deal (a flat fee for a message, per qualified click for pipeline), and operating the FTC disclosure and post-publication monitoring the advertiser is liable for |
 | 💼 | **LinkedIn Organic Strategist** | [`social/social-linkedin-strategist.md`](social/social-linkedin-strategist.md) | Runs the whole LinkedIn organic surface — company page, content pillars, the first-hour distribution window, employee advocacy — and the subscription surfaces that compound rather than reset: LinkedIn newsletters, Events with consented registration forms, and Live |
 | 🎙️ | **Podcast & Audio Strategist** | [`social/social-podcast-strategist.md`](social/social-podcast-strategist.md) | Runs the B2B podcast as a relationship engine, not a media property — the go/no-go on having a show, a guest list that doubles as an account plan, the guest tour on other people's shows qualified on public evidence — the RSS feed, the guest history, the Apple Podcasts review wall, IAB Tech Lab measurement certification, Listen Score — instead of self-reported downloads, and a scoreboard that refuses to be downloads |
+| 🎛️ | **Social Program Lead** | [`social/social-program-lead.md`](social/social-program-lead.md) | Runs organic social as one program above the eight social specialists — the platform portfolio decided enter / hold / exit on evidence of buyer presence and real capacity, self-reported attribution (an open-text "how did you hear about us?" field, hand-coded) to see dark-social demand, the social business case in pipeline with a continue-or-stop checkpoint, one cross-platform plan, a change log that reads reach drops against platform changes, and a social scorecard that retires followers and engagement rate as goals |
 | 🔴 | **Reddit Community Specialist** | [`social/social-reddit-specialist.md`](social/social-reddit-specialist.md) | B2B SaaS expert in authentic Reddit engagement, the 90/10 rule, and building credibility through value-first community contribution — plus Quora answering, decided per engine (Google AI Overviews cite Quora; ChatGPT and Perplexity largely do not), with credential-line, collapsed-preview and linkless-answer method |
 | 👂 | **Social Listening Analyst** | [`social/social-listening-analyst.md`](social/social-listening-analyst.md) | Runs social listening as a measurement instrument, not a mention feed — a query book with precision checks, a coverage map that names the platforms and private channels you cannot see (post-CrowdTangle, Reddit Data API approval), automated sentiment validated against a hand-coded sample, share of voice with its denominator written down, every finding traced to the post or comment actually read (snippets are discovery, reposts count once), alerts set against your own baseline, and a routing table that sends each signal (crisis, competitor, buyer language, public buying intent) to the agent who acts on it |
 | 🐦 | **Twitter/X Strategist** | [`social/social-twitter-strategist.md`](social/social-twitter-strategist.md) | B2B SaaS authority on X/Twitter real-time engagement, thread mechanics, and community-driven growth for tech brands |

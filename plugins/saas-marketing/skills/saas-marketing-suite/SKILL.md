@@ -1,6 +1,6 @@
 ---
 name: saas-marketing-suite
-description: "Complete B2B SaaS marketing agency powered by 91 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), partnerships and channel programs (co-marketing, marketplace GTM, channel conflict and deal registration, partner economics), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
+description: "Complete B2B SaaS marketing agency powered by 92 AI agents across 17 specialties. This is the entry point for ALL marketing requests. Routes to the right specialist team: content marketing, SEO, paid media, social media, email marketing, design, sales enablement (including technical presales — demos, proofs of concept, security questionnaires), product marketing, account-based marketing (ABM), partnerships and channel programs (co-marketing, marketplace GTM, channel conflict and deal registration, partner economics), growth, analytics, project management, or client operations. Use this skill when the request spans multiple disciplines or when unsure which specialist to invoke. Also triggers on: marketing help, marketing team, marketing agency, what can you do, marketing capabilities."
 ---
 
 # SaaS Marketing Suite: Complete Agency Router
@@ -18,7 +18,7 @@ description: "Complete B2B SaaS marketing agency powered by 91 AI agents across 
 
 ## What This Is
 
-The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 91 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
+The SaaS Marketing Suite is the entry point for ANY B2B SaaS marketing request. It's a complete agency powered by 92 specialist agents across 17 functional disciplines. When you don't know which team to ask or your request spans multiple disciplines, you invoke this skill and it routes to the right specialists.
 
 Think of it as your full-service marketing department:
 - **Need content?** Route to Content Marketing
@@ -41,7 +41,7 @@ Think of it as your full-service marketing department:
 
 The skill includes a routing decision matrix to identify which team(s) you need based on your request.
 
-## The Complete Team: 91 Specialist Agents Across 17 Disciplines
+## The Complete Team: 92 Specialist Agents Across 17 Disciplines
 
 ### Core Marketing Disciplines
 
@@ -50,7 +50,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Content Marketing** | 9 | Blog content, whitepapers, case studies, guides, email content, infographics, content optimization, the editorial production system (briefs, calendar & capacity, review workflow, style guide, content inventory), and the customer academy (course curriculum, certification programs and credentials, course freshness, academy discoverability) |
 | **SEO & Growth** | 8 | The SEO program (organic forecast as a range, brand vs non-brand, business case in pipeline, one roadmap across the specialists, organic scorecard), technical SEO, keyword research, on-page optimization, link building, AI/AEO optimization, international, programmatic SEO |
 | **Paid Media Operations** | 8 | PPC campaigns, LinkedIn ads, Thought Leader Ads and Meta partnership ads, Facebook/Instagram ads, audience targeting, creative testing, bid optimization, newsletter/podcast sponsorships, paid G2/Capterra listings, content syndication |
-| **Social Media Operations** | 8 | LinkedIn strategy, Twitter/X content, YouTube, Reddit, community management, influencer partnerships, B2B podcast strategy and guest booking, social listening and share of voice |
+| **Social Media Operations** | 9 | Social program leadership (which platforms, self-reported attribution, social business case), LinkedIn strategy, Twitter/X content, YouTube, Reddit, community management, influencer partnerships, B2B podcast strategy and guest booking, social listening and share of voice |
 | **Email Marketing Operations** | 5 | Email campaigns, nurture sequences, segmentation, automation, deliverability, personalization |
 | **Design Operations** | 5 | Visual design, brand identity, design systems, creative direction, design templates |
 | **Sales Enablement** | 8 | Sales materials, battle cards, objection handling, sales training, competitive positioning, deal support, technical presales — demos, proofs of concept, security questionnaires; the website AI chat agent and inbound AI SDR (what it may say, AI disclosure, human handoff) |
@@ -65,7 +65,7 @@ The skill includes a routing decision matrix to identify which team(s) you need 
 | **Events & Field Marketing** | 1 | Conference and sponsorship selection, booths, owned events and roadshows, the webinar engine, event-sourced pipeline |
 | **Developer Marketing** | 1 | Docs as a marketing surface, quickstarts and time-to-first-call, SDKs, open source, DevRel |
 
-**Total: 91 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
+**Total: 92 Specialist Agents** across 17 disciplines, plus the **CATALYST orchestrator** that coordinates them.
 
 ---
 
@@ -223,6 +223,11 @@ START: What is your primary need?
 - **Primary Route**: Social Media Operations → Social Content Calendar Manager
 - **Supporting Routes**: Content Marketing (content ideas), Design (graphics)
 - **Timeline**: 1 week per 90 days
+
+**Request**: "Which social platforms should we be on, and is social actually producing pipeline?"
+- **Primary Route**: Social Media Operations → Social Program Lead
+- **Supporting Routes**: Analytics (self-reported attribution field and CRM property, demand plan line)
+- **Timeline**: 2-3 weeks to a portfolio decision; the self-reported series needs its own quarter of data
 
 **Request**: "Monitor social listening and competitor activity"
 - **Primary Route**: Social Media Operations → Social Listening Analyst
@@ -446,7 +451,7 @@ START: What is your primary need?
 
 **Request**: "Plan and execute our full GTM launch"
 - **Route**: CATALYST Orchestrator (CATALYST-Full mode)
-- **Scope**: All 91 agents across all 17 disciplines
+- **Scope**: All 92 agents across all 17 disciplines
 - **Timeline**: 12+ weeks end-to-end
 
 **Request**: "Create our annual marketing strategy and plan"
@@ -473,7 +478,7 @@ START: What is your primary need?
 | Content Marketing | 9 |
 | SEO & Growth | 8 |
 | Paid Media Operations | 8 |
-| Social Media Operations | 8 |
+| Social Media Operations | 9 |
 | Email Marketing Operations | 5 |
 | Design Operations | 5 |
 | Sales Enablement | 8 |
@@ -487,7 +492,7 @@ START: What is your primary need?
 | Partnerships | 2 |
 | Events & Field Marketing | 1 |
 | Developer Marketing | 1 |
-| **TOTAL** | **91** |
+| **TOTAL** | **92** |
 
 ---
 
