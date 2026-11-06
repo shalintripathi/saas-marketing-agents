@@ -6332,3 +6332,19 @@ No new figures or sources.
 **Noted, not fixed:** the functional groups in `catalyst-strategy.md` summed to 88 before this run (a conceptual view that has drifted from the roster). This run added one agent there (89). Filed to the backlog.
 
 **Follow-up filed:** reciprocal pointers (backlog P2).
+
+## 2026-11-06 — Scout: ENHANCED the Technical SEO Auditor (the Structured Data Register)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** content/SEO, the oldest in the rotation (last 11-02). The last scout run was an ADD (Social Program Lead, 11-05), so an ENHANCE keeps the alternation.
+
+**Gap:** `seo-technical-auditor` was wrong against primary sources. Its Core Mission and Schema Markup Implementation Guide still listed `FAQPage`, though Google stopped showing FAQ rich results on 2026-05-07 and its own metric said so. Rule 5 said invalid markup "actively harms trust signals", while Google says a structured data manual action costs rich-result eligibility and does not affect web ranking. Nothing in the roster covered the 2026-07-24 incentivized-review guideline, the ban on aggregating ratings from other websites, or the `SoftwareApplication` required properties.
+
+**Shipped (both copies byte-identical, lint 2/2):** new section *Markup Buys a Display Feature, Not a Ranking*, a Structured Data Register in the renamed guide deliverable, a corrected Rule 5 and Core Mission bullet, a register coverage metric, and a new voiding event in *An Audit Is a Dated Snapshot*. Ideas only from claude-seo `seo-schema` (MIT); the gap was named by RankSpotAI's list (CC0). Facts are from Google Search Central, read 2026-11-06.
+
+**Limits:** Google's pages read this run show no last-updated date, so the changelog entries are the dated evidence. GitHub sweeps: all four queries returned zero repositories on retry (one timed out first), so this run found no new source through search and treats that as weak evidence, not as proof that nothing exists. Repeat on the next content or SEO run.
+
+**Discoverability:** frontmatter description, `AGENTS_INDEX.md` row, README SEO Growth trigger phrases, `llms.txt` SEO Growth line, `seo-growth` SKILL description triggers and agent table row. No count change (92 agents, 19 skills), so the GitHub About description was not edited.
+
+**Follow-up filed:** reciprocal pointers (backlog P2), and a correction to the 10-04 HAVE verdict.
