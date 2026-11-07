@@ -31,11 +31,11 @@ Every agent receives this file alongside its task brief, and its rules override 
 
 If the file is absent, CATALYST offers to draft one and proceeds on explicitly-labelled assumptions. Phase 0 (Discovery) exists in part to fill the gaps a thin brand context leaves.
 
-## The 92 CATALYST Agents, by Function
+## The CATALYST Roster, by Function
 
-CATALYST's roster is **92 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 92 roster files. Read the per-group counts as a functional view, not a file census.
+CATALYST's roster is **92 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 92 roster files, and not every roster agent is named here. `AGENTS_INDEX.md` in the repo root is the complete list.
 
-### Discovery & Insights (8 agents)
+### Discovery & Insights
 - Customer Insights Researcher
 - Competitive Intelligence Analyst
 - SEO Technical Auditor
@@ -45,7 +45,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Industry Trend Analyst
 - Advertising Audit Analyst
 
-### Strategy & Planning (8 agents)
+### Strategy & Planning
 - Positioning Strategist
 - Brand & Demand Strategist
 - Messaging Architect
@@ -55,7 +55,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Audience Segmentation Specialist
 - Integrated Campaign Strategist (the channel plan and campaign design: one job per campaign, offer by buyer readiness, a job per channel, pre-launch kill/scale rules, stop list)
 
-### Marketing Operations (7 agents)
+### Marketing Operations
 - Marketing Ops Architect
 - CRM Configuration Specialist
 - Data Pipeline Engineer
@@ -64,7 +64,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - MarTech Stack Strategist
 - Compliance & Privacy Officer
 
-### Brand & Creative (8 agents)
+### Brand & Creative
 - Brand Identity Strategist
 - Visual Design Lead
 - Brand Voice Specialist
@@ -74,7 +74,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Copy Editor & QA
 - Creative Librarian
 
-### Content Production (11 agents)
+### Content Production
 - Blog Content Strategist
 - Blog Writer & Editor
 - Video Script Writer
@@ -87,7 +87,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Content Operations Manager (briefs, editorial calendar, review workflow, content inventory)
 - Customer Education Strategist (academy courses, certification programs, course freshness)
 
-### Paid Advertising (9 agents)
+### Paid Advertising
 - PPC Strategist (Google Ads)
 - LinkedIn Ads Specialist
 - Facebook/Instagram Ads Specialist
@@ -98,7 +98,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Sponsorship & Syndication Buyer
 - Conversion Signal Engineer (CRM pipeline stages sent back to the ad platforms as the bidding signal)
 
-### Social & Community (7 agents)
+### Social & Community
 - Social Program Lead (platform portfolio, self-reported attribution, social business case and scorecard)
 - LinkedIn Strategy Lead
 - Twitter/X Content Lead
@@ -107,7 +107,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Social Listening Analyst (query book, coverage map, validated sentiment, share of voice, signal routing)
 - Podcast & Audio Strategist
 
-### Demand Generation (9 agents)
+### Demand Generation
 - Lead Generation Strategist
 - Account-Based Marketing Strategist
 - Outbound Specialist (Cold Email/LinkedIn)
@@ -118,7 +118,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Interactive Demo Strategist (self-guided product demos before signup)
 - Channel Program Architect (partner program readiness gate, motion selection, partner economics, margin/SPIF design, rules of engagement and channel conflict)
 
-### Performance & Analytics (9 agents)
+### Performance & Analytics
 - CRO Specialist
 - Performance Analyst
 - Data Storyteller
@@ -129,13 +129,13 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - Demand Planner
 - Marketing AI Operations Lead (AI use register, data-class rules, evals, shadow-AI intake)
 
-### Sales Enablement (4 agents)
+### Sales Enablement
 - Sales Asset Creator
 - Sales Enablement Coordinator
 - Solutions Engineer (technical presales)
 - Conversational Agent Strategist (website AI chat and inbound AI SDR)
 
-### Launch & Activation (6 agents)
+### Launch & Activation
 - Acquisition Integration Strategist (marketing through an acquisition: sign-to-close guardrails, acquired-customer comms, brand decision, database merge, sunsets)
 - Founder-Led GTM Strategist (pre-repeatable-motion startups: design partners, founder-led sales, product-market-fit evidence, first hire)
 - Campaign Launch Manager
@@ -143,7 +143,7 @@ CATALYST's roster is **92 specialized agents** across **17 category disciplines*
 - International GTM Strategist (market entry and localization)
 - Public Sector Marketing Strategist (government buyers: readiness, authorization claims, gift rules, quiet periods)
 
-### Specialized Consulting (3 agents)
+### Specialized Consulting
 - Sales & Marketing Alignment Coach
 - Enterprise Client Onboarding Strategist
 - ROI & Revenue Impact Analyst

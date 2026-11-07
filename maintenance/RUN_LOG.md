@@ -6348,3 +6348,20 @@ No new figures or sources.
 **Discoverability:** frontmatter description, `AGENTS_INDEX.md` row, README SEO Growth trigger phrases, `llms.txt` SEO Growth line, `seo-growth` SKILL description triggers and agent table row. No count change (92 agents, 19 skills), so the GitHub About description was not edited.
 
 **Follow-up filed:** reciprocal pointers (backlog P2), and a correction to the 10-04 HAVE verdict.
+
+## 2026-11-07 — P0: stale public counts (installer, orchestrator skill, executive brief, strategy groups)
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. **Health check found a P0, so it was fixed first.**
+
+**Checked:** 0 broken internal links; both manifests valid; 19/19 skills have `name` + `description`; 92/92 agents pass lint; newest-dated reviews are within 90 days (oldest 2026-10-10); README badge, `AGENTS_INDEX.md`, manifests and the live GitHub About description all say 92 agents, 17 disciplines, 19 skills.
+
+**Found and fixed:**
+- `scripts/install.sh --tool cowork` printed "Skills installed: 13 (12 categories + CATALYST orchestrator)" while copying 19. It now prints `$INSTALLED_COUNT`. Verified in a sandboxed `$HOME`: 19 printed, 19 directories.
+- `catalyst-orchestrator/SKILL.md` and `strategy/EXECUTIVE-BRIEF.md` said `90-agent`. Both now state no number, following the 2026-09-23 precedent of removing a hand-typed count instead of resetting it.
+- `catalyst-strategy.md` (both copies): the twelve per-group counts summed to 89 against 92. Dropped the counts (closes the 2026-11-05 backlog item), renamed the heading to *The CATALYST Roster, by Function*, and named `AGENTS_INDEX.md` as the complete list. The copies still differ only at the relative link on line 25, as before.
+
+**Process note:** this run's first count sweep used `git grep -E` with `\b`, which matches nothing on macOS and looked like a clean result. A Python regex sweep found the defects. Later runs should not trust an empty `\b` grep here.
+
+**Deferred:** P2 reciprocal pointers to the Social Program Lead and to *Markup Buys a Display Feature, Not a Ranking*.
+
+**Discoverability:** no roster or skill count changed, so the GitHub About description was not edited.

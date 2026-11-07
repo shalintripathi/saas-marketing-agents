@@ -28,7 +28,7 @@ B2B SaaS marketing teams face a contradiction: Modern marketing success requires
 
 3. **Built-In Learning**: Every phase produces data that improves the next campaign; you get smarter with each cycle
 
-4. **Flexible Scaling**: Same framework works for 5-agent micro-projects (1-5 days) or 90-agent full-year strategies (12+ weeks)
+4. **Flexible Scaling**: Same framework works for 5-agent micro-projects (1-5 days) or full-roster, full-year strategies (12+ weeks)
 
 5. **Measurable Results**: Quality gates, phase reviews, and continuous metrics ensure accountability and ROI visibility
 

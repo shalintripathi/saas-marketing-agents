@@ -536,7 +536,7 @@ main() {
         case $SELECTED_TOOL in
             cowork)
                 echo "  Location: $HOME/.claude/skills/"
-                echo "  Skills installed: 13 (12 categories + CATALYST orchestrator)"
+                echo "  Skills installed: $INSTALLED_COUNT (discipline skills, suite and CATALYST orchestrator)"
                 echo "  Restart Cowork to see the new skills."
                 ;;
             claude)
