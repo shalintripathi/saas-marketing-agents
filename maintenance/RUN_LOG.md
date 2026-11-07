@@ -6365,3 +6365,19 @@ No new figures or sources.
 **Deferred:** P2 reciprocal pointers to the Social Program Lead and to *Markup Buys a Display Feature, Not a Ranking*.
 
 **Discoverability:** no roster or skill count changed, so the GitHub About description was not edited.
+
+## 2026-11-07 — Scout: ENHANCED the Competitive Intelligence Specialist (the Complaint Register)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** PMM/sales/GTM, the oldest in the rotation (last 11-03). The last scout run was an ENHANCE (11-06) and the one before it an ADD (11-05), so the "2+ enhancements" rule did not force an ADD. One was hunted anyway: the program-layer test on PMM found an unowned layer, but it is the open grade-the-function scope question, which is the maintainer's call. Not opened.
+
+**Gap:** Rule 1 listed customer reviews as a source and a G2/Capterra deliverable asked for sentiment, with no method. `low-star`, `switching post`, `review mining`, `comparative claim`, `Lanham` and `weak spot` grepped to 0 across the PMM, sales, ABM, growth, comms and partnership directories.
+
+**Shipped (both copies byte-identical, lint 2/2):** Rule 13, new section *Where a Competitor Is Weak: The Complaint Register* (a source table with each source's skew, a counted and dated register, four sorts, the mirror read on your own reviews, a win/loss test, a complaint-to-claim path with the FTC, Lanham Act and EU Directive 2006/114/EC conditions, and collection and no-contact boundaries), the G2/Capterra deliverable rebuilt as a register, and a Complaint Provenance metric. Ideas only from coreyhaines31 `weak-spots.md` (MIT), credited in-file.
+
+**Limits:** G2's pages were read through a summarizing fetch. The new section is about 980 words, in a file that was already about 9,100. Long, but it follows the file's section pattern.
+
+**Discoverability:** frontmatter description, `AGENTS_INDEX.md` row and date, README Product Marketing row and trigger phrases ("where is our competitor weak", "what do their customers complain about", "mine competitor G2 reviews"), `llms.txt` line, `product-marketing-ops` SKILL description, table row and routing. No count change (92 agents, 19 skills), so the GitHub About description was not edited.
+
+**Follow-up filed:** reciprocal pointers (backlog P2), landscape mode watch, ADD priority for the next scout run if this pattern continues, and a correction: open GitHub issues #1 and #3 are not the three scope questions, so those were never put to the maintainer through an issue.
