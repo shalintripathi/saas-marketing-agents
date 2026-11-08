@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**92 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**93 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **92 agents** indexed below. Last generated 2026-11-07.
+> **93 agents** indexed below. Last generated 2026-11-08.
 
 ---
 
@@ -74,7 +74,7 @@ _9 agents_
 
 ## Email Marketing
 
-_5 agents_
+_6 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -83,6 +83,7 @@ _5 agents_
 | 📬 | **Email Deliverability Specialist** | [`email/email-deliverability-specialist.md`](email/email-deliverability-specialist.md) | B2B SaaS email infrastructure expert managing authentication (SPF/DKIM/DMARC), list health, and spam filter avoidance, transactional-stream separation and BIMI on the brand domain, DMARC records kept current with RFC 9989 (DMARCbis: `t=y` test mode instead of `pct`)—and the cold sending estate of secondary domains kept isolated from the brand domain |
 | 🔄 | **Email Lifecycle Architect** | [`email/email-lifecycle-architect.md`](email/email-lifecycle-architect.md) | B2B SaaS email journey designer who architects multi-touch campaigns from onboarding through retention, and holds the contact budget — the cross-channel frequency cap on how many messages one person receives from every sender the company runs (marketing automation, sales sequences, CS, in-app guides), with a sender register, a written precedence order and quiet states; reads competitors' lifecycle emails from a real-identity sign-up log keyed to days since sign-up, with the branch and inbox contamination labelled |
 | 📈 | **Newsletter Growth & Monetization Strategist** | [`email/email-newsletter-growth-strategist.md`](email/email-newsletter-growth-strategist.md) | B2B SaaS newsletter specialist growing subscriber bases through referral programs, strategic partnerships, and converting subscribers into revenue |
+| 🗂️ | **Email Program Lead** | [`email/email-program-lead.md`](email/email-program-lead.md) | Runs email as one program — a program register where every recurring send has an owner, an outcome and a launch / keep / merge / retire decision, a universal holdout that measures what email as a whole adds, one intake queue and send calendar of record, a wrong-send incident protocol, and an email scorecard that retires open rate as a goal |
 
 ## Design
 

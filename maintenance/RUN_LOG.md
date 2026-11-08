@@ -6395,3 +6395,23 @@ No new figures or sources.
 **Discoverability:** no count, name or capability change, so the GitHub About description, README badges and indexes were not edited.
 
 **Deferred:** the other two reciprocal-pointer P2s (11-06 Structured Data Register, 11-07 Complaint Register).
+
+## 2026-11-08 — Scout: ADDED the Email Program Lead (agent #93)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last 11-04). The last two scout runs (11-06, 11-07) were ENHANCE, so an ADD was prioritized under rule 4. It used the program-layer test that opened the SEO Program Lead (10-29) and the Social Program Lead (11-05).
+
+**Gap (grep-proven, agent directories):** `email program`, `email scorecard`, `email ROI`, `email budget`, `email intake`, `email request`, `email governance`, `program inventory`, `universal holdout`, `global holdout`, `wrong send`, `correction email`, `ESP selection` and `email revenue` were all 0. Five email specialists each own a lever. Nobody owned which programs exist, who may send, what email adds as a whole, or what happens after a wrong send. The pre-send gate, contact budget, QA checklists and ESP migration were already owned and stay where they are (stated in-file, Rule 13).
+
+**Demand evidence:** coreyhaines31/marketingskills `skills/emails` (MIT, v2.1.4, read 2026-11-08) triggers on "lifecycle email program" and "what emails should I send", but audits a program only by asking whether each type of email exists. Email marketing manager and head of lifecycle are standing B2B titles. Idea taken: start the register by family. Not carried: sequence lengths and send days.
+
+**Shipped (both copies byte-identical, lint 2/2):** `email/email-program-lead.md` and `plugins/saas-marketing/skills/email-marketing-ops/agents/email-program-lead.md`, with 13 rules and 10 deliverables: Program Register, Universal Holdout Spec, Intake Form & Triage Criteria, Send Calendar of Record (protected lane for required mail), Wrong-Send Incident Protocol (cosmetic / misleading / exposing; exposing goes to `ops-legal-compliance` against the GDPR Art. 33 clock), Change Log, Email Scorecard (open rate retired by name), Reachable Audience Report, Email Business Case, Operating Model & Capacity Plan. One legal fact, cited to GDPR Art. 33(1) (read 2026-11-08). No benchmark is asserted.
+
+**Discoverability:** README Email Marketing row (6) and Email Marketing Ops trigger phrases; `AGENTS_INDEX.md` row, section count and generation date; `llms.txt` Email Marketing Ops line; `email-marketing-ops` SKILL description triggers, team count (6), agent table row 6 and a new *Email Program, Register & Measurement* routing block; suite router discipline and quick-reference tables (5 → 6) and a new email request route; CATALYST SKILL discipline table; EXECUTIVE-BRIEF; both `catalyst-strategy.md` copies (Demand Generation group).
+
+**Count change 92 → 93** in the README (badge, prose, tables, jump-link anchor), `AGENTS_INDEX.md`, `llms.txt`, `CITATION.cff`, both manifests, the suite router, CATALYST SKILL and both catalyst-strategy copies, EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations, loops and plugin READMEs, and the live GitHub About description (347/350 chars, re-read after the edit). Agent files on disk: 93; suite and CATALYST tables sum to 93; README discipline table sums to 93. Skills stay at 19. No new discipline directory.
+
+**Noted, not fixed:** the two `catalyst-strategy.md` copies already differed at HEAD (backlog).
+
+**Follow-up filed:** reciprocal pointers (backlog P2); program-layer test for the remaining disciplines.
