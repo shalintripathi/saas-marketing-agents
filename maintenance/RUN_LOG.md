@@ -6381,3 +6381,17 @@ No new figures or sources.
 **Discoverability:** frontmatter description, `AGENTS_INDEX.md` row and date, README Product Marketing row and trigger phrases ("where is our competitor weak", "what do their customers complain about", "mine competitor G2 reviews"), `llms.txt` line, `product-marketing-ops` SKILL description, table row and routing. No count change (92 agents, 19 skills), so the GitHub About description was not edited.
 
 **Follow-up filed:** reciprocal pointers (backlog P2), landscape mode watch, ADD priority for the next scout run if this pattern continues, and a correction: open GitHub issues #1 and #3 are not the three scope questions, so those were never put to the maintainer through an issue.
+
+## 2026-11-08 — P2: reciprocal pointers to the Social Program Lead
+
+**Job:** [ROUTINE.md](ROUTINE.md), one iteration. Health check clean, so the backlog was used.
+
+**Checked:** 0 broken internal links; both manifests parse and keep `name`/`description` (the marketplace keeps its description under `metadata`); 19/19 skills have `name` + `description`; no guide's "Last reviewed" date is over 90 days (only CHANGELOG/RUN_LOG history matched); README, manifests and the live GitHub About description agree on 92 agents, 17 disciplines, 19 skills.
+
+**Picked:** the P1 Anthropic community-marketplace submission needs the in-app form, which a human fills in, so it was skipped. The oldest open small item was the 2026-11-05 reciprocal-pointer P2.
+
+**Shipped (both copies byte-identical, lint 8/8):** `social-program-lead` was grep-verified absent from all four targets first. `analytics-marketing-ops-architect`: the attribution deliverable now covers the self-reported field and CRM property, raw text kept and coded value stored with its codebook version. `paid-media-attribution-analyst`: Rule 11, the self-reported series is a second instrument read beside the model, never summed and never a multiplier. `analytics-demand-planner`: Rule 6 carries the social line as two separate lines with the dark share named. `social-community-builder`: *The seams* routes platform exits and agency access through the register. Each line restates the Program Lead's own Rules 3, 4, 6, 7 and 12; no new claim was added.
+
+**Discoverability:** no count, name or capability change, so the GitHub About description, README badges and indexes were not edited.
+
+**Deferred:** the other two reciprocal-pointer P2s (11-06 Structured Data Register, 11-07 Complaint Register).
