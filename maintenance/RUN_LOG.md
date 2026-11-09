@@ -6415,3 +6415,15 @@ No new figures or sources.
 **Noted, not fixed:** the two `catalyst-strategy.md` copies already differed at HEAD (backlog).
 
 **Follow-up filed:** reciprocal pointers (backlog P2); program-layer test for the remaining disciplines.
+
+## 2026-11-09 — P2: reciprocal pointers to the Structured Data Register
+
+**Health check:** internal links 0 broken; marketplace and plugin manifests valid; 19 skills, all with `name` + `description`; 93 agents lint clean across the 17 CI directories (the 8 `strategy/` docs fail the persona schema and are excluded from CI, as before); no guide past 90 days; public counts 93/19/17 match the README badge and the live GitHub About. No P0.
+
+**Shipped:** one in-voice line in both copies of `seo-content-optimizer` (comparison-page schema block needs a register line; no third-party average in `aggregateRating`), `pmm-customer-advocacy` (keep incentive and disclosure status per review; the register asks for it) and `seo-link-building-strategist` (the badge is content, never markup). Grep confirmed `Structured Data Register` was absent from all six files first. The Google quotes are the ones `seo-technical-auditor` recorded as read 2026-11-06; not re-fetched this run.
+
+**Closed without a change:** the `catalyst-strategy.md` drift item. The copies differ on one line, the relative link to `templates/brand-context.md`, which has to differ by location.
+
+**No count change.** Discoverability surfaces untouched.
+
+**Deferred:** reciprocal pointers to *The Complaint Register* and the Email Program Lead (both still open, backlog P2).
