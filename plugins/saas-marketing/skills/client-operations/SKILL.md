@@ -1,6 +1,6 @@
 ---
 name: client-operations
-description: "Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, handling a request to delete someone's data across the marketing stack, deciding whether an AI voice or AI presenter has to be disclosed, proofreading deliverables. Also triggers on: client reporting, QA, quality assurance, brand compliance, marketing budget, financial tracking, legal compliance, GDPR, CAN-SPAM, proofreading, launch checklist, right to erasure, right to be forgotten, data deletion request, DSAR, someone asked us to delete their data, do we delete or suppress, suppression list, they unsubscribed and we emailed them again, we deleted them and they came back, restored a backup and re-emailed people, custom audience still has deleted contacts, California Delete Act, DROP, data broker deletion, enrichment records disappearing"
+description: "Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, handling a request to delete someone's data across the marketing stack, deciding whether an AI voice or AI presenter has to be disclosed, proofreading deliverables. Also triggers on: client reporting, QA, brand compliance, marketing budget, GDPR, CAN-SPAM, proofreading, launch checklist, right to erasure, data deletion request, DSAR, someone asked us to delete their data, do we delete or suppress, suppression list, they unsubscribed and we emailed them again, we deleted them and they came back, custom audience still has deleted contacts, California Delete Act, data broker deletion"
 ---
 
 # Client Operations
@@ -103,3 +103,11 @@ Each agent operates independently within their domain but collaborates on integr
 - **Timeliness**: Reports deliver on predetermined cadence; QA findings communicated within 24 hours
 - **Clarity**: Executive reports actionable within 5 minutes of reading; QA findings specify severity + action required
 - **Auditability**: All decisions documented with clear trail of approvals and sign-offs for regulatory protection
+
+---
+
+## More phrases that route here
+
+The `description` above stays under the 1,024-character limit in the Agent Skills spec, because Claude Code's skill listing cuts text off at 1,536 characters and other hosts may reject longer ones. This is the full list of what this skill handles and how people ask for it.
+
+Client reporting, quality assurance, and financial operations management. Handles KPI frameworks, compliance audits, budget tracking, and launch checklists. Use when: managing client dashboards, ensuring brand compliance, conducting QA reviews, tracking marketing spend, ensuring GDPR/CAN-SPAM compliance, handling a request to delete someone's data across the marketing stack, deciding whether an AI voice or AI presenter has to be disclosed, proofreading deliverables. Also triggers on: client reporting, QA, quality assurance, brand compliance, marketing budget, financial tracking, legal compliance, GDPR, CAN-SPAM, proofreading, launch checklist, right to erasure, right to be forgotten, data deletion request, DSAR, someone asked us to delete their data, do we delete or suppress, suppression list, they unsubscribed and we emailed them again, we deleted them and they came back, restored a backup and re-emailed people, custom audience still has deleted contacts, California Delete Act, DROP, data broker deletion, enrichment records disappearing

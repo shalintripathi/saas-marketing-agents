@@ -41,7 +41,7 @@ manufacture a change to look busy.
      "skill curation" **and** open a GitHub issue proposing it, with sources — let a human decide.
 5. **Make it findable.** Apply the [Discoverability Standard](DISCOVERABILITY.md): a new agent that nobody
    can find helps nobody. Its **name and the problem it solves** must reach the README (not just its own
-   directory), `AGENTS_INDEX.md`, `llms.txt`, and the owning skill's `description:` frontmatter — and if the
+   directory), `AGENTS_INDEX.md`, `llms.txt`, and the owning skill's `description:` frontmatter (1,024-character cap: swap out a weaker phrase, and keep the full list under `## More phrases that route here` in the skill body) — and if the
    agent or skill count changed, update the **GitHub About description** and README badges in the same run.
 6. **Record.** Append to [scout-ledger.md](scout-ledger.md) every source you evaluated and the verdict
    (adopted / enhanced-ours / dismissed / watch). Append a dated [RUN_LOG.md](RUN_LOG.md) entry; add a
