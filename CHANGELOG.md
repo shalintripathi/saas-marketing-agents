@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **If your capped Google Ads campaign got more expensive after August, the PPC Strategist now checks the likely cause first.** Since 17 August 2026, budget-limited Target CPA and Target ROAS campaigns deliver toward the stated target instead of beating it. [`paid-media-ppc-strategist`](paid-media/paid-media-ppc-strategist.md) gains *The capped campaign* section and a Target Reconciliation with one written decision per campaign, and [`paid-media-budget-optimizer`](paid-media/paid-media-budget-optimizer.md) now forecasts added budget at the target (both copies of each).
+
 ## [1.4.3] — 2026-11-09
 
 - **G2 and Capterra ratings no longer slip into your schema by way of a comparison page or a review campaign.** [`seo-content-optimizer`](seo/seo-content-optimizer.md), [`pmm-customer-advocacy`](product-marketing/pmm-customer-advocacy.md) and [`seo-link-building-strategist`](seo/seo-link-building-strategist.md) (both copies of each) now point to the Structured Data Register in [`seo-technical-auditor`](seo/seo-technical-auditor.md): third-party stars stay on the page as content, and each review keeps its incentive and disclosure status.

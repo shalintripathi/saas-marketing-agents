@@ -6427,3 +6427,21 @@ No new figures or sources.
 **No count change.** Discoverability surfaces untouched.
 
 **Deferred:** reciprocal pointers to *The Complaint Register* and the Email Program Lead (both still open, backlog P2).
+
+## 2026-11-09 — Scout: ENHANCED the PPC Strategist (budget-limited target bidding)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** paid/social, the oldest in the rotation (last 11-05). The 11-08 run was an ADD, so rule 4 did not force another.
+
+**Gap (grep-proven, paid and social agents):** `budget-limited`, `Bid Target Adjustment` and `August 17` were 0. "Limited by budget" appeared only as a budget signal and an AI Max caveat. Rule 10 and *Signal before strategy* told the operator to step targets toward the LTV ceiling, which on a capped campaign is now more costly than the agent said.
+
+**Source:** Google Ads Help, *Changes to target-based bid strategies*, read 2026-11-09. The automated read was truncated, so Demand Gen Target CPC scope and the Bid Target Adjustment Tool are attributed to secondary sources and flagged unconfirmed in-file. Claude-ads, coreyhaines31 and hyperfx-ai have no coverage (code search, default branch).
+
+**Shipped (both copies byte-identical, lint 2/2):** `paid-media-ppc-strategist` gains Rule 14, the section *The capped campaign: your target is now the number you get*, the Target Reconciliation deliverable and a success metric. `paid-media-budget-optimizer` gains one line: forecast added budget at the target. The flat-spend arithmetic is labelled as ours, not Google's.
+
+**Discoverability:** README Paid Media Ops trigger phrases, `AGENTS_INDEX.md` row, `llms.txt` Paid Media Ops line, `paid-media-ops` SKILL description, agent table row and a new routing line. CHANGELOG `[Unreleased]`.
+
+**No count change** (93 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
+
+**Deferred:** Meta's ad-set placement control removal (backlog, next paid/social run).

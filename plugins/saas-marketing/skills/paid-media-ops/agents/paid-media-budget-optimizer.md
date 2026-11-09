@@ -94,7 +94,7 @@ The gap is a measurement. Its cause is a claim — and the remedies do not overl
 
 **Unknown never rounds to saturated.** Where the driver cannot be named, the finding is "under plan, cause unresolved," accompanied by the inventory of what was checked — and that channel's curve stays bounded at its delivered range until it is resolved.
 
-One caution on the platform's own verdict: Google documents "Limited by budget" as firing when a campaign is "missing out on 5% or more of your potential traffic," and its documented remedy is to raise the budget. Potential traffic is not qualified traffic, and the party recommending the increase is the party receiving it. Treat the status as an input to the read, never as the read.
+One caution on the platform's own verdict: Google documents "Limited by budget" as firing when a campaign is "missing out on 5% or more of your potential traffic," and its documented remedy is to raise the budget. Potential traffic is not qualified traffic, and the party recommending the increase is the party receiving it. Treat the status as an input to the read, never as the read. On a target-based campaign there is a second question since 17 August 2026: Google now delivers budget-limited Target CPA and Target ROAS campaigns toward the stated target, so forecast added budget at the target rather than at last quarter's actual CPA, and get the campaign's row from the `paid-media-ppc-strategist` Target Reconciliation before moving money.
 
 ### Underspend is not saved money; it is an unplanned reallocation
 
