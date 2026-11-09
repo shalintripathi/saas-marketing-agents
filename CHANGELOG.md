@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **Skills now trigger on the phrases that matter most, in every host.** All 19 skill descriptions are at or under the Agent Skills limit of 1,024 characters. Claude Code cuts its skill listing at 1,536, so 9 skills had trigger phrases that were never read; each now leads with its use case and the phrases people actually type. The full list moved to `## More phrases that route here` in each trimmed skill, and CI now fails on a description over the limit.
+
 ## [1.4.3] — 2026-11-09
 
 - **G2 and Capterra ratings no longer slip into your schema by way of a comparison page or a review campaign.** [`seo-content-optimizer`](seo/seo-content-optimizer.md), [`pmm-customer-advocacy`](product-marketing/pmm-customer-advocacy.md) and [`seo-link-building-strategist`](seo/seo-link-building-strategist.md) (both copies of each) now point to the Structured Data Register in [`seo-technical-auditor`](seo/seo-technical-auditor.md): third-party stars stay on the page as content, and each review keeps its incentive and disclosure status.

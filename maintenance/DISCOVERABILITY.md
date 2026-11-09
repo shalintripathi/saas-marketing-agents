@@ -25,7 +25,7 @@ Ranked by how much reach they carry. When the project changes, these are what mu
 | **README body** | The largest keyword surface we own, and the page most likely to be retrieved and cited. | **Name things.** See "Name every specific" below. |
 | **`AGENTS_INDEX.md`** | The complete, structured inventory. | Regenerate whenever an agent is added, renamed, or re-described. |
 | **`llms.txt`** | Written for AI crawlers and assistants — the audience this repo is itself about. | Keep counts, skill list, and links exact. |
-| **Skill `description:` frontmatter** | Determines whether the skill triggers at all when a user describes a task in their own words. | Include the natural phrases a marketer would actually type, not just formal discipline names. |
+| **Skill `description:` frontmatter** | Determines whether the skill triggers at all when a user describes a task in their own words. | Include the natural phrases a marketer would actually type, not just formal discipline names. **Hard cap: 1,024 characters** (Agent Skills spec; Claude Code's listing also cuts at 1,536, so anything past that was never seen). Lead with the use case. To add a phrase at the cap, swap out a weaker one and put the longer list under `## More phrases that route here` in the skill body. `scripts/check-skill-descriptions.sh` enforces this in CI. |
 | **Plugin + marketplace manifests** | Shown in the plugin manager at install time. | Keep in sync with the repo description. |
 | **Commit messages** | Indexed, and read by anyone evaluating whether the project is alive. | Say what changed and why it matters to a user — not just which file moved. |
 
