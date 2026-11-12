@@ -6475,3 +6475,21 @@ No new figures or sources.
 **Not changed:** 19 skills and 17 disciplines (the agent sits in the existing `content/` discipline).
 
 **Watch:** open PR #4 (trims every skill description to 1,024 chars) will now conflict on `content-marketing/SKILL.md`. Keep the new phrases ("head of content", "content program", "which content should we stop making") when rebasing (backlog).
+
+## 2026-11-12 — Scout: ENHANCED the Competitive Intelligence Specialist (the Landscape Matrix)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** PMM/sales/GTM, the oldest in the rotation (last 11-07). The previous scout run (earlier today) was an ADD, so rule 4 did not force another. No ADD candidate was proven: the remaining open roles are the three owner scope questions (backlog), and a fifth program lead in a row would be roster padding without a demand case.
+
+**Pulled from the backlog:** the 11-07 *landscape matrix* watch. The Competitive Landscape Map deliverable had no method. `hiring signal` and `Landscape Matrix` were 0 roster-wide (grep, agent directories).
+
+**Source:** coreyhaines31/marketingskills `reverse-engineer-marketing/references/landscape.md` (MIT, release 2.14.12, read in full 2026-11-12), ideas only, no text reused. Not carried: the script and the unsourced "three to six months" hiring lead time.
+
+**Shipped (both copies byte-identical, lint 2/2):** `pmm-competitive-intelligence` gains Rule 14 and the section *Reading the Field: The Landscape Matrix*. The section covers a named set of three to six competitors read on one date, plus the buyer's non-vendor alternatives as rows. Its signal table reuses Rules 9, 11 and 13 and adds sitemap page families and open roles, each with an evidence state. Rows are sorted five ways, with Unknown kept out of "gap". Hiring is dated, Inferred intent with no lead time, and individuals are never recorded. Routing goes to positioning, `seo-keyword-researcher` and the channel owners. It also gets a rewritten Competitive Landscape Map deliverable (unsourced market-share estimates removed) and a Landscape Matrix Integrity metric. No statistic is asserted.
+
+**Discoverability:** the agent's `description:`, README Product Marketing Ops trigger phrases, the `AGENTS_INDEX.md` row, the `llms.txt` Product Marketing Ops line, and the `product-marketing-ops` SKILL description and agent table row 4. CHANGELOG `[Unreleased]`.
+
+**No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
+
+**Dismissed:** coreyhaines31 `directory-submissions` (already covered). **Watch filed:** coreyhaines31's 500-char description cap, relevant to PR #4.
