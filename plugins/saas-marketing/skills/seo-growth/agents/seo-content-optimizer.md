@@ -149,6 +149,7 @@ _The topical-coverage / semantic-gap and information-gain framing was surfaced b
 
 **Fairness is not etiquette—it is the Trust gate applied to the page most exposed to it.** The credibility section already names the failures by type: "a competitor claim with no source," "a pricing comparison published by one of the two vendors without saying so." The comparison page is where you *are* that vendor. Hold the same gate, and treat a breach as a Trust *fail* (a stop), not a polish item:
 - Every competitor claim verifiable from a public source, linked—not asserted from memory or from your own sales deck.
+- A weakness drawn from the competitor's own reviews traces to a row in `pmm-competitive-intelligence`'s Complaint Register with an unexpired recheck date. The page then claims what you do, with your own evidence, and never presents their customers' complaints as your findings.
 - Pricing carried with an explicit "as of [date]" stamp; comparison pricing goes stale silently and stale pricing is a credibility wound, not a typo.
 - Your own affiliation disclosed on the page—the reader knows which product is yours, stated, not implied.
 - Competitor strengths acknowledged honestly. A page that finds nothing good about the competitor is read as marketing by the buyer and, increasingly, discounted by the model deciding whether to cite it. A comparison that cannot lose anywhere is not trusted anywhere.

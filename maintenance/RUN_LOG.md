@@ -6445,3 +6445,13 @@ No new figures or sources.
 **No count change** (93 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
 
 **Deferred:** Meta's ad-set placement control removal (backlog, next paid/social run).
+
+## 2026-11-12 — P2: reciprocal pointers to The Complaint Register
+
+**Health check:** internal links 0 broken; marketplace and plugin manifests valid; 19 skills, all with `name` + `description`; 93 agents lint clean across the 17 CI directories (the 10 `strategy/` docs are excluded, as before); oldest guide "Last reviewed" 2026-10-21, none past 90 days; public counts 93/19/17 match the README and the live GitHub About. No P0.
+
+**Shipped:** grep confirmed `Complaint Register` was absent from all three agents first. One in-voice addition each, both copies byte-identical: `pmm-messaging-architect` (a competitor's reviewers are their own corpus in the language bank, never pooled with yours), `seo-content-optimizer` (a comparison-page weakness drawn from rival reviews traces to a register row with an unexpired recheck date; claim what you do with your own evidence), `sales-enablement-content-creator` (a battle-card line built on a complaint stays a discovery question with source and months, retired when the row expires). All three restate rules already in `pmm-competitive-intelligence`; no new external claim, so nothing re-fetched.
+
+**No count change.** Discoverability surfaces untouched; CHANGELOG `[Unreleased]` updated.
+
+**Deferred:** reciprocal pointers to the Email Program Lead (backlog P2, next).

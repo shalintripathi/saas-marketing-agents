@@ -125,6 +125,7 @@ _The six-class objection taxonomy, frequency ranking on real quotes, and naming 
     - Objection 1 + your reframe (how to reposition their concern): Script and proof point
     - Objection 2 + your reframe: Script and proof point
     - Objection 3 + your reframe: Script and proof point
+    - A line built on the competitor's public complaints stays a discovery question ("how are you handling X today?") with the source and months noted, drawn from a row in `pmm-competitive-intelligence`'s Complaint Register. The rep never asserts it as fact, and the line comes off the card when the row's recheck date passes or the complaint is fixed.
     - Customer proof (anonymized case study, "like Competitor, but differentiated on X")
     - Key talking points (3-4 short sentences on how your approach differs)
 
