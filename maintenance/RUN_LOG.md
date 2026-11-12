@@ -6455,3 +6455,23 @@ No new figures or sources.
 **No count change.** Discoverability surfaces untouched; CHANGELOG `[Unreleased]` updated.
 
 **Deferred:** reciprocal pointers to the Email Program Lead (backlog P2, next).
+
+## 2026-11-12 — Scout: ADDED the Content Program Lead (agent #94)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.**
+
+**Focus:** content/SEO, the oldest in the rotation (last 11-06). The last two scout runs were an ENHANCE (11-09) and an ADD (11-08), so rule 4 did not force an add. The backlog's 11-08 program-layer item asked whether content needs a program lead or sits with the Content Operations Manager, and that question decided the run.
+
+**Gap (grep-proven, agent directories):** `content scorecard`, `content budget`, `content mission`, `editorial mission`, `head of content`, `content portfolio`, `content intake`, `content request`, `content attribution` and `content-led` were all 0. `content-operations-manager` Rule 10 leaves "the strategy above it" to others. `content-blog-strategist` owns only the blog. Nobody owned which content lines exist, what each is for, what the program costs, or what gets stopped.
+
+**Demand evidence:** CMI, *2027 B2B Content and Marketing Trends* (Robert Rose, published 2026-11-04, n=861 B2B, read 2026-11-12). Traffic rose for 31% of respondents and fell for 31%, and 79% of those with a drop blamed AI search. 65% report more pressure to produce faster. Gen AI's reported contribution is speed (78%), not quality (17%). Owned media is the top 2027 investment priority (42%, +10). All figures are labelled self-reported in-file. Head of content is a standing B2B title. Idea credited: coreyhaines31 `content-strategy` (MIT), "judge each piece by the job it's for", lifted to the line level.
+
+**Shipped (both copies byte-identical, lint 2/2, ~3,200 words like the other program leads):** `content/content-program-lead.md` has 13 rules. They cover: one job per line from a fixed list of five, metrics borrowed from the agent that owns them and never summed, traffic used only as a diagnostic, an output commitment set from capacity and the bar, one intake queue, full cost including expert time, a new / update / distribute split, bet checkpoints, recorded stops, baseline and change log, vanity metrics retired by name, and AI throughput excluded from originality-dependent lines. Rule 13 is the boundary rule, naming the nine content specialists, the SEO / email / social program leads, analytics, PMM, PM and client-ops owners. It has 7 deliverables and 9 metrics.
+
+**Discoverability:** README roster row (10) and skill trigger row, `AGENTS_INDEX.md` row (10 agents, regenerated date), `llms.txt` Content Marketing line, `content-marketing` SKILL description, agent table row 10 and a new "The Content Program" routing block, suite routing example and both count tables, CATALYST orchestrator table, EXECUTIVE-BRIEF table, and both catalyst-strategy copies (roster line, plus "10 content specialists").
+
+**Count change 93 → 94** in README (badge and prose), AGENTS_INDEX, llms.txt, CITATION.cff, both manifests, plugin README, suite router, CATALYST skill and strategy copies, EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations and loops READMEs, and SKILL_SCOUT. Grep for `\b93\b` outside CHANGELOG and maintenance logs returns 0. **GitHub About description edited live** (93 → 94, 347/350 chars). `strategy/QUICKSTART.md`'s conceptual "Content Team (9)" tree and the phase-3 playbook's legacy name list were left alone, because neither tracks the roster.
+
+**Not changed:** 19 skills and 17 disciplines (the agent sits in the existing `content/` discipline).
+
+**Watch:** open PR #4 (trims every skill description to 1,024 chars) will now conflict on `content-marketing/SKILL.md`. Keep the new phrases ("head of content", "content program", "which content should we stop making") when rebasing (backlog).

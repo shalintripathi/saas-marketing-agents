@@ -2,7 +2,7 @@
 
 ## Framework Overview
 
-CATALYST is a comprehensive multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 93 specialized marketing agents working across 17 disciplines to execute highly targeted, data-driven marketing campaigns from strategy through optimization and continuous improvement.
+CATALYST is a comprehensive multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 94 specialized marketing agents working across 17 disciplines to execute highly targeted, data-driven marketing campaigns from strategy through optimization and continuous improvement.
 
 The framework is built on the principle that modern B2B SaaS marketing requires simultaneous execution across multiple specialized domains—from market research and strategic positioning to technical SEO, paid advertising, content production, and advanced analytics. Rather than sequential waterfall execution, CATALYST enables parallel agent execution with intelligent handoff protocols, quality gates, and escalation procedures.
 
@@ -14,7 +14,7 @@ CATALYST operates on five core principles:
 
 2. **Phase-Based Progress**: Work flows through six distinct phases (Discovery → Strategy → Foundation → Build → Launch → Optimize) with quality gates ensuring readiness before advancement.
 
-3. **Flexibility in Scope**: Three operating modes allow CATALYST to scale from micro-campaigns (5-10 agents, 1-5 days) to full annual strategies (all 93 agents, 12+ weeks).
+3. **Flexibility in Scope**: Three operating modes allow CATALYST to scale from micro-campaigns (5-10 agents, 1-5 days) to full annual strategies (all 94 agents, 12+ weeks).
 
 4. **Data-Driven Decision Making**: Every phase produces metrics, insights, and validated assumptions that feed downstream work and inform optimization.
 
@@ -33,7 +33,7 @@ If the file is absent, CATALYST offers to draft one and proceeds on explicitly-l
 
 ## The CATALYST Roster, by Function
 
-CATALYST's roster is **93 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 93 roster files, and not every roster agent is named here. `AGENTS_INDEX.md` in the repo root is the complete list.
+CATALYST's roster is **94 specialized agents** across **17 category disciplines**. The twelve functional groups below are a *conceptual org view*: they organize that work by what it produces, so the role names here (e.g. "Audience Builder", "Copy Editor & QA") are functional and do **not** map one-to-one onto the 94 roster files, and not every roster agent is named here. `AGENTS_INDEX.md` in the repo root is the complete list.
 
 ### Discovery & Insights
 - Customer Insights Researcher
@@ -85,6 +85,7 @@ CATALYST's roster is **93 specialized agents** across **17 category disciplines*
 - Infographic & Visual Content Creator
 - Content Optimizer
 - Content Operations Manager (briefs, editorial calendar, review workflow, content inventory)
+- Content Program Lead (content portfolio register, measure-by-job scorecard, output commitment, intake queue)
 - Customer Education Strategist (academy courses, certification programs, course freshness)
 
 ### Paid Advertising
@@ -153,7 +154,7 @@ CATALYST's roster is **93 specialized agents** across **17 category disciplines*
 
 ### CATALYST-Full: Complete Annual Strategy
 
-**Duration**: 12-16 weeks | **Agents Engaged**: All 93 | **Scope**: Comprehensive annual marketing strategy
+**Duration**: 12-16 weeks | **Agents Engaged**: All 94 | **Scope**: Comprehensive annual marketing strategy
 
 CATALYST-Full orchestrates a complete marketing transformation, running all six phases sequentially with full team coordination:
 
@@ -265,7 +266,7 @@ Agents maintain continuous improvement through:
 ### Phase 3: Content & Creative Build (Production Mode)
 **Focus**: Large-scale creation of assets across all channels
 **Output**: Content calendar, landing pages, ads, emails, videos, sales assets
-**Agents**: 9 content specialists + production team
+**Agents**: 10 content specialists + production team
 **Quality Gate**: All assets created, reviewed, and approved; scheduling prepared; translations/localization complete
 
 ### Phase 4: Campaign Launch (Activation Mode)
