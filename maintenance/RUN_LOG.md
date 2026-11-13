@@ -6493,3 +6493,15 @@ No new figures or sources.
 **No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
 
 **Dismissed:** coreyhaines31 `directory-submissions` (already covered). **Watch filed:** coreyhaines31's 500-char description cap, relevant to PR #4.
+
+## 2026-11-13 — P2: reciprocal pointers to the Email Program Lead
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields; 19 skills, all with `name` + `description`; 94 agents lint clean across the 17 CI directories (104 files minus the 10 `strategy/` docs); 0 broken internal `.md` links; no guide's "Last reviewed" past 90 days; public counts 94/19/17 match the README, both manifests and the live GitHub About.
+
+**Pulled from the backlog:** the oldest unblocked item, the 11-08 reciprocal pointers to the Email Program Lead. The P1 items stay blocked (stars, community usage, issue #1 decisions, directory verification). Grep-verified first: `email-program-lead` was 0 in all four targets.
+
+**Shipped (both copies byte-identical, lint 8/8):** `email-lifecycle-architect` gains a paragraph closing *The Contact Budget*: the budget binds the program lead's send calendar of record and is never raised to fit a request; per-journey and universal holdouts answer different questions and are never summed. `email-automation-engineer`'s pre-send item 8 (kill switch) now names it as the protocol's *Stop* step, and post-incident controls land as checklist lines. `email-deliverability-specialist`'s monthly scorecard gains a "reported up" line: guardrails feed the Email Scorecard, and the sunset thresholds define the Reachable Audience Report, never loosened to enlarge it. `analytics-conversion-rate-optimizer`'s *Move it to the list* reroute now says its Rule 10 calculation sizes the universal holdout. No statistic is asserted.
+
+**No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited. CHANGELOG `[Unreleased]` updated.
+
+**Not committed:** uncommitted edits to `analytics-marketing-ops-architect` and `seo-ai-search-optimizer` (both copies) appeared in the working tree during this run from a concurrent session. They were left untouched and unstaged.

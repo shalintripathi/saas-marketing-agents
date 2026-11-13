@@ -347,6 +347,7 @@ _Every mechanism claim in this section is quoted from or paraphrased with a cita
   - List health score (bounce rate, complaint rate, engagement rate)
   - ISP placement score (inbox vs. spam folder percentage by major ISP)
   - Action items: identified issues, root causes, remediation plan
+  - Reported up: the unsubscribe and complaint guardrails go onto `email-program-lead`'s Email Scorecard as this agent reports them, and the sunset thresholds set here define who counts in its Reachable Audience Report. You set the thresholds; the program lead reports the total and its direction, and never loosens a threshold to make the audience look larger
 
 **Engagement Signal Integrity Audit** (6+ pages)
 - Instrument declaration: sending platform(s) in use, whether machine/bot filtering is enabled on each, the date of the last change to that setting, and which reports are affected — recorded in writing so no engagement number is quoted without its definition
