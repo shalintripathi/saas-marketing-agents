@@ -6505,3 +6505,21 @@ No new figures or sources.
 **No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited. CHANGELOG `[Unreleased]` updated.
 
 **Not committed:** uncommitted edits to `analytics-marketing-ops-architect` and `seo-ai-search-optimizer` (both copies) appeared in the working tree during this run from a concurrent session. They were left untouched and unstaged.
+
+## 2026-11-13 — Scout: ENHANCED the Marketing Ops Architect (the native GA4 AI Assistant channel)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last 11-08). The last two scout runs were an ADD and an ENHANCE (both 11-12), so rule 4 did not force an add. Grep found no unowned analytics role (measurement, MMM and incrementality all have owners), so the run pulled the 11-04 GA4 Source Group watch from the backlog.
+
+**Gap (grep-proven, agent directories):** `Source Group`, `AI Assistant` (as the GA4 channel) and `ai-assistant` were 0. Check 6 of `analytics-marketing-ops-architect` still told readers to hand-build an AI referral channel group, six months after GA4 shipped a native one.
+
+**Sources:** GA4 release notes and *Default channel group* (Google, read 2026-11-13). The exact medium-match rule wording was not visible in the automated read, so it is flagged as likely, not certain, in-file. Idea credit: indranilbanerjee/digital-marketing-pro `analytics-insights` (MIT), ideas only.
+
+**Shipped (both copies byte-identical, lint 4/4, YAML parses):** `analytics-marketing-ops-architect` check 6 gains *The native AI Assistant channel: reconcile it, don't rebuild it*. It has five audit points: an AI referrer reconciliation table, 2026-05-13 as a series break, `ai-assistant` kept out of owned UTMs, the channel never reported as all AI traffic (AI Overviews and AI Mode are Organic Search), and noting which source dimension a historical figure used, since Source Group is retroactive. It also gets broken / needs-work grading, a reconciliation table in the audit deliverable, an *AI Referrer Reconciliation* success metric, a `description:` update and a credit line. `seo-ai-search-optimizer` *Measuring Arrival* step 2 gains one paragraph pointing to the table and the AI Overviews exclusion.
+
+**Discoverability:** README analytics roster entry and Marketing Analytics trigger phrases ("GA4 AI Assistant channel", "track ChatGPT traffic in GA4"), the `AGENTS_INDEX.md` row, the `llms.txt` Marketing Analytics line, and the `marketing-analytics` SKILL description and agent table row 5. CHANGELOG `[Unreleased]`.
+
+**No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
+
+**Follow-up filed (backlog):** confirm the rule wording in a browser; Search Console AI reporting for *Measuring Arrival*; reciprocal pointers in the performance analyst and data storyteller. Note for PR #4: the `marketing-analytics` description grew by two phrases.
