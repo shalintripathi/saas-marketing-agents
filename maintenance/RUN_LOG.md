@@ -6523,3 +6523,15 @@ No new figures or sources.
 **No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
 
 **Follow-up filed (backlog):** confirm the rule wording in a browser; Search Console AI reporting for *Measuring Arrival*; reciprocal pointers in the performance analyst and data storyteller. Note for PR #4: the `marketing-analytics` description grew by two phrases.
+
+## 2026-11-14 — P2: reciprocal pointers to the Content Program Lead
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields; 19 skills, all with `name` + `description`; 94 agents lint clean across the 17 CI directories; 0 broken internal `.md` links; oldest "Last reviewed" is 2026-10-21 (under 90 days); public counts 94/19/17 match the README badge and the live GitHub About.
+
+**Pulled from the backlog:** the oldest unblocked item, the 11-12 reciprocal pointers to the Content Program Lead. P1 items stay blocked (stars, community usage, issue #1 decisions, directory verification). Grep-verified first: `content-program-lead` was 0 in all three targets.
+
+**Shipped (both copies byte-identical, lint 6/6):** `content-operations-manager` Rule 10 now names the program lead as owner of which lines exist and each line's output commitment (set from the throughput this agent measures), with accepted intake arriving as briefs; it also corrects "decides what the program covers" to "what the blog covers" for `content-blog-strategist`, since the program layer now has its own owner. `content-blog-strategist` Rule 9: the blog is one line in the Content Portfolio Register and Rule 7's velocity runs inside its commitment. `seo-program-lead` Rule 12: its non-brand scorecard is the demand-capture line's job metric, read as reported, never summed into a content-wide total.
+
+**No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text and index surfaces were not edited. CHANGELOG `[Unreleased]` updated.
+
+**Next oldest:** the 11-13 AI Assistant channel pointers in `analytics-performance-analyst` and `analytics-data-storyteller`.
