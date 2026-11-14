@@ -6535,3 +6535,21 @@ No new figures or sources.
 **No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text and index surfaces were not edited. CHANGELOG `[Unreleased]` updated.
 
 **Next oldest:** the 11-13 AI Assistant channel pointers in `analytics-performance-analyst` and `analytics-data-storyteller`.
+
+## 2026-11-14 — Scout: ENHANCED the Social Ads Specialist (Meta placement controls)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** paid/social, the oldest in the rotation (last 11-09). The last two scout runs were ENHANCE (11-12, 11-13), so rule 4 required an ADD to be hunted first. It failed the gap test. Ad ops / paid operations greps to 0 on `ad ops`, `trafficking` and `account access`, but every piece already has an owner: account estate in `social-community-builder`, multi-account collision in `paid-media-budget-optimizer`, enforcement in the Social Ads Specialist, and launch QA in `ops-quality-assurance`. The paid program layer stays with the Budget Optimizer. The backlog's program-layer test for events and partnerships also closed as **have** (Event Portfolio & Payback Model; the Partner Program Architect is the program layer).
+
+**Pulled from the backlog:** the 11-09 Meta placement-controls watch. `value rule`, `soft opt-out`, `Audience Network` (Meta) and `account controls` were 0 in the paid and social agents (grep). The Social Ads Specialist's delivery audit covered LinkedIn LAN and Reddit, but had no Meta placement coverage.
+
+**Sources:** Meta for Developers v24 announcement (soft opt-out, 5% per excluded placement, Sales and Leads) and the v26.0 changelog (Explore Feed; Messenger Stories, 2026-10-27), both primary and read 2026-11-14. Meta's Help Centre page did not render (WebFetch gave the title only; the browser timed out), so the objective split, account controls and value rules are attributed to Relevant Audience (2026-10-13), which quotes the page. The −90% value-rule floor rests only on PPC Land and is flagged unconfirmed in-file. No idea was taken from an open-source collection (the known collections had no Meta placement coverage and no commits since 11-13).
+
+**Shipped (both copies byte-identical, lint 2/2, YAML parses):** `paid-media-social-ads-specialist` gains Rule 14 and the section *Meta placements: the exclusion moved to the account, and part of it became a price*, placed in *Delivery Is Not Targeting*. The section covers what changed, then five B2B consequences: "excluded" is not zero; an account control binds every campaign, so a split goes on the collision map; four dispositions from CRM opportunity rate by placement; value rules priced from a measured ratio; and creative briefed to the Creative Strategist for every aspect ratio. It also extends the Delivery-vs-Targeting Audit deliverable and adds a counted success metric. No benchmark is asserted: Meta's Advantage+ cost claim is explicitly not repeated.
+
+**Discoverability:** the agent's `description:`, its `AGENTS_INDEX.md` row, the `llms.txt` Paid Media Ops line, README Paid Media Ops trigger phrases ("Meta placement controls removed", "exclude Audience Network on Meta", "placement value rules"), and the `paid-media-ops` SKILL description, agent table row 4, a new routing example and the in-flight step that said "turn off underperforming placements". CHANGELOG `[Unreleased]`.
+
+**No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
+
+**Follow-up filed (backlog):** re-read Meta's Help Centre page in a browser; P2 reciprocal pointers in `paid-media-creative-strategist` and `paid-media-budget-optimizer`. Note for PR #4: the `paid-media-ops` description grew by one clause.
