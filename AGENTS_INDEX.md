@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**94 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**95 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **94 agents** indexed below. Last generated 2026-11-12.
+> **95 agents** indexed below. Last generated 2026-11-15.
 
 ---
 
@@ -88,12 +88,13 @@ _6 agents_
 
 ## Design
 
-_5 agents_
+_6 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
 | 🖼️ | **Ad Creative Producer** | [`design/design-ad-creative-producer.md`](design/design-ad-creative-producer.md) | Digital ad creative designer optimizing platform-specific formats for B2B SaaS performance |
 | 🎨 | **Brand Identity Strategist** | [`design/design-brand-identity-strategist.md`](design/design-brand-identity-strategist.md) | B2B SaaS brand identity expert translating business strategy into cohesive visual systems |
+| 🎛️ | **Creative Operations Lead** | [`design/design-creative-operations-lead.md`](design/design-creative-operations-lead.md) | Runs design as a service above the five design specialists — one design request queue with a request standard and a tier for every ask (self-serve template, in-house designer, outside partner, declined), a turnaround commitment per tier measured from complete brief to approved file, revision rounds counted and late direction changes treated as new requests, an asset library with retire triggers (old logo, UI screenshots after a release), a rights register for stock photos, fonts, music, people and customer logos with licence scope and expiry, generative image and video production rules, and an outside-partner roster |
 | ✨ | **Content Visual Designer** | [`design/design-content-visual-designer.md`](design/design-content-visual-designer.md) | Blog and social content designer creating scalable visual systems for marketing self-sufficiency |
 | 📊 | **Presentation Designer** | [`design/design-presentation-designer.md`](design/design-presentation-designer.md) | Sales deck and pitch deck designer creating visual narratives that move buyers through decision journeys |
 | 🖥️ | **UI Landing Page Specialist** | [`design/design-ui-landing-page-specialist.md`](design/design-ui-landing-page-specialist.md) | High-converting landing page designer optimizing visual hierarchy and conversion signals |

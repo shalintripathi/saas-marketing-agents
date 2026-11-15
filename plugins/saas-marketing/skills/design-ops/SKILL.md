@@ -1,6 +1,6 @@
 ---
 name: design-ops
-description: "Design operations and creative excellence for B2B SaaS marketing. Use this skill when building brand identity, designing landing pages, creating presentations, producing ad creative, or building infographics. Also triggers on: brand identity, landing page design, presentation, sales deck, ad creative, infographic, social media graphics, visual design, UI design, brand guidelines."
+description: "Design operations and creative excellence for B2B SaaS marketing. Use this skill when building brand identity, designing landing pages, creating presentations, producing ad creative, building infographics, or running creative operations (one design request queue, turnaround commitments, an asset library and a rights register). Also triggers on: brand identity, landing page design, presentation, sales deck, ad creative, infographic, social media graphics, visual design, UI design, brand guidelines, creative operations, creative ops, design request queue, design intake, how long should design take, too many design requests, where is the latest logo, outdated screenshots after a release, stock photo licence expired, font licence, asset library, DAM, AI-generated images policy, agency or freelancer roster."
 ---
 
 # Design Operations
@@ -20,7 +20,7 @@ description: "Design operations and creative excellence for B2B SaaS marketing. 
 
 Design Operations brings together visual designers, brand strategists, and creative specialists to deliver high-impact creative assets across all B2B SaaS marketing channels. This skill orchestrates your design team to build cohesive brand experiences, from landing pages and sales presentations to ad creative and product UI. Whether you need a complete brand identity system, a data-driven infographic, a conversion-optimized landing page, or a polished sales deck, Design Operations routes your request to the right specialist and ensures consistent execution against brand standards.
 
-## The Team: 5 Specialist Agents
+## The Team: 6 Specialist Agents
 
 | # | Agent | File | What They Do |
 |---|-------|------|-------------|
@@ -29,6 +29,7 @@ Design Operations brings together visual designers, brand strategists, and creat
 | 3 | Presentation Designer | `agents/design-presentation-designer.md` | Creates visually compelling and narratively coherent presentations for sales, executive briefings, investor pitches, and board meetings with data visualization and storytelling |
 | 4 | Ad Creative Producer | `agents/design-ad-creative-producer.md` | Produces high-performing digital ad creative optimized for platform-specific formats (LinkedIn, Google, YouTube, Instagram) with rapid testing frameworks and A/B testing discipline |
 | 5 | Content Visual Designer | `agents/design-content-visual-designer.md` | Transforms written content into visual formats—infographics, social media graphics, data visualizations, and visual essays—that increase engagement and shareability |
+| 6 | Creative Operations Lead | `agents/design-creative-operations-lead.md` | Runs design as a service: one request queue with a tier per ask (self-serve template, in-house designer, outside partner, declined), turnaround commitments measured from a complete brief, revision rounds counted, an asset library with retire triggers (old logo, UI screenshots after a release), a rights register for stock photos, fonts, music, people and customer logos, generative image rules, and the outside-partner roster |
 
 ## How to Use
 
@@ -63,6 +64,13 @@ Design Operations brings together visual designers, brand strategists, and creat
 - "Design social media graphics for our content distribution"
 - "Create data visualizations for our quarterly performance report"
 - "Build visual assets for a product comparison article"
+
+**Design Intake, Turnaround, Assets & Rights** → Creative Operations Lead
+- "Design requests come in from everywhere and everything is urgent — set up an intake queue"
+- "How long should a landing page or an ad set take us, and are we hitting it?"
+- "Our release changed the UI — find every asset with the old screenshots"
+- "A stock photo licence is expiring — which assets use it?"
+- "Write our rules for AI-generated images in marketing"
 
 ### Execution Model
 

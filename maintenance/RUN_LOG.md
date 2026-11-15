@@ -6567,3 +6567,15 @@ No new figures or sources.
 **No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text and index surfaces were not edited.
 
 **Next oldest:** the 11-13 Search Console AI reporting watch; then the 11-13 reciprocal pointers in `analytics-performance-analyst` and `analytics-data-storyteller`.
+
+## 2026-11-15 — Scout: ADDED the Creative Operations Lead (agent #95)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.**
+
+**Focus:** content/SEO by rotation. The last two scout runs (11-13, 11-14) were ENHANCE, so rule 4 required an ADD. The content/SEO ADD hunt is saturated (killed eight times since 09-16, Content Program Lead added 11-12), so the ADD came from the whole-roster program-layer test. Design had never been tested and failed it: ten creative-ops terms grep to zero, and the existing owners (templates, guidelines, team capacity, logo approval, legal, AI register) each hold one piece but not the program.
+
+**Shipped (both copies byte-identical, lint 2/2):** `design/design-creative-operations-lead.md` and its copy in `plugins/saas-marketing/skills/design-ops/agents/`. Twelve rules: one design request queue with four tiers, turnaround measured from a complete brief, rounds counted and late direction changes treated as new requests, one approver, versioning as its own asset class, an asset library with retire triggers, a rights register, generative-media production rules, an outside-partner roster, capacity reported to the Resource Allocator, a used-not-made scorecard, and a boundary rule naming twelve agents. No benchmark asserted. Evidence: XR State of Ad Ops 2026 (via Agile Brand Guide) and Superside's 2025 Overcommitted survey, both vendor surveys and labelled so.
+
+**Discoverability / counts (94 → 95, Design 5 → 6):** README (badge, prose, team table row with the new link and trigger phrases in the skills table), `AGENTS_INDEX.md` (count, date, Design section row), `llms.txt`, `CITATION.cff`, both manifests, `plugins/saas-marketing/README.md`, the suite router and CATALYST orchestrator tables, both copies of `catalyst-strategy.md` (Brand & Creative group), EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations and loops READMEs, SKILL_SCOUT, and the `design-ops` SKILL (description with natural phrases, agent table row 6, routing block). GitHub About description updated to 95 (347/350 chars; no room to add "creative ops").
+
+**Follow-up filed (backlog):** P2 reciprocal pointers from the five design specialists, `pm-resource-allocator` and `pmm-launch-manager`. Note for PR #4: the `design-ops` description grew.
