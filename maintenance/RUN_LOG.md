@@ -6553,3 +6553,17 @@ No new figures or sources.
 **No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text was not edited.
 
 **Follow-up filed (backlog):** re-read Meta's Help Centre page in a browser; P2 reciprocal pointers in `paid-media-creative-strategist` and `paid-media-budget-optimizer`. Note for PR #4: the `paid-media-ops` description grew by one clause.
+
+## 2026-11-15 — Confirmed the GA4 AI Assistant channel rule; removed the "likely, not certain" flag
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields; 19 skills, all with `name` + `description`; 94 agents lint clean across the 17 CI directories; 0 broken internal `.md` links; oldest "Last reviewed" is 2026-10-10 (36 days); public counts 94/19/17 match the README badge and the live GitHub About.
+
+**Pulled from the backlog:** the oldest unblocked item, the 11-13 watch on the AI Assistant channel rule text. The automated read on 11-13 could not see Google's rules table.
+
+**Source:** Google Analytics Help, *Default channel group* (answer 9756891), read in the built-in browser 2026-11-15. The rules table reads "The medium exactly matches 'ai-assistant'", and adds that GA4 sets that medium and the `(ai-assistant)` campaign when the referrer matches its list of AI assistants. The channel description still excludes AI Overviews and AI Mode.
+
+**Shipped (both copies byte-identical, lint 2/2):** `analytics-marketing-ops-architect` check 6, bullet *Keep `ai-assistant` out of your own UTMs*. The third-party attribution and the "likely, not certain / if it holds" hedge are replaced by Google's own rule text, plus one clause: the match is on the medium alone, not the referrer. CHANGELOG `[Unreleased]`.
+
+**No count change** (94 agents, 19 skills, 17 disciplines), so the GitHub About text and index surfaces were not edited.
+
+**Next oldest:** the 11-13 Search Console AI reporting watch; then the 11-13 reciprocal pointers in `analytics-performance-analyst` and `analytics-data-storyteller`.
