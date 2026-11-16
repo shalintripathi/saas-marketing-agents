@@ -6579,3 +6579,17 @@ No new figures or sources.
 **Discoverability / counts (94 → 95, Design 5 → 6):** README (badge, prose, team table row with the new link and trigger phrases in the skills table), `AGENTS_INDEX.md` (count, date, Design section row), `llms.txt`, `CITATION.cff`, both manifests, `plugins/saas-marketing/README.md`, the suite router and CATALYST orchestrator tables, both copies of `catalyst-strategy.md` (Brand & Creative group), EXECUTIVE-BRIEF, QUICKSTART, ROADMAP, integrations and loops READMEs, SKILL_SCOUT, and the `design-ops` SKILL (description with natural phrases, agent table row 6, routing block). GitHub About description updated to 95 (347/350 chars; no room to add "creative ops").
 
 **Follow-up filed (backlog):** P2 reciprocal pointers from the five design specialists, `pm-resource-allocator` and `pmm-launch-manager`. Note for PR #4: the `design-ops` description grew.
+
+## 2026-11-16 — Named the Search Console Generative AI performance report in the AI-search agent
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields; 19 skills, all with `name` + `description`; 95 agents lint clean across the 17 CI directories; 0 broken internal `.md` links; oldest "Last reviewed" is 2026-10-10 (37 days); public counts 95/19/17 match the README badge and the live GitHub About.
+
+**Pulled from the backlog:** the oldest unblocked item, the 11-13 Search Console AI reporting watch.
+
+**Source:** Search Console Help, *Generative AI performance report (Search)* (answer 16984139), read in the built-in browser 2026-11-16. It covers AI Overviews and AI Mode, counts impressions only (dimensions: pages, countries, dates, devices; search-type filter text vs multimodal), and was rolled out to all sites on 2026-08-31.
+
+**Shipped (both copies byte-identical, lint 2/2):** `seo-ai-search-optimizer` *Measuring Arrival* §2. "Search Console where it reports them" now names the report, states it is impressions-only (visibility, not arrival), says to report it beside the GA4 floor and never add it, and gives Google's two causes for a missing report. CHANGELOG `[Unreleased]`.
+
+**No count change** (95 agents, 19 skills, 17 disciplines), so the GitHub About text and index surfaces were not edited.
+
+**Next oldest:** the 11-13 reciprocal pointers in `analytics-performance-analyst` and `analytics-data-storyteller`.
