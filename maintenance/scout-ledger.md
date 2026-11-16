@@ -1508,3 +1508,12 @@ The focus was **content / SEO**, the oldest in the rotation (content and PMM bot
 | 2026-11-15 | Superside, [The state of in-house creative teams? Overcommitted](https://superside.com/blog/-the-state-of-in-house-creative-teams) (2025-02-26; 200+ creative leaders) | Copyrighted article; figures cited, no text reused | Design / creative ops | **adopted-new** (evidence) | 41% rely on a single agency, 13% say it is going well (Rule 9). Vendor survey, labelled in-file. The Business Wire release returned 403. |
 | 2026-11-15 | GitHub sweeps: `gh search repos "creative operations"` (updated since 05-01; portfolios and an MIT awesome-list with 0★) and `gh search code "creative operations" --filename SKILL.md` (aggregator mirrors, unrelated skills) | mixed | Design | **weak evidence** | No open-source marketing skill with substance in creative operations, so no idea or text was taken. |
 | 2026-11-15 | Known-collection re-check (commits since 11-14): coreyhaines31, wshobson, VoltAgent, hyperfx-ai, ComposioHQ, contains-studio, alyssonfranklin, gtm-skills/gtm, wondelai returned none | mixed | All | **no change** | |
+
+## Scout run — 2026-11-16 (PMM / sales / GTM; ENHANCE — business-case readiness grade on the Enablement Content Creator)
+
+The focus was **PMM / sales / GTM**, the oldest in the rotation (last 11-12). The last scout run was an ADD (11-15), so rule 4 did not force one. The run worked the 11-03 backlog watch.
+
+| Date | Source | Licence | Discipline | Verdict | Notes |
+|---|---|---|---|---|---|
+| 2026-11-16 | [nnasrall/uncommon-sales-skills](https://github.com/nnasrall/uncommon-sales-skills) `skills/one-page-business-case/references/scorecard-rubric.md` (3★, pushed 2026-10-22; read in full) | MIT (GitHub licence API, read-time) | Sales | **enhanced-ours** (ideas only, credited in-file) | The idea taken: score each section and name the missing input behind every low score. It became *Grading the Business Case Before It Travels* in `sales-enablement-content-creator`, which uses our own evidence ladder rather than the source's content ladders. Not carried: the five 1–5 ladders, the readiness percentage, and the emotive-language criterion. `SKILL.md` did not decode in this run, so it is unread. |
+| 2026-11-16 | Known-collection re-check (commits since 11-15): coreyhaines31, wshobson, VoltAgent, hyperfx-ai, ComposioHQ, contains-studio, alyssonfranklin, gtm-skills/gtm, wondelai, swan-gtm returned none | mixed | All | **no change** | |

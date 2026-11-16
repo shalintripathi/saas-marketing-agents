@@ -6593,3 +6593,15 @@ No new figures or sources.
 **No count change** (95 agents, 19 skills, 17 disciplines), so the GitHub About text and index surfaces were not edited.
 
 **Next oldest:** the 11-13 reciprocal pointers in `analytics-performance-analyst` and `analytics-data-storyteller`.
+
+## 2026-11-16 — Skill Scout (PMM / sales / GTM; ENHANCE — business-case readiness grade on the Enablement Content Creator)
+
+**Run type: ENHANCE.** The focus was **PMM/sales/GTM**, the oldest in the rotation (last 11-12). The previous scout run was an ADD (11-15, Creative Operations Lead) and the one before it an ENHANCE (11-14), so rule 4 did not force an ADD. None was hunted beyond the standing verdicts: the open PMM/sales roles are still the owner's scope questions (grade-the-function, sales-enablement program). The run pulled the 11-03 backlog watch on business-case readiness scoring.
+
+**Gap (grep first):** `readiness` 0 and `graded` 0 in `sales-enablement-content-creator`. Rule 9 (buyer-input-only) was a pass/fail check on inputs. Nothing said how close a draft was to being forwardable, or which gap to close next.
+
+**Source:** Nate Nasralla's [nnasrall/uncommon-sales-skills](https://github.com/nnasrall/uncommon-sales-skills) `one-page-business-case` (MIT per the GitHub licence API, pushed 2026-10-22; `SKILL.md` failed to decode, `references/scorecard-rubric.md` read in full 2026-11-16). Ideas only: score each section, and name the missing input that caps it.
+
+**Shipped (both copies byte-identical, lint 2/2):** new section *Grading the Business Case Before It Travels*. It grades evidence, not content, on our own five-step ladder (unsourced / seller-stated / buyer-stated / buyer-confirmed / owner-signed). A section takes the grade of its weakest headline item. The profile is reported by section, never as a total. Gaps are routed: grades 0–2 go to `sales-discovery-coach`, and a grade-3 gap becomes a mutual action plan milestone in `sales-deal-strategist`. The travel rule: no forwarding, and no Champion Kit quote, while any headline figure is at 0 or 1. Forecast boundary: `sales-pipeline-analyst` reads the profile as evidence and does not add the grades as points. Also added a template pointer and a *Business-Case Travel Readiness* metric with no target asserted. Not carried: the source's five content ladders and its readiness percentage.
+
+**Discoverability:** README (team-table parenthetical and a Sales Enablement trigger phrase), `AGENTS_INDEX.md` row, `llms.txt`, and the `sales-enablement` SKILL description (natural phrases: "is our business case ready to forward", "who confirmed this baseline", "grade the business case") plus agent table row 6. **No count change** (95 / 19 / 17), so the About text, badges and manifests were not edited. CHANGELOG `[Unreleased]`.

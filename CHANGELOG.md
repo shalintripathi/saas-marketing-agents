@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **Know whether a business case will survive the meeting you are not in, before your champion forwards it** ([`sales/sales-enablement-content-creator.md`](sales/sales-enablement-content-creator.md), new section *Grading the Business Case Before It Travels*, both copies). Each section of the business case is graded on the evidence behind it: unsourced, seller-stated, buyer-stated, buyer-confirmed or owner-signed. The agent reports the grades by section rather than as a total, names the missing input and who holds it, sends discovery gaps to the Discovery Coach and sign-off gaps to the mutual action plan, and keeps the case away from the champion while any headline figure is unsourced or seller-stated. A new *Business-Case Travel Readiness* metric tracks this. The idea of grading section by section came from Nate Nasralla's `one-page-business-case` (MIT, ideas only).
+
 ## [1.4.4] — 2026-11-16
 
 - **The AI-search agent now names the Search Console report for Google's AI surfaces, and says what it cannot show** ([`seo/seo-ai-search-optimizer.md`](seo/seo-ai-search-optimizer.md) *Measuring Arrival* §2, both copies). GA4 counts AI Overviews and AI Mode as Organic Search, so the agent sends you to Search Console's **Generative AI performance report (Search)** instead of a vague "where it reports them". That report counts impressions only (page, country, device, date; no clicks or queries), so it proves visibility, not arrival, and is reported beside the GA4 floor, never added to it. Source: Search Console Help, answer 16984139, read 2026-11-16. No count change.
