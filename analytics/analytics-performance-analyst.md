@@ -116,6 +116,7 @@ What makes this tractable rather than paranoid is that in a B2B SaaS stack the i
 |---|---|---|
 | CMP swap, banner redesign, consent-mode implementation change | Every session, user, and conversion count downstream | `analytics-marketing-ops-architect` (consent audit) |
 | GA4 key-event config, channel grouping, custom dimension scope, reporting identity | Conversions, channel splits, attributed revenue | `analytics-marketing-ops-architect` (instrumentation audit) |
+| Vendor-side change to a default channel definition, e.g. GA4's **AI Assistant** channel, added to the Default Channel Group on 2026-05-13 | Referral and AI Assistant splits: sessions move between them with no change in who visited. Read the two together across the date, and never label the AI Assistant channel "AI traffic". It is a floor of referred non-Google assistant sessions; AI Overviews and AI Mode clicks stay in Organic Search | `analytics-marketing-ops-architect` (the AI Assistant reconciliation in its GA4 audit) |
 | Lead-scoring threshold or model version | MQL volume, MQL→SQL rate, every downstream funnel rate | `analytics-marketing-ops-architect` (two-axis scoring) |
 | Field deprecation, renamed picklist value, CRM dedup or hierarchy rule | Segment membership, and therefore every segmented rate | `analytics-marketing-ops-architect` (field layer) |
 | Attribution model or lookback window | Channel credit, CPL, ROI by channel | `paid-media-attribution-analyst` |

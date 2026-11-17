@@ -6605,3 +6605,17 @@ No new figures or sources.
 **Shipped (both copies byte-identical, lint 2/2):** new section *Grading the Business Case Before It Travels*. It grades evidence, not content, on our own five-step ladder (unsourced / seller-stated / buyer-stated / buyer-confirmed / owner-signed). A section takes the grade of its weakest headline item. The profile is reported by section, never as a total. Gaps are routed: grades 0–2 go to `sales-discovery-coach`, and a grade-3 gap becomes a mutual action plan milestone in `sales-deal-strategist`. The travel rule: no forwarding, and no Champion Kit quote, while any headline figure is at 0 or 1. Forecast boundary: `sales-pipeline-analyst` reads the profile as evidence and does not add the grades as points. Also added a template pointer and a *Business-Case Travel Readiness* metric with no target asserted. Not carried: the source's five content ladders and its readiness percentage.
 
 **Discoverability:** README (team-table parenthetical and a Sales Enablement trigger phrase), `AGENTS_INDEX.md` row, `llms.txt`, and the `sales-enablement` SKILL description (natural phrases: "is our business case ready to forward", "who confirmed this baseline", "grade the business case") plus agent table row 6. **No count change** (95 / 19 / 17), so the About text, badges and manifests were not edited. CHANGELOG `[Unreleased]`.
+
+## 2026-11-17 — AI Assistant channel pointers in the Performance Analyst and Data Storyteller
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields; 19 skills, all with `name` + `description`; 95 agents across the 17 CI directories; 0 broken internal `.md` links; oldest "Last reviewed" is 2026-10-10 (`integrations/README.md`, 38 days); public counts 95/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the oldest unblocked item, the 11-13 P2 reciprocal pointer.
+
+**Gap (grep first):** `AI Assistant`, `AI traffic` and `2026-05-13` were 0 in both agents, so the channel rule set in `analytics-marketing-ops-architect` (11-13) had no path into the two agents that report channel splits.
+
+**Shipped (both copies byte-identical, lint 4/4):** `analytics-performance-analyst` series-break register gains a row: a vendor-side change to a default channel definition (GA4 AI Assistant, 2026-05-13) moves Referral and AI Assistant splits with no behaviour change; read them together and never label the channel "AI traffic". `analytics-data-storyteller` Rule 5 gains one sentence: title the series by its definition, annotate Referral trends that cross 2026-05-13. No new facts: both restate the ops architect's sourced text (GA4 release notes and *Default channel group* help, read 2026-11-13). CHANGELOG `[Unreleased]`.
+
+**No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-14 browser re-read of Meta's placement-settings page; then the 11-14 reciprocal pointers to the Meta placements section.
