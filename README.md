@@ -124,7 +124,7 @@ Every agent is a named role with its own remit, critical rules, and deliverables
 | **Events & Field Marketing** (1) | [Field Marketing & Events Strategist](events/events-field-marketing-strategist.md) |
 | **Developer Marketing** (1) | [Developer Audience Strategist](developer-marketing/devmkt-developer-audience-strategist.md) |
 | **Project Management** (4) | [Campaign Coordinator](project-management/pm-campaign-coordinator.md) · [Client Success Manager](project-management/pm-client-success-manager.md) · [Marketing Agile Facilitator](project-management/pm-marketing-ops-scrum-master.md) · [Resource Allocator](project-management/pm-resource-allocator.md) |
-| **Client Operations** (4) | [Financial Tracker](client-ops/ops-financial-tracker.md) · [Legal Compliance Officer](client-ops/ops-legal-compliance.md) · [Quality Assurance Manager](client-ops/ops-quality-assurance.md) · [Reporting Specialist](client-ops/ops-reporting-specialist.md) |
+| **Client Operations** (4) | [Financial Tracker](client-ops/ops-financial-tracker.md) (CAC and payback on one written definition) · [Legal Compliance Officer](client-ops/ops-legal-compliance.md) · [Quality Assurance Manager](client-ops/ops-quality-assurance.md) · [Reporting Specialist](client-ops/ops-reporting-specialist.md) |
 
 _These 17 disciplines hold all 95 specialist agents. On top sits the **[CATALYST orchestrator](#️-catalyst-orchestrator)**, which coordinates them._
 

@@ -6619,3 +6619,19 @@ No new figures or sources.
 **No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-14 browser re-read of Meta's placement-settings page; then the 11-14 reciprocal pointers to the Meta placements section.
+
+## 2026-11-17 — Scout: ENHANCED the Financial Tracker (the CAC Definition Card)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last 11-13). The last two scout runs were ENHANCE (11-16) and ADD (11-15), so rule 4 did not force an ADD. The ADD hunt in this rotation is on record as saturated (web ops killed twice; lead routing, MMM, privacy, review-site and NPS programs owned), and nothing new reopened them. The run worked the oldest licence re-check from the backlog.
+
+**Licence resolved:** tech-leads-club/agent-skills' root LICENSE is MIT, with a note putting skill text under CC-BY-4.0, which is why the API showed NOASSERTION. `gtm-metrics` credits the unlicensed chadboyda/agent-gtm-skills, so it was read as ideas only.
+
+**Gap (grep first):** `magic number` 0, `burn multiple` 0, `CAC payback` 1. `ops-financial-tracker` owns CAC and payback (Rule 7, three deliverables, two metrics) but never defined either, and asserted an unsourced "typically 12-24 months" payback range.
+
+**Shipped (both copies byte-identical, lint 2/2):** new section *Defining CAC Before Anyone Quotes It*. A CAC Definition Card fixes five choices (numerator scope, denominator and entity, spend-to-close lag, blended vs paid, the attribution model behind channel splits with a reconciliation test). Payback is gross-margin based, with the threshold coming from finance's cash plan and measured customer lifetime. The Magic Number is supplied as a sales-and-marketing ratio, never "marketing's". A changed card is a series break in the Performance Analyst's register. Rule 7 now requires the card. New *CAC Definition Card* deliverable. The payback metric was rewritten without the borrowed range, and a *Definition Coverage* metric was added with no target asserted. Sources: a16z *16 Startup Metrics* (2015) and Scale VP *Magic Number Math* (2010), both read 2026-11-17.
+
+**Discoverability:** README team-table parenthetical, `AGENTS_INDEX.md` row, `llms.txt`, and the `client-operations` SKILL description (natural phrases: "why does our CAC not match finance", "the board wants our magic number", "fully loaded CAC", "CAC payback") plus agent table row. **No count change** (95 / 19 / 17), so the About text, badges and manifests were not edited. CHANGELOG `[Unreleased]`.
+
+**Follow-ups filed (backlog P2):** reciprocal pointers from the four agents that quote CAC; `analytics-marketing-ops-architect` Rule 6 still asserts fixed data-quality targets that its own metric rejects; a watch on the other 17 tech-leads-club `(gtm)` skills.
