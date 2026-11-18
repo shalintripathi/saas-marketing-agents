@@ -128,6 +128,7 @@ Variety costs money twice. You pay to produce each concept, and each concept als
 - **Keep only as many live concepts as the budget can feed.** A concept that never gets enough delivery to be read is not adding variety. It is adding noise.
 - **Read results at the concept level, pooled over a quarter,** and do not read them per ad. The four-outcome discipline above still applies, and most single ads will stay *inconclusive* for good.
 - **Do not port this to channels that pick ads differently.** LinkedIn rotation and Google Search responsive ads have their own mechanics (Rule 8). Variety-first is a rule for algorithmic-delivery placements. It is not a universal law.
+- **On Meta Sales and Leads, the set must also fit every placement.** Manual placement choice is gone for those objectives, so Meta decides where each ad runs. Load each concept in every aspect ratio Meta may serve it in, or the placement it lands on gets a cropped ad. What changed, and how to read placement spend, is in `paid-media-social-ads-specialist`'s Meta placements section.
 
 ### Creators as a source of concepts
 

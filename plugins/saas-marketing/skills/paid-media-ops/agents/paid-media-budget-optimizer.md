@@ -149,6 +149,8 @@ Deduplication is a property of the *account*, not of the company. LinkedIn state
 
 B2B SaaS assembles exactly this structure without ever deciding to: the agency's account beside the in-house one, a regional or subsidiary account, an ABM vendor running its own, the acquired company's account nobody switched off. So the first question in a collision audit is not which campaigns overlap. It is **how many ad accounts can serve ads for this domain, and who can see all of them at once.** Whatever is invisible from a single Campaign Manager or Ads Manager login is where the only genuine bidding war happens.
 
+One second account is now made on purpose. Meta's placement exclusions for Sales, Leads, Engagement and App promotion have moved to account controls, which bind every campaign in the ad account. A team that wants Audience Network on for one campaign and off for another may split them into two accounts. That split is a collision-map row like any other: list the new account, its owner, and the audiences it shares with the first. The placement mechanics are in `paid-media-social-ads-specialist`'s Meta placements section.
+
 ### In B2B the overlap is the design, not the bug
 
 Consumer accounts overlap by accident — stacked interests inside one category, lookalikes built from related seeds, retargeting windows nested inside each other. A B2B portfolio overlaps by construction. The addressable universe is a few thousand accounts, and the target-account list, the site-retargeting pool, the job-title audience and the lookalike are all drawn from that same universe. Near-total overlap between them is not a mess to clean up; it is what targeting one market looks like. "De-duplicate the audiences" is not an available instruction.

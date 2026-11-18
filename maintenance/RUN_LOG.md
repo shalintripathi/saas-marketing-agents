@@ -6635,3 +6635,17 @@ No new figures or sources.
 **Discoverability:** README team-table parenthetical, `AGENTS_INDEX.md` row, `llms.txt`, and the `client-operations` SKILL description (natural phrases: "why does our CAC not match finance", "the board wants our magic number", "fully loaded CAC", "CAC payback") plus agent table row. **No count change** (95 / 19 / 17), so the About text, badges and manifests were not edited. CHANGELOG `[Unreleased]`.
 
 **Follow-ups filed (backlog P2):** reciprocal pointers from the four agents that quote CAC; `analytics-marketing-ops-architect` Rule 6 still asserts fixed data-quality targets that its own metric rejects; a watch on the other 17 tech-leads-club `(gtm)` skills.
+
+## 2026-11-18 — Meta placement pointers in the Creative Strategist and Budget Optimizer
+
+**Health check (clean, no P0).** Both manifests jq-parse with required fields (v1.4.4); 19 skills, all with `name` + `description`; 95 agents across the 17 CI directories; 0 broken internal `.md` links; no guide's "Last reviewed" is older than 90 days; public counts 95/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the 11-14 P2 reciprocal pointers to the Meta placements section. The older 11-14 item (re-read Meta's placement-settings page in a browser) was skipped because the page has not rendered to automated reads; it stays open for a human.
+
+**Gap (grep first):** `value rule` 0 in both target agents, and neither named the Meta placements section.
+
+**Shipped (both copies byte-identical, lint 4/4):** `paid-media-creative-strategist`, *B2B limits on how much variety you can afford*, gains a bullet: on Meta Sales and Leads the concept set must load in every aspect ratio Meta may serve, because manual placement is gone. `paid-media-budget-optimizer`, *Where price competition is real*, gains a paragraph: an ad account split made to escape an account control is a collision-map row (new account, owner, shared audiences). No new facts: both restate `paid-media-social-ads-specialist`'s sourced text (read 2026-11-14). CHANGELOG `[Unreleased]`.
+
+**No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-15 reciprocal pointers to the Creative Operations Lead; the Meta placement-settings browser re-read still needs a human.
