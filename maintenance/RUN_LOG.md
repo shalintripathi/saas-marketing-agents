@@ -6649,3 +6649,18 @@ No new figures or sources.
 **No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-15 reciprocal pointers to the Creative Operations Lead; the Meta placement-settings browser re-read still needs a human.
+
+## 2026-11-18 — Scout: ENHANCED the Creator Partnerships Manager (LinkedIn Creator Marketplace)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** paid/social, the oldest in the rotation (last 11-14). The last two scout runs (11-16, 11-17) were ENHANCE, so rule 4 prioritised an ADD. The ADD hunt failed the gap test. Its zeros were a LinkedIn ad format, social customer care (off-thesis) and the owner's employer-brand scope question, and every other paid/social format has an owner (see the ledger). No agent was manufactured. The run worked the oldest paid/social backlog watch (11-01, LinkedIn creator changes).
+
+**Gap (grep first):** `Creator Marketplace` was 0 roster-wide. `social-influencer-partnerships` described LinkedIn discovery only as keyword search.
+
+**Shipped (both copies byte-identical, lint 2/2):** new section *When the Platform Finds the Creator: LinkedIn Creator Marketplace*. The marketplace is a sourcing channel recorded on the vetting record, never the vetting itself. Its panel figures are LinkedIn's, copied with a date, and fees are priced on your own sponsored-post median. The audience-demographics filter counts as evidence and never becomes an overlap percentage. The opt-in pool is self-selected and Top Voices is a programme label. A marketplace message is not a contract, an in-marketplace usage approval is the Rule 12 switch, not a term, and BrandLink adjacency goes to the sponsorship buyer. Also: a discovery-methodology deliverable line, the frontmatter description, a *Sourcing Channel Comparison* metric with no target, and a source note. Sources: LinkedIn newsroom (2026-06-10, primary) and Social Media Today (2026-09-28, quoting LinkedIn), both read 2026-11-18. Access and payment details are labelled as reported.
+
+**Discoverability:** README team-table parenthetical and Social Media Ops phrase row ("LinkedIn Creator Marketplace", "how do we find creators on LinkedIn"), the `AGENTS_INDEX.md` row, `llms.txt`, and the `social-media-ops` SKILL description plus agent table row. **No count change** (95 / 19 / 17), so the About text, badges and manifests were not edited. CHANGELOG `[Unreleased]`.
+
+**Follow-ups filed (backlog):** P2 reciprocal pointers (social ads specialist, LinkedIn strategist); a re-read once LinkedIn publishes a Help Center page; the "Flexible" campaign flow moved to its own watch.
+
