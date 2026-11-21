@@ -6,11 +6,13 @@ on:
     paths:
       - '**/*.md'
       - 'scripts/lint-agents.sh'
+      - 'scripts/check-skill-descriptions.sh'
       - '.github/workflows/lint-agents.yml'
   pull_request:
     paths:
       - '**/*.md'
       - 'scripts/lint-agents.sh'
+      - 'scripts/check-skill-descriptions.sh'
       - '.github/workflows/lint-agents.yml'
 
 jobs:
@@ -20,6 +22,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Check skill description length
+        run: bash scripts/check-skill-descriptions.sh
 
       - name: Lint all agent persona files
         run: |
