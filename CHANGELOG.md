@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.5] — 2026-11-22
+
 - **The Campaign Board is now its own plugin, `campaign-board`, in the same marketplace.** Claude's plugin directory accepts mods and code files only from Verified organizations, so v1.4.3 was refused for `hooks/register.tsx` and `types/index.d.ts`. The saas-marketing plugin is now Markdown and JSON only. If you use the board, run `/plugin install campaign-board@saas-marketing-agents` after updating; the pane, the command and what it shows are unchanged.
 
 - **Skills now trigger on the phrases that matter most, in every host.** All 19 skill descriptions are at or under the Agent Skills limit of 1,024 characters. Claude Code cuts its skill listing at 1,536, so 9 skills had trigger phrases that were never read; each now leads with its use case and the phrases people actually type. The full list moved to `## More phrases that route here` in each trimmed skill, and CI now fails on a description over the limit.
