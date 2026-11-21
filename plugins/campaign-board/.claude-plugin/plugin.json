@@ -1,0 +1,19 @@
+{
+  "name": "campaign-board",
+  "displayName": "Campaign Board",
+  "description": "A live Claude Code pane for the saas-marketing plugin. Type /campaign-board, or run any saas-marketing skill, to see which specialists ran, each file they wrote, and every [NEEDS INPUT] marker where an agent flagged a missing fact instead of inventing one.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shivaa Tripathi"
+  },
+  "homepage": "https://github.com/shalintripathi/saas-marketing-agents",
+  "repository": "https://github.com/shalintripathi/saas-marketing-agents",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "campaign-board",
+    "mod",
+    "b2b-saas",
+    "needs-input"
+  ]
+}

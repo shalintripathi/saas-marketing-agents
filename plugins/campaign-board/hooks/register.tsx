@@ -7,10 +7,10 @@ const PANE = 'campaign-board'
 const PLUGIN_PREFIX = 'saas-marketing'
 const MARKER = /\[NEEDS INPUT[^\]]*\]/g
 
-const skills = atom({ plugin: 'saas-marketing', key: 'skills' } as const, [] as SkillRun[])
-const deliverables = atom({ plugin: 'saas-marketing', key: 'deliverables' } as const, [] as Deliverable[])
-const needs = atom({ plugin: 'saas-marketing', key: 'needs' } as const, [] as NeedsInput[])
-const brand = atom({ plugin: 'saas-marketing', key: 'brand' } as const, 'unknown' as BrandState)
+const skills = atom({ plugin: 'campaign-board', key: 'skills' } as const, [] as SkillRun[])
+const deliverables = atom({ plugin: 'campaign-board', key: 'deliverables' } as const, [] as Deliverable[])
+const needs = atom({ plugin: 'campaign-board', key: 'needs' } as const, [] as NeedsInput[])
+const brand = atom({ plugin: 'campaign-board', key: 'brand' } as const, 'unknown' as BrandState)
 
 const base = (path: string) => path.split('/').pop() ?? path
 
