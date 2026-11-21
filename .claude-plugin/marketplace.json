@@ -29,6 +29,23 @@
         "content-marketing",
         "orchestrator"
       ]
+    },
+    {
+      "name": "campaign-board",
+      "source": "./plugins/campaign-board",
+      "description": "A live Claude Code pane for the saas-marketing plugin: which specialists ran, each file they wrote, and every [NEEDS INPUT] marker as a checklist. Optional; it's a mod (TypeScript), so it ships separately.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shivaa Tripathi"
+      },
+      "homepage": "https://github.com/shalintripathi/saas-marketing-agents",
+      "license": "MIT",
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "campaign-board",
+        "mod"
+      ]
     }
   ]
 }

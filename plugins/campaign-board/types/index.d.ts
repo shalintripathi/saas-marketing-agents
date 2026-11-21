@@ -5,7 +5,7 @@ export type BrandState = 'unknown' | 'found' | 'missing'
 
 declare module 'claude-code' {
   interface PluginState {
-    'saas-marketing': {
+    'campaign-board': {
       skills: SkillRun[]
       deliverables: Deliverable[]
       needs: NeedsInput[]
