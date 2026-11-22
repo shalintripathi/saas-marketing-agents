@@ -6664,3 +6664,17 @@ No new figures or sources.
 
 **Follow-ups filed (backlog):** P2 reciprocal pointers (social ads specialist, LinkedIn strategist); a re-read once LinkedIn publishes a Help Center page; the "Flexible" campaign flow moved to its own watch.
 
+
+## 2026-11-22 — Creative Operations Lead pointers in five sending agents
+
+**Health check (clean, no P0).** Both manifests (`saas-marketing`, `campaign-board`) and the marketplace jq-parse with required fields; 19 skills, all with `name` + `description`; 95 agents across the 17 CI directories; 0 broken internal `.md` links; oldest "Last reviewed" is 2026-10-10 (`integrations/README.md`, 43 days); public counts 95/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the oldest unblocked P2, the 11-15 reciprocal pointers to the Creative Operations Lead. The older 11-14 Meta placement-settings re-read still needs a human browser.
+
+**Gap (grep first):** `creative-operations-lead` and `creative operations` were 0 in both copies of all five targets, so the queue tiers, versioning tier, retire triggers and capacity report in `design-creative-operations-lead` were named on the receiving side only.
+
+**Shipped (both copies byte-identical, lint 10/10):** `design-content-visual-designer` Rule 7 (templates set the self-serve tier; requests that miss a template are the build list); `design-ad-creative-producer` naming-convention block (versioning runs on the creative-ops tier; approved files go to the asset library with version and rights); `design-brand-identity-strategist` Rule 6 (a refresh hands retired elements and go-live date to the library's retire trigger); `pm-resource-allocator` Rule 1 (design hours arrive by tier and asset class; the mix inside design stays with the lead); `pmm-launch-manager` Rule 3 (the release calendar fires the screenshot retire trigger, shown on the readiness checklist). No new facts: each restates the lead's Rules 1, 5, 6 and 10. CHANGELOG `[Unreleased]`.
+
+**No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-16 business-case grade pointers; the Meta placement-settings browser re-read still needs a human.

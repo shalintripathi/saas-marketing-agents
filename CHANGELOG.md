@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- **The design asks, ad versions, brand refreshes and launches that feed the Creative Operations Lead now say so on the sending side** ([`design/design-content-visual-designer.md`](design/design-content-visual-designer.md), [`design/design-ad-creative-producer.md`](design/design-ad-creative-producer.md), [`design/design-brand-identity-strategist.md`](design/design-brand-identity-strategist.md), [`project-management/pm-resource-allocator.md`](project-management/pm-resource-allocator.md), [`product-marketing/pmm-launch-manager.md`](product-marketing/pmm-launch-manager.md), both copies). One line each: a request goes self-serve only when a Content Visual Designer template already fits; ad resizes and variants run on the versioning tier, and approved files go into the asset library with version and rights; a brand refresh hands its retired elements to the library's retire trigger; the Resource Allocator plans against design hours by tier and asset class; and the Launch Manager's release calendar fires the screenshot retire trigger. No new facts: each line restates `design-creative-operations-lead` (2026-11-15).
+
 ## [1.4.5] — 2026-11-22
 
 - **The Campaign Board is now its own plugin, `campaign-board`, in the same marketplace.** Claude's plugin directory accepts mods and code files only from Verified organizations, so v1.4.3 was refused for `hooks/register.tsx` and `types/index.d.ts`. The saas-marketing plugin is now Markdown and JSON only. If you use the board, run `/plugin install campaign-board@saas-marketing-agents` after updating; the pane, the command and what it shows are unchanged.
