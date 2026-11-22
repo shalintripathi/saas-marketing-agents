@@ -69,12 +69,14 @@ Read every metric below against **your own tracked baseline on a fixed question 
 
 _Concrete, sourced tactics. Full detail and citations in the [AEO/GEO Playbook](https://github.com/shalintripathi/saas-marketing-agents/blob/main/guides/aeo-geo-playbook.md)._
 
-**What measurably increases AI citations** (GEO study, Aggarwal et al., KDD 2024):
-- Add direct **quotations** from credible sources — **+~40%** (strongest single lever).
-- Add cited **statistics / quantitative data** — **+~33%**.
-- **Cite your sources** with outbound authoritative links — **+~28%** (helps lower-ranked pages most).
-- **Fluency** / clean writing — **+~29%**; best combined with statistics.
-- **Keyword stuffing is negative (~ −9%)** — never do it for AI visibility.
+**What measurably increases AI citations** (GEO study, Aggarwal et al., KDD 2024). Each lift is the paper's headline metric, position-adjusted word count, against the unoptimized baseline on GEO-bench (Table 1):
+- Add direct **quotations** from credible sources — **+~41%** (strongest single lever).
+- Add cited **statistics / quantitative data** — **+~31%**.
+- **Fluency** / clean writing — **+~28%**; best combined with statistics.
+- **Cite your sources** with outbound authoritative links — **+~27%**.
+- **Keyword stuffing is negative (~ −8%)** — never do it for AI visibility.
+- **The lift depends on where the page already stands, and for the leader it was negative.** In the same study (Table 2), citing sources raised the fifth-ranked source's visibility by about 115% and cut the top-ranked source's by about 30%. Quotations (about −23%) and statistics (about −21%) also cut the top-ranked source. So when a page is already the lead source for a query, treat these edits as an experiment and run the Citation-Regression Tests (further down) before and after. Don't apply them as a free upgrade.
+- **On a live engine the lifts were smaller.** Rerun on Perplexity.ai (Table 7), quotations raised position-adjusted word count by about 21% and statistics by about 9%. The paper's "up to 37%" Perplexity figure is the statistics lift on its subjective-impression score, which is a different metric. Never quote it as a citation-share gain.
 
 **Structure & trust:**
 - Answer-first: open with a self-contained 40–60 word answer in the first ~150 words.
@@ -250,13 +252,13 @@ Score a single passage or page — the unit an engine actually lifts — on how 
 | Dimension | Points | What earns full marks |
 |---|---:|---|
 | **Self-contained answer capsule** | 20 | A 40–60 word answer to the target query in the first ~150 words that stands alone with no anaphora ("this tool", "as above") |
-| **Direct quotation from a credible, named source** | 15 | An attributed quote a reader could verify — strongest single lever in the study (~+40%) |
-| **Cited statistic / quantitative data** | 15 | A specific number with its source and date (~+33%) |
-| **Outbound authoritative citations** | 15 | Links to primary/authoritative sources; helps lower-ranked pages most (~+28%) |
+| **Direct quotation from a credible, named source** | 15 | An attributed quote a reader could verify — strongest single lever in the study (~+41%) |
+| **Cited statistic / quantitative data** | 15 | A specific number with its source and date (~+31%) |
+| **Outbound authoritative citations** | 15 | Links to primary/authoritative sources (~+27%). Lower-ranked pages gain most, and the top-ranked source lost share in the study |
 | **Extractable structure** | 15 | Clean H2/H3s, a table, or an FAQ-style Q&A block that isolates the passage |
 | **Named author + bio + `Person`/`Author` JSON-LD** | 10 | Visible byline with real expertise, mirrored in schema (~2.3× citation odds) |
 | **Freshness (updated ≤90 days)** | 10 | Genuine content update, not a touched timestamp |
-| **Penalty — keyword stuffing / filler** | −10 | Stuffing measured *negative* for AI visibility (~−9%); deduct when present |
+| **Penalty — keyword stuffing / filler** | −10 | Stuffing measured *negative* for AI visibility (~−8%); deduct when present |
 
 **Bands:** **80–100** strong citation candidate, ship as-is; **60–79** citable but leaving citations on the table — fix the two lowest-scoring rows; **<60** unlikely to be cited — rebuild the capsule and add sourced evidence before publishing. Score competitors' ranking passages the same way to see the gap you're closing.
 
@@ -286,7 +288,7 @@ Because ChatGPT and Perplexity overlap on only ~11% of cited domains, a single b
 
 **Honest-measurement note:** AI answers vary run to run, personalize, and shift with model updates — sample each query **N times** (e.g., 3–5, fresh sessions, logged out) and record citation *frequency*, not a single pull. Report the sample size and date alongside the map; a cell is only "cited" if you observed it, and contested or intermittent cells should be flagged as such rather than rounded up.
 
-_Passage-citability rubric, citation-regression testing, and AI share-of-voice heatmap concepts informed by the open-source [Auriti-Labs/geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill), [AgricIDaniel/claude-seo](https://github.com/AgricIDaniel/claude-seo), and [seranking/seo-skills](https://github.com/seranking/seo-skills) (MIT) — ideas only, written from scratch. Per-lever effect sizes from Aggarwal et al., "GEO: Generative Engine Optimization" (KDD 2024); full detail and citations in the [AEO/GEO Playbook](https://github.com/shalintripathi/saas-marketing-agents/blob/main/guides/aeo-geo-playbook.md)._
+_Passage-citability rubric, citation-regression testing, and AI share-of-voice heatmap concepts informed by the open-source [Auriti-Labs/geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill), [AgricIDaniel/claude-seo](https://github.com/AgricIDaniel/claude-seo), and [seranking/seo-skills](https://github.com/seranking/seo-skills) (MIT) — ideas only, written from scratch. Per-lever effect sizes from Aggarwal et al., "GEO: Generative Engine Optimization" (KDD 2024), re-derived on 2026-11-22 from Tables 1, 2 and 7 of [arXiv 2311.09735v3](https://arxiv.org/abs/2311.09735). Earlier versions of this file quoted Table 1's raw word-count sub-column (+40 / +33 / +29 / +28 / −9) under the position-adjusted label. The check was prompted by [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT), which corrected the same figures in its `ai-seo` skill (v2.14.25, 2026-11-20). The numbers here were recomputed from the paper, and no text was copied. Full detail and citations in the [AEO/GEO Playbook](https://github.com/shalintripathi/saas-marketing-agents/blob/main/guides/aeo-geo-playbook.md)._
 
 ## Measuring Arrival: The Traffic AI Answers Actually Send
 

@@ -25,13 +25,13 @@ Audit order is fixed: **reachable → recognized → quotable.** A perfect citab
 | Dimension | Pts | Draft scores | Notes |
 |---|---:|---:|---|
 | Self-contained answer capsule (40–60 words, first 150) | 20 | **20** | Capsule present, 48 words, no anaphora |
-| Direct quotation, credible named source (~+40%, strongest lever) | 15 | **0** | `[NEEDS INPUT: named beta-customer quote]` — marker already in draft |
-| Cited statistic with source + date (~+33%) | 15 | **7** | 90-sec median present but internal & fictional-labeled; a citable public methodology note would earn full marks — `[NEEDS INPUT: publish how the median is measured]` |
-| Outbound authoritative citations (~+28%) | 15 | **0** | `[NEEDS INPUT: 2–3 primary sources — e.g., published postmortem-practice references]` |
+| Direct quotation, credible named source (~+41%, strongest lever) | 15 | **0** | `[NEEDS INPUT: named beta-customer quote]` — marker already in draft |
+| Cited statistic with source + date (~+31%) | 15 | **7** | 90-sec median present but internal & fictional-labeled; a citable public methodology note would earn full marks — `[NEEDS INPUT: publish how the median is measured]` |
+| Outbound authoritative citations (~+27%) | 15 | **0** | `[NEEDS INPUT: 2–3 primary sources — e.g., published postmortem-practice references]` |
 | Extractable structure (H2/H3, table or FAQ block) | 15 | **13** | Clean H2s + FAQ appended; FAQ tier answer pending |
 | Named author + bio + `Person`/`Author` JSON-LD (~2.3× odds) | 10 | **0** | `[NEEDS INPUT: author byline]` — marker in draft |
 | Freshness ≤90 days | 10 | **10** | New page; 90-day refresh committed in production notes |
-| Keyword stuffing penalty (~−9%) | −10 | **0** | Clean — no stuffing |
+| Keyword stuffing penalty (~−8%) | −10 | **0** | Clean — no stuffing |
 | **Total** | 100 | **50 → rebuild-zone until inputs land; projected ~85 with quote, byline, and citations filled** | The gap is *evidence*, not writing — exactly what the `[NEEDS INPUT]` markers exist to collect |
 
 Effect sizes: Aggarwal et al., "GEO: Generative Engine Optimization" (KDD 2024) — directional levers, not guarantees; they apply to content the engine already retrieved.

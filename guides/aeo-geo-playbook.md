@@ -2,7 +2,7 @@
 
 **How to get your content cited by AI answer engines — ChatGPT, Perplexity, Google AI Overviews & AI Mode, and Microsoft Copilot.**
 
-> _Last reviewed: 2026-10-21. This is a living document — AI search changes fast, and this repo commits to keeping it current. Effect sizes below come from named studies; treat them as directional, not guarantees. Contested points are flagged._
+> _Last reviewed: 2026-11-22. This is a living document — AI search changes fast, and this repo commits to keeping it current. Effect sizes below come from named studies; treat them as directional, not guarantees. Contested points are flagged._
 
 Search is splitting into three overlapping jobs. This playbook covers all three and tells you where they diverge.
 
@@ -30,18 +30,18 @@ For B2B SaaS in 2026, GEO is the frontier: buyers increasingly ask an AI engine 
 
 ## 2. GEO tactics that measurably move citations
 
-From the peer-reviewed **GEO: Generative Engine Optimization** study (Aggarwal et al., KDD 2024), which tested 9 methods on GEO-bench and measured visibility as Position-Adjusted Word Count. Reported effect sizes:
+From the peer-reviewed **GEO: Generative Engine Optimization** study (Aggarwal et al., KDD 2024), which tested 9 methods on GEO-bench and measured visibility as Position-Adjusted Word Count. Each lift below is that headline metric against the unoptimized baseline (Table 1: 19.3). Before 2026-11-22 this table quoted Table 1's raw word-count sub-column (+40 / +33 / +29 / +28 / −9) under the position-adjusted label. The figures were recomputed from the paper.
 
 | Tactic | Visibility lift | Notes |
 |--------|-----------------|-------|
-| **Add quotations** from credible sources | **+40%** | Strongest single lever |
-| **Add statistics / quantitative data** | **+33%** | Especially in Law/Government/Finance topics |
-| **Fluency optimization** (cleaner writing) | **+29%** | Best combined with statistics |
-| **Cite your sources** (outbound authoritative links) | **+28%** | Lower-ranked pages gain most (a rank-5 source gained ~+115%) |
-| **Authoritative language** | positive | Gains concentrate in debate/history/science topics |
-| **Keyword stuffing** | **negative (~ −9%)** | Classic keyword density is *counterproductive* for GEO |
+| **Add quotations** from credible sources | **+41%** | Strongest single lever |
+| **Add statistics / quantitative data** | **+31%** | Top domains in the paper: Law & Government, Debate, Opinion |
+| **Fluency optimization** (cleaner writing) | **+28%** | Best combined with statistics |
+| **Cite your sources** (outbound authoritative links) | **+27%** | Lower-ranked sources gain most: the fifth-ranked source gained ~+115%, and the top-ranked one lost ~30% |
+| **Authoritative language** | **+10%** | Gains concentrate in debate/history/science topics |
+| **Keyword stuffing** | **negative (~ −8%)** | Classic keyword density is *counterproductive* for GEO |
 
-Two strategic implications: effectiveness is **topic-dependent** (statistics win in analytical domains; quotations in narrative ones), and **the underdog advantage is real** — GEO tactics help lower-ranked pages disproportionately, so a page-2 result can leapfrog into the citation set.
+Three strategic implications. First, effectiveness is **topic-dependent**: statistics win in analytical domains and quotations in narrative ones. Second, **the underdog advantage is real, and it has a cost for the leader.** GEO tactics help lower-ranked sources disproportionately, so the fifth of five retrieved sources can climb into the citation set. In the same table (Table 2) every method tested cut the top-ranked source's visibility, from about −2% (fluency) to about −30% (citing sources). If you are already the lead source for a query, test these edits against a citation check rather than rolling them out. Third, **the live-engine lifts were smaller.** Rerun on Perplexity.ai (Table 7), quotations lifted position-adjusted word count by about 21% and statistics by about 9%. The paper's "up to 37%" Perplexity headline is the statistics lift on its subjective-impression score, which is a different metric.
 
 > **Reality check (independent 2026 survey).** A critical survey of GEO covering 45 studies from 2023–2026 (Martinez, arXiv 2026) puts a sober bound on the table above: *"no reviewed technique shows a stable, longitudinal, cross-platform causal effect on organic discoverability,"* and the one effect that does replicate is narrow — only **already-retrieved content can causally alter its own citation or use**. Read plainly: these levers reliably improve how a page the engine *already pulled* gets quoted (the AEO half), but none is proven to make an engine *retrieve* you in the first place — that discovery half is what the correlational signals below speak to, not causally. The survey also found commercial GEO tools show *"low source overlap, substantial run-to-run variability, and persistent fidelity gaps."* So treat these percentages as directional levers **within** an answer, never as a discovery guarantee.
 
@@ -87,9 +87,9 @@ Two strategic implications: effectiveness is **topic-dependent** (statistics win
 ## 6. The 15-point checklist
 
 1. Lead every page with a self-contained 40–60 word answer in the first ~150 words.
-2. Inject cited statistics and quantitative data into your claims (+~33%).
-3. Add direct quotations from credible experts/sources (+~40%, the strongest lever).
-4. Cite and outbound-link to authoritative sources (+~28%).
+2. Inject cited statistics and quantitative data into your claims (+~31%).
+3. Add direct quotations from credible experts/sources (+~41%, the strongest lever).
+4. Cite and outbound-link to authoritative sources (+~27%; if you are already the lead source, test first, because the top-ranked source lost share in the study).
 5. Write unique, people-first content with a distinct point of view.
 6. Attach named authors with real bios and credentials (~2.3× citations).
 7. Structure with clear headings, tables, and FAQ-style Q&A blocks.
