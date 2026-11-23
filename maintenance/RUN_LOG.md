@@ -6696,3 +6696,18 @@ No new figures or sources.
 
 **Follow-up filed (backlog):** `seo-content-optimizer` still says Search Console's generative AI report is "rolling out to a subset of properties", and `seo-program-lead` Rule 4 still says AI surfaces are not reported separately. coreyhaines31 v2.14.25 reports a rollout to all sites by 2026-08-31. Verify on Google's primary page before editing either file.
 
+
+
+## 2026-11-23 — Search Console generative AI report: rollout status corrected in two SEO agents
+
+**Health check (clean, no P0).** The marketplace and both plugin manifests (`saas-marketing`, `campaign-board`) jq-parse with required fields. All 19 skills have `name` + `description`. There are 95 agents across the 17 CI directories and 0 broken internal `.md` links. No guide is past 90 days ("Last reviewed" dates over 90 days old appear only as history in RUN_LOG and CHANGELOG). Public counts 95/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the 11-22 correctness item (verify the generative AI report's rollout), ahead of the older P2 pointer items because it fixes a stale factual claim.
+
+**Verified on the primary source (read 2026-11-23).** Search Console Help, *Generative AI performance report (Search)* (answer/16984139): "As of August 31, 2026", rolled out to all websites worldwide. It counts AI Overviews and AI Mode impressions only and is a subset of the Web search type. Google Search Central, *AI features and your website*, still says AI-feature traffic is reported inside the Web search type and does not mention the new report.
+
+**Shipped (both copies byte-identical, lint 4/4):** `seo-content-optimizer`'s AI-intercept note drops "rolling out to a subset of properties". It now says a missing report means too few AI-feature impressions or a site excluded through the Search generative AI control. `seo-program-lead` Rule 4 now separates *clicks* (still only in the totals, never two forecast lines) from *impressions* (now trackable as their own line), and the help page is added to its sources. The impressions-only limit is kept everywhere. The other mentions (`seo-ai-search-optimizer`, `guides/aeo-geo-playbook.md`) were already accurate. CHANGELOG `[Unreleased]`.
+
+**No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-16 business-case grade pointers; the Meta placement-settings browser re-read still needs a human.
