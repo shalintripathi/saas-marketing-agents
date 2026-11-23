@@ -1,12 +1,12 @@
 # SaaS Marketing Agents — Full Index
 
-**95 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
+**96 specialist B2B SaaS marketing agents across 17 disciplines**, coordinated by the [CATALYST orchestrator](plugins/saas-marketing/skills/catalyst-orchestrator/SKILL.md).
 
 Each agent is a self-contained Markdown persona (Identity · Core Mission · Critical Rules · Deliverables · Success Metrics). Install the whole team as a Claude Code plugin — `/plugin marketplace add shalintripathi/saas-marketing-agents` then `/plugin install saas-marketing@saas-marketing-agents` — or open any file below directly in your AI tool. See the [README](README.md) for the quick start.
 
 **Jump to:** [Content Marketing](#content-marketing) · [SEO & Organic Growth](#seo--organic-growth) · [Paid Media](#paid-media) · [Social Media](#social-media) · [Email Marketing](#email-marketing) · [Design](#design) · [Sales Enablement](#sales-enablement) · [Product Marketing](#product-marketing) · [Account-Based Marketing](#account-based-marketing) · [Growth](#growth) · [Analytics](#analytics) · [Communications](#communications) · [Partnerships](#partnerships) · [Events & Field Marketing](#events--field-marketing) · [Developer Marketing](#developer-marketing) · [Project Management](#project-management) · [Client Operations](#client-operations)
 
-> **95 agents** indexed below. Last generated 2026-11-15.
+> **96 agents** indexed below. Last generated 2026-11-23.
 
 ---
 
@@ -101,7 +101,7 @@ _6 agents_
 
 ## Sales Enablement
 
-_8 agents_
+_9 agents_
 
 | | Agent | File | Role |
 |---|---|---|---|
@@ -109,6 +109,7 @@ _8 agents_
 | ♟️ | **Deal Strategist** | [`sales/sales-deal-strategist.md`](sales/sales-deal-strategist.md) | Complex B2B deal navigator orchestrating multi-stakeholder sales cycles and procurement processes — MEDDPICC qualification, buying-committee coverage graded rather than counted, the JOLT answer to buyer indecision, the mutual action plan (close plan) the buyer co-owns, and the champion kit (champion vs. coach test, forwardable internal note) for the meeting you are not in |
 | 🎤 | **Discovery Coach** | [`sales/sales-discovery-coach.md`](sales/sales-discovery-coach.md) | Sales discovery methodology coach building deeper buyer insight through question-driven selling frameworks |
 | 📋 | **Enablement Content Creator** | [`sales/sales-enablement-content-creator.md`](sales/sales-enablement-content-creator.md) | Sales content strategist bridging marketing materials and buyer conversations through battle cards and tools — and runs the Objection Register: objections logged from call recordings as quoted, classified, frequency-ranked entries, each moved upstream to the message, page or qualification step that should have answered it; and grades the business case section by section on its evidence (unsourced → seller-stated → buyer-stated → buyer-confirmed → owner-signed) before the champion forwards it |
+| 🧭 | **Enablement Program Lead** | [`sales/sales-enablement-program-lead.md`](sales/sales-enablement-program-lead.md) | Runs sales enablement as a program — new-hire ramp graduated by scored evidence, not a date (evidence-gated 30-60-90 milestones, certification gates from real calls and loss reasons, a day-0 access checklist), ramped-equivalent capacity for the pipeline plan, a ramp-quota proposal, the manager ramp cadence, reinforcement and sales kickoff as certification, judged on time-to-first-qualified-opportunity by cohort |
 | 🎯 | **Outbound Strategist** | [`sales/sales-outbound-strategist.md`](sales/sales-outbound-strategist.md) | Cold outreach strategist designing signal-based multi-channel sequences for B2B SaaS prospecting, and the reply handling behind them: filtering out-of-office and auto-replies from reply rate, sorting human replies into sequence actions, honoring "remove me" replies as opt-outs, a go / conditional go / stop launch gate before a CRM segment enters a sequence, and the line between signals a message may name and observed signals (site visits, intent topics, competitor connections) that set timing only, verified-gap openers (a published signal paired with an evidenced, dated gap on the prospect's public surface, such as their site, DNS or ad-library listings, re-checked before each send), and closed-lost re-entry: checking the recorded loss reason, re-engaging lost deals only on a change that reopens it (re-enter / watch / retire), and keeping re-opened pipeline apart from net-new |
 | 📊 | **Pipeline Analyst** | [`sales/sales-pipeline-analyst.md`](sales/sales-pipeline-analyst.md) | Pipeline health specialist diagnosing velocity problems and forecasting accuracy issues before they impact revenue |
 | 📝 | **Proposal Architect** | [`sales/sales-proposal-architect.md`](sales/sales-proposal-architect.md) | B2B SaaS proposal strategist designing winning proposals and RFP responses that sell when you're not in the room |

@@ -2,7 +2,7 @@
 
 ## What is CATALYST?
 
-CATALYST is a comprehensive, multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 95 specialized marketing agents working across 17 disciplines to execute data-driven marketing campaigns with measurable results.
+CATALYST is a comprehensive, multi-agent orchestration framework designed specifically for B2B SaaS marketing teams. It coordinates 96 specialized marketing agents working across 17 disciplines to execute data-driven marketing campaigns with measurable results.
 
 Think of it as conducting an orchestra: Rather than hiring one musician to play all instruments sequentially, CATALYST brings together specialists in positioning, content creation, paid advertising, analytics, email, social, demand generation, and more—each working in their domain while coordinating seamlessly with others.
 
@@ -37,7 +37,7 @@ B2B SaaS marketing teams face a contradiction: Modern marketing success requires
 ## By The Numbers
 
 ### The CATALYST Framework
-- **95 Specialized Agents** across 17 disciplines
+- **96 Specialized Agents** across 17 disciplines
 - **6 Sequential Phases** (Discovery → Strategy → Foundation → Build → Launch → Optimize)
 - **3 Operating Modes** (Full Annual, Sprint Campaigns, Micro-Deliverables)
 - **4 Quality Gates** between phases ensuring readiness to advance
@@ -55,7 +55,7 @@ The roster is organized into 17 disciplines that mirror a real B2B SaaS marketin
 | Social Media | 9 | Social program leadership (platform portfolio, self-reported attribution, business case), LinkedIn, Twitter/X, Reddit, YouTube, community, influencer partnerships, B2B podcast, social listening |
 | Email Marketing | 6 | Lifecycle design, copywriting, automation, deliverability, newsletter growth, program register and email scorecard |
 | Design | 6 | Landing pages, brand identity, presentations, visual content, ad creative, creative operations |
-| Sales Enablement | 8 | Outbound, discovery coaching, deal strategy, battle cards, proposals, pipeline analysis, technical presales, website AI chat agent |
+| Sales Enablement | 9 | New-hire ramp and certification, outbound, discovery coaching, deal strategy, battle cards, proposals, pipeline analysis, technical presales, website AI chat agent |
 | Product Marketing | 13 | Integrated campaigns and channel plan, acquisition integration, founder-led GTM, positioning, messaging, launches, competitive intel, advocacy, pricing & packaging, agent readiness, international, brand & demand, public sector |
 | Account-Based Marketing | 1 | Target account lists, 1:1/1:few/1:many tiering, signals-to-actions, coverage & penetration |
 | Growth | 3 | PLG activation, self-guided interactive demo, customer marketing (expansion, churn-save, NRR) |
@@ -67,7 +67,7 @@ The roster is organized into 17 disciplines that mirror a real B2B SaaS marketin
 | Project Management | 4 | Campaign coordination, timelines, resource allocation, stakeholder comms |
 | Client Operations | 4 | Client reporting, QA, financial tracking, legal compliance |
 
-**Total: 17 disciplines × 95 specialist agents.**
+**Total: 17 disciplines × 96 specialist agents.**
 
 ## ROI & Results Expectations
 
@@ -108,7 +108,7 @@ What do you want to achieve? Examples:
 - "Improve email open rate from 18% to 25%"
 
 ### Step 3: Assemble Your Agents (2 min)
-You don't need all 95 agents. Different modes use different subsets:
+You don't need all 96 agents. Different modes use different subsets:
 - **Full Strategy**: 40-50 agents working across 12+ weeks
 - **Campaign Sprint**: 15-25 agents working across 2-6 weeks
 - **Micro-Project**: 5-10 agents working across 1-5 days
@@ -192,7 +192,7 @@ CATALYST balances structure with flexibility:
 - **Flexible enough** to scale from 1-day micro-projects to multi-month strategies
 - **Simple enough** that any marketing team can adopt it in days, not months
 
-The 95 agents and 6 phases provide the structure. The three operating modes and quality gate system provide the flexibility. The result: B2B SaaS marketing that compounds in effectiveness with each campaign cycle.
+The 96 agents and 6 phases provide the structure. The three operating modes and quality gate system provide the flexibility. The result: B2B SaaS marketing that compounds in effectiveness with each campaign cycle.
 
 ---
 

@@ -6711,3 +6711,21 @@ No new figures or sources.
 **No count change** (95 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-16 business-case grade pointers; the Meta placement-settings browser re-read still needs a human.
+
+## 2026-11-23 — Scout: ADDED the Sales Enablement Program Lead (agent #96)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ADDED.**
+
+**Focus:** PMM/sales/GTM, the oldest in the rotation (last 11-16). The last four scout runs (11-16, 11-17, 11-18 and 11-22) were all ENHANCE, so rule 4 required an ADD. The candidate was the sales-enablement program role. The 08-28 run had rejected it, but that backlog note set an explicit re-open test: "two or more permissively-licensed collections ship it as its own role". This run tested that criterion against the market; it did not rest on the scout's own judgement.
+
+**Gap evidence.** A `gh search code` sweep on SKILL.md files found three MIT collections that ship rep ramp and onboarding as a standalone skill. NEON-Rutger/B2B-revops-skills `sales-ramp-enablement` was added 2026-09-01. LeadMagic/gtm-skills `revenue-team-onboarding` has existed since 06-10 and was missed by the 08-28 survey. tonone-ai/tonone `coach-ramp` was added 2026-11-08. OneWave-AI `ramping-rep-tracker` is too thin to count (180 words). The roster grep returned 0 for `enablement program`, `sales kickoff`, `SKO` and `ramped-equivalent`, and `30-60-90` and `new hire` appeared only in unrelated senses. The three sub-owners named in 08-28 (Discovery Coach, Enablement Content Creator, Launch Manager) each keep their piece; Rule 13 makes the new agent consume their work rather than repeat it.
+
+**Shipped.** `sales/sales-enablement-program-lead.md` (🧭) and its copy in `plugins/saas-marketing/skills/sales-enablement/agents/`, byte-identical, lint 2/2. It has 13 rules. The core one is that reps graduate on scored evidence, not a date, and every gate has three outcomes: pass, remediate or early verdict. The rest cover certification content drawn from real calls and loss reasons, a day-0 access deadline, ramped-equivalent capacity for the plan, a ramp-quota proposal (comp itself is out of scope), the manager cadence, leading indicators, a reinforcement calendar, sales kickoff run as certification, one enablement home, labelled external data, and the boundary rule. The agent sets no benchmark as a target. One external figure is cited: The Bridge Group 2025 SDR report (351 companies, published 2025-02-06, read 2026-11-23): average SDR ramp 3.0 months, 60% of reps at quota, and ramp undefined.
+
+**Licence.** All three sources are MIT. Only ideas were taken, and they are credited in-file. Their unsourced quota percentages, day targets and impact figures were not carried.
+
+**Discoverability (count changed 95 → 96; Sales Enablement 8 → 9).** Updated: the README (badge, prose, anchor, team row and skills table with ramp phrases), `AGENTS_INDEX.md` (row, section count, date), `llms.txt`, `CITATION.cff`, both manifests, the suite router (counts, table and the "Build training for sales" route, which pointed at a non-existent "Sales Training Developer"), the CATALYST SKILL and strategy tables (both copies), EXECUTIVE-BRIEF, QUICKSTART, the integrations and loops READMEs, ROADMAP and SKILL_SCOUT. The skill's `description:` swapped "do we have to disclose it is AI" (kept in the full list) for "new rep ramp, sales onboarding, sales kickoff". It is now 1,015 characters, under the cap. Ramp phrases were added to the full list. The GitHub About description was updated to 96.
+
+**Verified.** 96 agent files with frontmatter, 96 index rows, no stale present-tense `95` roster counts outside history, 0 broken links in the touched files, JSON manifests parse, and skill descriptions are within 1,024 characters.
+
+**Owner note.** This was filed as a scope question in later saturation notes. If the owner wants it out of scope, reverting this commit undoes it cleanly. **Filed:** P2 reciprocal pointers from five neighbouring agents, and P3 pre-existing one-line drift between the two `catalyst-strategy.md` copies.
