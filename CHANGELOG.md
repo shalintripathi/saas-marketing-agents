@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.7] — 2026-11-24
+
 - **New agent #96: the Sales Enablement Program Lead** ([`sales/sales-enablement-program-lead.md`](sales/sales-enablement-program-lead.md)). Ask "build a 30-60-90 ramp plan for our new AEs", "how many ramped reps do we really have next quarter?" or "plan our sales kickoff". It graduates new reps on scored evidence rather than a date. Its certification gates are built from your best calls and latest loss reasons, and each ends in pass, remediate or an early verdict. It also covers day-0 access, ramped-equivalent capacity for the pipeline plan, a ramp-quota proposal for the comp owner, the manager cadence, reinforcement training, and sales kickoff run as a certification event. The scorecard is time to first qualified opportunity by hire cohort, not course completions. Ideas only (MIT, credited in-file) from NEON-Rutger/B2B-revops-skills, LeadMagic/gtm-skills and tonone-ai/tonone. Roster 95 → 96; Sales Enablement 8 → 9.
 
 ## [1.4.6] — 2026-11-23
