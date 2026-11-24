@@ -6729,3 +6729,17 @@ No new figures or sources.
 **Verified.** 96 agent files with frontmatter, 96 index rows, no stale present-tense `95` roster counts outside history, 0 broken links in the touched files, JSON manifests parse, and skill descriptions are within 1,024 characters.
 
 **Owner note.** This was filed as a scope question in later saturation notes. If the owner wants it out of scope, reverting this commit undoes it cleanly. **Filed:** P2 reciprocal pointers from five neighbouring agents, and P3 pre-existing one-line drift between the two `catalyst-strategy.md` copies.
+
+## 2026-11-24 — Business-case grade: reciprocal pointers from the Deal Strategist and the Pipeline Analyst
+
+**Health check (clean, no P0).** The marketplace and both plugin manifests (`saas-marketing`, `campaign-board`) jq-parse with required fields. All 19 skills have `name` + `description`. There are 96 agents across the 17 CI directories and 0 broken internal `.md` links. The two "Last reviewed" dates (2026-10-10, 2026-11-22) are inside 90 days. Public counts 96/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the 11-16 P2 business-case grade pointers, the oldest open unblocked item (the P1 items remain blocked on issue #1 decisions and on star/usage thresholds).
+
+**Grep-verified first.** `Travels` appeared only in `sales-enablement-content-creator` (both copies) and CHANGELOG, so neither target named the grade.
+
+**Shipped (both copies byte-identical, lint 4/4).** `sales-deal-strategist`, Champion Kit item 5: the internal note quotes only figures graded 2 or higher, keeps 0/1 figures out until discovery sources them, and is re-checked when a baseline is re-graded. `sales-pipeline-analyst`, Deal Quality Score: the business-case row reads the grade profile as evidence, never sums or converts the grades into points, and cannot score as "quantified" while a headline figure is at grade 0 or 1. Both lines match the source section's travel rule and forecast boundary. CHANGELOG `[Unreleased]`.
+
+**No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-17 CAC Definition Card pointers and the `analytics-marketing-ops-architect` Rule 6 reconciliation.

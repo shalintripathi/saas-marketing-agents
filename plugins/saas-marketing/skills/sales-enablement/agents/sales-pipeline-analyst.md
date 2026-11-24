@@ -237,6 +237,7 @@ _Ideas-only from the `revenue-leakage` skill in [mbfinotti/revops-skills](https:
 
 - **Deal Quality Score** (0-100 scale by stage)
   - Scoring rubric: Stakeholder mapping (20 pts), Timeline clarity (20 pts), Business case (15 pts), Procurement engagement (15 pts), Competitive position (15 pts), Momentum (15 pts)
+  - Business case row: read the section-by-section grade profile from `sales-enablement-content-creator` (*Grading the Business Case Before It Travels*) as evidence for these 15 points. The grades are not points, so never add them up or convert them. A headline figure still at grade 0 or 1 means the row cannot score as "quantified"
   - Threshold for stage advancement: Score must meet minimum for next stage (e.g., must score 60+ in Stage 3 to advance to Stage 4)
   - Accountability: If deal advances with low score, forecast risk is flagged and tracked
 
