@@ -6743,3 +6743,19 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-17 CAC Definition Card pointers and the `analytics-marketing-ops-architect` Rule 6 reconciliation.
+
+## 2026-11-24 — Scout: ENHANCED the Marketing Performance Analyst (regression to the mean)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** email/analytics/ops, the oldest in the rotation (last 11-17). The last two scout runs were an ADD (11-23) and an ENHANCE (11-22), so rule 4 did not require an add. The 11-17 tech-leads-club watch was worked first. Retention, dunning and enrichment are all owned already, and the upstream has no licence, so it was judged *have*.
+
+**Gap evidence.** [C-Kapsalis/devils-analyst](https://github.com/C-Kapsalis/devils-analyst) (MIT, created 10-17) flags the trap of a worst-performing segment improving right after an intervention. `regression to the mean` and `regression toward` grep to zero across all 96 agents. `analytics-demand-planner` Rule 4 accepted "a shipped change with a measured before-and-after" as lift evidence, with no guard against selecting on extremes.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section on `analytics-performance-analyst`, *Judging a Fix: The Worst Performers Improve on Their Own*. It explains why selecting on a noisy measurement produces an improvement, then gives four ordered checks: a random holdback within the selected set, a next-tier or earlier-period comparison, a baseline that excludes the selection window, and *unresolved* when none of these exists. It adds a hand-off note against the demand planner's Rule 4, a **Fix Evaluation Note** deliverable, a *Fix Claims Carry a Comparison* success metric and an updated frontmatter description. The concept is cited to Barnett, van der Pols & Dobson (2005, with its 2015 formula correction noted). No effect sizes are asserted.
+
+**Discoverability:** README analytics row, `AGENTS_INDEX.md` role, `llms.txt` analytics line, and the `marketing-analytics` description (1,001/1,024) plus its phrase list (`regression to the mean`, `did the fix really work`, `we fixed the worst ad groups and CPA dropped`, `before-and-after with no control group`).
+
+**No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
+
+**Filed:** a reciprocal pointer from `analytics-demand-planner` Rule 4 to the Fix Evaluation Note, and two devils-analyst traps that are still unowned (stage counts from the current lifecycle stage, and censored retention cohorts).
