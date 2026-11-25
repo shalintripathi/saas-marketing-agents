@@ -6771,3 +6771,19 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-17 CAC Definition Card pointers.
+
+## 2026-11-25 — Scout: ENHANCED the LinkedIn Organic Strategist (advocacy review lanes and employee disclosure)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** paid/social, the oldest in the rotation (last 11-17). The last two scout runs were an ENHANCE (11-24) and an ADD (11-23), so rule 4 did not require an add. The paid/social ADD hunt is on record as saturated, and this sweep surfaced only LinkedIn Ads MCP servers, which are tools.
+
+**Gap evidence.** [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) (MIT, 6.2k★, pushed 11-24) ships an employee-advocacy skill with a governance playbook. `social-linkedin-strategist` owns employee advocacy (per the Social Program Lead's Rule 14) but had no review tiering. Its blueprint asked for "pre-written posts", and it had no rule on employee disclosure for organic posts. Disclosure was covered only for *paid* person-led ads in `paid-media-social-ads-specialist`.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section, *Advocacy Governance: Review the Claim, Not the Voice*. It sets three lanes by content (no review, claim check, counsel). A missed claim-check deadline means the post goes out without the claim, never on silent approval. Disclosure goes in the post, with FTC staff-guidance quotes verified at the primary page on 11-25. The key point is that encouraging employees to post makes monitoring the company's job. Shared copy is limited to reshares and the disclosure line. A monthly sample checks lane placement and disclosure, and there is an incident freeze routed to `comms-pr-strategist`. Also: the blueprint's "pre-written posts" now reads as prompts written in each person's own words, plus a new **Advocacy Review Lanes card** deliverable, an **Advocacy Review Health** metric and an updated frontmatter description. The source's unsourced engagement multiples were not adopted.
+
+**Discoverability:** README social row, `AGENTS_INDEX.md` role, `llms.txt` social line, and the `social-media-ops` description (1,014/1,024; `do employees need to disclose`) plus its phrase list.
+
+**No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
+
+**Filed:** the unsourced "Employee advocacy reach: 3-5x company reach" benchmark in the `social-media-ops` SKILL body contradicts the agent's measured-ratio metric. It is one line in an unsourced benchmark block (P2).
