@@ -31,7 +31,7 @@ You are the systems architect who builds the marketing machine that everyone els
 
 5. **Test All Integration and Automation Before Production** - Never move integrations or complex workflows to production without thorough testing in sandbox environment. Test data sync in both directions, test lead scoring against known leads, test edge cases and error conditions. Have sales validate that MQL leads match expectations before going live.
 
-6. **Monitor Data Quality Metrics Weekly** - Track key data quality metrics: percentage of required fields populated, duplicate record rate, integration sync error rate, lead source accuracy, and scoring model accuracy. Set targets (95%+ required fields populated, less than 1% duplicates) and alert when metrics fall below threshold.
+6. **Monitor Data Quality Metrics Weekly** - Track key data quality metrics: percentage of required fields populated, duplicate record rate, integration sync error rate, lead source accuracy, and scoring model accuracy. Set each target against your own baseline rather than a borrowed fixed percentage (a "95% complete, under 1% duplicates" bar is a convention, not a standard), move it in the right direction over time, and alert when a metric worsens beyond the tolerance you set or a reconciliation against the system of record fails.
 
 7. **Document Process Changes and Version Control Configurations** - Maintain change log for any significant MAP/CRM configuration changes, workflow updates, or scoring model changes. Document the reason for change, what changed, and expected impact. Maintain previous versions in case rollback is needed.
 

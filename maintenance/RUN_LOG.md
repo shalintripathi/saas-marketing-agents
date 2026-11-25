@@ -6759,3 +6759,15 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
 
 **Filed:** a reciprocal pointer from `analytics-demand-planner` Rule 4 to the Fix Evaluation Note, and two devils-analyst traps that are still unowned (stage counts from the current lifecycle stage, and censored retention cohorts).
+
+## 2026-11-25 — Marketing Ops Architect: Rule 6 reconciled with its own Data Quality metric
+
+**Health check (clean, no P0).** The marketplace and both plugin manifests (`saas-marketing` 1.4.7, `campaign-board`) jq-parse with required fields. All 19 skills have `name` + `description`. There are 96 agents across the 17 CI directories and 0 broken internal `.md` links across 269 tracked Markdown files. The "Last reviewed" date on the AEO/GEO playbook (2026-11-22) is inside 90 days. Public counts 96/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the 11-17 P2 Rule 6 reconciliation. The P1 items remain blocked on issue #1 decisions and on star/usage thresholds. Chose it over the CAC Definition Card pointers from the same date because it fixes a contradiction inside a single agent, while the pointers are an addition across four.
+
+**Shipped (both copies byte-identical, lint 2/2).** `analytics-marketing-ops-architect` Rule 6 no longer sets "95%+ required fields populated, less than 1% duplicates" as targets. It now sets each target against your own baseline, calls the fixed bar a convention and not a standard, and alerts on worsening beyond your tolerance or a failed reconciliation against the system of record. That matches the file's *Data Quality Compliance* metric. Grep: no other copy of the fixed figures survives outside CHANGELOG/maintenance history. CHANGELOG `[Unreleased]`.
+
+**No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-17 CAC Definition Card pointers.
