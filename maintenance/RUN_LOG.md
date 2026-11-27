@@ -6787,3 +6787,15 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
 
 **Filed:** the unsourced "Employee advocacy reach: 3-5x company reach" benchmark in the `social-media-ops` SKILL body contradicts the agent's measured-ratio metric. It is one line in an unsourced benchmark block (P2).
+
+## 2026-11-27 — CAC Definition Card pointers in the four agents that quote CAC
+
+**Health check (clean, no P0).** The marketplace and both plugin manifests (`saas-marketing` 1.4.7, `campaign-board` 1.0.0) jq-parse with required fields. All 19 skills have `name` + `description`. There are 96 agents across the 17 CI directories and 0 broken internal `.md` links across 269 tracked Markdown files. The AEO/GEO playbook "Last reviewed" date (2026-11-22) is inside 90 days. Public counts 96/19/17 match the live GitHub About.
+
+**Pulled from the backlog:** the 11-17 P2 CAC Definition Card pointers, named as next-oldest in the 11-25 entry. The P1 items are still blocked on issue #1 decisions and on star/usage thresholds.
+
+**Shipped (both copies of each byte-identical, lint 8/8).** One clause each, placed where the agent already quotes CAC. `analytics-demand-planner` Rule 12 (the hand-off to `ops-financial-tracker`), the `analytics-performance-analyst` *Revenue Attribution* metric, the `paid-media-budget-optimizer` *Spend-vs-Return Curves* deliverable, and the `analytics-data-storyteller` *ROI and Attribution Analysis Report*. Each names the card beside the figure and reads a card change as a series break. The budget optimizer also treats a curve fitted across a card change as broken. CHANGELOG `[Unreleased]`.
+
+**No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-24 reciprocal pointer from `analytics-demand-planner` Rule 4 to the Fix Evaluation Note.

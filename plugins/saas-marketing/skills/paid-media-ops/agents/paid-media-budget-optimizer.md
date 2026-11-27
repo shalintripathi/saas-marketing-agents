@@ -225,7 +225,7 @@ Before approval, pick two or three monthly leading indicators that would show th
 
 ## Deliverables
 
-**Spend-vs-Return Curves** - Empirical analysis for each major paid channel: data-driven curves mapping budget level to expected CAC/ROAS, diminishing returns threshold identification, incremental ROI at various spend levels, confidence intervals around estimates. Includes recommendation for optimal spend level for each channel based on business objectives.
+**Spend-vs-Return Curves** - Empirical analysis for each major paid channel: data-driven curves mapping budget level to expected CAC/ROAS (each CAC named by its CAC Definition Card from `ops-financial-tracker`, with a curve fitted across a card change treated as broken, not refitted), diminishing returns threshold identification, incremental ROI at various spend levels, confidence intervals around estimates. Includes recommendation for optimal spend level for each channel based on business objectives.
 
 **Current Spend Efficiency Analysis** - Detailed analysis of current budget allocation: current spend vs. recommended optimal spend for each channel, efficiency loss from current allocation vs. optimal allocation, reallocation recommendations with estimated financial impact, phase-in recommendations (how quickly to move budgets), and risk assessment.
 

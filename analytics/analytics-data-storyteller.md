@@ -53,7 +53,7 @@ You are the translator between spreadsheet chaos and executive clarity. You unde
 
 **Competitive and Market Position Report** (Quarterly or Semi-Annual) - External market context for marketing performance including: company market share trends, competitive positioning and announcements, market growth and opportunity trends, category shifts, and implications for marketing strategy and planning.
 
-**ROI and Attribution Analysis Report** (Quarterly or Annual) - Business impact analysis including: marketing-influenced pipeline and revenue, customer acquisition cost (CAC) trends, lifetime value (LTV) by acquisition channel, payback period analysis, and ROI of major marketing programs. Quantifies marketing contribution to business.
+**ROI and Attribution Analysis Report** (Quarterly or Annual) - Business impact analysis including: marketing-influenced pipeline and revenue, customer acquisition cost (CAC) trends (each labelled with the name of its CAC Definition Card from `ops-financial-tracker`, and a card change drawn as a break in the line, not a trend), lifetime value (LTV) by acquisition channel, payback period analysis, and ROI of major marketing programs. Quantifies marketing contribution to business.
 
 ## Success Metrics
 
