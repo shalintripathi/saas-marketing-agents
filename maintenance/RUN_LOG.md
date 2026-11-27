@@ -6799,3 +6799,21 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-24 reciprocal pointer from `analytics-demand-planner` Rule 4 to the Fix Evaluation Note.
+
+## 2026-11-27 — Scout: ENHANCED the SEO Program Lead (the SEO Change Readout)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** content/SEO, the oldest in the rotation (last 11-22). The last two scout runs were ENHANCE, so rule 4 put an ADD hunt first. It failed the gap test again (SEO testing role is section-sized; web ops killed twice before; content refresh owned). Recorded in the ledger.
+
+**Gap evidence.** [akootahq/seo-agent-skills](https://github.com/akootahq/seo-agent-skills) (MIT) ships `prove-fix`, a before/after read of whether an SEO fix changed anything. Our roster had no method for that: `control group`, `split test` and `annotation` were 0 across `seo/`, and `seo-content-optimizer` Rule 5 required page-sampled A/B tests with nothing behind it. The SEO Program Lead grades roadmap evidence as "measured on your site" (Rule 6) but had no test for when a result earns that grade.
+
+**Shipped (both copies byte-identical, lint 2/2):** a new section on `seo-program-lead`, *Did That Change Work? The SEO Change Readout*. It covers seven points: date the change from the recrawl, not the deploy; control pages chosen before launch and read relative to the treated pages; regression to the mean when pages were picked for doing badly, routed to the Performance Analyst's Fix Evaluation Note; overlapping Google updates graded confounded; the window and a four-value verdict declared in advance; Search Console annotations as a mirror of the change log, with their limits; and Google's rules for testing variants on separate URLs. Also added: an *SEO Change Readout* deliverable, a *Change claims carry a control* metric, a Core Mission line, and a frontmatter update. **Correctness fix:** Rule 7's list of Google updates (as read 10-29) was missing the November 2026 core update and the December 2026 core update that is still rolling out. It was re-read from the Search Status Dashboard and now tells the reader to re-check it before every review.
+
+**Sources:** the Search Console annotations help page was read in full. Google's A/B-testing page returned 403 on every route, so its three points come from Google's indexed summary and are flagged in-file. A browser re-read is in the backlog.
+
+**Discoverability:** README SEO row, `AGENTS_INDEX.md` role, `llms.txt` SEO line, the `seo-growth` description (957/1,024; `did our SEO change work`), its agent table, a routing example, and its phrase list.
+
+**No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
+
+**Filed:** a reciprocal pointer from `seo-content-optimizer` Rule 5 and its *Refresh vs. new-content leverage* metric to the Change Readout (P2), and the A/B-testing page re-read.
