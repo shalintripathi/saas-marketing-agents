@@ -6817,3 +6817,15 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
 
 **Filed:** a reciprocal pointer from `seo-content-optimizer` Rule 5 and its *Refresh vs. new-content leverage* metric to the Change Readout (P2), and the A/B-testing page re-read.
+
+## 2026-11-28 — Demand Planner Rule 4 now points at the Fix Evaluation Note
+
+**Health check (clean, no P0).** The marketplace and both plugin manifests (`saas-marketing` 1.4.7, `campaign-board` 1.0.0) jq-parse with required fields. All 19 skills have `name` + `description`. There are 96 agents across the 17 CI directories and 0 broken internal `.md` links across 269 tracked Markdown files. The AEO/GEO playbook "Last reviewed" date (2026-11-22) is inside 90 days. Public counts 96/19/17 match the live GitHub About. Spot check: the 11-27 claim in `seo-program-lead` (a December 2026 core update starting 24 Nov) was re-confirmed against the Search Status Dashboard summary.
+
+**Pulled from the backlog:** the 11-24 P2 reciprocal pointer, named as next-oldest in the 11-27 entry. The P1 items are still blocked on issue #1 decisions and on star/usage thresholds.
+
+**Shipped (both copies byte-identical, lint 2/2):** one sentence in `analytics-demand-planner` Rule 4. When the changed units were picked for performing worst (or best), a before-and-after counts as lift evidence only with the comparison group recorded in `analytics-performance-analyst`'s Fix Evaluation Note. Without one, the lift is treated as regression to the mean and stays out of the base. The Performance Analyst's *Where the claim travels* paragraph already pointed the other way, so the two files now agree. CHANGELOG `[Unreleased]`.
+
+**No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
+
+**Next oldest:** the 11-24 P2 on the two unowned analytic traps from devils-analyst (stage-history rebuild, and the second trap).
