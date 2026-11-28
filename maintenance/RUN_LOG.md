@@ -6829,3 +6829,17 @@ No new figures or sources.
 **No count change** (96 / 19 / 17), so the About text, badges, index surfaces and manifests were not edited.
 
 **Next oldest:** the 11-24 P2 on the two unowned analytic traps from devils-analyst (stage-history rebuild, and the second trap).
+
+## 2026-11-28 — Scout: ENHANCED the Outbound Strategist (subprocessor lists as first-party stack evidence)
+
+**Job:** [SKILL_SCOUT.md](SKILL_SCOUT.md), one iteration. **This run ENHANCED.**
+
+**Focus:** PMM/sales/GTM, the oldest in the rotation (last 11-23). The last three scout runs were ENHANCE, so rule 4 put an ADD hunt first. It failed the gap test again: release communications belongs to the Launch Manager's tier system, PMM metrics is the open grade-the-function scope question, and customer education, analyst relations and AI SDR programs already have owners. Recorded in the ledger. No agent was manufactured.
+
+**Gap evidence.** The 11-24 watch: coreyhaines31/marketingskills (MIT) v2.14.26 added subprocessor and DPA pages as a prospecting source. Our roster used `subprocessor` only for our *own* list (`sales-solutions-engineer`); no agent read a prospect's list, and the Outbound Strategist's signal table would have let a message name it, because it is "published by the prospect".
+
+**Shipped (both copies byte-identical, lint passed):** a block in `sales-outbound-strategist`'s *Act on the Signal, Open on the Problem*. It explains why the list exists and changes (GDPR Art. 28(2), read 2026-11-28) and sets five limits: it covers only vendors that process customers' data; listed means Confirmed as of the page date and missing means Unknown; search legal-entity names; watch for changes only through public sign-ups and date them first-seen; and an audience test that keeps the list out of the opener. A new data-sourcing bullet and a frontmatter update were added too, plus routing to the GTM Data Strategist (Rule 8, provenance) and the Solutions Engineer (our own list).
+
+**Discoverability:** README sales row, `AGENTS_INDEX.md` role, `llms.txt` sales line, the `sales-enablement` description (1,008/1,024; `which tools does this prospect use`, made room by dropping the redundant `executing sales sequences`), its agent table and its phrase list.
+
+**No count change** (96 / 19 / 17), so the About text, badges, manifests and router tables were not edited.
